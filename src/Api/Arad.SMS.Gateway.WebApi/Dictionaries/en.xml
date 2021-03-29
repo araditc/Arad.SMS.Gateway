@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dictionary>
+  <string key="ReceiversIsEmpty">
+    <value>Receivers list is empty</value>
+  </string>
+  <string key="ReceiverCountNotValid">
+    <value>The number of recipients is invalid due to the length of the SMS.</value>
+  </string>
+  <string key="InternalServerError">
+    <value>Internal server error</value>
+  </string>
+  <string key="BadRequest">
+    <value>Bad Request</value>
+  </string>
+  <string key="AccountIsInvalid">
+    <value>Account is invalid</value>
+  </string>
+  <string key="AccountIsInactive">
+    <value>Account is disabled</value>
+  </string>
+  <string key="AccountIsExpired">
+    <value>Account has expired</value>
+  </string>
+  <string key="IPInvalid">
+    <value>Invalid IP</value>
+  </string>
+  <string key="ReceiverIsEmpty">
+    <value>The receiver is empty</value>
+  </string>
+  <string key="ServiceIdIsInvalid">
+    <value>Invalid service ID</value>
+  </string>
+  <string key="ReceiverIsInvalid">
+    <value>Invalid receiver</value>
+  </string>
+  <string key="ReceiveSmsIsEmpty">
+    <value>Incoming SMS not found</value>
+  </string>
+  <string key="PhoneBookIsEmpty">
+    <avlue>Enter selected groups</avlue>
+  </string>
+  <string key="GetBulkMessagesFromAPI">
+    <value>Receive bulk submissions via the API</value>
+  </string>
+  <string key="AccessDenied">
+    <value>Access denied</value>
+  </string>
+  <string key="SenderIsInvalid">
+    <value>Invalid sender</value>
+  </string>
+</dictionary>

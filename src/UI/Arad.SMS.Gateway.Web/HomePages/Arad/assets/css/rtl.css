@@ -1,0 +1,71 @@
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('../fonts/IRANSansWeb.eot');
+    src: url(' ../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+         url(' ../fonts/IRANSansWeb.woff') format('woff'),
+         url(' ../fonts/IRANSansWeb.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: IRANSansWeb;
+    src: url(' ../fonts/IRANSansWeb_Bold.eot');
+    src: url(' ../fonts/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+         url(' ../fonts/IRANSansWeb_Bold.woff') format('woff'),
+         url(' ../fonts/IRANSansWeb_Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+
+  html,body,p,a,label,li,h1,h2,h3,h4,h5, select{
+      font-family: 'IRANSansWeb';
+  }
+input {
+    font-family: 'tahoma';
+}
+@media (min-width: 768px){
+    .navbar-nav {
+        float: right;
+    }
+    .navbar-nav>li {
+        float: right;
+    }
+    [class*="col-"] {
+        float: right;
+    }
+    .login [class*="col-"] {
+        float: none;
+    }
+}
+.navbar-side{
+    float: left !important;
+}
+header.navbar-default .navbar-nav > li > ul.dropdown-menu li{
+    text-align: right;
+}
+header.navbar-default .navbar-nav > li > a{
+    text-align: right;
+}
+.pricing-plan ul li{
+    text-align: right;
+    direction: rtl;
+}
+.pricing-plan ul li i{
+    float: right;
+}
+
+input,textarea{
+    direction: rtl;
+}
+
+.form-group {
+    text-align: right;
+}
+.recent-post {
+    text-align: right;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}

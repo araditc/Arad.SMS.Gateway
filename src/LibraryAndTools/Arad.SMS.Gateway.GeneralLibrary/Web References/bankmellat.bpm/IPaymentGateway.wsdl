@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://interfaces.core.sw.bps.com/" name="IPaymentGateway" targetNamespace="http://interfaces.core.sw.bps.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://interfaces.core.sw.bps.com/" elementFormDefault="unqualified" targetNamespace="http://interfaces.core.sw.bps.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="bpChargePayRequest" type="tns:bpChargePayRequest" />
+      <xs:element name="bpChargePayRequestResponse" type="tns:bpChargePayRequestResponse" />
+      <xs:element name="bpCumulativeDynamicPayRequest" type="tns:bpCumulativeDynamicPayRequest" />
+      <xs:element name="bpCumulativeDynamicPayRequestResponse" type="tns:bpCumulativeDynamicPayRequestResponse" />
+      <xs:element name="bpDynamicPayRequest" type="tns:bpDynamicPayRequest" />
+      <xs:element name="bpDynamicPayRequestResponse" type="tns:bpDynamicPayRequestResponse" />
+      <xs:element name="bpInquiryRequest" type="tns:bpInquiryRequest" />
+      <xs:element name="bpInquiryRequestResponse" type="tns:bpInquiryRequestResponse" />
+      <xs:element name="bpPayRequest" type="tns:bpPayRequest" />
+      <xs:element name="bpPayRequestResponse" type="tns:bpPayRequestResponse" />
+      <xs:element name="bpRefundInquiryRequest" type="tns:bpRefundInquiryRequest" />
+      <xs:element name="bpRefundInquiryRequestResponse" type="tns:bpRefundInquiryRequestResponse" />
+      <xs:element name="bpRefundRequest" type="tns:bpRefundRequest" />
+      <xs:element name="bpRefundRequestResponse" type="tns:bpRefundRequestResponse" />
+      <xs:element name="bpRefundVerifyRequest" type="tns:bpRefundVerifyRequest" />
+      <xs:element name="bpRefundVerifyRequestResponse" type="tns:bpRefundVerifyRequestResponse" />
+      <xs:element name="bpReversalRequest" type="tns:bpReversalRequest" />
+      <xs:element name="bpReversalRequestResponse" type="tns:bpReversalRequestResponse" />
+      <xs:element name="bpSaleReferenceIdRequest" type="tns:bpSaleReferenceIdRequest" />
+      <xs:element name="bpSaleReferenceIdRequestResponse" type="tns:bpSaleReferenceIdRequestResponse" />
+      <xs:element name="bpSettleRequest" type="tns:bpSettleRequest" />
+      <xs:element name="bpSettleRequestResponse" type="tns:bpSettleRequestResponse" />
+      <xs:element name="bpVerifyRequest" type="tns:bpVerifyRequest" />
+      <xs:element name="bpVerifyRequestResponse" type="tns:bpVerifyRequestResponse" />
+      <xs:element name="bpVirtualPayRequest" type="tns:bpVirtualPayRequest" />
+      <xs:element name="bpVirtualPayRequestResponse" type="tns:bpVirtualPayRequestResponse" />
+      <xs:complexType name="bpVerifyRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="saleOrderId" type="xs:long" />
+          <xs:element name="saleReferenceId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpVerifyRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpRefundInquiryRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="refundOrderId" type="xs:long" />
+          <xs:element name="refundReferenceId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpRefundInquiryRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpRefundVerifyRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="refundOrderId" type="xs:long" />
+          <xs:element name="refundReferenceId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpRefundVerifyRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpSettleRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="saleOrderId" type="xs:long" />
+          <xs:element name="saleReferenceId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpSettleRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpDynamicPayRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="amount" type="xs:long" />
+          <xs:element minOccurs="0" name="localDate" type="xs:string" />
+          <xs:element minOccurs="0" name="localTime" type="xs:string" />
+          <xs:element minOccurs="0" name="additionalData" type="xs:string" />
+          <xs:element minOccurs="0" name="callBackUrl" type="xs:string" />
+          <xs:element name="payerId" type="xs:long" />
+          <xs:element name="subServiceId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpDynamicPayRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpVirtualPayRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="amount" type="xs:long" />
+          <xs:element minOccurs="0" name="localDate" type="xs:string" />
+          <xs:element minOccurs="0" name="localTime" type="xs:string" />
+          <xs:element minOccurs="0" name="additionalData" type="xs:string" />
+          <xs:element minOccurs="0" name="callBackUrl" type="xs:string" />
+          <xs:element name="payerId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpVirtualPayRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpReversalRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="saleOrderId" type="xs:long" />
+          <xs:element name="saleReferenceId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpReversalRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpCumulativeDynamicPayRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="amount" type="xs:long" />
+          <xs:element minOccurs="0" name="localDate" type="xs:string" />
+          <xs:element minOccurs="0" name="localTime" type="xs:string" />
+          <xs:element minOccurs="0" name="additionalData" type="xs:string" />
+          <xs:element minOccurs="0" name="callBackUrl" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpCumulativeDynamicPayRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpPayRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="amount" type="xs:long" />
+          <xs:element minOccurs="0" name="localDate" type="xs:string" />
+          <xs:element minOccurs="0" name="localTime" type="xs:string" />
+          <xs:element minOccurs="0" name="additionalData" type="xs:string" />
+          <xs:element minOccurs="0" name="callBackUrl" type="xs:string" />
+          <xs:element name="payerId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpPayRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpSaleReferenceIdRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="saleOrderId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpSaleReferenceIdRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpChargePayRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="amount" type="xs:long" />
+          <xs:element minOccurs="0" name="localDate" type="xs:string" />
+          <xs:element minOccurs="0" name="localTime" type="xs:string" />
+          <xs:element minOccurs="0" name="additionalData" type="xs:string" />
+          <xs:element minOccurs="0" name="callBackUrl" type="xs:string" />
+          <xs:element name="payerId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpChargePayRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpInquiryRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="saleOrderId" type="xs:long" />
+          <xs:element name="saleReferenceId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpInquiryRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpRefundRequest">
+        <xs:sequence>
+          <xs:element name="terminalId" type="xs:long" />
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="userPassword" type="xs:string" />
+          <xs:element name="orderId" type="xs:long" />
+          <xs:element name="saleOrderId" type="xs:long" />
+          <xs:element name="saleReferenceId" type="xs:long" />
+          <xs:element name="refundAmount" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="bpRefundRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="bpReversalRequest">
+    <wsdl:part name="parameters" element="ns1:bpReversalRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpPayRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpPayRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpPayRequest">
+    <wsdl:part name="parameters" element="ns1:bpPayRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpRefundRequest">
+    <wsdl:part name="parameters" element="ns1:bpRefundRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpSettleRequest">
+    <wsdl:part name="parameters" element="ns1:bpSettleRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpInquiryRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpInquiryRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpVerifyRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpVerifyRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpInquiryRequest">
+    <wsdl:part name="parameters" element="ns1:bpInquiryRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpSaleReferenceIdRequest">
+    <wsdl:part name="parameters" element="ns1:bpSaleReferenceIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpDynamicPayRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpDynamicPayRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpReversalRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpReversalRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpVerifyRequest">
+    <wsdl:part name="parameters" element="ns1:bpVerifyRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpRefundVerifyRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpRefundVerifyRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpRefundVerifyRequest">
+    <wsdl:part name="parameters" element="ns1:bpRefundVerifyRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpRefundInquiryRequest">
+    <wsdl:part name="parameters" element="ns1:bpRefundInquiryRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpSettleRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpSettleRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpRefundInquiryRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpRefundInquiryRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpCumulativeDynamicPayRequest">
+    <wsdl:part name="parameters" element="ns1:bpCumulativeDynamicPayRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpVirtualPayRequest">
+    <wsdl:part name="parameters" element="ns1:bpVirtualPayRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpDynamicPayRequest">
+    <wsdl:part name="parameters" element="ns1:bpDynamicPayRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpChargePayRequest">
+    <wsdl:part name="parameters" element="ns1:bpChargePayRequest" />
+  </wsdl:message>
+  <wsdl:message name="bpCumulativeDynamicPayRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpCumulativeDynamicPayRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpRefundRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpRefundRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpVirtualPayRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpVirtualPayRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpChargePayRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpChargePayRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="bpSaleReferenceIdRequestResponse">
+    <wsdl:part name="parameters" element="ns1:bpSaleReferenceIdRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPaymentGateway">
+    <wsdl:operation name="bpVerifyRequest">
+      <wsdl:input name="bpVerifyRequest" message="ns1:bpVerifyRequest" />
+      <wsdl:output name="bpVerifyRequestResponse" message="ns1:bpVerifyRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpRefundInquiryRequest">
+      <wsdl:input name="bpRefundInquiryRequest" message="ns1:bpRefundInquiryRequest" />
+      <wsdl:output name="bpRefundInquiryRequestResponse" message="ns1:bpRefundInquiryRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpRefundVerifyRequest">
+      <wsdl:input name="bpRefundVerifyRequest" message="ns1:bpRefundVerifyRequest" />
+      <wsdl:output name="bpRefundVerifyRequestResponse" message="ns1:bpRefundVerifyRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpSettleRequest">
+      <wsdl:input name="bpSettleRequest" message="ns1:bpSettleRequest" />
+      <wsdl:output name="bpSettleRequestResponse" message="ns1:bpSettleRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpDynamicPayRequest">
+      <wsdl:input name="bpDynamicPayRequest" message="ns1:bpDynamicPayRequest" />
+      <wsdl:output name="bpDynamicPayRequestResponse" message="ns1:bpDynamicPayRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpVirtualPayRequest">
+      <wsdl:input name="bpVirtualPayRequest" message="ns1:bpVirtualPayRequest" />
+      <wsdl:output name="bpVirtualPayRequestResponse" message="ns1:bpVirtualPayRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpReversalRequest">
+      <wsdl:input name="bpReversalRequest" message="ns1:bpReversalRequest" />
+      <wsdl:output name="bpReversalRequestResponse" message="ns1:bpReversalRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpCumulativeDynamicPayRequest">
+      <wsdl:input name="bpCumulativeDynamicPayRequest" message="ns1:bpCumulativeDynamicPayRequest" />
+      <wsdl:output name="bpCumulativeDynamicPayRequestResponse" message="ns1:bpCumulativeDynamicPayRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpPayRequest">
+      <wsdl:input name="bpPayRequest" message="ns1:bpPayRequest" />
+      <wsdl:output name="bpPayRequestResponse" message="ns1:bpPayRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpSaleReferenceIdRequest">
+      <wsdl:input name="bpSaleReferenceIdRequest" message="ns1:bpSaleReferenceIdRequest" />
+      <wsdl:output name="bpSaleReferenceIdRequestResponse" message="ns1:bpSaleReferenceIdRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpChargePayRequest">
+      <wsdl:input name="bpChargePayRequest" message="ns1:bpChargePayRequest" />
+      <wsdl:output name="bpChargePayRequestResponse" message="ns1:bpChargePayRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpInquiryRequest">
+      <wsdl:input name="bpInquiryRequest" message="ns1:bpInquiryRequest" />
+      <wsdl:output name="bpInquiryRequestResponse" message="ns1:bpInquiryRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bpRefundRequest">
+      <wsdl:input name="bpRefundRequest" message="ns1:bpRefundRequest" />
+      <wsdl:output name="bpRefundRequestResponse" message="ns1:bpRefundRequestResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MagfaSmsSender.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MagfaSmsSender_MagfaWebService_SoapSmsQueuableImplementationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://80.253.147.99/services/urn:SOAPSmsQueue</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

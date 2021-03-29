@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF41EFB7-952F-4956-8466-502BF9FA5D13}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Arad.SMS.Gateway.WebApi</RootNamespace>
+    <AssemblyName>Arad.SMS.Gateway.WebApi</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Owin, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.4.1.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.HttpListener, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Host.HttpListener.3.0.1\lib\net45\Microsoft.Owin.Host.HttpListener.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Hosting, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Owin.Hosting.4.1.1\lib\net45\Microsoft.Owin.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Owin.5.2.7\lib\net45\System.Web.Http.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Topshelf, Version=3.2.150.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Topshelf.3.2.0\lib\net40-full\Topshelf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApiService.Designer.cs">
+      <DependentUpon>ApiService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BusinessException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Start\CustomException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Start\ExceptionHandlingAttribute.cs" />
+    <Compile Include="App_Start\IgnoreNamespacesXmlMediaTypeFormatter.cs" />
+    <Compile Include="App_Start\IPAuthenticationAttribute.cs" />
+    <Compile Include="App_Start\MessageHandler.cs" />
+    <Compile Include="App_Start\MessageLoggingHandler.cs" />
+    <Compile Include="App_Start\MyPrincipal.cs" />
+    <Compile Include="Controllers\GsmController.cs" />
+    <Compile Include="Controllers\PhoneBookController.cs" />
+    <Compile Include="Controllers\ReceiveController.cs" />
+    <Compile Include="Controllers\VASMessagesController.cs" />
+    <Compile Include="Models\Get\GetDeliverySmsModel.cs" />
+    <Compile Include="Models\Get\GetPAKServiceModel.cs" />
+    <Compile Include="Models\Get\GetSendSmsModel.cs" />
+    <Compile Include="Models\Get\GetSendSmsViaURLModel.cs" />
+    <Compile Include="Models\PhoneBookModel.cs" />
+    <Compile Include="Models\Post\PostPhoneNumberModel.cs" />
+    <Compile Include="Models\Post\PostReceiveSmsModel.cs" />
+    <Compile Include="Models\Post\PostSendGroupSmsModel.cs" />
+    <Compile Include="Models\Post\PostSIMGatewayTraffic.cs" />
+    <Compile Include="Models\Response\BulkSmsResponse.cs" />
+    <Compile Include="Models\BulkSmsModel.cs" />
+    <Compile Include="Models\Response\PhoneBookResponse.cs" />
+    <Compile Include="Models\Response\PhoneBookResponseModel.cs" />
+    <Compile Include="Models\Response\PhoneNumberResponse.cs" />
+    <Compile Include="Models\Response\ReceiveSmsResponseModel.cs" />
+    <Compile Include="Models\Get\GetReceiveSmsModel.cs" />
+    <Compile Include="Models\Response\ReceiveSmsResponse.cs" />
+    <Compile Include="Models\Response\ResponseMessage.cs" />
+    <Compile Include="Models\Response\SendSmsResponse.cs" />
+    <Compile Include="Models\Post\PostSendSmsModel.cs" />
+    <Compile Include="App_Start\RequiredAuthenticationAttribute.cs" />
+    <Compile Include="Controllers\MessagesController.cs" />
+    <Compile Include="Models\Response\UserCreditResponse.cs" />
+    <Compile Include="Models\Post\PostSendVASMessageModel.cs" />
+    <Compile Include="Models\Response\UserInfoResponse.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Codes\ManageQueue.cs" />
+    <Compile Include="App_Start\Startup.cs" />
+    <Compile Include="_Definition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Configurations\Configortion.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dictionaries\en.xml" />
+    <Content Include="Dictionaries\fa.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataLayer\Arad.SMS.Gateway.Business\Arad.SMS.Gateway.Business.csproj">
+      <Project>{469df27b-f10e-43fa-b166-fab252cdc886}</Project>
+      <Name>Arad.SMS.Gateway.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataLayer\Arad.SMS.Gateway.Common\Arad.SMS.Gateway.Common.csproj">
+      <Project>{e4ab3ec9-fc32-42c9-8741-c1d44f9b802e}</Project>
+      <Name>Arad.SMS.Gateway.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataLayer\Arad.SMS.Gateway.DataAccessLayer\Arad.SMS.Gateway.DataAccessLayer.csproj">
+      <Project>{5329dd13-1df1-4019-a71b-4059190bcf56}</Project>
+      <Name>Arad.SMS.Gateway.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataLayer\Arad.SMS.Gateway.Facade\Arad.SMS.Gateway.Facade.csproj">
+      <Project>{4563187e-74a0-4619-a187-efc30e7bfc15}</Project>
+      <Name>Arad.SMS.Gateway.Facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LibraryAndTools\Arad.SMS.Gateway.GeneralLibrary\Arad.SMS.Gateway.GeneralLibrary.csproj">
+      <Project>{dfe9e9bb-00aa-425a-a5bf-fc0f96e071f8}</Project>
+      <Name>Arad.SMS.Gateway.GeneralLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LibraryAndTools\Arad.SMS.Gateway.SqlLibrary\Arad.SMS.Gateway.SqlLibrary.csproj">
+      <Project>{6c1eeb5d-9401-4739-af4d-cc832ae899bd}</Project>
+      <Name>Arad.SMS.Gateway.SqlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

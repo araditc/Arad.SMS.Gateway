@@ -1,0 +1,35 @@
+﻿// --------------------------------------------------------------------
+// Copyright (c) 2005-2020 Arad ITC.
+//
+// Author : Ammar Heidari <ammar@arad-itc.org>
+// Licensed under the Apache License, Version 2.0 (the "License")
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0 
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+// --------------------------------------------------------------------
+
+using System;
+
+namespace Arad.SMS.Gateway.Business
+{
+	[Serializable]
+	public class ParserFormulaSerialization
+	{
+		public Guid Sender { get; set; }
+		public string Text { get; set; }
+		public bool CaseSensitive { get; set; }
+		public Guid ReferenceGuid { get; set; }
+		public Guid AcceptFormatGuid { get; set; }
+		public Guid RejectFormatGuid { get; set; }
+		public string VasURL { get; set; }
+		public Guid EmailTemplateGuid { get; set; }
+		public int Condition { get; set; }
+	}
+}

@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RahyabPGSmsSender.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RahyabPGSmsSender_RahyabPGSmsSenderService_sms" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://rahyabbulk.ir:8020/WebService/SMS.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

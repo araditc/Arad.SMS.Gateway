@@ -1,0 +1,25 @@
+﻿.success-gridRowColor {
+	background-color: #E9FFD2 !important;
+}
+
+.warning-gridRowColor {
+	background-color: #FFD2D2 !important;
+}
+
+.overlay {
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	opacity: 0.6;
+}
+
+.tabs-wrap {
+	position: relative;
+	left: 0;
+	overflow: visible !important;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}

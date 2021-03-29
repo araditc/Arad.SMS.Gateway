@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DC76DD7-6286-4313-B83D-3ED0847CDA23}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeneralTools</RootNamespace>
+    <AssemblyName>Arad.SMS.Gateway.GeneralTools</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.11.3.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DocumentFormat.OpenXml.2.11.3\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataGrid\DataGrid.cs" />
+    <Compile Include="DataGrid\DataGridResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataGridResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid\_Definitions.cs" />
+    <Compile Include="easyuiTreeView\TreeNode.cs" />
+    <Compile Include="easyuiTreeView\TreeViewResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TreeViewResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBox\SearchBox.cs" />
+    <Compile Include="SearchBox\SearchBoxResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchBoxResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SmsBodyBox\SmsBodyBox.cs" />
+    <Compile Include="SmsBodyBox\SmsBodyBoxResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SmsBodyBoxResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SmsBodyControl\SmsBodyControl.cs" />
+    <Compile Include="SmsBodyControl\SmsBodyControlResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SmsBodyControlResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="easyuiTreeView\TreeView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\DataGridResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>DataGridResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGrid\Themes\uiGrid.css" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBox\SearchBoxResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchBoxResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmsBodyBox\SmsBodyBoxResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SmsBodyBoxResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmsBodyControl\SmsBodyControlResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SmsBodyControlResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="easyuiTreeView\TreeViewResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>TreeViewResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\JavaScripts\i18n\en.js" />
+    <EmbeddedResource Include="DataGrid\JavaScripts\i18n\fa.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-anim_basic_16x16.gif" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-icons_217bc0_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-icons_469bdd_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\redmond\redmond.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_flat_30_cccccc_40x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_highlight-hard_20_0972a5_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_highlight-soft_33_003147_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_highlight-soft_35_222222_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_highlight-soft_44_444444_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-bg_loop_25_000000_21x21.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-icons_222222_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-icons_4b8e0b_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-icons_a83300_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-icons_cccccc_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\images\ui-icons_ffffff_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\darkHive\darkHive.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-icons_222222_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-icons_228ef1_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-icons_ef8c08_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-icons_ffd27a_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\images\ui-icons_ffffff_256x240.png" />
+    <EmbeddedResource Include="DataGrid\Themes\lightness\lightness.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataLayer\Arad.SMS.Gateway.Business\Arad.SMS.Gateway.Business.csproj">
+      <Project>{469df27b-f10e-43fa-b166-fab252cdc886}</Project>
+      <Name>Arad.SMS.Gateway.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Arad.SMS.Gateway.GeneralLibrary\Arad.SMS.Gateway.GeneralLibrary.csproj">
+      <Project>{dfe9e9bb-00aa-425a-a5bf-fc0f96e071f8}</Project>
+      <Name>Arad.SMS.Gateway.GeneralLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\JavaScripts\jqueryJson_min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SearchBox\JavaScripts\jquery_Autocomplete_min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\Images\BooleanOff.png" />
+    <EmbeddedResource Include="DataGrid\Images\BooleanOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SearchBox\Images\indicator.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SearchBox\Css\styles_min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\JavaScripts\jqueryGrid.min.js">
+      <DependentUpon>jqueryGrid.js</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="SmsBodyBox\Images\loadtemplate.png" />
+    <Content Include="SmsBodyBox\Images\savetemplate.png" />
+    <EmbeddedResource Include="SmsBodyControl\Images\voice.gif" />
+    <EmbeddedResource Include="SmsBodyControl\Scripts\smsCalculations.js" />
+    <EmbeddedResource Include="DataGrid\JavaScripts\jqueryGrid.js" />
+    <EmbeddedResource Include="DataGrid\Images\Excel.png" />
+    <EmbeddedResource Include="DataGrid\Images\Pdf.png" />
+    <Content Include="SearchBox\Css\styles_src.css" />
+    <Content Include="SearchBox\JavaScripts\jquery_Autocomplete_src.js" />
+    <EmbeddedResource Include="SmsBodyBox\JavaScripts\smsCalculations.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataGrid\JavaScripts\jqueryGrid.min.js.map">
+      <DependentUpon>jqueryGrid.min.js</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

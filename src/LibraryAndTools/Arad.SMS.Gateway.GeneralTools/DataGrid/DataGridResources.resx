@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>javascripts\i18n\en.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="fa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>javascripts\i18n\fa.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="JavaScript_En" xml:space="preserve">
+    <value>en.js</value>
+  </data>
+  <data name="JavaScript_Fa" xml:space="preserve">
+    <value>fa.js</value>
+  </data>
+  <data name="JavaScript_JqueryGrid" xml:space="preserve">
+    <value>jqueryGrid.min.js</value>
+  </data>
+  <data name="Style_UiGrid" xml:space="preserve">
+    <value>uiGrid.css</value>
+  </data>
+  <data name="Themes_Redmond" xml:space="preserve">
+    <value>redmond.redmond.css</value>
+  </data>
+  <data name="uiGrid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\uigrid.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="redmond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\redmond.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="darkHive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\darkhive.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="lightness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\lightness.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Themes_DarkHive" xml:space="preserve">
+    <value>darkHive.darkHive.css</value>
+  </data>
+  <data name="Themes_Lightness" xml:space="preserve">
+    <value>lightness.lightness.css</value>
+  </data>
+  <data name="ui_anim_basic_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-anim_basic_16x16.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_diagonals_thick_18_b81900_40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_diagonals_thick_20_666666_40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_flat_0_aaaaaa_40x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_flat_10_000000_40x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_flat_10_000000_40x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_flat_30_cccccc_40x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_flat_30_cccccc_40x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_flat_50_5c5c5c_40x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_flat_50_5c5c5c_40x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_flat_55_fbec88_40x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_flat_55_fbec88_40x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_glass_100_f6f6f6_1x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_glass_100_f6f6f6_1x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_glass_100_fdf5ce_1x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_glass_100_fdf5ce_1x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_glass_40_ffc73d_1x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_glass_40_ffc73d_1x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_glass_65_ffffff_1x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_glass_65_ffffff_1x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_glass_75_d0e5f5_1x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_glass_85_dfeffc_1x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_glass_85_dfeffc_1x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_glass_95_fef1ec_1x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_glass_95_fef1ec_1x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_gloss_wave_35_f6a828_500x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_gloss_wave_55_5c9ccc_500x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_highlight_hard_20_0972a5_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_highlight-hard_20_0972a5_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_highlight_soft_100_eeeeee_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_highlight_soft_33_003147_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_highlight-soft_33_003147_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_highlight_soft_35_222222_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_highlight-soft_35_222222_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_highlight_soft_44_444444_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_highlight-soft_44_444444_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_highlight_soft_75_ffe45c_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_highlight_soft_80_eeeeee_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_highlight-soft_80_eeeeee_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_inset_hard_100_f5f8f9_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_inset_hard_100_fcfdfd_1x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_bg_loop_25_000000_21x21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-bg_loop_25_000000_21x21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_217bc0_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-icons_217bc0_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_222222_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-icons_222222_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_222222_256x2401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-icons_222222_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_228ef1_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-icons_228ef1_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_2e83ff_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-icons_2e83ff_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_469bdd_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-icons_469bdd_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_4b8e0b_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-icons_4b8e0b_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_6da8d5_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-icons_6da8d5_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_a83300_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-icons_a83300_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_cccccc_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-icons_cccccc_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_cd0a0a_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-icons_cd0a0a_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_d8e7f3_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-icons_d8e7f3_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_ef8c08_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-icons_ef8c08_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_f9bd01_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\redmond\images\ui-icons_f9bd01_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_ffd27a_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-icons_ffd27a_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_ffffff_256x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\darkhive\images\ui-icons_ffffff_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_icons_ffffff_256x2401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>themes\lightness\images\ui-icons_ffffff_256x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JavaScript_JqueryJson" xml:space="preserve">
+    <value>jqueryJson_min.js</value>
+  </data>
+  <data name="JavaScript_jqueryGridSrc" xml:space="preserve">
+    <value>jqueryGrid.js</value>
+  </data>
+  <data name="jqueryGrid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>javascripts\jqueryGrid.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="BooleanOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>images\booleanoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BooleanOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>images\booleanon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>images\excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>images\pdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JavaScript_jqueryGridMin" xml:space="preserve">
+    <value>jqueryGrid.min.js</value>
+  </data>
+  <data name="jqueryGrid.min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>javascripts\jqueryGrid.min.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

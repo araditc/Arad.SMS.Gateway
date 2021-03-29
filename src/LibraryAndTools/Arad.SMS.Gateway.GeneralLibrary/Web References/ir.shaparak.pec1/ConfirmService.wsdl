@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://pec.Shaparak.ir/NewIPGServices/Confirm/ConfirmService" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://pec.Shaparak.ir/NewIPGServices/Confirm/ConfirmService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://pec.Shaparak.ir/NewIPGServices/Confirm/ConfirmService">
+      <s:element name="ConfirmPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="requestData" type="tns:ClientConfirmRequestData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ClientConfirmRequestData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="LoginAccount" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Token" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ConfirmPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConfirmPaymentResult" type="tns:ClientConfirmResponseData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ClientConfirmResponseData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNumberMasked" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RRN" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="Token" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConfirmPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:ConfirmPayment" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:ConfirmPaymentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ConfirmServiceSoap">
+    <wsdl:operation name="ConfirmPayment">
+      <wsdl:input message="tns:ConfirmPaymentSoapIn" />
+      <wsdl:output message="tns:ConfirmPaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ConfirmServiceSoap" type="tns:ConfirmServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConfirmPayment">
+      <soap:operation soapAction="https://pec.Shaparak.ir/NewIPGServices/Confirm/ConfirmService/ConfirmPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConfirmServiceSoap12" type="tns:ConfirmServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConfirmPayment">
+      <soap12:operation soapAction="https://pec.Shaparak.ir/NewIPGServices/Confirm/ConfirmService/ConfirmPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConfirmService">
+    <wsdl:port name="ConfirmServiceSoap" binding="tns:ConfirmServiceSoap">
+      <soap:address location="https://pec.shaparak.ir/NewIPGServices/Confirm/ConfirmService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ConfirmServiceSoap12" binding="tns:ConfirmServiceSoap12">
+      <soap12:address location="https://pec.shaparak.ir/NewIPGServices/Confirm/ConfirmService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

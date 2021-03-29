@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Arad.SMS.Gateway.Web.HomePages.Arad.Site" %>
+
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head runat="server">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta id="keywords" name="keywords" content="" runat="server" />
+	<meta id="description" runat="server" name="description" content="" />
+	<link id="favicon" runat="server" rel="shortcut icon" />
+	<script src="/script/encryption.js" type="text/javascript"></script>
+	<%: Styles.Render("~/Content/bootstrap") %>
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<%: Styles.Render("~/Content/font-awesome") %>
+	<%: Styles.Render("~/Content/ace") %>
+	<link href="css/responsive-leyouts.css" rel="stylesheet" />
+	<link href="css/core.css" rel="stylesheet" />
+	<link href="css/fullwidth.css" rel="stylesheet" />
+	<link href="css/settings.css" rel="stylesheet" />
+	<%: Scripts.Render("~/Scripts/jquery") %>
+	<%: Scripts.Render("~/Scripts/bootstrap") %>
+	<script src="/script/routines.min.js" type="text/javascript"></script>
+	<script src="/script/dynamicRoutine.min.js" type="text/ecmascript"></script>
+	<script type="text/javascript">
+		$(function () {
+			var addMenusToDom = function (menu) {
+				var menuTemplate = $("#menuTemplate").template("menuTemplate");
+				$.tmpl(menuTemplate, menu).appendTo("#tiny");
+			};
+
+			$.ajax({
+				url: "/homepages/arad/index.aspx/GetMenu",
+				contentType: 'application/json; charset=utf-8',
+				dataType: "json",
+				type: 'POST',
+				data: "{pos:1}",//topright
+				async: false,
+				cache: false
+			}).done(function (data) {
+				var menuData = { items: data.d };
+				addMenusToDom(menuData);
+			});
+		});
+	</script>
+
+	<script id="menuTemplate" type="text/html">
+		{{each items}}
+			{{if Children.length > 0}}
+				<li><a href="/${ID}/${String(Title).split(' ').join('-')}">${Title}<i class="fa fa-angle-down"></i></a>
+					<ul>
+						{{tmpl({items:Children}) "menuTemplate"}}
+					</ul>
+				</li>
+		{{else}}
+				<li><a href="/${ID}/${String(Title).split(' ').join('-')}">${Title}</a></li>
+		{{/if}}
+		{{/each}}
+	</script>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div class="wrapper_boxed">
+			<div class="site_wrapper">
+				<header id="header">
+					<div id="trueHeader">
+						<div class="wrapper">
+							<div class="container">
+								<div class="one_fourth" style="text-align: left;">
+									<a href="/Index.aspx">
+										<asp:Image ID="imgLogo" runat="server" Style="height: 45px" /></a>
+								</div>
+								<div class="two_fourth">
+									<a href="/Login" class="btn btn-primary" style="border: 0"><%=Arad.SMS.Gateway.GeneralLibrary.Language.GetString("SignIn") %></a>
+								</div>
+								<div class="three_fourth last">
+									<nav id="access" class="access" role="navigation">
+										<div id="menu" class="menu">
+											<ul id="tiny"></ul>
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+				</asp:ContentPlaceHolder>
+				<div class="bottom_section">
+					<div class="divider_line4 two"></div>
+					<div class="twitter_feeds_main">
+						<div class="container">
+							<asp:Literal ID="ltrAddress" runat="server"></asp:Literal>
+						</div>
+					</div>
+				</div>
+				<div class="wave_graphs"></div>
+				<div class="clearfix"></div>
+				<div class="copyright_info">
+					<div class="container">
+						<div class="one_half">
+							<b>
+								<asp:Literal ID="ltrFooter" runat="server"></asp:Literal></b>
+						</div>
+						<div class="one_half last">
+							<ul class="footer_social_links">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-skype"></i></a></li>
+								<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+								<li><a href="#"><i class="fa fa-html5"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<a href="#" class="scrollup">Scroll</a>
+			</div>
+		</div>
+	</form>
+	<script src="/aradjs/ddsmoothmenu.js"></script>
+	<script src="/aradjs/selectnav.js"></script>
+	<script src="/aradjs/jquery.jcarousel.min.js"></script>
+	<script src="/aradjs/scripts.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					$('.scrollup').fadeIn();
+				} else {
+					$('.scrollup').fadeOut();
+				}
+			});
+
+			$('.scrollup').click(function () {
+				$("html, body").animate({ scrollTop: 0 }, 500);
+				return false;
+			});
+		});
+	</script>
+</body>
+</html>

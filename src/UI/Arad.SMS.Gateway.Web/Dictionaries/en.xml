@@ -1,0 +1,5663 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dictionary>
+	<string key="UI_Home">
+		<value>Home page</value>
+	</string>
+	<string key="UI_Services_Service">
+		<value>System services</value>
+	</string>
+	<string key="UI_Users_User">
+		<value>Users list</value>
+	</string>
+	<string key="UI_Users_Register">
+		<value>Create new user</value>
+	</string>
+	<string key="UI_Users_ChangePassword">
+		<value>Change password</value>
+	</string>
+	<string key="UI_Users_EditUser">
+		<value>Edit profile</value>
+	</string>
+	<string key="IsSalePackage">
+		<value>Sales package</value>
+	</string>
+	<string key="UI_UserServices_UserService">
+		<value>User Services</value>
+	</string>
+	<string key="UI_PhoneBooks_PhoneBook">
+		<value>Phonebook</value>
+	</string>
+	<string key="Help_SendFormatSms">
+		<value>Corresponding message guide</value>
+	</string>
+	<string key="Help_SendAdvancedGroupSms">
+		<value>Advanced SMS sending guide</value>
+	</string>
+	<string key="Help_Home">
+		<value>Guide to Statistical Reporting of sent messages</value>
+	</string>
+	<string key="Help_PhoneBook">
+		<value>Phonebook Guide</value>
+	</string>
+	<string key="Help_SendPostalCodeSms">
+		<value>Guide to sending SMS based on postal code</value>
+	</string>
+	<string key="Help_SendPrefixSms">
+		<value>Guide to sending SMS based on prefix</value>
+	</string>
+	<string key="Help_SendCitySms">
+		<value>Send SMS by city and province</value>
+	</string>
+	<string key="Help_SendGroupSms">
+		<value>Group SMS guide</value>
+	</string>
+	<string key="Help_SendSingleSms">
+		<value>Single SMS guide</value>
+	</string>
+	<string key="Help_SendFutureSms">
+		<value>Scheduling SMS guide</value>
+	</string>
+	<string key="File-Sample">
+		<value>Sample file</value>
+	</string>
+	<string key="UI_PhoneBooks_PhoneNumber">
+		<value>Add number</value>
+	</string>
+	<string key="UI_Accesses_Access">
+		<value>System access</value>
+	</string>
+	<string key="UI_UserFields_UserField">
+		<value>Manage user fields</value>
+	</string>
+	<string key="UI_UserFields_PhoneBookField">
+		<value>Define complementary fields in the phonebook</value>
+	</string>
+	<string key="UI_UserFields_SmsFormat">
+		<value>Define a dynamic template</value>
+	</string>
+	<string key="UI_GroupPrices_GroupPrice">
+		<value>SMS price group</value>
+	</string>
+	<string key="UI_PriceRanges_PriceRange">
+		<value>Define the price range</value>
+	</string>
+	<string key="UI_ServiceGroups_ServiceGroup">
+		<value>Group services</value>
+	</string>
+	<string key="UI_SmsSends_SendSingleSms">
+		<value>Single submission</value>
+	</string>
+	<string key="UI_PrivateNumbers_DefiningPrivateNumber">
+		<value>Dedicated SenderId definition</value>
+	</string>
+	<string key="UI_PrivateNumbers_UserPrivateNumber">
+		<value>User-specific SenderIds</value>
+	</string>
+	<string key="UI_Users_Transaction">
+		<value>List of transactions</value>
+	</string>
+	<string key="UI_Login_Login">
+		<value>Login</value>
+	</string>
+	<string key="UI_PrivateNumbers_AssignPrivateNumberToUsers">
+		<value>Assign dedicated SenderId to the user</value>
+	</string>
+	<string key="UI_AccountInformations_AccountInformation">
+		<value>Account management</value>
+	</string>
+	<string key="UI_Users_RegisterFish">
+		<value>Register the receipt</value>
+	</string>
+	<string key="UI_UserFishes_ConfirmFish">
+		<value>Receipt confirmation</value>
+	</string>
+	<string key="ConfirmFish">
+		<value>Receipt confirmation</value>
+	</string>
+	<string key="UI_SmsSends_SendGroupSms">
+		<value>Group sending</value>
+	</string>
+	<string key="UI_SmsSends_SendBulkSms">
+		<value>Send regional SMS</value>
+	</string>
+	<string key="UI_SmsSends_SendBulk">
+		<value>Bulk sending</value>
+	</string>
+	<string key="UI_SmsReports_BulkList">
+		<value>Regional mailing list</value>
+	</string>
+	<string key="UI_SmsReports_BulkDetails">
+		<value>Regional bulk sending details</value>
+	</string>
+	<string key="UI_Domains_Domain">
+		<value>Domain management</value>
+	</string>
+	<string key="UI_Domains_RegisterDomain">
+		<value>domain registration</value>
+	</string>
+	<string key="RegisterDomain">
+		<value>domain registration</value>
+	</string>
+	<string key="UI_Users_IncreaseCredit">
+		<value>Increase Credit</value>
+	</string>
+	<string key="UI_Users_DecreaseCredit">
+		<value>Decrease Credit</value>
+	</string>
+	<string key="UI_UserServices_UserServicePrice">
+		<value>Determining the price of services</value>
+	</string>
+	<string key="UI_ServiceGroups_SaveServiceGroup">
+		<value>Register Menu</value>
+	</string>
+	<string key="UI_Services_SaveService">
+		<value>Service registration</value>
+	</string>
+	<string key="ManageServiceGroup">
+		<value>Manage menus</value>
+	</string>
+	<string key="ManageService">
+		<value>Services management</value>
+	</string>
+	<string key="ManageAccess">
+		<value>Access management</value>
+	</string>
+	<string key="ManageGroupPrice">
+		<value>Price group management</value>
+	</string>
+	<string key="ManagePriceRange">
+		<value>Price range management</value>
+	</string>
+	<string key="PhoneBook">
+		<value>PhoneBook</value>
+	</string>
+	<string key="AddSingleNumber">
+		<value>Add a single number</value>
+	</string>
+	<string key="AddListNumber">
+		<value>Add a list number</value>
+	</string>
+	<string key="AddListEmail">
+		<value>Add email list</value>
+	</string>
+	<string key="AddFileNumber">
+		<value>Add from file</value>
+	</string>
+	<string key="AddUserField">
+		<value>Add an additional field to the phonebook</value>
+	</string>
+	<string key="AddSmsFormat">
+		<value>Define a dynamic template</value>
+	</string>
+	<string key="ManageUser">
+		<value>User management</value>
+	</string>
+	<string key="UserService">
+		<value>User services</value>
+	</string>
+	<string key="ChangePassword">
+		<value>Change password</value>
+	</string>
+	<string key="EditProfile">
+		<value>Edit profile</value>
+	</string>
+  <string key="Profile">
+    <value>Profile</value>
+  </string>
+	<string key="RegisterUser">
+		<value>Register New User</value>
+	</string>
+	<string key="AddAccess">
+		<value>Register new access</value>
+	</string>
+	<string key="EditAccess">
+		<value>Edit access</value>
+	</string>
+	<string key="DeleteAccess">
+		<value>Remove access</value>
+	</string>
+	<string key="EditGroupPrice">
+		<value>Edit group price</value>
+	</string>
+	<string key="DeleteGroupPrice">
+		<value>Delete group price</value>
+	</string>
+	<string key="AddPhoneBookGroup">
+		<value>Add group to phonebook</value>
+	</string>
+	<string key="EditPhoneBookGroup">
+		<value>Edit groups in the phonebook</value>
+	</string>
+	<string key="CutPhoneBookGroup">
+		<value>Cut groups in the phonebook</value>
+	</string>
+	<string key="PastePhoneBookGroup">
+		<value>Paste the group in the phonebook</value>
+	</string>
+	<string key="DeletePhoneBookGroup">
+		<value>Remove the group from the phonebook</value>
+	</string>
+	<string key="AddPriceRange">
+		<value>Register new price range</value>
+	</string>
+	<string key="EditPriceRange">
+		<value>Edit price range</value>
+	</string>
+	<string key="DeletePriceRange">
+		<value>Eliminate price range</value>
+	</string>
+	<string key="AddServiceGroup">
+		<value>Service group registration</value>
+	</string>
+	<string key="EditServiceGroup">
+		<value>Edit service group</value>
+	</string>
+	<string key="DeleteServiceGroup">
+		<value>Delete service group</value>
+	</string>
+	<string key="AddService">
+		<value>Register a new service</value>
+	</string>
+	<string key="EditService">
+		<value>Edit service</value>
+	</string>
+	<string key="DeleteService">
+		<value>Delete service</value>
+	</string>
+	<string key="EditUser">
+		<value>Edit user</value>
+	</string>
+	<string key="AdvanceEditUser">
+		<value>Advanced editing</value>
+	</string>
+	<string key="DeleteUser">
+		<value>Delete user</value>
+	</string>
+	<string key="EditUserService">
+		<value>Edit user services</value>
+	</string>
+	<string key="EditUserAccess">
+		<value>Edit user access</value>
+	</string>
+	<string key="UserNotFound">
+		<value>No user with this profile was found.</value>
+	</string>
+	<string key="UserIsNotActive">
+		<value>Username is disabled.</value>
+	</string>
+	<string key="RemaindMe">
+		<value>Remember me</value>
+	</string>
+	<string key="Login">
+		<value>Login</value>
+	</string>
+	<string key="SingInToSystem">
+		<value>Login</value>
+	</string>
+	<string key="UserName">
+		<value>UserName</value>
+	</string>
+	<string key="Password">
+		<value>Password</value>
+	</string>
+	<string key="ConfirmPassword">
+		<value>Confirm Password</value>
+	</string>
+  <string key="APIPassword">
+    <value>API password</value>
+  </string>
+  <string key="ConfirmAPIPassword">
+    <value>Confirm api password</value>
+  </string>
+  <string key="AuthorizedIPs">
+    <value>Authorized IPs</value>
+  </string>
+	<string key="NewUser">
+		<value>New User</value>
+	</string>
+	<string key="FirstName">
+		<value>FirstName </value>
+	</string>
+	<string key="LastName">
+		<value>LastName </value>
+	</string>
+	<string key="BirthDate">
+		<value>Birth Date </value>
+	</string>
+	<string key="Email">
+		<value>Email </value>
+	</string>
+	<string key="Location">
+		<value>Location </value>
+	</string>
+	<string key="Address">
+		<value>Address </value>
+	</string>
+	<string key="InterfaceAddress">
+		<value>Interface address</value>
+	</string>
+	<string key="MobileNo">
+		<value>Mobile </value>
+	</string>
+	<string key="PhoneNo">
+		<value>Phone number </value>
+	</string>
+	<string key="FaxNo">
+		<value>Fax </value>
+	</string>
+	<string key="Register">
+		<value>Register</value>
+	</string>
+  <string key="Forgotpassword">
+    <value>Forgot password</value>
+  </string>
+	<string key="UserRegisteredSuccessfully">
+		<value>User registration completed successfully.</value>
+	</string>
+	<string key="UserNameIsDuplicate">
+		<value>Is a duplicate username.</value>
+	</string>
+	<string key="PasswordNotMatchWithConfirmPassword">
+		<value>The password does not match the repetition.</value>
+	</string>
+	<string key="Esfahan">
+		<value>Esfahan</value>
+	</string>
+	<string key="Qom">
+		<value>Qom</value>
+	</string>
+	<string key="Tehran">
+		<value>Tehran</value>
+	</string>
+	<string key="Alborz">
+		<value>Alborz</value>
+	</string>
+	<string key="AzerbaijanEast">
+		<value>Eas Azerbaijant</value>
+	</string>
+	<string key="AzerbaijanWest">
+		<value>West Azerbaijan</value>
+	</string>
+	<string key="Ardabil">
+		<value>Ardabil</value>
+	</string>
+	<string key="Ilam">
+		<value>Ilam</value>
+	</string>
+	<string key="Bushehr">
+		<value>Bushehr</value>
+	</string>
+	<string key="ChaharmahalBakhtiari">
+		<value>Chaharmahal Bakhtiari</value>
+	</string>
+	<string key="KhorasanNorth">
+		<value>North Khorasan</value>
+	</string>
+	<string key="KhorasanRazavi">
+		<value>Khorasan Razavi</value>
+	</string>
+	<string key="KhorasanSouth">
+		<value>South Khorasan</value>
+	</string>
+	<string key="Khuzestan">
+		<value>Khuzestan</value>
+	</string>
+	<string key="Zanjan">
+		<value>Zanjan</value>
+	</string>
+	<string key="Semnan">
+		<value>Semnan</value>
+	</string>
+	<string key="SistanBaluchestan">
+		<value>Sistan Baluchestan</value>
+	</string>
+	<string key="Fars">
+		<value>Fars</value>
+	</string>
+	<string key="Qazvin">
+		<value>Qazvin</value>
+	</string>
+	<string key="Kurdistan">
+		<value>Kurdistan</value>
+	</string>
+	<string key="Kerman">
+		<value>Kerman</value>
+	</string>
+	<string key="Kermanshah">
+		<value>Kermanshah</value>
+	</string>
+	<string key="KohgiluyehVaBoyerAhmad">
+		<value>Kohgiluyeh Va BoyerAhmad</value>
+	</string>
+	<string key="Gulistan">
+		<value>Golestan</value>
+	</string>
+	<string key="Gilan">
+		<value>Gilan</value>
+	</string>
+	<string key="Lorestan">
+		<value>Lorestan</value>
+	</string>
+	<string key="Mazandaran">
+		<value>Mazandaran</value>
+	</string>
+	<string key="Markazi">
+		<value>Markazi</value>
+	</string>
+	<string key="Hormozgan">
+		<value>Hormozgan</value>
+	</string>
+	<string key="Hamedan">
+		<value>Hamedan</value>
+	</string>
+	<string key="Yazd">
+		<value>Yazd</value>
+	</string>
+	<string key="Strings">
+		<value>A string</value>
+	</string>
+	<string key="Number">
+		<value>Number</value>
+	</string>
+	<string key="LineNumber">
+		<value>SenserId</value>
+	</string>
+	<string key="DateTime">
+		<value>Date</value>
+	</string>
+	<string key="NewField">
+		<value>New Field</value>
+	</string>
+	<string key="Service">
+		<value>Service</value>
+	</string>
+	<string key="Search">
+		<value>Search</value>
+	</string>
+	<string key="New">
+		<value>New</value>
+	</string>
+	<string key="NewSmsManual">
+		<value>Add manually</value>
+	</string>
+	<string key="NewUploadFile">
+		<value>Add from file</value>
+	</string>
+	<string key="Access">
+		<value>Access</value>
+	</string>
+	<string key="Cancel">
+		<value>Cancel</value>
+	</string>
+	<string key="DeleteAccessError">
+		<value>This access is used for users.</value>
+	</string>
+	<string key="CompleteUserNameField">
+		<value>Username not entered</value>
+	</string>
+	<string key="CompletePasswordField">
+		<value>Password not entered</value>
+	</string>
+	<string key="CompleteFirstNameField">
+		<value>Name not entered</value>
+	</string>
+	<string key="CompleteNameField">
+		<value>Name not entered</value>
+	</string>
+	<string key="CompleteLastNameField">
+		<value>Last name not entered</value>
+	</string>
+	<string key="CompleteEmailField">
+		<value>Email not entered</value>
+	</string>
+	<string key="EmailFieldIsNotCorectFormat">
+		<value>Email format is incorrect</value>
+	</string>
+	<string key="CompleteMobileNoField">
+		<value>Mobile number not entered</value>
+	</string>
+	<string key="CompleteQueueLengthField">
+		<value>Queue length not entered</value>
+	</string>
+	<string key="Users">
+		<value>Users</value>
+	</string>
+	<string key="All">
+		<value>All</value>
+	</string>
+	<string key="NormalUser">
+		<value>Users</value>
+	</string>
+	<string key="AdminUser">
+		<value>Admin users</value>
+	</string>
+	<string key="AdvancedSearch">
+		<value>Advanced Search</value>
+	</string>
+	<string key="Agent">
+		<value>Reseller</value>
+	</string>
+	<string key="UserNonReal">
+		<value>Sub users</value>
+	</string>
+	<string key="UserType">
+		<value>User Type</value>
+	</string>
+	<string key="Active">
+		<value>Active</value>
+	</string>
+	<string key="InActive">
+		<value>InActive</value>
+	</string>
+	<string key="UserStatus">
+		<value>User Status</value>
+	</string>
+	<string key="PanelPrice">
+		<value>Panel Price</value>
+	</string>
+	<string key="ExpireDate">
+		<value>Expire date</value>
+	</string>
+	<string key="CreateDate">
+		<value>Create date</value>
+	</string>
+	<string key="MaximumAdmin">
+		<value>Maximum admin user</value>
+	</string>
+	<string key="MaximumUser">
+		<value>Maximum users</value>
+	</string>
+	<string key="MaximumPhoneNumber">
+		<value>Maximum phone number </value>
+	</string>
+	<string key="MaximumEmailAddress">
+		<value>Maximum Email Address</value>
+	</string>
+	<string key="CountMobileNumber">
+		<value>Count of mobile</value>
+	</string>
+	<string key="Admin">
+		<value>Admin</value>
+	</string>
+	<string key="EditRecord">
+		<value>Editing operation performed</value>
+	</string>
+	<string key="DeleteRecord">
+		<value>Removal operation performed</value>
+	</string>
+	<string key="ErrorDeletingRecord">
+		<value>Error! Failed to delete operation</value>
+	</string>
+	<string key="ErrorRecord">
+		<value>Error! The operation was not performed</value>
+	</string>
+	<string key="CompleteGroupNameField">
+		<value>Group title not entered</value>
+	</string>
+	<string key="CompleteUrlField">
+		<value>Enter the SMS receiving address</value>
+	</string>
+	<string key="ChangePasswordDoneSuccessfully">
+		<value>Password change completed successfully.</value>
+	</string>
+	<string key="ImpossibleDefiningService">
+		<value>It is not possible to define a service for the user</value>
+	</string>
+	<string key="InsertRecord">
+		<value>The registration operation was performed</value>
+	</string>
+	<string key="Title">
+		<value>Title</value>
+	</string>
+	<string key="AddGroupPrice">
+		<value>Add Group Price</value>
+	</string>
+	<string key="DuplicateTitle">
+		<value>Duplicate Title</value>
+	</string>
+	<string key="SendSingleSms">
+		<value>Send Single Sms</value>
+	</string>
+	<string key="SendSingleFutureSms">
+		<value>Send a single SMS in the future</value>
+	</string>
+	<string key="SendPeriodFutureSingleSms">
+		<value>Send periodic single SMS</value>
+	</string>
+	<string key="SendGroupSms">
+		<value>Send group SMS</value>
+	</string>
+  <string key="SendToSelectedGroupSms">
+    <value>Send SMS to selected groups</value>
+  </string>
+	<string key="SendFormatGroupSms">
+		<value>Send group dynamic texting</value>
+	</string>
+	<string key="SendPeriodFutureGroupSms">
+		<value>Periodic group submission</value>
+	</string>
+	<string key="SendFormatPeriodFutureGroupSms">
+		<value>Send dynamic periodic group SMS</value>
+	</string>
+	<string key="SendGroupFutureSms">
+		<value>Send group SMS in the future</value>
+	</string>
+	<string key="SendFormatGroupFutureSms">
+		<value>Send dynamic group texting in the future</value>
+	</string>
+	<string key="SendAdvancedGroupFutureSms">
+		<value>Send advanced SMS in the future</value>
+	</string>
+	<string key="SendFormatAdvancedGroupFuture">
+		<value>Send dynamic advanced texting in the future</value>
+	</string>
+	<string key="SendPeriodFutureAdvancedGroupSms">
+		<value>Send advanced SMS periodically</value>
+	</string>
+	<string key="SendFormatPeriodFutureAdvancedGroupSms">
+		<value>Send dynamic advanced SMS in a certain period</value>
+	</string>
+	<string key="SendFutureFieldSms">
+		<value>Send SMS based on date field</value>
+	</string>
+	<string key="SendFormatFutureFieldSms">
+		<value>Send dynamic SMS based on date field</value>
+	</string>
+	<string key="SenderNumber">
+		<value>Sender</value>
+	</string>
+	<string key="RecieverNumber">
+		<value>Recipient</value>
+	</string>
+	<string key="SmsBody">
+		<value>Sms Body</value>
+	</string>
+	<string key="DecreaseFromUser">
+		<value>Deduction from the user</value>
+	</string>
+	<string key="SmsPattern">
+		<value>SMS template</value>
+	</string>
+	<string key="EmailPattern">
+		<value>Email template</value>
+	</string>
+	<string key="SendSms">
+		<value>Send SMS</value>
+	</string>
+	<string key="CompleteRecieverNumberField">
+		<value>Enter the recipient number</value>
+	</string>
+	<string key="CompleteRecieverEmailField">
+		<value>Enter the recipient's email</value>
+	</string>
+	<string key="ReceiverEmail">
+		<value>Recipient Email</value>
+	</string>
+	<string key="UserAccountManagement">
+		<value>User credit management</value>
+	</string>
+	<string key="IncreaseCredit">
+		<value>Increase credit</value>
+	</string>
+	<string key="AmountIncrease">
+		<value>Increase rate</value>
+	</string>
+	<string key="DecreaseCredit">
+		<value>Decrease credit</value>
+	</string>
+	<string key="AmountDecrease">
+		<value>decrement</value>
+	</string>
+	<string key="ManageIncreaseCreditTransaction">
+		<value>Increase credibility to the user {0} - {1}</value>
+	</string>
+	<string key="ManageTaxDecreaseCreditTransaction">
+		<value> VAT increase by management</value>
+	</string>
+	<string key="ErrorAndEffort">
+		<value>Error! Operation failed. Please try again</value>
+	</string>
+	<string key="ManageDecreaseCreditTransaction">
+		<value>Decreased credibility of the user {0} - {1}</value>
+	</string>
+	<string key="PriceNumberDecreaseCreditTransaction">
+		<value>Reduction of credit for dedicated line</value>
+	</string>
+	<string key="ToUseThisFeatureLogin">
+		<value>Log in to use this feature</value>
+	</string>
+	<string key="TransactionList">
+		<value>List of transactions</value>
+	</string>
+	<string key="Manage">
+		<value>Management</value>
+	</string>
+	<string key="Cash">
+		<value>Cash</value>
+	</string>
+	<string key="Cheque">
+		<value>Cheque</value>
+	</string>
+	<string key="Fish">
+		<value>Bank receipt</value>
+	</string>
+	<string key="OnLine">
+		<value>Online</value>
+	</string>
+	<string key="Tax">
+		<value>Tax</value>
+	</string>
+	<string key="Card">
+		<value>Card</value>
+	</string>
+	<string key="AllStatus">
+		<value>All Status</value>
+	</string>
+	<string key="Uncertain">
+		<value>Uncertain</value>
+	</string>
+	<string key="Delivered">
+		<value>Delivered</value>
+	</string>
+	<string key="NotDeliver">
+		<value>UnDelivered</value>
+	</string>
+	<string key="InQueueCommunication">
+		<value>Queued</value>
+	</string>
+	<string key="DeliveredCommunication">
+		<value>Posted</value>
+	</string>
+	<string key="NotDeliverCommunication">
+		<value>Posted but not delivered</value>
+	</string>
+	<string key="SmsSentMessage">
+		<value>Submission completed successfully</value>
+	</string>
+	<string key="FailSendGroupSmsMessage">
+		<value>Your submission to the following groups failed. Please try again for the mentioned groups</value>
+	</string>
+	<string key="FialSendSingleSmsMessage">
+		<value>Your submission failed. Please try again</value>
+	</string>
+	<string key="AddPrivateNumber">
+		<value>Register senderId</value>
+	</string>
+	<string key="PrivateNumber">
+		<value>SenderId</value>
+	</string>
+	<string key="DecreaseFromPanel">
+		<value>Deduction from the panel charge</value>
+	</string>
+	<string key="PriceNumber">
+		<value>SenderId fee</value>
+	</string>
+	<string key="UsableToChildren">
+		<value>Usable by users</value>
+	</string>
+	<string key="ManagePrivateNumber">
+		<value>SenderId's management</value>
+	</string>
+	<string key="Price">
+		<value>Price</value>
+	</string>
+	<string key="Exactly">
+		<value>Exactly</value>
+	</string>
+	<string key="LessThan">
+		<value>less than</value>
+	</string>
+	<string key="MoreThan">
+		<value>more than</value>
+	</string>
+	<string key="NumberStatus">
+		<value>SenderId status</value>
+	</string>
+	<string key="DuplicatePrivateNumber">
+		<value>Duplicate senderId</value>
+	</string>
+	<string key="IncorrectPrivateNumber">
+		<value>Incorrect senderId</value>
+	</string>
+	<string key="Send">
+		<value>Send</value>
+	</string>
+	<string key="Recieve">
+		<value>Recieve</value>
+	</string>
+	<string key="Sold">
+		<value>Sold</value>
+	</string>
+	<string key="Sale">
+		<value>For sale</value>
+	</string>
+	<string key="Use">
+		<value>Personal use</value>
+	</string>
+	<string key="Shared">
+		<value>Shared</value>
+	</string>
+	<string key="SharedUse">
+		<value>Shared use</value>
+	</string>
+	<string key="NumberType">
+		<value>SenderId type</value>
+	</string>
+	<string key="StartValidity">
+		<value>Start</value>
+	</string>
+	<string key="EndValidity">
+		<value>End</value>
+	</string>
+	<string key="UseType">
+		<value>Type of application</value>
+	</string>
+	<string key="FailActiveNumber">
+		<value>This senderId has been disabled by management for you</value>
+	</string>
+	<string key="AssignNumberToUsers">
+		<value>Assign senderId to users</value>
+	</string>
+	<string key="ManageNumberOfUsers">
+		<value>Manage user senderId</value>
+	</string>
+	<string key="ErrorCredit">
+		<value>User inventory is not enough for the desired operation</value>
+	</string>
+	<string key="ConflictDateTime">
+		<value>Error! This senderId is occupied at the requested time</value>
+	</string>
+	<string key="DontConflictDateTime">
+		<value>The senderId in question does not interfere</value>
+	</string>
+	<string key="WarningConFilictDateTime">
+		<value>This senderId is occupied at the requested time. Should the registration operation be performed?</value>
+	</string>
+	<string key="CheckEmptyHourInput">
+		<value>Fill in the time field</value>
+	</string>
+	<string key="CheckEmptyPostalCodeInput">
+		<value>Fill in the zip code field</value>
+	</string>
+	<string key="FailPostalCodeInput">
+		<value>Enter the 10-digit zip code field</value>
+	</string>
+	<string key="CheckEmptyNationalCodeInput">
+		<value>Fill in the passport field</value>
+	</string>
+	<string key="FailphoneNumberInput">
+		<value>Phone number field must be a maximum of 10 digits</value>
+	</string>
+	<string key="FailNationalCodeInput">
+		<value>Enter the 10-digit national ID field</value>
+	</string>
+	<string key="CheckEmptyMinuteInput">
+		<value>Fill in the minute field</value>
+	</string>
+	<string key="FailHourInput">
+		<value>The time field value is incorrect</value>
+	</string>
+	<string key="FailMinuteInput">
+		<value>The minute field value is incorrect</value>
+	</string>
+	<string key="ManageAccountNumbers">
+		<value>Account management</value>
+	</string>
+	<string key="Bank">
+		<value>Bank</value>
+	</string>
+	<string key="OwnerAccountnumber">
+		<value>account owner</value>
+	</string>
+	<string key="Branch">
+		<value>Branch</value>
+	</string>
+	<string key="AccountNumber">
+		<value>account number</value>
+	</string>
+	<string key="CardNumber">
+		<value>card number</value>
+	</string>
+	<string key="AddAccountNumber">
+		<value>New account number</value>
+	</string>
+	<string key="EditAccountNumber">
+		<value>Edit account number</value>
+	</string>
+	<string key="EghtesadNovin">
+		<value>E-Novin</value>
+	</string>
+	<string key="Pasargad">
+		<value>Pasargad</value>
+	</string>
+	<string key="Parsian">
+		<value>Parsian</value>
+	</string>
+	<string key="Tat">
+		<value>Tat</value>
+	</string>
+	<string key="Tejarat">
+		<value>Tejarat</value>
+	</string>
+	<string key="Saman">
+		<value>Saman</value>
+	</string>
+	<string key="Sepah">
+		<value>Sepah</value>
+	</string>
+	<string key="Shahr">
+		<value>Shahr</value>
+	</string>
+	<string key="Saderat">
+		<value>Saderat</value>
+	</string>
+	<string key="Mehr">
+		<value>Mehr</value>
+	</string>
+	<string key="Keshavarzi">
+		<value>Keshavarzi</value>
+	</string>
+	<string key="Gardeshgari">
+		<value>Gardeshgari</value>
+	</string>
+	<string key="Maskan">
+		<value>Maskan</value>
+	</string>
+	<string key="Mellat">
+		<value>Mellat</value>
+	</string>
+	<string key="Melli">
+		<value>Melli</value>
+	</string>
+	<string key="Select">
+		<value>Select</value>
+	</string>
+	<string key="SelectPackage">
+		<value>Package selection</value>
+	</string>
+	<string key="SelectBank">
+		<value>Please select the desired bank</value>
+	</string>
+	<string key="Type">
+		<value>Type</value>
+	</string>
+	<string key="No.">
+		<value>Number</value>
+	</string>
+	<string key="SelectTypeNo">
+		<value>Please select a number type</value>
+	</string>
+	<string key="Pay">
+		<value>Pay</value>
+	</string>
+	<string key="TypePayment">
+		<value>Payment type</value>
+	</string>
+	<string key="CashPayment">
+		<value>Cash payment</value>
+	</string>
+	<string key="ChequePayment">
+		<value>Pay by cheque</value>
+	</string>
+	<string key="CardPayment">
+		<value>Card payment</value>
+	</string>
+	<string key="FishPayment">
+		<value>Deposit to account</value>
+	</string>
+	<string key="OnlinePayment">
+		<value>Online payment</value>
+	</string>
+	<string key="Amount">
+		<value>Amount</value>
+	</string>
+	<string key="PaymentDate">
+		<value>Payment date</value>
+	</string>
+	<string key="Description">
+		<value>Description</value>
+	</string>
+	<string key="ChequeNumber">
+		<value>Cheque number</value>
+	</string>
+	<string key="ChequeDate">
+		<value>Cheque date</value>
+	</string>
+	<string key="SerialNumber">
+		<value>Serial number</value>
+	</string>
+	<string key="FishNumber">
+		<value>receipt number</value>
+	</string>
+  <string key="FishAmount">
+    <value>Amount</value>
+  </string>
+	<string key="ActiveOtherPayment">
+		<value>Activate other payment methods</value>
+	</string>
+	<string key="IncorrectAmount">
+		<value>The amount entered is incorrect</value>
+	</string>
+	<string key="IsEmptyBank">
+		<value>Please enter the name of the bank</value>
+	</string>
+	<string key="IsEmptyChequeNumber">
+		<value>Please enter the Cheque number</value>
+	</string>
+	<string key="IsEmptySerialNumber">
+		<value>Please enter the serial number</value>
+	</string>
+	<string key="IsEmptyFishNumber">
+		<value>Please enter the receipt number</value>
+	</string>
+	<string key="IsDuplicateFishNumber">
+		<value>The receipt with this number has already been registered</value>
+	</string>
+	<string key="Character">
+		<value>Character</value>
+	</string>
+	<string key="Sms">
+		<value>Sms</value>
+	</string>
+	<string key="GroupPrice">
+		<value>Group price</value>
+	</string>
+	<string key="UsersFishes">
+		<value>User payments</value>
+	</string>
+	<string key="Confirmed">
+		<value>Confirmed</value>
+	</string>
+	<string key="Confirm">
+		<value>Confirm</value>
+	</string>
+	<string key="ConfirmBulkMessage">
+		<value>Bulk approved?</value>
+	</string>
+	<string key="RejectBulkMessage">
+		<value>Bulk Rejected?</value>
+	</string>
+	<string key="WatingForConfirm">
+		<value>Wating for confirmation</value>
+	</string>
+	<string key="Rejected">
+		<value>Rejected</value>
+	</string>
+	<string key="Reject">
+		<value>Reject</value>
+	</string>
+	<string key="Checking">
+		<value>Checking</value>
+	</string>
+	<string key="Account">
+		<value>Account</value>
+	</string>
+	<string key="PaymentDetails">
+		<value>Payment details</value>
+	</string>
+	<string key="ConfirmRejectSms">
+		<value>Are you sure you want to cancel the send SMS?</value>
+	</string>
+	<string key="CashPaymentTransaction">
+		<value>Increase credit for cash payments on </value>
+	</string>
+	<string key="ChequePaymentTransaction">
+		<value>Increase credit for payment of cheque number </value>
+	</string>
+	<string key="CardPaymentTransaction">
+		<value>Increase credit for card-to-card deposit to serial number </value>
+	</string>
+	<string key="FishPaymentTransaction">
+		<value>Increase the credit for depositing to the account to the receipt number {0} Number {1} SMS including {2} tax percentage</value>
+	</string>
+	<string key="DecreasePaymentTransaction">
+		<value>Reduction of credit for user {0} Number {1} SMS receipt number {2}</value>
+	</string>
+	<string key="OnlinePaymentTransaction">
+		<value>Increase credit for online shopping to transaction number {0}</value>
+	</string>
+	<string key="TaxOnlinePaymentTransaction">
+		<value>VAT on online shopping on {0}</value>
+	</string>
+	<string key="TaxCashPaymentTransaction">
+		<value>VAT paid in cash on</value>
+	</string>
+	<string key="TaxChequePaymentTransaction">
+		<value>VAT payment of the check to the check number </value>
+	</string>
+	<string key="TaxCardPaymentTransaction">
+		<value>VAT deposit card to card to serial number </value>
+	</string>
+	<string key="TaxFishPaymentTransaction">
+		<value>VAT deposit to the account to the receipt number </value>
+	</string>
+	<string key="ComputeTax">
+		<value>Tax Calculation</value>
+	</string>
+	<string key="CurrentCredit">
+		<value>Current Balance</value>
+	</string>
+	<string key="CountSmsInserted">
+		<value>Count of inserted SMS</value>
+	</string>
+	<string key="CountSmsFailInserted">
+		<value>Count of unregistered SMS</value>
+	</string>
+	<string key="CountNumberFail">
+		<value>Count of wrong numbers</value>
+	</string>
+	<string key="CountSmsFail">
+		<value>Count of wrong SMS</value>
+	</string>
+	<string key="CountEmailFail">
+		<value>Count of wrong Email</value>
+	</string>
+	<string key="ReportSend">
+		<value>Send report</value>
+	</string>
+	<string key="ReportStats">
+		<value>Statistical report</value>
+	</string>
+	<string key="BulkRequest">
+		<value>Bulk request</value>
+	</string>
+	<string key="As">
+		<value>As</value>
+	</string>
+	<string key="SendDate">
+		<value>Send date</value>
+	</string>
+	<string key="RegisterSettings">
+		<value>Save settings</value>
+	</string>
+	<string key="SaveSetting">
+		<value>Save setting</value>
+	</string>
+	<string key="UI_Settings_SaveSetting">
+		<value>General settings</value>
+	</string>
+	<string key="FlashSms">
+		<value>Flash SMS</value>
+	</string>
+	<string key="Normal">
+		<value>Normal</value>
+	</string>
+	<string key="Recipients">
+		<value>Recipients</value>
+	</string>
+  <string key="RecipientsWithSeprator">
+    <value>Receivers (comma separator)</value>
+  </string>
+	<string key="PostCode">
+		<value>PostCode</value>
+	</string>
+	<string key="InterfacePostCode">
+		<value>PostCode</value>
+	</string>
+	<string key="Prefix">
+		<value>Prefix</value>
+	</string>
+	<string key="ProvinceAndCity">
+		<value>Province and City</value>
+	</string>
+	<string key="From">
+		<value>From</value>
+	</string>
+	<string key="Count">
+		<value>Count</value>
+	</string>
+	<string key="To">
+		<value>To</value>
+	</string>
+	<string key="BulkID">
+		<value>Bulk Id</value>
+	</string>
+	<string key="AccountNotAuthenticated">
+		<value>Invalid account information</value>
+	</string>
+	<string key="BulkNotForThisUser">
+		<value>Bulk does not belong to this account</value>
+	</string>
+	<string key="BlankRecipientID">
+		<value>Bulk has no receiver</value>
+	</string>
+	<string key="ServerError">
+		<value>Server error, please resubmit your request</value>
+	</string>
+	<string key="BlankMessage">
+		<value>Enter message body</value>
+	</string>
+	<string key="BlankSenderNumber">
+		<value>Enter senderId</value>
+	</string>
+	<string key="InvalidMessageClass">
+		<value>Invalid bulk type</value>
+	</string>
+	<string key="InvalidSendDate">
+		<value>Invalid date</value>
+	</string>
+	<string key="BlankBulkID">
+		<value>The bulk ID is empty</value>
+	</string>
+	<string key="InvalidProvinceID">
+		<value>Invalid province ID</value>
+	</string>
+	<string key="InvalidBulkID">
+		<value>Bulk ID is invalid</value>
+	</string>
+	<string key="BlankPrefix">
+		<value>The prefix is empty</value>
+	</string>
+	<string key="InvalidPostalCode">
+		<value>Invalid postcode</value>
+	</string>
+	<string key="InvalidRecipientID">
+		<value>Invalid recipient</value>
+	</string>
+	<string key="InvalidSenderNumber">
+		<value>Invalid senderId</value>
+	</string>
+	<string key="invalidRecieverNumber">
+		<value>Invalid recipient number</value>
+	</string>
+	<string key="InvalidDestinationNetwork">
+		<value>It is not possible to send to this service provider</value>
+	</string>
+	<string key="UnreachableNetwork">
+		<value>Service provider not available</value>
+	</string>
+	<string key="DeactiveSenderNumber">
+		<value>The senderId is disabled</value>
+	</string>
+	<string key="InvalidFormatOfSenderNumber">
+		<value>The senderId is incorrect</value>
+	</string>
+	<string key="InvalidCityID">
+		<value>Invalid city ID</value>
+	</string>
+	<string key="InvalidNumberType">
+		<value>The number type parameter is invalid</value>
+	</string>
+	<string key="InvalidFromIndex">
+		<value>Invalid parameter value "from"</value>
+	</string>
+	<string key="InvalidPrefix">
+		<value>The prefix parameter value is invalid</value>
+	</string>
+	<string key="AddRecipient">
+		<value>To be added</value>
+	</string>
+	<string key="AddRecipientError">
+		<value>Please enter the SMS body first</value>
+	</string>
+	<string key="SelectGroupError">
+		<value>Please select a group</value>
+	</string>
+	<string key="Credits">
+		<value>Credit</value>
+	</string>
+	<string key="Permanent">
+		<value>Permanent</value>
+	</string>
+	<string key="BulkList">
+		<value>Bulk list</value>
+	</string>
+	<string key="SendTime">
+		<value>Sending time</value>
+	</string>
+	<string key="RowNumber">
+		<value>Row number</value>
+	</string>
+	<string key="COMPOSING">
+		<value>Creating</value>
+	</string>
+	<string key="PENDING">
+		<value>Pending</value>
+	</string>
+	<string key="ACCEPTED">
+		<value>Accepted</value>
+	</string>
+	<string key="REJECTED">
+		<value>Rejected</value>
+	</string>
+	<string key="STARTED">
+		<value>in progress</value>
+	</string>
+	<string key="FINISHED">
+		<value>Finished</value>
+	</string>
+  <string key="Finish">
+    <value>Finish</value>
+  </string>
+	<string key="HALTED">
+		<value>paused</value>
+	</string>
+	<string key="CANCELED">
+		<value>Canceled</value>
+	</string>
+	<string key="RecipientsList">
+		<value>Recipient list</value>
+	</string>
+	<string key="OptionsList">
+		<value>Option list</value>
+	</string>
+	<string key="BasedOn">
+		<value>Based on</value>
+	</string>
+	<string key="Province">
+		<value>Province</value>
+	</string>
+	<string key="InterfaceProvince">
+		<value>Province</value>
+	</string>
+	<string key="ProvinceName">
+		<value>Province Name</value>
+	</string>
+	<string key="City">
+		<value>City</value>
+	</string>
+	<string key="InterfaceCity">
+		<value>City</value>
+	</string>
+	<string key="RegisteredCity">
+		<value>Registered City</value>
+	</string>
+	<string key="CityName">
+		<value>City name</value>
+	</string>
+	<string key="CountIsIncorrect">
+		<value>The count of entered is incorrect</value>
+	</string>
+	<string key="OutOfService">
+		<value>Out Of Service</value>
+	</string>
+	<string key="ProvinceNotSelected">
+		<value>Please select the city and province</value>
+	</string>
+	<string key="SendDateTimeIncorrect">
+		<value>Invalid submission date and time</value>
+	</string>
+	<string key="HintDateTimeSendBulk">
+		<value>Sending time is allowed at least 15 minutes after the current system time.</value>
+	</string>
+	<string key="Sum">
+		<value>Total</value>
+	</string>
+	<string key="ConfirmDelete">
+		<value>Deleted?</value>
+	</string>
+	<string key="RegisterRequest">
+		<value>Submit a request</value>
+	</string>
+	<string key="ChangeNumberToPersian">
+		<value>Convert figures to UTF</value>
+	</string>
+	<string key="SystemTraceNo">
+		<value>Tracking number</value>
+	</string>
+	<string key="BulkDetails">
+		<value>Bulk details</value>
+	</string>
+	<string key="SendBulkSms">
+		<value>Send bulk SMS</value>
+	</string>
+	<string key="SendPeriodBulkSms">
+		<value>Send period bulk SMS</value>
+	</string>
+	<string key="SendGradualBulkSms">
+		<value>Send gradual bulk SMS</value>
+	</string>
+	<string key="DearUser">
+		<value>Dear user</value>
+	</string>
+	<string key="SalePackage">
+		<value>Buy a package</value>
+	</string>
+	<string key="ShargeAmount">
+		<value>Sharge Amount</value>
+	</string>
+	<string key="YouDontHavePermissionToAccsessFollowService">
+		<value>You do not have the necessary permissions to use the following service.</value>
+	</string>
+	<string key="ToBuyThisServiceClickOnServiceName">
+		<value>Click on its title to purchase this service.</value>
+	</string>
+	<string key="CompleteDomainNameField">
+		<value>Enter the domain name</value>
+	</string>
+	<string key="DomainList">
+		<value>List of domains</value>
+	</string>
+	<string key="DomainName">
+		<value>Domain name</value>
+	</string>
+	<string key="DomainExtention">
+		<value>Domain extension</value>
+	</string>
+	<string key="Action">
+		<value>Action</value>
+	</string>
+	<string key="ManageDomain">
+		<value>Manage domain</value>
+	</string>
+	<string key="EditDomain">
+		<value>Edit domain</value>
+	</string>
+	<string key="Edit">
+		<value>Edit</value>
+	</string>
+	<string key="Delete">
+		<value>Delete</value>
+	</string>
+	<string key="DuplicateDomainName">
+		<value>Domain name is duplicate</value>
+	</string>
+	<string key="UsersList">
+		<value>List of users</value>
+	</string>
+	<string key="ManageAgent">
+		<value>Agency management</value>
+	</string>
+	<string key="AdvanceEdit">
+		<value>Advanced editing</value>
+	</string>
+	<string key="ExportToExcel">
+		<value>Download as Excel</value>
+	</string>
+	<string key="ExportToPdf">
+		<value>Download as Pdf</value>
+	</string>
+	<string key="SmsPrice">
+		<value>SMS price</value>
+	</string>
+	<string key="Yes">
+		<value>Yes</value>
+	</string>
+	<string key="No">
+		<value>No</value>
+	</string>
+	<string key="Credit">
+		<value>Credit</value>
+	</string>
+	<string key="CellPhone">
+		<value>CellPhone </value>
+	</string>
+	<string key="TypeCreditChange">
+		<value>Type of credit change</value>
+	</string>
+	<string key="PreviousCredit">
+		<value>Previous credit</value>
+	</string>
+	<string key="Increase">
+		<value>Increase</value>
+	</string>
+	<string key="Decrease">
+		<value>Decrease</value>
+	</string>
+	<string key="NextCredit">
+		<value>Next credit</value>
+	</string>
+	<string key="UpTo">
+		<value>UpTo</value>
+	</string>
+	<string key="TypeTransaction">
+		<value>Transaction type</value>
+	</string>
+	<string key="SendAdvancedGroupSms">
+		<value>Send advanced SMS</value>
+	</string>
+	<string key="SendAdvancedSpecialGroupSms ">
+		<value>Send advanced text messages to special groups</value>
+	</string>
+	<string key="SendSmsRange">
+		<value>Send suffering SMS</value>
+	</string>
+	<string key="SendFutureSingleSms">
+		<value>Send a single SMS in the future</value>
+	</string>
+	<string key="SendFutureGroupSms">
+		<value>Send group SMS in the future</value>
+	</string>
+	<string key="SendFutureAdvancedGroupSms">
+		<value>Send advanced SMS in the future</value>
+	</string>
+	<string key="SendFormatAdvancedGroupSms">
+		<value>Send dynamic advanced texting in the future</value>
+	</string>
+	<string key="SendFutureSingleSmsInPeriod">
+		<value>Send a single SMS for a certain period</value>
+	</string>
+	<string key="SendFutureGroupSmsInPeriod">
+		<value>Send group text messages for a certain period</value>
+	</string>
+	<string key="SendFutureAdvancedGroupSmsInPeriod">
+		<value>Send advanced SMS in a certain period</value>
+	</string>
+	<string key="SendFutureSmsInDateTimeField">
+		<value>Send SMS in the future based on the date field</value>
+	</string>
+	<string key="SendRangesSms">
+		<value>Send intermittent SMS</value>
+	</string>
+	<string key="SendFormatRangesSms">
+		<value>Send intermittent dynamic SMS</value>
+	</string>
+	<string key="SendCitySms">
+		<value>Send SMS to city and province</value>
+	</string>
+	<string key="ServiceName">
+		<value>Service name</value>
+	</string>
+	<string key="CompleteServiceTitleField">
+		<value>Fill in the service title field</value>
+	</string>
+	<string key="ServicesList">
+		<value>List of services</value>
+	</string>
+	<string key="SaveService">
+		<value>Service registration</value>
+	</string>
+	<string key="ViewTheMenu">
+		<value>Show in the menu</value>
+	</string>
+	<string key="ServicePrice">
+		<value>Service fee</value>
+	</string>
+	<string key="ServicePage">
+		<value>Service page</value>
+	</string>
+	<string key="SelectService">
+		<value>Service selection</value>
+	</string>
+	<string key="Presentable">
+		<value>Ability to display</value>
+	</string>
+	<string key="CompleteServiceGroupTitleField">
+		<value>Enter the service group title field</value>
+	</string>
+	<string key="CompleteServiceGroupOrderField">
+		<value>Enter the service group priority field</value>
+	</string>
+	<string key="ServiceGroupsList">
+		<value>List of menus</value>
+	</string>
+	<string key="Order">
+		<value>Priority</value>
+	</string>
+	<string key="CountService">
+		<value>Number of services</value>
+	</string>
+	<string key="InvalidValueServiceGroupOrderField">
+		<value>Invalid service group priority field value</value>
+	</string>
+	<string key="RegisterFish">
+		<value>Register the receipt</value>
+	</string>
+	<string key="SaveServiceGroup">
+		<value>Register Menu</value>
+	</string>
+	<string key="Icon">
+		<value>Icon</value>
+	</string>
+	<string key="UserServicePriceNotice">
+		<value>To edit the service cost, click on the cost amount in the table below</value>
+	</string>
+	<string key="RoleServicePriceNotice">
+		<value>
+           1) To edit the service cost, click on the cost amount in the table below. {0}
+           2) In order for your service to be considered by default and
+              No need to check the price, check the desired service.
+		</value>
+	</string>
+	<string key="ErrorExistRecord">
+		<value>No record found</value>
+	</string>
+	<string key="AccessesList">
+		<value>Access list</value>
+	</string>
+	<string key="AccessName">
+		<value>Access title</value>
+	</string>
+	<string key="SaveAccess">
+		<value>Save</value>
+	</string>
+	<string key="Status">
+		<value>Status</value>
+	</string>
+	<string key="RecordValueIsNotValid">
+		<value>Invalid values entered</value>
+	</string>
+	<string key="PriceValueIsNotValid">
+		<value>The fee is invalid</value>
+	</string>
+	<string key="DetermineGroupPrice">
+		<value>Determine the price group</value>
+	</string>
+	<string key="CompleteTitleField">
+		<value>Fill in the title field</value>
+	</string>
+	<string key="GroupPriceList">
+		<value>Tariff list</value>
+	</string>
+	<string key="RegisterGroupPrice">
+		<value>SMS price group registration</value>
+	</string>
+	<string key="DuplicateGroupPriceName">
+		<value>The title of the price group is duplicate</value>
+	</string>
+	<string key="PriceRangeList">
+		<value>List of price ranges</value>
+	</string>
+	<string key="MinimumCredit">
+		<value>Minimum balance</value>
+	</string>
+	<string key="MaximumCredit">
+		<value>Maximum balance</value>
+	</string>
+	<string key="FarsiIranCell">
+		<value>UTF8</value>
+	</string>
+	<string key="Latin">
+		<value>Latin</value>
+	</string>
+	<string key="LatinIranCell">
+		<value>Latin</value>
+	</string>
+	<string key="CompleteMinimumRangeField">
+		<value>Fill in the minimum interval field</value>
+	</string>
+	<string key="InvalidMinimumRangeField">
+		<value>The minimum interval value is invalid</value>
+	</string>
+	<string key="CompleteMaximumRangeField">
+		<value>Fill in the maximum interval field</value>
+	</string>
+	<string key="InvalidMaximumRangeField">
+		<value>The maximum interval value is invalid</value>
+	</string>
+	<string key="CompleteCostOfSmsFarsi">
+		<value>Enter the cost of UTF8 SMS</value>
+	</string>
+	<string key="InvalidCostOfSmsFarsi">
+		<value>UTF8 SMS fee is invalid</value>
+	</string>
+	<string key="CompleteFarsiIranCellField">
+		<value>Enter the cost of UTF8 SMS</value>
+	</string>
+	<string key="InvalidFarsiIranCellField">
+		<value>The cost of UTF8 SMS is invalid</value>
+	</string>
+	<string key="CompleteCostOfSmsLatin">
+		<value>Enter Latin SMS fee</value>
+	</string>
+	<string key="InvalidCostOfSmsLatin">
+		<value>Latin SMS fee is invalid</value>
+	</string>
+	<string key="CompleteLatinIranCellField">
+		<value>Enter Latin SMS fee</value>
+	</string>
+	<string key="InvalidLatinIranCellField">
+		<value>Latin SMS fee is invalid</value>
+	</string>
+	<string key="CostOfFarsiSms">
+		<value>The cost of UTF8 SMS</value>
+	</string>
+	<string key="PriceOfFarsiIranCell">
+		<value>The cost of UTF8 SMS</value>
+	</string>
+	<string key="CostOfLatinSms">
+		<value>Latin SMS fee</value>
+	</string>
+	<string key="PriceOfLatinIranCell">
+		<value>The cost of Latin SMS</value>
+	</string>
+	<string key="SavePriceRange">
+		<value>Record price range</value>
+	</string>
+	<string key="GroupTitle">
+		<value>Group title</value>
+	</string>
+	<string key="InvalidMaximumuserField">
+		<value>The value of the maximum number of user fields is invalid</value>
+	</string>
+	<string key="NumbersList">
+		<value>List of numbers</value>
+	</string>
+	<string key="Sex">
+		<value>Gender </value>
+	</string>
+	<string key="TellYourAdmin">
+		<value>Contact Management</value>
+	</string>
+	<string key="DecreaseFromPanelChargeForActivationService">
+		<value>Reduction of panel charge for service activation</value>
+	</string>
+	<string key="FieldsList">
+		<value>List of fields</value>
+	</string>
+	<string key="EditField">
+		<value>Edit field</value>
+	</string>
+	<string key="DuplicateFieldName">
+		<value>The field name is duplicate</value>
+	</string>
+	<string key="ErrorUserFieldRange">
+		<value>Your allowed field range has expired</value>
+	</string>
+	<string key="ErrorDeleteUserField">
+		<value>This field has a value</value>
+	</string>
+	<string key="CompleteUserFieldTitle">
+		<value>Enter the field title</value>
+	</string>
+	<string key="CompleteSmsFormatNameField">
+		<value>Enter the template title</value>
+	</string>
+	<string key="CompleteSmsFormatField">
+		<value>Your template has no fields</value>
+	</string>
+	<string key="SetSmsTextFormat">
+		<value>Set the text of the SMS</value>
+	</string>
+	<string key="SmsFormatsList">
+		<value>List of templates</value>
+	</string>
+	<string key="SelectAll">
+		<value>Select all</value>
+	</string>
+  <string key="SelectSmsFormat">
+    <value>Select SMS format</value>
+  </string>
+	<string key="AddCustomText">
+		<value>Add custom text</value>
+	</string>
+	<string key="Preview">
+		<value>Preview</value>
+	</string>
+	<string key="Job">
+		<value>Job </value>
+	</string>
+	<string key="Telephone">
+		<value>Telephone </value>
+	</string>
+	<string key="InterfaceTelephone">
+		<value>Telephone </value>
+	</string>
+	<string key="FaxNumber">
+		<value>Fax</value>
+	</string>
+	<string key="AddSingle">
+		<value>Add single</value>
+	</string>
+	<string key="AddList">
+		<value>Add list</value>
+	</string>
+	<string key="AddFromFile">
+		<value>Add from file</value>
+	</string>
+	<string key="File">
+		<value>File</value>
+	</string>
+	<string key="ConditionsRegisterNumber">
+		<value>Number registration conditions</value>
+	</string>
+	<string key="SaveSingleNumber">
+		<value>Single number registration</value>
+	</string>
+	<string key="NewGroup">
+		<value>New group</value>
+	</string>
+	<string key="EditGroup">
+		<value>Edit group</value>
+	</string>
+	<string key="DeleteDuplicateNumberInGroup">
+		<value>Delete duplicate numbers in this group</value>
+	</string>
+	<string key="DeleteDuplicateNumberInTotalGroup">
+		<value>Delete duplicate numbers in all groups</value>
+	</string>
+	<string key="DeleteDuplicateEmailInGroup">
+		<value>Delete duplicate emails in this group</value>
+	</string>
+	<string key="DeleteDuplicateEmailInTotalGroup">
+		<value>Delete duplicate emails in all groups</value>
+	</string>
+	<string key="ErrorMaximumPhoneNumber">
+		<value>Your permission to register number has expired</value>
+	</string>
+	<string key="ErrorMaximumEmailAddress">
+		<value>Your email registration limit has expired</value>
+	</string>
+	<string key="ErrorDuplicateNumber">
+		<value>The desired number is duplicate</value>
+	</string>
+	<string key="Man">
+		<value>Man</value>
+	</string>
+	<string key="Woman">
+		<value>Female</value>
+	</string>
+	<string key="Male">
+		<value>Male</value>
+	</string>
+	<string key="Female">
+		<value>Female</value>
+	</string>
+	<string key="Boy">
+		<value>Boy</value>
+	</string>
+	<string key="Girl">
+		<value>Girl</value>
+	</string>
+	<string key="He">
+		<value>He</value>
+	</string>
+	<string key="She">
+		<value>She</value>
+	</string>
+	<string key="SaveListNumber">
+		<value>Register the number list</value>
+	</string>
+	<string key="IncorectNumbers">
+		<value>Wrong numbers</value>
+	</string>
+	<string key="SessionExpiredNeedToLoginAgain">
+		<value>Please log in again.</value>
+	</string>
+	<string key="TotalNumberOfRegistered">
+		<value>Total Number of registered numbers</value>
+	</string>
+	<string key="TotalSmsOfRegistered">
+		<value>Total Number of registered SMS</value>
+	</string>
+	<string key="TotalEmailOfRegistered">
+		<value>Number of registered emails</value>
+	</string>
+	<string key="TotalNumberOfDuplicate">
+		<value>Number of duplicate numbers</value>
+	</string>
+	<string key="TotalEmailOfDuplicate">
+		<value>Number of duplicate emails</value>
+	</string>
+	<string key="TotalNumberOfNotRegistered">
+		<value>Number of unregistered numbers</value>
+	</string>
+	<string key="TotalEmailOfNotRegistered">
+		<value>Number of unregistered emails</value>
+	</string>
+	<string key="UserServicesList">
+		<value>List of user services</value>
+	</string>
+	<string key="UserAccessesList">
+		<value>User access list</value>
+	</string>
+	<string key="ManageAccesses">
+		<value>Access management</value>
+	</string>
+	<string key="ActivationAccess">
+		<value>Activate access</value>
+	</string>
+	<string key="SaveFileNumber">
+		<value>Save from File</value>
+	</string>
+	<string key="SelectFile">
+		<value>select file</value>
+	</string>
+  <string key="DeleteFile">
+    <value>Delete file</value>
+  </string>
+	<string key="ReadFile">
+		<value>Read file</value>
+	</string>
+	<string key="FromColumn">
+		<value>From column</value>
+	</string>
+	<string key="FirstRowHasColumnNames">
+		<value>The first row contains the column name</value>
+	</string>
+	<string key="ErrorSelectFile">
+		<value>Please select your file</value>
+	</string>
+	<string key="ErrorSelectColumn">
+		<value>The permissible range of the two columns is 1 and 2</value>
+	</string>
+	<string key="EditNumber">
+		<value>Edit number</value>
+	</string>
+	<string key="DefinePrivateNumber">
+		<value>Define senderId</value>
+	</string>
+	<string key="SmsSenderAgent">
+		<value>SMS Sender provider</value>
+	</string>
+	<string key="SaveSmsSenderAgent">
+		<value>Save</value>
+	</string>
+	<string key="EditSmsSenderAgent">
+		<value>Edit</value>
+	</string>
+	<string key="Name">
+		<value>Name</value>
+	</string>
+	<string key="SmsSenderAgentsList">
+		<value>List of SMS sender provider</value>
+	</string>
+	<string key="DuplicateSmsSenderAgentName">
+		<value>The name is duplicate</value>
+	</string>
+	<string key="PrivateNumbersList">
+		<value>SenderId list</value>
+	</string>
+	<string key="SavePrivateNumber">
+		<value>Save</value>
+	</string>
+	<string key="EditPrivateNumber">
+		<value>Edit</value>
+	</string>
+	<string key="ErrorDeletePrivateNumber">
+		<value>This senderId in use</value>
+	</string>
+	<string key="UserPrivateNumbersList">
+		<value>SenderId list</value>
+	</string>
+	<string key="UseChildren">
+		<value>Users use</value>
+	</string>
+	<string key="Operator">
+		<value>Operator</value>
+	</string>
+	<string key="Expire">
+		<value>Expire</value>
+	</string>
+	<string key="Expired">
+		<value>Expired</value>
+	</string>
+	<string key="Unexpired">
+		<value>Unexpired</value>
+	</string>
+	<string key="PrivateNumberStatus">
+		<value>SenderId status</value>
+	</string>
+	<string key="CountUsers">
+		<value>User count</value>
+	</string>
+	<string key="CountFutureSmses">
+		<value>Count of future SMS</value>
+	</string>
+	<string key="CompleteStartValidity">
+		<value>Validity start date</value>
+	</string>
+	<string key="CompleteEndValidity">
+		<value>Validity end date</value>
+	</string>
+	<string key="CompleteTypePrivateNumber">
+		<value>Specify the type of senderId</value>
+	</string>
+	<string key="CompleteUseTypePrivateNumber">
+		<value>Specify how to use the senderId</value>
+	</string>
+	<string key="Return">
+		<value>Return</value>
+	</string>
+	<string key="InvalidUseType">
+		<value>Invalid uses type</value>
+	</string>
+	<string key="DecreaseCreditForSendSms">
+		<value>Charge deduction due to sending SMS to {0} recipient</value>
+	</string>
+	<string key="DecreaseCreditForSendBulkSms">
+		<value>Charge deduction due to sending {0} SMS - {1} Part - {2}</value>
+	</string>
+	<string key="DecreaseCreditForRegisterDomain">
+		<value>Charge deduction due to domain registration: {0} for {1} years</value>
+	</string>
+	<string key="PartCount">
+		<value>Part count</value>
+	</string>
+  <string key="Parts">
+    <value>SMS parts</value>>
+  </string>
+	<string key="Sender">
+		<value>Sender</value>
+	</string>
+	<string key="Reciever">
+		<value>Reciever</value>
+	</string>
+	<string key="Receiver">
+		<value>Receiver</value>
+	</string>
+	<string key="SmsSentsList">
+		<value>List of sent SMS</value>
+	</string>
+	<string key="NotDelivered">
+		<value>Not Delivered</value>
+	</string>
+	<string key="ReceivedDate">
+		<value>Received Date</value>
+	</string>
+	<string key="Read">
+		<value>Read</value>
+	</string>
+	<string key="Unread">
+		<value>Unread</value>
+	</string>
+	<string key="SmsRecievedList">
+		<value>List of recieved SMS</value>
+	</string>
+	<string key="UI_Accesses_SaveAccess">
+		<value>Save access</value>
+	</string>
+	<string key="UI_GroupPrices_SaveGroupPrice">
+		<value>Save group price</value>
+	</string>
+	<string key="DefaultGroupPrice">
+		<value>Default group price</value>
+	</string>
+	<string key="IsDefaultForUsers">
+		<value>Default for users</value>
+	</string>
+	<string key="DefaultPriceRoleService">
+		<value>Default price of services</value>
+	</string>
+	<string key="SetPriceRoleService">
+		<value>Apply price</value>
+	</string>
+	<string key="UI_Users_DetermineGroupPrice">
+		<value>Determine the user price group</value>
+	</string>
+	<string key="UI_PriceRanges_SavePriceRange">
+		<value>Save price range</value>
+	</string>
+	<string key="UI_Users_AdvanceEdit">
+		<value>Advanced user editing</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveSingleNumber">
+		<value>Single number registration</value>
+	</string>
+	<string key="UI_UserAccesses_UserAccess">
+		<value>User services</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveListNumber">
+		<value>Register list number</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveFileNumber">
+		<value>Save from file</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SmsSenderAgent">
+		<value>SMS sender operator</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SaveSmsSenderAgent">
+		<value>Save sms sender operator</value>
+	</string>
+	<string key="UI_PrivateNumbers_SavePrivateNumber">
+		<value>Save senderId</value>
+	</string>
+	<string key="UI_PrivateNumbers_NumberStatus">
+		<value>View users using the senderId</value>
+	</string>
+	<string key="UI_PrivateNumbers_SaveUserPrivateNumber">
+		<value>Assign a senderId to users</value>
+	</string>
+	<string key="UI_SmsReports_SentBox">
+		<value>List of sent SMS</value>
+	</string>
+	<string key="UI_SmsReports_Inbox">
+		<value>List of incoming SMS</value>
+	</string>
+	<string key="UI_UserServices_DefineGlobalServicePrice">
+		<value>Determine the price of the service</value>
+	</string>
+	<string key="UI_UserServices_BuyService">
+		<value>Buy service</value>
+	</string>
+	<string key="BuyService">
+		<value>Buy service</value>
+	</string>
+	<string key="AccountInformation">
+		<value>Account numbers</value>
+	</string>
+	<string key="AccountInformationList">
+		<value>account numbers list</value>
+	</string>
+	<string key="CompleteAccountOwnerField">
+		<value>Fill in the account holder field.</value>
+	</string>
+	<string key="CompleteBranchField">
+		<value>Fill in the branch field.</value>
+	</string>
+	<string key="CompleteAccountNoField">
+		<value>Fill in the account number field.</value>
+	</string>
+	<string key="InvalidAccountNoFieldValue">
+		<value>The value of the account number field is invalid.</value>
+	</string>
+	<string key="AccountNoType">
+		<value>Account number type</value>
+	</string>
+	<string key="UI_AccountInformations_SaveAccount">
+		<value>Register account number</value>
+	</string>
+	<string key="SaveAccountNumber">
+		<value>Register a new account number</value>
+	</string>
+	<string key="UserFishesList">
+		<value>List of payment receipts</value>
+	</string>
+	<string key="CompletePaymentDate">
+		<value>Fill in the payment date field</value>
+	</string>
+	<string key="CompleteChequeDate">
+		<value>Fill in the check history field</value>
+	</string>
+	<string key="AdvancedEditUser">
+		<value>Advanced user editing</value>
+	</string>
+	<string key="AddNumber">
+		<value>Add senderId</value>
+	</string>
+	<string key="OutBoxList">
+		<value>List of sent SMS</value>
+	</string>
+	<string key="Inbox">
+		<value>List of incoming SMS</value>
+	</string>
+	<string key="SentBox">
+		<value>Sent SMS</value>
+	</string>
+	<string key="OutBox">
+		<value>OutBox</value>
+	</string>
+	<string key="SendBox">
+		<value>OutBox</value>
+	</string>
+	<string key="TypeSend">
+		<value>Send type</value>
+	</string>
+	<string key="GiveBackCostOfUnsuccessfulSent">
+		<value>Refund of failed SMS costs</value>
+	</string>
+	<string key="GiveBackCostOfUnsuccessfulSentBulk">
+		<value>Refund of failed bulk SMS costs</value>
+	</string>
+	<string key="IncreaseCreditForUnsuccessfulSent">
+		<value>Increase credit due to return of unsuccessful sent SMS.  {0} SMS {1} part</value>
+	</string>
+	<string key="Magfa">
+		<value>Magfa</value>
+	</string>
+	<string key="Asanak">
+		<value>Asanak</value>
+	</string>
+	<string key="DuplicateSmsSenderAgentReference">
+		<value>This SMS operator is already registered in the system.</value>
+	</string>
+	<string key="DuplicateSmsSenderAgentReferenceAndName">
+		<value>The name is a duplicate</value>
+	</string>
+	<string key="RecieveActive">
+		<value>Enable receiving SMS</value>
+	</string>
+	<string key="SendActive">
+		<value>Enable sending SMS</value>
+	</string>
+	<string key="SendBulkActive">
+		<value>Enable sending bulk SMS</value>
+	</string>
+	<string key="SendBulkIsAutomatic">
+		<value>Bulk sending will be done automatically</value>
+	</string>
+	<string key="GroupName">
+		<value>Group name</value>
+	</string>
+	<string key="EnterGroupNameWarning">
+		<value>Enter group name</value>
+	</string>
+	<string key="PrivateGroup">
+		<value>Private group</value>
+	</string>
+	<string key="AddGroup">
+		<value>Add group</value>
+	</string>
+  <string key="GroupType">
+    <value>Group Type</value>
+  </string>
+  <string key="GroupTypeNormal">
+    <value>Normal</value>
+  </string>
+  <string key="GroupTypeVAS">
+    <value>VAS</value>
+  </string>
+  <string key="VASGroup">
+    <value>VAS group</value>
+  </string>
+  <string key="VASRegisterKeyword">
+    <value>Registration Keyword</value>
+  </string>
+  <string key="VASUnRegisterKeyword">
+    <value>Un-Register Keyword</value>
+  </string>
+  <string key="VASNumber">
+    <value>VAS Number</value>
+  </string>
+  <string key="UserAccess">
+    <value>User access</value>
+  </string>
+  <string key="GroupCode">
+    <value>Group Code</value>
+  </string>
+	<string key="Cut">
+		<value>Cut</value>
+	</string>
+	<string key="Paste">
+		<value>Paste</value>
+	</string>
+	<string key="PhoneBookNotice">
+		<value>Right click on the group and select the desired option.</value>
+	</string>
+	<string key="AddField">
+		<value>Add field</value>
+	</string>
+	<string key="PhoneBookUserField">
+		<value>Additional field in the phonebook</value>
+	</string>
+	<string key="StartUpPage">
+		<value>Startup page</value>
+	</string>
+	<string key="Theme">
+		<value>Theme</value>
+	</string>
+	<string key="Shortcut">
+		<value>Shortcut</value>
+	</string>
+  <string key="ShortcutList">
+    <value>Shortcut List</value>
+  </string>
+	<string key="CompleteShortcutList">
+		<value>You have no services</value>
+	</string>
+	<string key="InvalidFileExtension">
+		<value>Invalid file extension</value>
+	</string>
+  <string key="TextFileExtension">
+    <value>The format of the file columns must be TEXT</value>
+  </string>
+  <string key="ChartTitle">
+		<value>Activity chart for the last 10 days</value>
+	</string>
+	<string key="Sent">
+		<value>Sent</value>
+	</string>
+	<string key="DontSend">
+		<value>Not sent</value>
+	</string>
+	<string key="inQueueSms">
+		<value>Sending...</value>
+	</string>
+	<string key="Recieved">
+		<value>Recieved</value>
+	</string>
+	<string key="TypeShow">
+		<value>Display type</value>
+	</string>
+	<string key="StatisticsSend">
+		<value>Send report</value>
+	</string>
+	<string key="BarRenderer">
+		<value>Bar graph</value>
+	</string>
+	<string key="LineRenderer">
+		<value>Linear graph</value>
+	</string>
+	<string key="PieRenderer">
+		<value>Pie chart</value>
+	</string>
+	<string key="FeaturesOfSystem">
+		<value>System features</value>
+	</string>
+	<string key="SystemForSpecificApplications">
+		<value>Specific applications of the system</value>
+	</string>
+	<string key="PricesList">
+		<value>Price list</value>
+	</string>
+	<string key="CopyRight">
+		<value>Arad ITC Co. http://arad-itc.com</value>
+	</string>
+	<string key="ContactUs">
+		<value>ContactUs</value>
+	</string>
+	<string key="AboutUs">
+		<value>AboutUs</value>
+	</string>
+	<string key="Downloads">
+		<value>Downloads</value>
+	</string>
+	<string key="CustomersList">
+		<value>Our customer</value>
+	</string>
+	<string key="AgentsList">
+		<value>Our reseller</value>
+	</string>
+	<string key="HamrahAval">
+		<value>MCI</value>
+	</string>
+	<string key="Irancell">
+		<value>Irancell</value>
+	</string>
+	<string key="MTN">
+		<value>MTN</value>
+	</string>
+	<string key="Farsi">
+		<value>Farsi</value>
+	</string>
+	<string key="YourCredit">
+		<value>Your balance</value>
+	</string>
+	<string key="Rial">
+		<value>ریال</value>
+	</string>
+	<string key="JavaScriptInYourBrowserIsDisableOrYourBrowserDontSupportJavaScript">
+		<value>JavaScript is disabled in your browser, or your browser does not support JavaScript.</value>
+	</string>
+	<string key="ToUseSitePleaseActiveJavaScriptOrUseAnOtherBrowser">
+		<value>Please enable JavaScript in your browser or use another browser to use the site features.</value>
+	</string>
+	<string key="SmsSendSystem">
+		<value>SMS Gateway</value>
+	</string>
+	<string key="VisitSite">
+		<value>Visit</value>
+	</string>
+	<string key="CreateAccount">
+		<value>Create an account</value>
+	</string>
+	<string key="InvalidCurrentPassword">
+		<value>Password is incorrect</value>
+	</string>
+	<string key="NewPassword">
+		<value>New password</value>
+	</string>
+	<string key="ConfirmNewPassword">
+		<value>Confirm new password</value>
+	</string>
+	<string key="WelcomeToPanel">
+		<value>Welcome back</value>
+	</string>
+	<string key="Facilities">
+		<value>feature</value>
+	</string>
+	<string key="ComprehensiveGuide">
+		<value>User manual</value>
+	</string>
+	<string key="SuccessRegisterUser">
+		<value>Your registration was successful</value>
+	</string>
+	<string key="DefineUserShortcut">
+		<value>Definition of shortcuts</value>
+	</string>
+	<string key="MainPageTitle">
+		<value>Arad message gateway</value>
+	</string>
+	<string key="SendBulk">
+		<value>Send bulk</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupSms">
+		<value>Advanced send SMS</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupSms_PhoneBook">
+		<value>PhoneBook</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupSms_SpecialGroups">
+		<value>Special groups</value>
+	</string>
+	<string key="SendAvancedGroupSms">
+		<value>Advanced send SMS</value>
+	</string>
+	<string key="FromIndex">
+		<value>From the index</value>
+	</string>
+	<string key="ToIndex">
+		<value>Up to index</value>
+	</string>
+	<string key="Format">
+		<value>Format</value>
+	</string>
+	<string key="UI_SmsSends_SendFormatSms">
+		<value>Send SMS using template</value>
+	</string>
+	<string key="SendFormatSms">
+		<value>Send SMS using template</value>
+	</string>
+	<string key="UI_SmsSends_SendSingleFutureSms">
+		<value>Send single SMS in the future</value>
+	</string>
+	<string key="UI_SmsSends_SendGroupFutureSms">
+		<value>Send group SMS in the future</value>
+	</string>
+	<string key="SendFutureSmsFormat">
+		<value>Send using template SMS in the future</value>
+	</string>
+	<string key="UI_SmsSends_SendFutureSmsFormat">
+		<value>Send using template SMS in the future</value>
+	</string>
+	<string key="Per">
+		<value>Per</value>
+	</string>
+	<string key="Once">
+		<value>Once</value>
+	</string>
+	<string key="PerMinute">
+		<value>Minute</value>
+	</string>
+	<string key="PerHour">
+		<value>Hour</value>
+	</string>
+	<string key="PerDaily">
+		<value>Daily</value>
+	</string>
+	<string key="PerWeekly">
+		<value>Weekly</value>
+	</string>
+	<string key="PerMonthly">
+		<value>Monthly</value>
+	</string>
+	<string key="PerYearly">
+		<value>Annually</value>
+	</string>
+	<string key="Minute">
+		<value>Minutes</value>
+	</string>
+	<string key="Hour">
+		<value>Hourly</value>
+	</string>
+	<string key="Daily">
+		<value>Daily</value>
+	</string>
+	<string key="Weekly">
+		<value>Weekly</value>
+	</string>
+	<string key="Monthly">
+		<value>Monthly</value>
+	</string>
+	<string key="Yearly">
+		<value>Annually</value>
+	</string>
+	<string key="UI_SmsSends_SendPeriodFutureSingleSms">
+		<value>Send periodic single SMS</value>
+	</string>
+	<string key="StartDate">
+		<value>Start date</value>
+	</string>
+	<string key="EndDate">
+		<value>End date </value>
+	</string>
+	<string key="StartSendTime">
+		<value>Start time</value>
+	</string>
+	<string key="EndSendTime">
+		<value>End time</value>
+	</string>
+	<string key="UI_SmsSends_SendPeriodFutureGroupSms">
+		<value>Send periodic group SMS</value>
+	</string>
+	<string key="UI_SmsSends_SendBirthDateSms">
+		<value>Send birthday SMS</value>
+	</string>
+	<string key="SendBirthDateSms">
+		<value>Send birthday SMS</value>
+	</string>
+	<string key="GalleryImage">
+		<value>Image gallery</value>
+	</string>
+	<string key="SaveGalleryImage">
+		<value>Add new gallery</value>
+	</string>
+	<string key="UI_GalleryImages_GalleryImage">
+		<value>Image gallery</value>
+	</string>
+	<string key="UI_GalleryImages_SaveGalleryImage">
+		<value>Add new gallery</value>
+	</string>
+	<string key="Image">
+		<value>Pic</value>
+	</string>
+	<string key="SaveImage">
+		<value>New pic</value>
+	</string>
+	<string key="UI_Images_Image">
+		<value>Pic</value>
+	</string>
+	<string key="UI_Images_SaveImage">
+		<value>New pic</value>
+	</string>
+	<string key="CompleteGalleryImageTitleTitleField">
+		<value>Enter title</value>
+	</string>
+	<string key="GalleryImagesList">
+		<value>Image gallery</value>
+	</string>
+	<string key="GalleryTitle">
+		<value>Title</value>
+	</string>
+	<string key="EditGalleryImage">
+		<value>Edit</value>
+	</string>
+	<string key="CompleteGalleryImageGuidField">
+		<value>Select image gallery</value>
+	</string>
+	<string key="CompleteImageTitleTitleField">
+		<value>Enter title</value>
+	</string>
+	<string key="CompleteImagePathField">
+		<value>Enter URL</value>
+	</string>
+	<string key="GalleryImageTitle">
+		<value>Gallery name</value>
+	</string>
+	<string key="UploadedFileIsNotAllowed">
+		<value>Invalid file</value>
+	</string>
+	<string key="CompleteUseGuidField">
+		<value>Enter user name</value>
+	</string>
+	<string key="ErrorAtUploadingFile">
+		<value>Error uploading file</value>
+	</string>
+	<string key="EditImage">
+		<value>Edit pic</value>
+	</string>
+	<string key="Creator">
+		<value>Creator</value>
+	</string>
+	<string key="DataCenterTitle">
+		<value>DataCenter name</value>
+	</string>
+	<string key="News">
+		<value>News</value>
+	</string>
+	<string key="SiteInfo">
+		<value>Site info</value>
+	</string>
+	<string key="DataCenter">
+		<value>DataCenter</value>
+	</string>
+	<string key="Summary">
+		<value>Summary</value>
+	</string>
+	<string key="Content">
+		<value>Content</value>
+	</string>
+	<string key="FromDate">
+		<value>Start date</value>
+	</string>
+	<string key="ToDate">
+		<value>End date</value>
+	</string>
+	<string key="TodayDateTime">
+		<value>Today</value>
+	</string>
+	<string key="AvailableFarsiSms">
+		<value>Persian messages can be sent</value>
+	</string>
+	<string key="AvailableLatinSms">
+		<value>Latin messages can be sent</value>
+	</string>
+	<string key="SpecialGroups">
+		<value>Special groups</value>
+	</string>
+	<string key="FailSendSmsMessage">
+		<value>Error sending message</value>
+	</string>
+	<string key="ErrorRegisterSms">
+		<value>Your request was not made to the following groups. Please reapply for the mentioned groups</value>
+	</string>
+	<string key="ShortcutNotice">
+		<value>To define a shortcut, drag the desired service from the list of services and drop it in the blue box, and also to move the services in the blue box, you can take the service and move it.</value>
+	</string>
+	<string key="SendP2PSmsNotice">
+		<value>To set the text of the SMS, drag the desired column from the list of columns and drop it in the blue box, and also to move the columns in the blue box, you can grab and move the column.</value>
+	</string>
+	<string key="ForSendSubsetUser">
+		<value>Send user {0}</value>
+	</string>
+	<string key="RegisterDomainForSubsetUser">
+		<value>User domain registration {0}</value>
+	</string>
+	<string key="ForSendBulkSubsetUser">
+		<value>To send bulk subset users</value>
+	</string>
+	<string key="TerminalID">
+		<value>TerminalID</value>
+	</string>
+	<string key="AccountInfo">
+		<value>Account Information</value>
+	</string>
+	<string key="OnlineGatewayInfo">
+		<value>Online payment gateway information</value>
+	</string>
+	<string key="OnlineGatewayIsActive">
+		<value>Online payment</value>
+	</string>
+	<string key="BillNumber">
+		<value>Transaction number</value>
+	</string>
+	<string key="CreditRequired">
+		<value>The amount of credit required</value>
+	</string>
+	<string key="PaymentAmount">
+		<value>Amount</value>
+	</string>
+	<string key="TaxValueAdded">
+		<value>VAT</value>
+	</string>
+	<string key="OnlineGatewayInfoIncorrect">
+		<value>Incorrect payment details</value>
+	</string>
+	<string key="UnknownAccount">
+		<value>Unknown account</value>
+	</string>
+	<string key="OnlinePaymentSuccessful">
+		<value>Payment operation completed successfully.</value>
+	</string>
+	<string key="OnlinePaymentIncreaseTransactionDescription">
+		<value>Increase credit for online payment</value>
+	</string>
+	<string key="TaxOfOnlinePayment">
+		<value>VAT</value>
+	</string>
+	<string key="AddGroupTemplate">
+		<value>Register SMS template group</value>
+	</string>
+	<string key="UI_GroupTemplates_GroupTemplate">
+		<value>SMS template group</value>
+	</string>
+	<string key="UI_GroupTemplates_SaveGroupTemplate">
+		<value>Register SMS template group</value>
+	</string>
+	<string key="UI_SmsTemplates_SaveSmsTemplate">
+		<value>Register SMS template</value>
+	</string>
+	<string key="UI_SmsTemplates_SmsTemplate">
+		<value>SMS template</value>
+	</string>
+	<string key="AddSmsTemplate">
+		<value>Register SMS template</value>
+	</string>
+	<string key="GroupTemplateList">
+		<value>SMS template group list</value>
+	</string>
+	<string key="RegisterGroupTemplate">
+		<value>Register SMS template group</value>
+	</string>
+	<string key="EditGroupTemplate">
+		<value>Edit SMS template group</value>
+	</string>
+	<string key="SmsTemplateList">
+		<value>SMS template list</value>
+	</string>
+	<string key="RegisterSmsTemplate">
+		<value>Register SMS template</value>
+	</string>
+	<string key="EdiSmsTemplate">
+		<value>Edit SMS template</value>
+	</string>
+	<string key="GroupTemplate">
+		<value>SMS template group</value>
+	</string>
+	<string key="DuplicateTitleGroupTemplate">
+		<value>The group title is a duplicate SMS pattern</value>
+	</string>
+	<string key="SendAdvancedGroupSmsUpRangeError">
+		<value>Invalid field value</value>
+	</string>
+	<string key="SendAdvancedGroupFutureSmsUpRangeError">
+		<value>Invalid field value</value>
+	</string>
+	<string key="UI_DataCenters_DataCenter">
+		<value>Content category</value>
+	</string>
+	<string key="UI_DataCenters_SaveDataCenter">
+		<value>New content category</value>
+	</string>
+	<string key="DataCentersList">
+		<value>Category list</value>
+	</string>
+	<string key="SaveDataCenter">
+		<value>Save category</value>
+	</string>
+	<string key="ContentList">
+		<value>Content list</value>
+	</string>
+	<string key="Domain">
+		<value>Domain</value>
+	</string>
+	<string key="SaveTemplate">
+		<value>Save SMS template</value>
+	</string>
+	<string key="LoadTemplate">
+		<value>View SMS template</value>
+	</string>
+	<string key="SmsBodyIsEmpty">
+		<value>Please enter the message text.</value>
+	</string>
+	<string key="UI_SmsTemplates_LoadSmsTemplate">
+		<value>Display a list of templates when texting</value>
+	</string>
+	<string key="LoadSmsTemplate">
+		<value>Display a list of templates when texting</value>
+	</string>
+	<string key="Add">
+		<value>Add</value>
+	</string>
+	<string key="ImagesList">
+		<value>Image list</value>
+	</string>
+	<string key="ShowImage">
+		<value>Show pic</value>
+	</string>
+	<string key="EditDataCenter">
+		<value>Edit datacenter</value>
+	</string>
+	<!--<string key="EditNews">
+		<value>ویرایش خبر</value>
+	</string>-->
+	<string key="ReportType">
+		<value>Report type</value>
+	</string>
+	<string key="OperatorName">
+		<value>SMS Operator</value>
+	</string>
+	<string key="Group">
+		<value>Group</value>
+	</string>
+	<string key="RecieveTime">
+		<value>Recieve time</value>
+	</string>
+	<string key="CompleteImageTitleField">
+		<value>Fill in the title field.</value>
+	</string>
+	<string key="CompleteGalleryImageTitleField">
+		<value>Fill in the title field.</value>
+	</string>
+	<string key="UI_SmsReports_ShowChartDetails">
+		<value>See post details on the chart</value>
+	</string>
+	<string key="ChartDetails">
+		<value>See post details on the chart</value>
+	</string>
+	<string key="UserCreditNotEnough">
+		<value>Credit Not Enough</value>
+	</string>
+	<string key="AdminCreditNotEnough">
+		<value>Admin credit Not Enough</value>
+	</string>
+	<string key="CountOfDomainAdmin">
+		<value>This domain have another admin</value>
+	</string>
+	<string key="PrivateNumberIsInactive">
+		<value>The senderId is disabled</value>
+	</string>
+	<string key="PrivateNumberIsExpired">
+		<value>The senderId is expired</value>
+	</string>
+	<string key="UserIsInactive">
+		<value>The username is disabled</value>
+	</string>
+	<string key="AdminIsInactive">
+		<value>The admin username is disabled</value>
+	</string>
+	<string key="PrivateNumberNotValid">
+		<value>The senderId is invalid</value>
+	</string>
+	<string key="NotDefineSmsRateType">
+		<value>SMS sending price is not set</value>
+	</string>
+	<string key="None">
+		<value></value>
+	</string>
+	<string key="DuplicatePhoneBookName">
+		<value>A group with this title has already been registered</value>
+	</string>
+	<string key="GroupOfPhoneBookHasSubGroupError">
+		<value>This group includes subgroups. First, delete the subgroups</value>
+	</string>
+	<string key="GroupOfPhoneBookHasNumberError">
+		<value>This group contains numbers. First, delete the numbers</value>
+	</string>
+	<string key="GeneralPhoneBook">
+		<value>Phonebook of special groups</value>
+	</string>
+	<string key="Completed">
+		<value>Completed</value>
+	</string>
+	<string key="InProgress">
+		<value>InProgress</value>
+	</string>
+	<string key="InSearch">
+		<value>Searching ...</value>
+	</string>
+	<string key="Faild">
+		<value>Failed</value>
+	</string>
+	<string key="Pending">
+		<value>Pending</value>
+	</string>
+	<string key="UserGeneralGroupPriceNotice">
+		<value>To edit the group cost, click on the cost amount in the table below</value>
+	</string>
+	<string key="GeneralPhoneBookList">
+		<value>List of special groups</value>
+	</string>
+	<string key="UserGeneralPhoneBookList">
+		<value>List of special user groups</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_DefineGlobalGroupPrice">
+		<value>Determining the price of special groups</value>
+	</string>
+	<string key="ActivationService">
+		<value>Activation of services</value>
+	</string>
+	<string key="GeneralPhoneBooks">
+		<value>Special groups</value>
+	</string>
+	<string key="DetermineServicePrice">
+		<value>Determining the price of services</value>
+	</string>
+	<string key="Services">
+		<value>Services</value>
+	</string>
+	<string key="DetermineGeneralPhoneBookPrice">
+		<value>Determining the price of special groups</value>
+	</string>
+	<string key="DecreaseFromPanelChargeForActivationGeneralPhoneBook">
+		<value>Reduction of panel charge for activating special groups</value>
+	</string>
+	<string key="ActivationGeneralPhoneBook">
+		<value>Activate special groups</value>
+	</string>
+	<string key="ShortcutsIcon_Register">
+		<value>Register</value>
+	</string>
+	<string key="ShortcutsIcon_Login">
+		<value>Login</value>
+	</string>
+	<string key="ShortcutsIcon_Demo">
+		<value>Demo</value>
+	</string>
+	<string key="ShowChartDetails">
+		<value>Show details</value>
+	</string>
+	<string key="Show">
+		<value>Show</value>
+	</string>
+	<string key="UI_UserFishes_UserFish">
+		<value>List of bank receipts</value>
+	</string>
+	<string key="UserFish">
+		<value>List of bank receipts</value>
+	</string>
+	<string key="LoginStat">
+		<value>Login and logout statistics</value>
+	</string>
+	<string key="UI_Users_LoginStat">
+		<value>Login and logout statistics</value>
+	</string>
+	<string key="SignIn">
+		<value>Login</value>
+	</string>
+	<string key="SignOut">
+		<value>Logout</value>
+	</string>
+	<string key="SendAdvancedSpecialGroupSms">
+		<value>Advanced sending special groups</value>
+	</string>
+	<string key="SendSpecialGroupFutureSms">
+		<value>Advanced sending special groups</value>
+	</string>
+	<string key="SendSpecialGroupSms">
+		<value>Advanced sending groups</value>
+	</string>
+	<string key="UserSetting">
+		<value>User setting</value>
+	</string>
+	<string key="UI_Users_UserSetting">
+		<value>User setting</value>
+	</string>
+	<string key="Setting">
+		<value>Setting</value>
+	</string>
+	<string key="BlackTie">
+		<value>BlackTie</value>
+	</string>
+	<string key="Blitzer">
+		<value>Blitzer</value>
+	</string>
+	<string key="Cupertino">
+		<value>Cupertino</value>
+	</string>
+	<string key="DarkHive">
+		<value>DarkHive</value>
+	</string>
+	<string key="Darkness">
+		<value>Darkness</value>
+	</string>
+	<string key="DotLuv">
+		<value>DotLuv</value>
+	</string>
+	<string key="Eggplant">
+		<value>Eggplant</value>
+	</string>
+	<string key="ExciteBike">
+		<value>ExciteBike</value>
+	</string>
+	<string key="Flick">
+		<value>Flick</value>
+	</string>
+	<string key="HotSneaks">
+		<value>HotSneaks</value>
+	</string>
+	<string key="Humanity">
+		<value>Humanity</value>
+	</string>
+	<string key="LeFrog">
+		<value>LeFrog</value>
+	</string>
+	<string key="Lightness">
+		<value>Lightness</value>
+	</string>
+	<string key="MintChoc">
+		<value>MintChoc</value>
+	</string>
+	<string key="Overcast">
+		<value>Overcast</value>
+	</string>
+	<string key="PepperGrinder">
+		<value>PepperGrinder</value>
+	</string>
+	<string key="Redmond">
+		<value>Redmond</value>
+	</string>
+	<string key="Smoothness">
+		<value>Smoothness</value>
+	</string>
+	<string key="SouthStreet">
+		<value>SouthStreet</value>
+	</string>
+	<string key="Start">
+		<value>Start</value>
+	</string>
+	<string key="Sunny">
+		<value>Sunny</value>
+	</string>
+	<string key="SwankyPurse">
+		<value>SwankyPurse</value>
+	</string>
+	<string key="Trontastic">
+		<value>Trontastic</value>
+	</string>
+	<string key="Vader">
+		<value>Vader</value>
+	</string>
+	<string key="SendSmsAfterLogin">
+		<value>Send SMS when login</value>
+	</string>
+	<string key="SendWarningSmsWhenCreditIsLowerThan">
+		<value>Send alert SMS if balance is less than</value>
+	</string>
+	<string key="SendWarningSms">
+		<value>Send alert SMS</value>
+	</string>
+	<string key="DaysBeforeExpire">
+		<value>Send an alert SMS a few days before the panel expires</value>
+	</string>
+	<string key="Complete UserSetting LowCredit value">
+		<value>Invalid balance for alert</value>
+	</string>
+	<string key="Complete UserSetting Theme value">
+		<value>Select theme</value>
+	</string>
+	<string key="Complete UserSetting Expiration value">
+		<value>Select the desired number of days before expiration</value>
+	</string>
+	<string key="Everything">
+		<value>Whatever</value>
+	</string>
+	<string key="StartsWith">
+		<value>StartsWith</value>
+	</string>
+	<string key="StartsWithAfterDeleteSelf">
+		<value>Start with after deleting itself</value>
+	</string>
+	<string key="EndsWith">
+		<value>EndsWith</value>
+	</string>
+	<string key="EndsWithAfterDeleteSelf">
+		<value>End with after deleting itself</value>
+	</string>
+	<string key="SitesLogo">
+		<value>Site logou</value>
+	</string>
+	<string key="SitesTitle">
+		<value>Site title</value>
+	</string>
+	<string key="SitesFooter">
+		<value>Site footer</value>
+	</string>
+	<string key="SlideShowGallery">
+		<value>Pic for slider</value>
+	</string>
+	<string key="UserAdvancedSetting">
+		<value>Advanced setting</value>
+	</string>
+	<string key="Topic">
+		<value>Related content</value>
+	</string>
+	<string key="CompleteDomainSettingDomainGuidField">
+		<value>Enter the domain</value>
+	</string>
+	<string key="CompleteDomainSettingKeyField">
+		<value>Enter the setting key</value>
+	</string>
+	<string key="CompleteDomainSettingValueField">
+		<value>Enter the value for the key</value>
+	</string>
+	<string key="SitesFavicon">
+		<value>Site icon</value>
+	</string>
+	<string key="Settings">
+		<value>Settings</value>
+	</string>
+	<string key="UI_Settings_Setting">
+		<value>Gateway settings</value>
+	</string>
+	<string key="DomainSettings_SitesLogo_Notice">
+		<value>Uploaded image must be up to 70 pixels high</value>
+	</string>
+	<string key="TariffLists">
+		<value>SMS Tariff</value>
+	</string>
+	<string key="Tariff">
+		<value>Tariff</value>
+	</string>
+	<string key="FixTariff">
+		<value>Fix Tariff</value>
+	</string>
+	<string key="ErrorMaximumAdmin">
+		<value>Your permission to register as an administrator has expired</value>
+	</string>
+	<string key="CompleteDomainMenuTypeField">
+		<value>Enter the menu type</value>
+	</string>
+	<string key="CompleteDomainMenuTitleField">
+		<value>Enter the menu title</value>
+	</string>
+	<string key="Link">
+		<value>Link</value>
+	</string>
+	<string key="SendLink">
+		<value>Send Link</value>
+	</string>
+	<string key="DeliveryLink">
+		<value>Delivery Link</value>
+	</string>
+	<string key="TargetType">
+		<value>How to display</value>
+	</string>
+	<!--<string key="UI_DomainMenu_SaveDomainMenu">
+		<value>ایجاد منو</value>
+	</string>-->
+	<!--<string key="SaveDomainMenu">
+		<value>ایجاد منو</value>
+	</string>-->
+	<string key="StaticPage">
+		<value>Static pages</value>
+	</string>
+	<string key="DynamicPage">
+		<value>Dynamic page</value>
+	</string>
+	<string key="ExternalUrl">
+		<value>External link</value>
+	</string>
+	<string key="BottomRight">
+		<value>Down, right</value>
+	</string>
+	<string key="BottomCenter">
+		<value>Down, middle</value>
+	</string>
+	<string key="BottomLeft">
+		<value>Down, left</value>
+	</string>
+	<string key="TopRight">
+		<value>Top, right</value>
+	</string>
+	<string key="TopCenter">
+		<value>Top, middle</value>
+	</string>
+	<string key="TopLeft">
+		<value>Top, left</value>
+	</string>
+	<string key="Left">
+		<value>Left</value>
+	</string>
+	<string key="Right">
+		<value>Right</value>
+	</string>
+	<string key="SelfPage">
+		<value>Show on current page</value>
+	</string>
+	<string key="BlankPage">
+		<value>Show in new page</value>
+	</string>
+	<string key="ParentPage">
+		<value>Parent page</value>
+	</string>
+	<string key="StaticPageReference">
+		<value>Static page</value>
+	</string>
+	<string key="DomainMenuList">
+		<value>List of menus</value>
+	</string>
+	<string key="EditDomainMenu">
+		<value>Edit menu</value>
+	</string>
+	<string key="UI_DomainMenu_DomainMenu">
+		<value>Menus</value>
+	</string>
+	<string key="DomainMenu">
+		<value>Menus</value>
+	</string>
+	<string key="CompleteNewsSummaryField">
+		<value>Enter a summary</value>
+	</string>
+	<string key="CompleteNewsContentField">
+		<value>Enter the text</value>
+	</string>
+	<string key="CompleteDesktopMenuLocationField">
+		<value>Enter the menu position</value>
+	</string>
+	<string key="CompleteDesktopMenuLocationDesktopField">
+		<value>Enter the desktop</value>
+	</string>
+	<string key="Desktop">
+		<value>Desktop</value>
+	</string>
+	<string key="UI_DataCenters_SaveDataLocation">
+		<value>Content display position settings</value>
+	</string>
+	<string key="SaveDataLocation">
+		<value>Content display position settings</value>
+	</string>
+	<string key="MainDesktop">
+		<value>Main</value>
+	</string>
+	<string key="OrangeDesktop">
+		<value>Orange</value>
+	</string>
+	<string key="WindowsDesktop">
+		<value>Windows</value>
+	</string>
+	<string key="AradDesktop">
+		<value>Arad</value>
+	</string>
+	<string key="AddFiles">
+		<value>added.</value>
+	</string>
+	<string key="Default">
+		<value>Home</value>
+	</string>
+	<string key="UI_EmailBooks_EmailBook">
+		<value>Email Booklet</value>
+	</string>
+	<string key="EmailBook">
+		<value>Email Booklet</value>
+	</string>
+	<string key="AddEmail">
+		<value>Add email</value>
+	</string>
+	<string key="UI_Users_EditProfile">
+		<value>Edit profile</value>
+	</string>
+	<string key="UI_UserFishes_FishDetails">
+		<value>Payment details</value>
+	</string>
+	<string key="UI_SmsReports_OutBox">
+		<value>OutBox</value>
+	</string>
+	<string key="UI_Users_UserShortcuts">
+		<value>Create shortcut</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_GeneralPhoneBook">
+		<value>Special groups</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_GeneralNumber">
+		<value>Add numbers to special groups</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_SaveSingleGeneralNumber">
+		<value>Add single numbers to special groups</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_SaveListGeneralNumber">
+		<value>Add numbers from list to special groups</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_SaveFileGeneralNumber">
+		<value>Add numbers from file to special groups</value>
+	</string>
+	<string key="UI_SmsSends_SendCitySms">
+		<value>Send SMS to province or City</value>
+	</string>
+	<string key="UI_SmsSends_SendPrefixSms">
+		<value>Send SMS via perfix</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_DefineGeneralGroupPrice">
+		<value>Determining the price of special groups</value>
+	</string>
+	<string key="UI_SmsSends_SendPostalCodeSms">
+		<value>Send SMS to ZipCode</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedSearchGroupSms">
+		<value>Smart sending</value>
+	</string>
+	<string key="UI_Domains_DomainSetting">
+		<value>Domain settings</value>
+	</string>
+	<string key="UI_News_ShowNews">
+		<value>View news text</value>
+	</string>
+	<string key="ManageSmsSenderAgent">
+		<value>SMS Sender provider</value>
+	</string>
+  <string key="SmsSenderAgentSetting">
+    <value>SMS provider setting</value>
+  </string>
+	<string key="AssignPrivateNumberToUser">
+		<value>Assign senderId</value>
+	</string>
+	<string key="DefineGlobalServicePrice">
+		<value>Determine the price of the service</value>
+	</string>
+	<string key="DefineUserServicePrice">
+		<value>Determining the price of user services</value>
+	</string>
+	<string key="DefinePhoneBookField">
+		<value>Define a supplementary field in the phonebook</value>
+	</string>
+	<string key="ManagePhoneNumber">
+		<value>List of phonebook numbers</value>
+	</string>
+	<string key="DefineUserGroupPrice">
+		<value>Determine the user price group</value>
+	</string>
+	<string key="DefineUserAccess">
+		<value>Determine user permissions</value>
+	</string>
+	<string key="ViewUserTransaction">
+		<value>View user transactions</value>
+	</string>
+	<string key="ViewUserEditProfile">
+		<value>View user profile</value>
+	</string>
+	<string key="GalleryImageList">
+		<value>Image gallery list</value>
+	</string>
+	<string key="DataCenterList">
+		<value>Content category list</value>
+	</string>
+	<string key="ManageGeneralNumber">
+		<value>List of group numbers in special groups</value>
+	</string>
+	<string key="AddFileGeneralNumber">
+		<value>Add numbers to special groups from file</value>
+	</string>
+	<string key="AddSingleGeneralNumber">
+		<value>Add single numbers to special groups</value>
+	</string>
+	<string key="AddListGeneralNumber">
+		<value>Add list numbers to special groups</value>
+	</string>
+	<string key="SendPostalCodeSms">
+		<value>Send SMS to zip code</value>
+	</string>
+	<string key="SendPrefixSms">
+		<value>Send SMS to prefix</value>
+	</string>
+	<string key="DefineGeneralGroupPrice">
+		<value>Determining the price of special groups</value>
+	</string>
+	<string key="UserGeneralPhoneBook">
+		<value>User special groups</value>
+	</string>
+	<string key="SendAdvancedSearchGroupSms">
+		<value>Smart sending</value>
+	</string>
+	<string key="DomainSetting">
+		<value>Domain settings</value>
+	</string>
+	<string key="ShowNews">
+		<value>View news text</value>
+	</string>
+	<string key="EmailsList">
+		<value>Email list</value>
+	</string>
+	<string key="SaveEmail">
+		<value>Email registration</value>
+	</string>
+	<string key="EditEmail">
+		<value>Edit Email</value>
+	</string>
+	<string key="UI_EmailBooks_EmailAddress">
+		<value>Email Booklet Group List</value>
+	</string>
+	<string key="ManageEmail">
+		<value>Email Booklet Group List</value>
+	</string>
+	<string key="UI_EmailBooks_SaveEmail">
+		<value>Email registration</value>
+	</string>
+	<string key="IncorectEmails">
+		<value>Wrong emails</value>
+	</string>
+	<string key="ConditionsRegisterEmail">
+		<value>Email registration conditions</value>
+	</string>
+	<string key="SendSingleEmail">
+		<value>Send a single email</value>
+	</string>
+	<string key="EmailSender">
+		<value>Email sender</value>
+	</string>
+	<string key="UI_EmailSends_SendSingleEmail">
+		<value>Send a single email</value>
+	</string>
+	<string key="DefaultPage">
+		<value>Main Page</value>
+	</string>
+	<string key="LargeIcon">
+		<value>Large image</value>
+	</string>
+	<string key="UI_Users_RegisterLight">
+		<value>Register</value>
+	</string>
+	<string key="RegisterLight">
+		<value>Register</value>
+	</string>
+	<string key="AndroidDesktop">
+		<value>AndroidDesktop</value>
+	</string>
+	<string key="RemainingSmsCount">
+		<value>Number of text messages remaining</value>
+	</string>
+	<string key="PanelInformation">
+		<value>Panel Information</value>
+	</string>
+	<string key="RemainingDaysToExpirePanel">
+		<value>Time until panel expiration</value>
+	</string>
+	<string key="SendSingleSmsQuickly">
+		<value>Send SMS Quickly</value>
+	</string>
+	<string key="UI_EmailSettings_UserEmailSetting">
+		<value>Email setting</value>
+	</string>
+	<string key="UserEmailSetting">
+		<value>Email setting</value>
+	</string>
+	<string key="UI_EmailSettings_SaveSetting">
+		<value>Save setting</value>
+	</string>
+	<string key="SaveEmailSetting">
+		<value>Save setting</value>
+	</string>
+	<string key="EditEmailSetting">
+		<value>Edit email setting</value>
+	</string>
+	<string key="DuplicateEmail">
+		<value>The email entered is in use</value>
+	</string>
+	<string key="Subject">
+		<value>Subject</value>
+	</string>
+	<string key="TotalEmails">
+		<value>Total emails</value>
+	</string>
+	<string key="SendGroupEmail">
+		<value>Send Group Email</value>
+	</string>
+	<string key="UI_EmailSends_SendGroupEmail">
+		<value>Send Group Email</value>
+	</string>
+	<string key="CompleteRequiredFields">
+		<value>Complete required fields</value>
+	</string>
+	<string key="EnteredNumberIsNotValid">
+		<value>The format of the entered number is incorrect</value>
+	</string>
+	<string key="MobileNumberIsNotValid">
+		<value>The format of the entered number is incorrect</value>
+	</string>
+	<string key="MobileNumbersIsNotValid">
+		<value>The format of the entered numbers is incorrect</value>
+	</string>
+	<string key="NumberOfValidMobileNumbers">
+		<value>The number of integers</value>
+	</string>
+	<string key="EmailIsNotValid">
+		<value>The format of the entered email is incorrect</value>
+	</string>
+	<string key="EmailsIsNotValid">
+		<value>The format of the entered emails is incorrect</value>
+	</string>
+	<string key="NumberOfValidEmails">
+		<value>Correct number of emails</value>
+	</string>
+	<string key="Alert">
+		<value>Alert</value>
+	</string>
+	<string key="FormatBasedOn">
+		<value>Format based</value>
+	</string>
+	<string key="Ok">
+		<value>Ok</value>
+	</string>
+	<string key="DuplicateGroupName">
+		<value>A group with this title has already been registered</value>
+	</string>
+	<string key="GroupHasSubGroupWarning">
+		<value>This group includes subgroups. First, delete the subgroups</value>
+	</string>
+	<string key="AttachedFiles">
+		<value>Attachments</value>
+	</string>
+	<string key="Details">
+		<value>Details</value>
+	</string>
+	<string key="EditSendSms">
+		<value>Edit sending SMS</value>
+	</string>
+	<string key="SentDateTime">
+		<value>Sent date</value>
+	</string>
+	<string key="SmsEditedSuccessfully">
+		<value>SMS successfully edited</value>
+	</string>
+	<string key="SmsEditFaild">
+		<value>Error editing SMS</value>
+	</string>
+	<string key="SmsRejectedSuccessfully">
+		<value>The SMS was canceled</value>
+	</string>
+	<string key="FaildSend">
+		<value>Not sent</value>
+	</string>
+	<string key="SendError">
+		<value>Error sending SMS</value>
+	</string>
+	<string key="SendGroupName">
+		<value>Subject group</value>
+	</string>
+	<string key="EnteredPeriodIsNotCorrect">
+		<value>Invalid time period</value>
+	</string>
+	<string key="SecretaryName">
+		<value>Secretary Title</value>
+	</string>
+	<string key="Keyword">
+		<value>Keyword</value>
+	</string>
+	<string key="Keywords">
+		<value>Keywords</value>
+	</string>
+  <string key="KeywordsList">
+    <value>Keyword list</value>
+  </string>
+  <string key="KeywordsDescription">
+    <value>Keywords description</value>
+  </string>
+  <string key="KeywordsName">
+    <value>Keywords name</value>
+  </string>
+	<string key="KeywordType">
+		<value>Keyword type</value>
+	</string>
+	<string key="Amalgar">
+		<value>operator</value>
+	</string>
+	<string key="CaseSensitive">
+		<value>case sensitive</value>
+	</string>
+	<string key="ResponseBy">
+		<value>Reply via</value>
+	</string>
+	<string key="AnalystSms">
+		<value>SMS Analyzer</value>
+	</string>
+	<string key="UI_SmsParsers_Filters_SmsFilter">
+		<value>SMS Analyzer</value>
+	</string>
+	<string key="UI_SmsParsers_Filters_SaveFilter">
+		<value>SMS Analyzer Registration</value>
+	</string>
+	<string key="SaveSmsFilter">
+		<value>SMS Analyzer Registration</value>
+	</string>
+	<string key="Unlimited">
+		<value>Unlimited</value>
+	</string>
+	<string key="Contain">
+		<value>Contain</value>
+	</string>
+	<string key="SaveInPhoneBook">
+		<value>Save in the phonebook</value>
+	</string>
+	<string key="Priority">
+		<value>Priority</value>
+	</string>
+	<string key="Seperator">
+		<value>Seperator</value>
+	</string>
+	<string key="IncreaseCreditForUnsuccessfulSentBulk">
+		<value>Increase credit due to refund of unsuccessful sending of bulk {0} SMS {1} part</value>
+	</string>
+	<string key="SendSmsNextLogin">
+		<value>Login on {0}</value>
+	</string>
+	<string key="SendSmsLowCredit">
+		<value>Your SMS balance is less than {0}. Please charge.</value>
+	</string>
+	<string key="SendSmsPanelExpiration">
+		<value>Your account will expire in {0} day. Please renew it.</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupFutureSms">
+		<value>Send advanced SMS in the future</value>
+	</string>
+	<string key="SendAdvancedSpecialGroupFutureSms">
+		<value>Send advanced SMS to special groups in the future</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedSpecialGroupFutureSms">
+		<value>Send advanced SMS to special groups in the future</value>
+	</string>
+	<string key="ErrorMaximumUser">
+		<value>محدوده تعداد کاربر مجازه شما به اتمام رسیده است. </value>
+	</string>
+	<string key="ShowBlackListNumber">
+		<value>View blacklisted numbers</value>
+	</string>
+	<string key="UI_SmsReports_ShowBlackListNumber">
+		<value>View blacklisted numbers</value>
+	</string>
+	<string key="Secretary">
+		<value>Secretary</value>
+	</string>
+	<string key="CompetitionName">
+		<value>Competition title</value>
+	</string>
+  <string key="CompetitionFromMobile">
+    <value>From number</value>
+  </string>
+  <string key="CompetitionGroupAllert">
+    <value>By selecting any phonebook group, only members of the same group will be eligible to participate</value>
+  </string>
+  <string key="CompetitionMember">
+    <value>Member of</value>
+  </string>
+  <string key="CompetitionResponse">
+    <value>Response to participants</value>
+  </string>
+  <string key="CompetitionAnswerAfterResponse">
+    <value>Answer text after receiving the answer</value>
+  </string>
+  <string key="CompetitionAnswerAfterDublicate">
+    <value>Answer text if the respondent has already participated</value>
+  </string>
+  <string key="CompetitionAnswerText">
+    <value>Text message of the participant</value>
+  </string>
+  <string key="CompetitionSaveToGroupText">
+    <value>By selecting the group, the number of participants will be added to the desired group</value>
+  </string>
+	<string key="UI_SmsParsers_Competitions_Competition">
+		<value>Competition</value>
+	</string>
+	<string key="UI_SmsParsers_Competitions_SaveCompetition">
+		<value>Save competition</value>
+	</string>
+	<string key="Competition">
+		<value>Competition</value>
+	</string>
+	<string key="SaveCompetition">
+		<value>Save competition</value>
+	</string>
+	<string key="CompetitionQuestion">
+		<value>Quiz question</value>
+	</string>
+	<string key="ReceiveMultiResponse">
+		<value>Get multiple answers from one person</value>
+	</string>
+	<string key="OptionName">
+		<value>Option title</value>
+	</string>
+	<string key="ReplyWordType">
+		<value>Answer word type</value>
+	</string>
+	<string key="AdvancedSettings">
+		<value>advanced settings</value>
+	</string>
+	<string key="NoReply">
+		<value>No answer</value>
+	</string>
+	<string key="ReplyWord">
+		<value>Answer word</value>
+	</string>
+	<string key="SecretaryAttribute">
+		<value>Secretary Profile</value>
+	</string>
+	<string key="DefineGroup">
+		<value>Determine the group</value>
+	</string>
+	<string key="DefineReplyword">
+		<value>Determine the answer word</value>
+	</string>
+	<string key="Equal">
+		<value>equal to</value>
+	</string>
+	<string key="UnEqual">
+		<value>Not equal to</value>
+	</string>
+	<string key="GreaterThan">
+		<value>bigger than</value>
+	</string>
+	<string key="GreaterEqual">
+		<value>Larger equals</value>
+	</string>
+	<string key="Smaller">
+		<value>smaller than</value>
+	</string>
+	<string key="LessEqual">
+		<value>Smaller equals</value>
+	</string>
+	<string key="Poll">
+		<value>Poll</value>
+	</string>
+	<string key="SavePoll">
+		<value>Save Poll</value>
+	</string>
+	<string key="UI_SmsParsers_Polls_Poll">
+		<value>Poll</value>
+	</string>
+	<string key="UI_SmsParsers_Polls_SavePoll">
+		<value>Save Poll</value>
+	</string>
+	<string key="PollTitle">
+		<value>Poll title</value>
+	</string>
+	<string key="Successful">
+		<value>Successful</value>
+	</string>
+	<string key="PreRequest">
+		<value>Uncertain situation</value>
+	</string>
+	<string key="AccessViolation">
+		<value>The seller's PIN is incorrect</value>
+	</string>
+	<string key="MerchantAuthenticationFailed">
+		<value>The seller's PIN is incorrect</value>
+	</string>
+	<string key="SaleIsAlreadyDoneSuccessfully">
+		<value>The transaction has already been done</value>
+	</string>
+	<string key="InvalidMerchantOrder">
+		<value>The seller's transaction number is incorrect</value>
+	</string>
+	<string key="TransactionNo">
+		<value>Transaction number</value>
+	</string>
+	<string key="OnlinePaymentUnSuccessful">
+		<value>Error! Payment operation failed</value>
+	</string>
+	<string key="CompetitionSpecifications">
+		<value>Competition specifications</value>
+	</string>
+	<string key="CompetitionOptions">
+		<value>Competition options</value>
+	</string>
+	<string key="PollSpecifications">
+		<value>Poll specifications</value>
+	</string>
+	<string key="PollOptions">
+		<value>Poll options</value>
+	</string>
+	<string key="EmailTemplate">
+		<value>Email template</value>
+	</string>
+	<string key="UI_EmailTemplates_EmailTemplate">
+		<value>Email template</value>
+	</string>
+	<string key="EmailTemplateList">
+		<value>Email template list</value>
+	</string>
+	<string key="SaveEmailTemplate">
+		<value>Save email template</value>
+	</string>
+	<string key="AddEmailTemplate">
+		<value>Add email template</value>
+	</string>
+	<string key="KeywordList">
+		<value>List of answer words</value>
+	</string>
+	<string key="String">
+		<value>String</value>
+	</string>
+	<string key="WithoutKeyword">
+		<value>No answer word</value>
+	</string>
+	<string key="Include">
+		<value>Including</value>
+	</string>
+	<string key="EmailFormat">
+		<value>Email format</value>
+	</string>
+	<string key="CellPhoneNumberFormat">
+		<value>Mobile format</value>
+	</string>
+	<string key="CompleteKeyField">
+		<value>Fill in the key field</value>
+	</string>
+	<string key="CompletePriorityField">
+		<value>Please fill in the priority field</value>
+	</string>
+	<string key="ThePageIsUnderConstruction">
+		<value>The page is under construction</value>
+	</string>
+	<string key="AddKeyword">
+		<value>Add option</value>
+	</string>
+	<string key="AddNewKeyword">
+		<value>Add new option</value>
+	</string>
+	<string key="UI_SmsParsers_SimpleSecretaryList">
+		<value>Simple secretary list</value>
+	</string>
+	<string key="SimpleSecretaryList">
+		<value>لSimple secretary list</value>
+	</string>
+	<string key="FromDateTime">
+		<value>Start date</value>
+	</string>
+	<string key="ToDateTime">
+		<value>End date</value>
+	</string>
+	<string key="UI_EmailReports_EmailOutbox">
+		<value>Report all emails</value>
+	</string>
+	<string key="EmailOutbox">
+		<value>Report all emails</value>
+	</string>
+	<string key="UI_EmailReports_EmailSentbox">
+		<value>Emails sent</value>
+	</string>
+	<string key="EmailSentbox">
+		<value>Emails sent</value>
+	</string>
+	<string key="Failed">
+		<value>Unsuccessful</value>
+	</string>
+	<string key="SendSingleFutureEmail">
+		<value>Send a single email in the future</value>
+	</string>
+	<string key="SendGroupFutureEmail">
+		<value>Send group emails in the future</value>
+	</string>
+	<string key="Numbers">
+		<value>SenderIds</value>
+	</string>
+	<string key="MCI">
+		<value>MCI</value>
+	</string>
+	<string key="RightTel">
+		<value>RightTel</value>
+	</string>
+	<string key="UI_SmsSends_SendSmsForUsers">
+		<value>Send message to users</value>
+	</string>
+	<string key="UI_SmsSends_SendSmsFromFormat">
+		<value>Send message from template</value>
+	</string>
+	<string key="SendSmsFromFormat">
+		<value>Send message from template</value>
+	</string>
+	<string key="SendSmsForUsersFormat">
+		<value>SMS settings</value>
+	</string>
+	<string key="UI_SmsSends_SendFutureSmsForUsers">
+		<value>Send messages to future users</value>
+	</string>
+	<string key="SendFutureSmsForUsers">
+		<value>Send messages to future users</value>
+	</string>
+	<string key="SmsSetting">
+		<value>SMS settings</value>
+	</string>
+	<string key="SendSmsForUsers">
+		<value>Send message to users</value>
+	</string>
+	<string key="SubGroupUsers">
+		<value>Subset users</value>
+	</string>
+	<string key="AllSubGroupUsers">
+		<value>All users of the subset</value>
+	</string>
+	<string key="LockMenu">
+		<value>Fix Menu</value>
+	</string>
+	<string key="AutoHideMenu">
+		<value>Auto hide me</value>
+	</string>
+	<string key="MasterGroup">
+		<value>The main group</value>
+	</string>
+	<string key="CreateNicAccount">
+		<value>Create a Nic Handle</value>
+	</string>
+	<string key="SaveDirectDomain">
+		<value>Create a Direct</value>
+	</string>
+	<string key="OnlineRegisterDomain">
+		<value>Online domain registration</value>
+	</string>
+	<string key="UI_Domains_OnlineRegisterDomain">
+		<value>Online domain registration</value>
+	</string>
+	<string key="NationalID">
+		<value>NationalID</value>
+	</string>
+	<string key="Country">
+		<value>Country</value>
+	</string>
+	<string key="InterfaceCountry">
+		<value>Country</value>
+	</string>
+	<string key="RegisteredCountry">
+		<value>Registered country</value>
+	</string>
+	<string key="CountryName">
+		<value>country name</value>
+	</string>
+	<string key="CompanyName">
+		<value>Company Name</value>
+	</string>
+	<string key="PhoneNumber">
+		<value>Phone</value>
+	</string>
+	<string key="Attention">
+		<value>Attention</value>
+	</string>
+	<string key="SearchDomainTab">
+		<value>To register a domain, enter the domain name without the suffix in the box below, select the domain type, and click the search button. Then, if the domain is free, click on the submit button</value>
+	</string>
+	<string key="AvailableDomainTab">
+		<value>Specify your desired domain from the list of available domains for registration</value>
+	</string>
+	<string key="RegisterDomainTab">
+		<value>If the domain price for this domain is unknown, contact support</value>
+	</string>
+	<string key="UndefinePriceForRegisterDomain">
+		<value>The price of the desired domain is unknown</value>
+	</string>
+	<string key="PaymentTab">
+		<value>The domain amount will be deducted from your charge</value>
+	</string>
+	<string key="UI_Domains_TransportNicDomain">
+		<value>Domain transfer</value>
+	</string>
+	<string key="TransportNicDomain">
+		<value>Domainس transfer</value>
+	</string>
+	<string key="TransportDomainHeader">
+		<value>Domain sale (transfer to another ID)</value>
+	</string>
+	<string key="TransportDomainCommnet">
+		<value>To receive the PIN CODE, enter your domain name below. Note that the transfer password will be received by the owner's email</value>
+	</string>
+	<string key="PinCode">
+		<value>PinCode</value>
+	</string>
+	<string key="CurrentUserID">
+		<value>Current licensee ID</value>
+	</string>
+	<string key="NextUserID">
+		<value>New franchisee ID</value>
+	</string>
+	<string key="TransportCode">
+		<value>Transfer password</value>
+	</string>
+	<string key="GetTransportCode">
+		<value>Get the transfer password</value>
+	</string>
+	<string key="TransportDomain">
+		<value>Domain transfer</value>
+	</string>
+	<string key="Loading">
+		<value>Loading ...</value>
+	</string>
+	<string key="QuickAccess">
+		<value>quick access</value>
+	</string>
+	<string key="RolesList">
+		<value>List of roles</value>
+	</string>
+	<string key="UI_Roles_Role">
+		<value>User roles</value>
+	</string>
+	<string key="UserRole">
+		<value>User roles</value>
+	</string>
+	<string key="UI_Roles_SaveRole">
+		<value>Role registration</value>
+	</string>
+	<string key="SaveRole">
+		<value>Role registration</value>
+	</string>
+	<string key="EditRole">
+		<value>Edit role</value>
+	</string>
+	<string key="DefaultRole">
+		<value>Default user role</value>
+	</string>
+	<string key="Role">
+		<value>Role</value>
+	</string>
+	<string key="DefineServiceOfRole">
+		<value>Define role services</value>
+	</string>
+	<string key="UI_RoleServices_RoleService">
+		<value>Define role services</value>
+	</string>
+	<string key="SelectRole">
+		<value>Select the role</value>
+	</string>
+	<string key="IncorectServiceInfo">
+		<value>Service information is incorrect</value>
+	</string>
+	<string key="CompleteInboxGroupTitleField">
+		<value>Enter the title</value>
+	</string>
+	<string key="InboxGroup">
+		<value>Inbox grouping</value>
+	</string>
+	<string key="UI_SmsReports_InboxGroup">
+		<value>Inbox grouping</value>
+	</string>
+	<string key="AllNumbersList">
+		<value>List of all senderIds</value>
+	</string>
+	<string key="ApplyToAllChildren">
+		<value>Define the template on all subgroups</value>
+	</string>
+	<string key="SearchNumber">
+		<value>SenderId Search</value>
+	</string>
+	<string key="SearchFormat">
+		<value>Template search</value>
+	</string>
+	<string key="AllFormatList">
+		<value>List of all templates</value>
+	</string>
+	<string key="FormatTitle">
+		<value>Template title</value>
+	</string>
+	<string key="SearchAllUserFields">
+		<value>Search all additional fields</value>
+	</string>
+	<string key="AllUsers">
+		<value>All users</value>
+	</string>
+	<string key="SeprationUser">
+		<value>Separation based on user role</value>
+	</string>
+	<string key="SeprationUserRole">
+		<value>User role</value>
+	</string>
+	<string key="UI_PhoneBooks_SearchAllUserField">
+		<value>Search all additional fields</value>
+	</string>
+	<string key="SearchField">
+		<value>Field search</value>
+	</string>
+	<string key="FieldTitle">
+		<value>Field title</value>
+	</string>
+	<string key="UI_PhoneBooks_SearchAllGroups">
+		<value>Number search in all groups</value>
+	</string>
+	<string key="UI_PhoneBooks_SearchAllFormats">
+		<value>Search templates in all groups</value>
+	</string>
+	<string key="SearchAllPhoneBookGroups">
+		<value>Search numbers in all groups</value>
+	</string>
+	<string key="SearchAllSmsFormats">
+		<value>Search for templates in all groups</value>
+	</string>
+	<string key="IncorectInfo">
+		<value>The received information is incorrect</value>
+	</string>
+	<string key="ShowInbox">
+		<value>List of downloads</value>
+	</string>
+	<string key="SendToCategory">
+		<value>Move to category</value>
+	</string>
+	<string key="DetermineUserRole">
+		<value>Determine the role of the user</value>
+	</string>
+	<string key="UI_Users_DetermineUserRole">
+		<value>Determine the role of the user</value>
+	</string>
+	<string key="InQueueSend">
+		<value>Post description</value>
+	</string>
+	<string key="DontRecieveResponseFromBank">
+		<value>No response was received from the bank in question</value>
+	</string>
+	<string key="TransactionWasSuccessful">
+		<value>The transaction was successful</value>
+	</string>
+	<string key="CardNumberIsInvalid">
+		<value>Invalid card number</value>
+	</string>
+	<string key="AccountBalanceIsNotEnough">
+		<value>Inventory is not enough</value>
+	</string>
+	<string key="PasswordIsIncorrect">
+		<value>The password is incorrect</value>
+	</string>
+	<string key="EnteringThePasswordIsExceeded">
+		<value>Excessive password entry is allowed</value>
+	</string>
+	<string key="CardIsInvalid">
+		<value>Invalid card</value>
+	</string>
+	<string key="TotalOfRecievingMoneyIsOutOfLimited">
+		<value>Excessive withdrawals are allowed</value>
+	</string>
+	<string key="UserCancelRequest">
+		<value>The user has canceled the transaction</value>
+	</string>
+	<string key="CardIsExpired">
+		<value>The card has expired</value>
+	</string>
+	<string key="AmountOfRecieveMoneyIsOutOfLimit">
+		<value>The amount of withdrawal is excessive</value>
+	</string>
+	<string key="ExportingTheCardIsInvalid">
+		<value>Invalid card issuer</value>
+	</string>
+	<string key="ExportingSwitchCardError">
+		<value>Card issuer switch error</value>
+	</string>
+	<string key="DontRecieveResponseFromCardExporter">
+		<value>No response was received from the card issuer</value>
+	</string>
+	<string key="CardHolderDontAllowedToPerformThisTransaction">
+		<value>The cardholder is not allowed to make this transaction</value>
+	</string>
+	<string key="AcceptorIsInvalid">
+		<value>Invalid acceptor</value>
+	</string>
+	<string key="SecurityErrorOccurred">
+		<value>A security error has occurred</value>
+	</string>
+	<string key="AcceptorInformationIsInvalid">
+		<value>Invalid acceptor user information</value>
+	</string>
+	<string key="AmountIsInvalid">
+		<value>The amount is invalid</value>
+	</string>
+	<string key="ResponseIsInvalid">
+		<value>The answer is invalid</value>
+	</string>
+	<string key="EnteringInformationFormatIsInvalid">
+		<value>The format of the information entered is incorrect</value>
+	</string>
+	<string key="AccountIsInvalid">
+		<value>Invalid account</value>
+	</string>
+	<string key="SystemError">
+		<value>System error</value>
+	</string>
+	<string key="DateIsInvalid">
+		<value>Invalid date</value>
+	</string>
+	<string key="OrderIDIsDuplicate">
+		<value>The request number is duplicate</value>
+	</string>
+	<string key="NotFoundSaleTransaction">
+		<value>Sale transaction not found</value>
+	</string>
+	<string key="VerifyRequestIsDuplicate">
+		<value>Verify has already been requested</value>
+	</string>
+	<string key="NotFoundVerifyRequest">
+		<value>Verify request not found</value>
+	</string>
+	<string key="TransactionIsSettle">
+		<value>The transaction is Settle</value>
+	</string>
+	<string key="TransactionIsNotSettle">
+		<value>The transaction is not Settle</value>
+	</string>
+	<string key="NotFoundSettleTransaction">
+		<value>Settle transaction not found</value>
+	</string>
+	<string key="TransactionIsReverse">
+		<value>The transaction is Reverse</value>
+	</string>
+	<string key="NotFoundRefundTransaction">
+		<value>Refund transaction not found</value>
+	</string>
+	<string key="IDBillIsWrong">
+		<value>Invoice ID is incorrect</value>
+	</string>
+	<string key="IDPaymentIsWrong">
+		<value>The payment ID is incorrect</value>
+	</string>
+	<string key="ExporterOfTheBillIsInvalid">
+		<value>The issuing organization is invalid</value>
+	</string>
+	<string key="SessionIsTimeOut">
+		<value>Session is timeout</value>
+	</string>
+	<string key="RegisterInformationError">
+		<value>Error recording information</value>
+	</string>
+	<string key="PayerIDIsInvalid">
+		<value>Invalid payer ID</value>
+	</string>
+	<string key="DefineCustomerDataError">
+		<value>Problems defining customer information</value>
+	</string>
+	<string key="NumberOfDataEntryIsOutOfLimite">
+		<value>The number of times the information was entered exceeded the allowed limit</value>
+	</string>
+	<string key="IPIsInvalid">
+		<value>Invalid IP</value>
+	</string>
+	<string key="TransactionIsDuplicate">
+		<value>The transaction is duplicate</value>
+	</string>
+	<string key="ReferenceTransactionDoesNotExist">
+		<value>No reference transaction available</value>
+	</string>
+	<string key="TransactionIsInvalid">
+		<value>The transaction is invalid</value>
+	</string>
+	<string key="SettleError">
+		<value>Deposit error</value>
+	</string>
+	<string key="EsfahanMap">
+		<value>نقشه اصفهان</value>
+	</string>
+	<string key="DetailsSend">
+		<value>Sending details</value>
+	</string>
+	<string key="Major">
+		<value>Bigger</value>
+	</string>
+	<string key="Less">
+		<value>Smaller</value>
+	</string>
+	<string key="SelectUsers">
+		<value>Select users</value>
+	</string>
+	<string key="SelectOperations">
+		<value>Select the desired operation</value>
+	</string>
+	<string key="HomePages_Windows_Content_PhoneBook">
+		<value>Phonebook</value>
+	</string>
+	<string key="HomePages_Windows_Content_Poll">
+		<value>SMS poll</value>
+	</string>
+	<string key="HomePages_Windows_Content_ReportSendSms">
+		<value>Report sending SMS</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendBirthDateSms">
+		<value>Send SMS based on date of birth</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendCitySms">
+		<value>Send SMS to city and province</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendDynamicSms">
+		<value>Send dynamic SMS</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendFromExcel">
+		<value>Send SMS from Excel file</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendFutureSms">
+		<value>Send SMS in the future</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendGroupSms">
+		<value>Send group SMS</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendSingleSms">
+		<value>Send a single SMS</value>
+	</string>
+	<string key="SaveMenuInfo">
+		<value>Record menu information</value>
+	</string>
+	<string key="MenuSetting">
+		<value>Menu settings</value>
+	</string>
+	<string key="MasterMenu">
+		<value>Main menu</value>
+	</string>
+	<string key="Text">
+		<value>Text</value>
+	</string>
+	<string key="ShowInHomePage">
+		<value>Display on the home screen</value>
+	</string>
+	<string key="SelectPosition">
+		<value>Select</value>
+	</string>
+	<string key="UI_SmsSends_SendSmsFromDateField">
+		<value>Post by date field</value>
+	</string>
+	<string key="SendDateFieldSms">
+		<value>Post by date field</value>
+	</string>
+	<string key="SendSmsFromDateField">
+		<value>Post by date field</value>
+	</string>
+	<string key="DateField">
+		<value>History field</value>
+	</string>
+	<string key="FailSendSmsFormatMessage">
+		<value>Please select a group</value>
+	</string>
+	<string key="MessagesList">
+		<value>List of messages</value>
+	</string>
+	<string key="Message">
+		<value>Message</value>
+	</string>
+	<string key="SelectFormatError">
+		<value>Please select a template</value>
+	</string>
+	<string key="DaysBefore">
+		<value>The day before</value>
+	</string>
+	<string key="OwnerCompanyFirstName">
+		<value>Name of CEO / Manager of the organization</value>
+	</string>
+	<string key="ManagerFirstName">
+		<value>Manager name</value>
+	</string>
+	<string key="OwnerCompanyLastName">
+		<value>Surname of the CEO / Manager of the organization</value>
+	</string>
+	<string key="ManagerLastName">
+		<value>Manager surname</value>
+	</string>
+	<string key="ActualPerson">
+		<value>individuals</value>
+	</string>
+	<string key="CivilPerson">
+		<value>Legal persons</value>
+	</string>
+	<string key="CompanyCode">
+		<value>Company registration number</value>
+	</string>
+	<string key="CompanyNationalCode">
+		<value>National company number</value>
+	</string>
+	<string key="PaymentAlert">
+		<value>Please select the payment method</value>
+	</string>
+	<string key="Menu">
+		<value>Menu</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_Index">
+		<value>Main Page</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendSingleSms">
+		<value>Send a single SMS</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendGroupSms">
+		<value>Send group SMS</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendFetureSms">
+		<value>Send SMS in the future</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendSmsFromExcel">
+		<value>Send SMS via Excel file</value>
+	</string>
+	<string key="TheDefault">
+		<value>Assumption</value>
+	</string>
+	<string key="UserMessageList">
+		<value>List of user messages</value>
+	</string>
+	<string key="UI_Domains_UserMessages">
+		<value>User messages</value>
+	</string>
+	<string key="TypeActivity">
+		<value>Type of Activity</value>
+	</string>
+	<string key="UI_Domains_SaveUserMessage">
+		<value>Edit user messages</value>
+	</string>
+	<string key="SaveUserMessage">
+		<value>Edit user messages</value>
+	</string>
+	<string key="SendUserMessge">
+		<value>Your information has been sent</value>
+	</string>
+	<string key="ManageUserMessage">
+		<value>Manage user messages</value>
+	</string>
+	<string key="GetDeliveryStatus">
+		<value>Receive SMS status</value>
+	</string>
+	<string key="UserCancelSendRequest">
+		<value>User refuses to send SMS</value>
+	</string>
+	<string key="CheckMessageID">
+		<value>SMS control</value>
+	</string>
+	<string key="Error">
+		<value>Error</value>
+	</string>
+	<string key="AssignServiceToRole">
+		<value>Assign service to the role</value>
+	</string>
+	<string key="ManagePrice">
+		<value>Price management</value>
+	</string>
+	<string key="Rightel">
+		<value>Rightel</value>
+	</string>
+	<string key="ManageImage">
+		<value>Image management</value>
+	</string>
+	<string key="CharacterCount">
+		<value>Number of characters</value>
+	</string>
+	<string key="SendAsFlashSms">
+		<value>Send in flash</value>
+	</string>
+	<string key="UI_SmsSends_SendSms">
+		<value>send Message</value>
+	</string>
+	<string Key="RequiredFieldNotComplete">
+		<value>The information entered is incomplete</value>
+	</string>
+	<string key="SendSmsSuccessful">
+		<value>Message sent successfully</value>
+	</string>
+	<string key="DefaultNumber">
+		<value>Default senderId</value>
+	</string>
+	<string key="NumberExpression">
+		<value>SenderId format</value>
+	</string>
+	<string key="Armaghan">
+		<value>A.R.T</value>
+	</string>
+	<string key="Arad">
+		<value>Arad</value>
+	</string>
+	<string key="AradBulk">
+		<value>Arad-Bulk</value>
+	</string>
+	<string key="AradVas">
+		<value>Arad-Vas</value>
+	</string>
+	<string key="Shreeweb">
+		<value>Shreeweb</value>
+	</string>
+	<string key="RahyabRG">
+		<value>RahyabRG</value>
+	</string>
+  <string key="Avanak">
+    <value>Avanak</value>
+  </string>
+  <string key="Mobbis">
+    <value>Mobbis</value>
+  </string>
+	<string key="RahyabPG">
+		<value>RahyabPG</value>
+	</string>
+	<string key="RahyabPG1000">
+		<value>RahyabPG(1000)</value>
+	</string>
+	<string key="SLS">
+		<value>S.L.S</value>
+	</string>
+  <string key="IconGlobal">
+    <value>IconGlobal</value>
+  </string>
+	<string key="Ratio">
+		<value>Coefficient</value>
+	</string>
+	<string key="OperatorRatioList">
+		<value>Coefficient of operators list</value>
+	</string>
+	<string key="AgentRatioList">
+		<value>SMS sending coefficients</value>
+	</string>
+  <string key="RatioRule">
+    <value>The entered coefficients can not be less than the current coefficient</value>
+  </string>
+	<string key="Public">
+		<value>Public</value>
+	</string>
+	<string key="ReturnBlackList">
+		<value>Return blacklist</value>
+	</string>
+	<string key="SendPriority">
+		<value>Send priority</value>
+	</string>
+	<string key="CheckSmsFilter">
+		<value>Check the SMS filter</value>
+	</string>
+	<string key="DeliveryBase">
+		<value>Deduction based on delivery</value>
+	</string>
+	<string key="UseTheForm">
+		<value>Use as</value>
+	</string>
+	<string key="DownRange">
+		<value>Down Range</value>
+	</string>
+	<string key="UpRange">
+		<value>UpRange</value>
+	</string>
+	<string key="RangeNumber">
+		<value>Range</value>
+	</string>
+	<string key="OneNumber">
+		<value>Single</value>
+	</string>
+	<string key="Mask">
+		<value>Alphanumeric</value>
+	</string>
+	<string key="Number/Mask">
+		<value>Alphanumeric/Numeric</value>
+	</string>
+	<string key="NumberFromRange">
+		<value>Number from range</value>
+	</string>
+	<string key="Range">
+		<value>Range</value>
+	</string>
+	<string key="EnterNumber">
+		<value>Enter senderId</value>
+	</string>
+	<string key="InvalidRange">
+		<value>Invalid range</value>
+	</string>
+	<string key="InvalidRatio">
+		<value>The coefficient is invalid</value>
+	</string>
+	<string key="DuplicateRange">
+		<value>The range of the entered number is already assigned</value>
+	</string>
+	<string key="InvalidNumber">
+		<value>Invalid number entered</value>
+	</string>
+	<string key="MinimumMessage">
+		<value>Minimum SMS</value>
+	</string>
+	<string key="MaximumMessage">
+		<value>Maximum SMS</value>
+	</string>
+	<string key="CompletePrice">
+		<value>Enter the price field</value>
+	</string>
+	<string key="InvalidPrice">
+		<value>The entered price is invalid</value>
+	</string>
+	<string key="CompletePriceField">
+		<value>Fill in the price field</value>
+	</string>
+	<string key="CardNo">
+		<value>card number</value>
+	</string>
+	<string key="AccountNo">
+		<value>account number</value>
+	</string>
+	<string key="SmsCount">
+		<value>Number of SMS</value>
+	</string>
+  <string key="MinSmsCount">
+    <value>Minimum number of SMS</value>
+  </string>
+  <string key="MaxSmsCount">
+    <value>Maximum number of SMS</value>
+  </string>
+	<string key="BaseSmsPrice">
+		<value>SMS base price</value>
+	</string>
+	<string key="SaveFishAmountNotEnough">
+		<value>The cost of {0} SMS is equivalent to {1}</value>
+	</string>
+	<string key="AccountInvalid">
+		<value>Invalid account</value>
+	</string>
+	<string key="DontAccessToOnlineGateway">
+		<value>Lack of access to the payment gateway</value>
+	</string>
+	<string key="PaymentsList">
+		<value>Payment list</value>
+	</string>
+	<string key="DuplicateRangeOfGroupPrice">
+		<value>The entered range overlaps with other range</value>
+	</string>
+	<string key="PrivateNumberWithKeywordIsDuplicate">
+		<value>The number is already assigned with the entered keyword</value>
+	</string>
+	<string key="Other">
+		<value>Other</value>
+	</string>
+	<string key="SystemUnableAssignCredit">
+		<value>The system is currently unable to assign a SMS to you</value>
+	</string>
+	<string key="DefineUser">
+		<value>Add user</value>
+	</string>
+	<string key="UI_Users_DefineUser">
+		<value>Add user</value>
+	</string>
+	<string key="NationalCard">
+		<value>National card</value>
+	</string>
+	<string key="BirthCertificate">
+		<value>Birth certificate</value>
+	</string>
+	<string key="LeaseOrDocument">
+		<value>Lease / title deed</value>
+	</string>
+	<string key="PhoneBill">
+		<value>telephone bill</value>
+	</string>
+	<string key="EstablishAd">
+		<value>Founded ad</value>
+	</string>
+	<string key="ChangesAd">
+		<value>Announcement of changes</value>
+	</string>
+	<string key="CommitmentsForm">
+		<value>Commitment form</value>
+	</string>
+	<string key="CEONationalCard">
+		<value>Passport of the CEO</value>
+	</string>
+	<string key="CEOBirthCertificate">
+		<value>Identity card of the CEO</value>
+	</string>
+	<string key="FatherName">
+		<value>father's name</value>
+	</string>
+	<string key="NationalCode">
+		<value>National Code</value>
+	</string>
+	<string key="ZipCode">
+		<value>Postal code</value>
+	</string>
+	<string key="ShCode">
+		<value>Id</value>
+	</string>
+	<string key="CompanyNationalID">
+		<value>Company register ID</value>
+	</string>
+	<string key="EconomicCode">
+		<value>VAT Id</value>
+	</string>
+	<string key="CompanyCEOName">
+		<value>CEO Name</value>
+	</string>
+	<string key="CompanyCEONationalCode">
+		<value>CEO national Code</value>
+	</string>
+	<string key="CompanyCEOMobile">
+		<value>CEO mobile</value>
+	</string>
+	<string key="CompanyPhone">
+		<value>Company phone</value>
+	</string>
+	<string key="CompanyZipCode">
+		<value>Company zip code</value>
+	</string>
+	<string key="CompanyAddress">
+		<value>company address</value>
+	</string>
+	<string key="BusinessLicense">
+		<value>Business license</value>
+	</string>
+	<string key="Actual">
+		<value>individuals</value>
+	</string>
+	<string key="Legal">
+		<value>Legal person</value>
+	</string>
+	<string key="ActualUserDocumentList">
+		<value>List of individual documents</value>
+	</string>
+	<string key="LegalUserDocumentList">
+		<value>List of company documents</value>
+	</string>
+	<string key="FixGroupPrice">
+		<value>Fixed price group</value>
+	</string>
+	<string key="CompleteFatherNameField">
+		<value>The father's name field is not entered </value>
+	</string>
+	<string key="CompleteNationalCodeField">
+		<value>The national code field is not entered</value>
+	</string>
+	<string key="CompleteZipCodeField">
+		<value>Postcode field not entered</value>
+	</string>
+	<string key="CompleteShCodeField">
+		<value>The ID number field is not entered</value>
+	</string>
+	<string key="CompletePhoneField">
+		<value>Phone field not entered</value>
+	</string>
+	<string key="CompleteAddressField">
+		<value>Address field not entered</value>
+	</string>
+	<string key="CompleteCityField">
+		<value>City field not entered</value>
+	</string>
+	<string key="CompleteBirthDateField">
+		<value>The date of birth field is not entered</value>
+	</string>
+	<string key="CompleteExpireDateField">
+		<value>The expiration date field has not been entered</value>
+	</string>
+	<string key="CompleteCompanyNameField">
+		<value>Company name field not entered</value>
+	</string>
+	<string key="CompleteCompanyNationalIdField">
+		<value>The company's national ID field is not entered</value>
+	</string>
+	<string key="CompleteEconomicCodeField">
+		<value>The VAT code field has not been entered</value>
+	</string>
+	<string key="CompleteCompanyAddressField">
+		<value>Company address field not entered</value>
+	</string>
+	<string key="CompleteCompanyPhoneField">
+		<value>Company phone field not entered</value>
+	</string>
+	<string key="CompleteCompanyZipCodeField">
+		<value>The company zip code field has not been entered</value>
+	</string>
+	<string key="CompleteCompanyCEONameField">
+		<value>The CEO name field is not entered</value>
+	</string>
+	<string key="CompleteCompanyCEONationalCodeField">
+		<value>CEO code field not entered</value>
+	</string>
+	<string key="CompleteCompanyCEOMobileField">
+		<value>The CEO field has not been entered</value>
+	</string>
+	<string key="PleaseEnterUserDocument">
+		<value>Please enter the required individual documents</value>
+	</string>
+	<string key="PleaseEnterCompanyDocument">
+		<value>Please enter the required documents of the company</value>
+	</string>
+	<string key="SendTest">
+		<value>Send Test</value>
+	</string>
+	<string key="RecieverListIsEmpty">
+		<value>The recipient list is empty</value>
+	</string>
+	<string key="InvalidSendGradualSmsPageSize">
+		<value>The number of your recipients is less than 1000</value>
+	</string>
+	<string key="GetSmsSendPriceError">
+		<value>Error calculating shipping cost</value>
+	</string>
+	<string key="ListSmsesInQueue">
+		<value>List of SMS in the sending queue</value>
+	</string>
+	<string key="UI_SmsReports_ScheduledSms">
+		<value>List of sending SMS</value>
+	</string>
+	<string key="ScheduledSms">
+		<value>Scheduled SMS</value>
+	</string>
+	<string key="Time">
+		<value>Time</value>
+	</string>
+	<string key="SentAndReceivedbyPhone">
+		<value>Reached the phone</value>
+	</string>
+	<string key="HaveNotReceivedToPhone">
+		<value>Not reached the phone</value>
+	</string>
+	<string key="SentToItc">
+		<value>Posted in</value>
+	</string>
+	<string key="ReceivedByItc">
+		<value>Reached to SMS provider</value>
+	</string>
+	<string key="DidNotReceiveToItc">
+		<value>Not reached to SMS provider</value>
+	</string>
+	<string key="NotReceivebyServer">
+		<value>SMS not received by server</value>
+	</string>
+	<string key="ErrorInSending">
+		<value>An error occurred while sending the SMS</value>
+	</string>
+	<string key="WaitingForSend">
+		<value>Waiting to send</value>
+	</string>
+	<string key="NotSent">
+		<value>Not sent</value>
+	</string>
+	<string key="IsSending">
+		<value>sending...</value>
+	</string>
+	<string key="IsCanceled">
+		<value>canceled</value>
+	</string>
+	<string key="BlackList">
+		<value>black list</value>
+	</string>
+	<string key="BlackListTable">
+		<value>internal black list</value>
+	</string>
+	<string key="SmsIsFilter">
+		<value>The text of the SMS is filtered</value>
+	</string>
+	<string key="IsDeleted">
+		<value>Removed</value>
+	</string>
+	<string key="WatingForConfirmation">
+		<value>Waiting for confirmation</value>
+	</string>
+	<string key="NotEnoughBalance">
+		<value>Lack of credit</value>
+	</string>
+	<string key="IsPreparing">
+		<value>preparing</value>
+	</string>
+	<string key="IsPreparedForSending">
+		<value>Ready to send</value>
+	</string>
+	<string key="AccessDenied">
+		<value>Inaccessibility</value>
+	</string>
+	<string key="TextIsEmpty">
+		<value>The message text is empty</value>
+	</string>
+	<string key="InvalidInputXml">
+		<value>XML input is invalid</value>
+	</string>
+	<string key="InvalidUserOrPassword">
+		<value>Wrong username or password</value>
+	</string>
+	<string key="InvalidUsedMethod">
+		<value>The method used is invalid</value>
+	</string>
+	<string key="InvalidSender">
+		<value>The sender is not valid</value>
+	</string>
+	<string key="InvalidMobile">
+		<value>Mobile is not valid</value>
+	</string>
+	<string key="InvalidReciption">
+		<value>No recipients specified</value>
+	</string>
+	<string key="Stored">
+		<value>Saved</value>
+	</string>
+	<string key="WatingForSend">
+		<value>Waiting to send</value>
+	</string>
+	<string key="IsBeingSent">
+		<value>Being sent</value>
+	</string>
+	<string key="SentAndGiveBackCredit">
+		<value>Submitted and cost calculations performed</value>
+	</string>
+	<string key="Archived">
+		<value>Archived</value>
+	</string>
+	<string key="BasePrice">
+		<value>base price</value>
+	</string>
+	<string key="Taliya">
+		<value>Taliya</value>
+	</string>
+	<string key="SendPeriodSms">
+		<value>Send periodic SMS</value>
+	</string>
+	<string key="SendGradualSms">
+		<value>Send gradual SMS</value>
+	</string>
+  <string key="EveryFewMinutes">
+    <value>Every few minutes</value>
+  </string>
+	<string key="SystemIsOutOfService">
+		<value>SMS service not available</value>
+	</string>
+	<string key="SendTimeNotValid">
+		<value>Sending time is outside the allowed time</value>
+	</string>
+	<string key="SmsTextIsFilter">
+		<value>SMS text is filtered</value>
+	</string>
+	<string key="UserIsExpired">
+		<value>Account has expired</value>
+	</string>
+	<string key="AdminIsExpired">
+		<value>Admin account has expired</value>
+	</string>
+	<string key="DefineParticipantsOfPoll">
+		<value>Identify poll participants</value>
+	</string>
+	<string key="SelcectPollOptions">
+		<value>Enter poll options</value>
+	</string>
+	<string key="DefineParticipantsOfCompetition">
+		<value>Identify the participants in the contest</value>
+	</string>
+	<string key="SelcectCompetitionOptions">
+		<value>Enter contest options</value>
+	</string>
+	<string key="CorrectOption">
+		<value>correct answer</value>
+	</string>
+	<string key="FilterSms">
+		<value>SMS filter</value>
+	</string>
+  <string key="GeneralInformation">
+    <value>General information</value>
+  </string>
+  <string key="AccessInformation">
+    <value>Access information</value>
+  </string>
+  <string key="FilterConditions">
+    <value>Filter conditions</value>
+  </string>
+  <string key="If">
+    <value>If</value>
+  </string>
+  <string key="Then">
+    <value>Then</value>
+  </string>
+	<string key="IsMobile">
+		<value>Be mobile</value>
+	</string>
+	<string key="AddToGroup">
+		<value>Add to group</value>
+	</string>
+	<string key="RemoveFromGroup">
+		<value>Remove from group</value>
+	</string>
+	<string key="TransferToMobile">
+		<value>Forward to mobile</value>
+	</string>
+	<string key="TransferToUrl">
+		<value>Forward to URL</value>
+	</string>
+	<string key="TransferToEmail">
+		<value>Forward to email</value>
+	</string>
+	<string key="Transfer">
+		<value>Transfer</value>
+	</string>
+  <string key="NumberTransfer">
+    <value>انتقال شماره</value>
+  </string>
+	<string key="SendSmsToSender">
+		<value>Send message to sender</value>
+	</string>
+	<string key="SendSmsToGroup">
+		<value>Send message to group</value>
+	</string>
+	<string key="ForwardSmsToGroup">
+		<value>Send incoming message to group</value>
+	</string>
+  <string key="DeliveryRelay">
+    <value>Delivery relay</value>
+  </string>
+	<string key="TrafficRelay">
+		<value>Traffic relay</value>
+	</string>
+	<string key="UI_TrafficRelays_TrafficRelay">
+		<value>Traffic relay</value>
+	</string>
+	<string key="SaveTrafficRelay">
+		<value>Save traffic relay</value>
+	</string>
+	<string key="UI_TrafficRelays_SaveTrafficRelay">
+		<value>Save traffic relay</value>
+	</string>
+	<string key="SystemLog">
+		<value>System log</value>
+	</string>
+	<string key="Source">
+		<value>Source</value>
+	</string>
+	<string key="Browser">
+		<value>Browser</value>
+	</string>
+	<string key="UI_Logs_Log">
+		<value>System log</value>
+	</string>
+	<string key="Warning">
+		<value>Warning</value>
+	</string>
+	<string key="SetTrafficRelayForPrivateNumber">
+		<value>Adjust traffic relay</value>
+	</string>
+	<string key="UI_PrivateNumbers_SetTrafficRelay">
+		<value>Adjust traffic relay</value>
+	</string>
+	<string key="CategoriesContentList">
+		<value>Content category list</value>
+	</string>
+	<string key="Article">
+		<value>Content</value>
+	</string>
+	<string key="AddContent">
+		<value>Add content</value>
+	</string>
+	<string key="ContentsList">
+		<value>Table of contents</value>
+	</string>
+	<string key="SaveContent">
+		<value>Submit content</value>
+	</string>
+	<string key="UI_Data_Contents">
+		<value>Table of contents</value>
+	</string>
+	<string key="DuplicateKeyword">
+		<value>The duplicate keyword</value>
+	</string>
+	<string key="RecordNotFound">
+		<value>Record not found</value>
+	</string>
+	<string key="Center">
+		<value>Center</value>
+	</string>
+	<string key="Counting">
+		<value>Calculate the number</value>
+	</string>
+	<string key="UserDoNotHaveDomain">
+		<value>No domain registered for you</value>
+	</string>
+	<string key="MTCE">
+		<value>MTCE</value>
+	</string>
+	<string key="KishTCI">
+		<value>KishTCI</value>
+	</string>
+	<string key="SendCountIsInvalid">
+		<value>The number sent is invalid due to the total number</value>
+	</string>
+	<string key="DefineLocation">
+		<value>Locate</value>
+	</string>
+	<string key="UserLines">
+		<value>User senderIds</value>
+	</string>
+	<string key="ServiceID">
+		<value>Service ID</value>
+	</string>
+	<string key="Transaction">
+		<value>Transaction</value>
+	</string>
+	<string key="SendToOther">
+		<value>Send to other</value>
+	</string>
+	<string key="FileDoesNotExist">
+		<value>File not found</value>
+	</string>
+	<string key="CellPhoneNotValid">
+		<value>Invalid mobile number</value>
+	</string>
+	<string key="CustomFieldValueIsInValid">
+		<value>Invalid complementary field value</value>
+	</string>
+	<string key="SendPrice">
+		<value>sending cost</value>
+	</string>
+	<string key="RecipientCount">
+		<value>Number of recipients</value>
+	</string>
+	<string key="CompletePatternField">
+		<value>Enter the template field</value>
+	</string>
+	<string key="UI_SmsSenderAgents_MessageRoute">
+		<value>Sending route</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SaveRoute">
+		<value>Save sending route</value>
+	</string>
+	<string key="MessageRouteList">
+		<value>Sending route list</value>
+	</string>
+	<string key="MessageRoute">
+		<value>SMS route</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SmsSenderAgentRatio">
+		<value>SMS route coefficient</value>
+	</string>
+	<string key="SmsSenderAgentRatio">
+		<value>SMS route coefficient</value>
+	</string>
+	<string key="SmsTypeNotDefine">
+		<value>The type of SMS is not specified</value>
+	</string>
+	<string key="RatioNotValid">
+		<value>The coefficient is invalid</value>
+	</string>
+	<string key="OperatorNotValid">
+		<value>Invalid SMS operator</value>
+	</string>
+	<string key="SmsSenderAgentNotValid">
+		<value>Invalid SMS provider</value>
+	</string>
+	<string key="SendQueueRecipientAddress">
+		<value>Recipient queue address</value>
+	</string>
+	<string key="QueueLength">
+		<value>Queue length</value>
+	</string>
+	<string key="QueueLengthIsInvalid">
+		<value>Invalid queue length</value>
+	</string>
+	<string key="Resend">
+		<value>resend</value>
+	</string>
+	<string key="ResendFailedSms">
+		<value>Resend unsent</value>
+	</string>
+	<string key="SelectGroup">
+		<value>Select a group ...</value>
+	</string>
+	<string key="UI_SmsReports_UserScheduledSms">
+		<value>User submission queue</value>
+	</string>
+	<string key="UsersSendQueue">
+		<value>User submission queue</value>
+	</string>
+	<string key="UserOutbox">
+		<value>User Send Box</value>
+	</string>
+	<string key="UI_SmsReports_UserOutbox">
+		<value>User Send Box</value>
+	</string>
+	<string key="SendDetails">
+		<value>Sending details</value>
+	</string>
+	<string key="UI_SmsSends_SendDetails">
+		<value>Sending details</value>
+	</string>
+	<string key="SendToNumber">
+		<value>Send to number</value>
+	</string>
+  <string key="SendToNumbers">
+    <value>Send to numbers</value>
+  </string>
+	<string key="SendToPhoneBookGroup">
+		<value>Send to phonebook group</value>
+	</string>
+	<string key="SendFromFormat">
+		<value>Submit from template</value>
+	</string>
+	<string key="PeriodType">
+		<value>Every {0} {1} once</value>
+	</string>
+	<string key="GradualCount">
+		<value>Every {0} minute {1} number</value>
+	</string>
+	<string key="MainSetting">
+		<value>General settings</value>
+	</string>
+	<string key="SaveMainSetting">
+		<value>Save general settings</value>
+	</string>
+	<string key="RegisterFishSmsText">
+		<value>SMS text when registering the receipt</value>
+	</string>
+	<string key="LoginSmsText">
+		<value>SMS text when logging in</value>
+	</string>
+	<string key="LowCreditSmsText">
+		<value>Text message in case of lack of SMS</value>
+	</string>
+	<string key="RegisterUserSmsText">
+		<value>SMS text when registering a new user</value>
+	</string>
+	<string key="UserAccountSmsText">
+		<value>Text SMS User login information</value>
+	</string>
+	<string key="UserExpireSmsText">
+		<value>Text of user expiration SMS</value>
+	</string>
+	<string key="UserDocument">
+		<value>User documents</value>
+	</string>
+	<string key="UI_Users_ConfirmDocument">
+		<value>Confirm user documents</value>
+	</string>
+	<string key="ConfirmUserDocument">
+		<value>Confirm user documents</value>
+	</string>
+	<string key="OnlinePaymentSmsText">
+		<value>Text SMS online payment</value>
+	</string>
+	<string key="CompleteCaptcha">
+		<value>Enter the Captcha</value>
+	</string>
+	<string key="IncorrectCaptcha">
+		<value>The Captcha are incorrect</value>
+	</string>
+	<string key="RetrievePasswordSmsText">
+		<value>Text Password Recovery Password</value>
+	</string>
+	<string key="MaximumFailedTryCount">
+		<value>Maximum unsuccessful submission</value>
+	</string>
+	<string key="SendToBlackList">
+		<value>Send to blacklist</value>
+	</string>
+	<string key="PhoneBookVasSetting">
+		<value>VAS group settings</value>
+	</string>
+	<string key="UI_PhoneBooks_VasSetting">
+		<value>VAS group settings</value>
+	</string>
+	<string key="Vas">
+		<value>VAS</value>
+	</string>
+	<string key="SenderIdToVasGroupIsInvalid">
+		<value>Invalid senderId for sending to VAS groups</value>
+	</string>
+  <string key="VasDefaultResponse">
+    <value>Default system message for value-added services</value>
+  </string>
+	<string key="SenderIdToGroupIsInvalid">
+		<value>Invalid senderId for sending to group</value>
+	</string>
+	<string key="ServiceIdIsDuplicate">
+		<value>The service ID is duplicate</value>
+	</string>
+	<string key="AggregationPanel">
+		<value>Aggregation Panel</value>
+	</string>
+	<string key="SocialNetworks">
+		<value>Social Networks</value>
+	</string>
+	<string key="UI_SmsReports_UpdateDeliveryStatus">
+		<value>Update SMS status from Excel file</value>
+	</string>
+	<string key="UpdateDeliveryStatus">
+		<value>Update SMS status</value>
+	</string>
+	<string key="UI_BlackList_BlackListNumber">
+		<value>Blacklisted numbers</value>
+	</string>
+	<string key="ManageBlackListNumber">
+		<value>Manage blacklisted numbers</value>
+	</string>
+	<string key="UI_BlackList_SaveNumber">
+		<value>Register a blacklist number</value>
+	</string>
+	<string key="UpdateDeliveryStatusManually">
+		<value>Manually update the status of SMS</value>
+	</string>
+	<string key="WarningType">
+		<value>Notification via</value>
+	</string>
+	<string key="Repeatable">
+		<value>repeatable</value>
+	</string>
+	<string key="RegularContent">
+		<value>Regular content</value>
+	</string>
+	<string key="UI_PhoneBooks_RegularContent">
+		<value>Regular content</value>
+	</string>
+	<string key="UI_RegularContents_RegularContent">
+		<value>Regular content</value>
+	</string>
+	<string key="UI_RegularContents_SaveRegularContent">
+		<value>Submit regular content</value>
+	</string>
+	<string key="RegularContentList">
+		<value>Regular content list</value>
+	</string>
+	<string key="UI_RegularContents_Content">
+		<value>content management</value>
+	</string>
+	<string key="UI_RegularContents_SaveContent">
+		<value>Content registration</value>
+	</string>
+	<string key="ManageContent">
+		<value>content management</value>
+	</string>
+	<string key="Period">
+		<value>the period</value>
+	</string>
+	<string key="CompleteTypeField">
+		<value>Fill in the type field</value>
+	</string>
+	<string key="Repeat">
+		<value>Repetition</value>
+	</string>
+	<string key="CompleteURLField">
+		<value>Fill in the URL field</value>
+	</string>
+	<string key="CompleteConnectionStringField">
+		<value>Complete the ConnectionString field</value>
+	</string>
+	<string key="CompleteQueryField">
+		<value>Complete the Query field</value>
+	</string>
+	<string key="CompleteColumnField">
+		<value>Fill in the Column field</value>
+	</string>
+	<string key="Every">
+		<value>Any</value>
+	</string>
+	<string key="CompleteTextField">
+		<value>Fill in the Text field</value>
+	</string>
+	<string key="AddNumberToSendList">
+		<value>Add number to send list</value>
+	</string>
+	<string key="UI_PhoneBooks_UpdateGroup">
+		<value>Edit Phonebook Group</value>
+	</string>
+	<string key="UI_PhoneBooks_SendSms">
+		<value>Send a group SMS from the phonebook</value>
+	</string>
+	<string key="SenderAgentType">
+		<value>Type of sending operator</value>
+	</string>
+	<string key="ContactInfoIsIncorrect">
+		<value>Contact information is incorrect</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveEmail">
+		<value>Register email list</value>
+	</string>
+	<string key="UI_PrivateNumbers_UserPrivateNumberKeywords">
+		<value>Keyword users senderId</value>
+	</string>
+	<string key="NumberKeywords">
+		<value>Keywords senderIds</value>
+	</string>
+	<string key="ConfirmSendSms">
+		<value>Send SMS?</value>
+	</string>
+	<string key="ID">
+		<value>ID</value>
+	</string>
+	<string key="Selection">
+		<value>Selection</value>
+	</string>
+	<string key="SendSmsFromAPI">
+		<value>Send SMS from web service</value>
+	</string>
+	<string key="SendRegularContentSms">
+		<value>Send regular content SMS</value>
+	</string>
+	<string key="ExtendedPanelURL">
+		<value>Renewal-SMS-Panel</value>
+	</string>
+	<string key="BuyPanelURL">
+		<value>Purchase-panel</value>
+	</string>
+	<string key="BuyPanel">
+		<value>Purchase panel</value>
+	</string>
+	<string key="ExtendedPanel">
+		<value>Renew the panel</value>
+	</string>
+  <string key="ExtendedPrivateNumber">
+    <value>Renew the SenderId</value>
+  </string>
+  <string key="ExtendedPrivateNumberPrice">
+    <value>SenderId renewal fee</value>
+  </string>
+	<string key="ExtendedPanelSuccessful">
+		<value>Your panel was successfully renewed</value>
+	</string>
+	<string key="IsAuthenticated">
+		<value>Authentication</value>
+	</string>
+	<string key="SendP2PSms">
+		<value>Send peer-to-peer SMS</value>
+	</string>
+	<string key="UI_SmsSends_SendP2PSms">
+		<value>Send peer-to-peer SMS</value>
+	</string>
+	<string key="AppPath">
+		<value>Software path</value>
+	</string>
+	<string key="UI_SmsParsers_SelectedOption">
+		<value>Analyst option</value>
+	</string>
+	<string key="Participants">
+		<value>participants, contributors</value>
+	</string>
+	<string key="NumberReceived">
+		<value>Incoming numbers</value>
+	</string>
+	<string key="SelectOption">
+		<value>Select option:</value>
+	</string>
+	<string key="UI_SmsParsers_ParserChart">
+		<value>Contest charts and polls</value>
+	</string>
+	<string key="MTNServiceID">
+		<value>Irancell service ID</value>
+	</string>
+	<string key="AggServiceID">
+		<value>Aggregator ID</value>
+	</string>'
+	<string key="FailedExtract">
+		<value>Error receiving data</value>
+	</string>
+	<string key="GetBulkMessagesFromAPI">
+		<value>Receive bulk submissions via the API</value>
+	</string>
+	<string key="PrivateNumbersInfo">
+		<value>SenderId's info</value>
+	</string>
+	<string key="UI_PrivateNumbers_NumbersInfo">
+		<value>SenderId info</value>
+	</string>
+	<string key="UserInfo">
+		<value>User Info</value>
+	</string>
+	<string key="UserManualOutbox">
+		<value>Manual - OutBox</value>
+	</string>
+	<string key="UI_SmsReports_UserManualOutbox">
+		<value>Manual - OutBox</value>
+	</string>
+	<string key="DecreaseTax">
+		<value>Decrease VAT</value>
+	</string>
+	<string key="Id">
+		<value>Id</value>
+	</string>
+	<string key="SendGroupSmsFromAPI">
+		<value>Send a group via API</value>
+	</string>
+	<string key="ResendSms">
+		<value>Resend Sms</value>
+	</string>
+	<string key="ConfirmResendSms">
+		<value>Are you sure you want to send the message again?</value>
+	</string>
+	<string key="ErrorInGetItc">
+		<value>Error receiving</value>
+	</string>
+	<string key="Archiving">
+		<value>Archiving</value>
+	</string>
+	<string key="CostOfSmsRequest">
+		<value>Cost of the number of SMS requested</value>
+	</string>
+	<string key="UI_SmsSends_Maps">
+		<value>Maps</value>
+	</string>
+	<string key="BaseGroupPriceIsLow">
+		<value>You can not set a tariff lower than your own tariff</value>
+	</string>
+	<string key="Private">
+		<value>Private</value>
+	</string>
+	<string key="ScopeOfSend">
+		<value>Scope of submission</value>
+	</string>
+	<string key="TotalCount">
+		<value>Total</value>
+	</string>
+	<string key="EqualWithPhoneBookField">
+		<value>Equals the value of the contact field</value>
+	</string>
+	<string key="ReceivedSmsText">
+		<value>Received SMS text</value>
+	</string>
+	<string key="UseFormatIfMatching">
+		<value>Use the template if compatible</value>
+	</string>
+	<string key="UseFormatIncompatibility">
+		<value>Use the template in case of mismatch</value>
+	</string>
+	<string key="PleaseSelectGroup">
+		<value>Select a group</value>
+	</string>
+	<string key="SelectFieldOfPhoneBookGroup">
+		<value>Select the Phonebook group field</value>
+	</string>
+	<string key="SelectSenderNumber">
+		<value>Select the senderId</value>
+	</string>
+	<string key ="ParserOperationInvalid">
+		<value>Sending from the template with selected conditions is not possible</value>
+	</string>
+	<string key="InputSms">
+		<value>Received SMS</value>
+	</string>
+	<string key="UserInbox">
+		<value>Users inbox</value>
+	</string>
+	<string key="UI_SmsReports_UserInbox">
+		<value>Users inbox</value>
+	</string>
+	<string key="AdminSetting">
+		<value>Admin settings</value>
+	</string>
+	<string key="UI_Settings_AdminSetting">
+		<value>Admin settings</value>
+	</string>
+	<string key="ExtentionNumber">
+		<value>Renew senderId</value>
+	</string>
+	<string key="UI_PrivateNumbers_ExtendedNumber">
+		<value>Renew senderId</value>
+	</string>
+	<string key="DeliveryStatusReportChart">
+		<value>SMS status report chart</value>
+	</string>
+	<string key="ViewChart">
+		<value>View chart</value>
+	</string>
+	<string key="GSMGateway">
+		<value>GSM</value>
+	</string>
+	<string key="ReceiveLink">
+		<value>Receive link</value>
+	</string>
+	<string key="FilterWordsList">
+		<value>Filter word list</value>
+	</string>
+	<string key="FilterWords">
+		<value>Filter word</value>
+	</string>
+	<string key="UI_Settings_FilterWord">
+		<value>Filter word</value>
+	</string>
+	<string key="SendSmsAlert">
+		<value>Send alert text</value>
+	</string>
+	<string key="SendSmsAlertMessage">
+		<value>SMS alert text</value>
+	</string>
+	<string key="UsersTransactionList">
+		<value>User transaction list</value>
+	</string>
+	<string key="UI_Users_UsersTransaction">
+		<value>User transactions</value>
+	</string>
+	<string key="ExportToText">
+		<value>Export to text</value>
+	</string>
+	<string key="SmsLen">
+		<value>SMS length</value>
+	</string>
+  <string key="SmsPackage">
+    <value>SMS package</value>
+  </string>
+  <string key="SmsPackagePrice">
+    <value>Package price</value>
+  </string>
+  <string key="SmsPackageDetails">
+    <value>SMS package description</value>
+  </string>
+  <string key="SmsSalesPackage">
+    <value>Sales package</value>
+  </string>
+  <string key="Dashboard">
+    <value>Dashboard</value>
+  </string>
+  <string key="RecentPosts">
+    <value>Recent Posts</value>
+  </string>
+  <string key="choosePaymentGateway">
+    <value>Choose Payment Gateway</value>
+  </string>
+  <string key="SendwithSMS">
+    <value>Send with SMS</value>
+  </string>
+  <string key="page">
+    <value>Page</value>
+  </string>
+  <string key="domainOwner">
+    <value>Domain Owner</value>
+  </string>
+  <string key="panelOwner">
+    <value>Panel Owner</value>
+  </string>
+  <string key="basicInformation">
+    <value>Basic Information</value>
+  </string>
+  <string key="NumberCount">
+    <value>Total number of numbers: {1} number</value>
+  </string>
+  <string key="RepetitiousNumberCount">
+    <value>Number of duplicate numbers: {2} number</value>
+  </string>
+  <string key="CorrectNumberCount">
+    <value>Number of integers: {3} number</value>
+  </string>
+  <string key="SelectNumbers">
+    <value>Please select numbers</value>
+  </string>
+  <string key="NumberAdded">
+    <value>Number added</value>
+  </string>
+  <string key="SendToGroups">
+    <value>Send to groups</value>
+  </string>
+  <string key="GetContentFromURL">
+    <value>Get content from URL</value>
+  </string>
+  <string key="GetContentFromDB">
+    <value>Get content from SQL</value>
+  </string>
+  <string key="RoleServiceContent1">
+    <value>To edit the service cost, click on the cost amount in the table below.</value>
+  </string>
+  <string key="RoleServiceContent2">
+    <value>Check the service so that your service is considered by default, and there is no need to check the price.</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent1">
+    <value>In this section, you will be able to update the status of sent SMS via Excel file.</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent2">
+    <value>Your Excel file should be according to the sample file, you can download the sample file here</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent3">
+    <value>download</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent4">
+    <value>enter the information.</value>
+  </string>
+  <string key="SMSStatuses">
+    <value>SMS statuses</value>
+  </string>
+  <string key="ExtraParameter">
+    <value>Extra parameter</value>
+  </string>
+  <string key="HasRoute">
+    <value>Has route?</value>
+  </string>
+  <string key="QueuelengthsBaseOnThePage">
+    <value>Queue lengths Based On The Page</value>
+  </string>
+  <string key="SMSType">
+    <value>SMS type</value>
+  </string>
+  <string key="CountNumbers">
+    <value>Count of numbers</value>
+  </string>
+  <string key="CountNumbersDescription">
+    <value>The count of selected mobile numbers you want to send them</value>
+  </string>
+  <string key="StartFromNumber">
+    <value>Start from</value>
+  </string>
+  <string key="PrepaidMobiles">
+    <value>Prepaid mobile numbers</value>
+  </string>
+  <string key="PostpaidMobiles">
+    <value>Postpaid mobile numbers</value>
+  </string>
+  <string key="Random">
+    <value>Random</value>
+  </string>
+  <string key="SendFrom">
+    <value>Send from</value>
+  </string>
+  <string key="Guide">
+    <value>Guide</value>
+  </string>
+  <string key="LoadingPleaseWait">
+    <value>Loading...Please wait</value>
+  </string>
+  <string key="PersonProfile">
+    <value>Profile of the person</value>
+  </string>
+  <string key="AgentProfile">
+    <value>Profile of the agent</value>
+  </string>
+  <string key="PersonalProfile">
+    <value>Personal profile</value>
+  </string>
+  <string key="LegalInformation">
+    <value>Legal information</value>
+  </string>
+  <string key="completeYourDetails">
+    <value>Please complete your details and documents</value>
+  </string>
+  <string key="PreInvoice">
+    <value>Pre-invoice</value>
+  </string>
+  <string key="Date">
+    <value>Date</value>
+  </string>
+  <string key="Seller">
+    <value>Seller</value>
+  </string>
+  <string key="buyer">
+    <value>buyer</value>
+  </string>
+  <string key="GoodsServices">
+    <value>Goods / Services</value>
+  </string>
+</dictionary>
+

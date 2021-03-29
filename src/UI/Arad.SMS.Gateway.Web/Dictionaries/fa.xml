@@ -1,0 +1,6077 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dictionary>
+	<string key="UI_Home">
+		<value>صفحه نخست</value>
+	</string>
+	<string key="UI_Services_Service">
+		<value>سرویس های سیستم</value>
+	</string>
+	<string key="UI_Users_User">
+		<value>لیست کاربران</value>
+	</string>
+	<string key="UI_Users_Register">
+		<value>ثبت کاربر جدید</value>
+	</string>
+	<string key="UI_Users_ChangePassword">
+		<value>تغییر کلمه عبور</value>
+	</string>
+	<string key="UI_Users_EditUser">
+		<value>ویرایش مشخصات</value>
+	</string>
+	<string key="IsSalePackage">
+		<value>پکیج فروش</value>
+	</string>
+	<string key="UI_UserServices_UserService">
+		<value>سرویس های کاربران</value>
+	</string>
+	<string key="UI_PhoneBooks_PhoneBook">
+		<value>دفترچه تلفن</value>
+	</string>
+	<string key="Help_SendFormatSms">
+		<value>راهنمای ارسال اس ام اس پویا</value>
+	</string>
+	<string key="Help_SendAdvancedGroupSms">
+		<value>راهنمای ارسال اس ام اس پیشرفته</value>
+	</string>
+	<string key="Help_Home">
+		<value>راهنمای گزارش آماری ارسال ها</value>
+	</string>
+	<string key="Help_PhoneBook">
+		<value>راهنمای دفترچه تلفن</value>
+	</string>
+	<string key="Help_SendPostalCodeSms">
+		<value>راهنمای ارسال اس ام اس براساس کدپستی</value>
+	</string>
+	<string key="Help_SendPrefixSms">
+		<value>راهنمای ارسال اس ام اس براساس پیش شماره</value>
+	</string>
+	<string key="Help_SendCitySms">
+		<value>ارسال اس ام اس بر اساس شهر و استان</value>
+	</string>
+	<string key="Help_SendGroupSms">
+		<value>راهنمای ارسال اس ام اس گروهی</value>
+	</string>
+	<string key="Help_SendSingleSms">
+		<value>راهنمای ارسال اس ام اس تکی</value>
+	</string>
+	<string key="Help_SendFutureSms">
+		<value>راهنمای ارسال اس ام اس زمان بندی</value>
+	</string>
+	<string key="File-Sample">
+		<value>نمونه فایل</value>
+	</string>
+	<string key="UI_PhoneBooks_PhoneNumber">
+		<value>افزودن شماره</value>
+	</string>
+	<string key="UI_Accesses_Access">
+		<value>دسترسی های سیستم</value>
+	</string>
+	<string key="UI_UserFields_UserField">
+		<value>مدیریت فیلدهای کاربر</value>
+	</string>
+	<string key="UI_UserFields_PhoneBookField">
+		<value>تعریف فیلد های تکمیلی دفترچه تلفن</value>
+	</string>
+	<string key="UI_UserFields_SmsFormat">
+		<value>تعریف قالب پویا</value>
+	</string>
+	<string key="UI_GroupPrices_GroupPrice">
+		<value>گروه قیمت پیامک</value>
+	</string>
+	<string key="UI_PriceRanges_PriceRange">
+		<value>تعریف بازه قیمت</value>
+	</string>
+	<string key="UI_ServiceGroups_ServiceGroup">
+		<value>گروه بندی سرویس ها</value>
+	</string>
+	<string key="UI_SmsSends_SendSingleSms">
+		<value>ارسال تکی</value>
+	</string>
+	<string key="UI_PrivateNumbers_DefiningPrivateNumber">
+		<value>تعریف خط اختصاصی</value>
+	</string>
+	<string key="UI_PrivateNumbers_UserPrivateNumber">
+		<value>خطوط اختصاصی کاربر</value>
+	</string>
+	<string key="UI_Users_Transaction">
+		<value>لیست تراکنش ها</value>
+	</string>
+	<string key="UI_Login_Login">
+		<value>ورود</value>
+	</string>
+	<string key="UI_PrivateNumbers_AssignPrivateNumberToUsers">
+		<value>اختصاص خطوط اختصاصی به کاربر</value>
+	</string>
+	<string key="UI_AccountInformations_AccountInformation">
+		<value>مدیریت حسابها</value>
+	</string>
+	<string key="UI_Users_RegisterFish">
+		<value>ثبت فیش</value>
+	</string>
+	<string key="UI_UserFishes_ConfirmFish">
+		<value>تایید فیش</value>
+	</string>
+	<string key="ConfirmFish">
+		<value>تایید فیش</value>
+	</string>
+	<string key="UI_SmsSends_SendGroupSms">
+		<value>ارسال گروهی</value>
+	</string>
+	<string key="UI_SmsSends_SendBulkSms">
+		<value>ارسال پیامک منطقه ای</value>
+	</string>
+	<string key="UI_SmsSends_SendBulk">
+		<value>ارسال انبوه</value>
+	</string>
+	<string key="UI_SmsReports_BulkList">
+		<value>لیست ارسال منطقه ای</value>
+	</string>
+	<string key="UI_SmsReports_BulkDetails">
+		<value>جزئیات ارسال منطقه ای</value>
+	</string>
+	<string key="UI_Domains_Domain">
+		<value>مدیریت دامین</value>
+	</string>
+	<string key="UI_Domains_RegisterDomain">
+		<value>ثبت دامنه</value>
+	</string>
+	<string key="RegisterDomain">
+		<value>ثبت دامنه</value>
+	</string>
+	<string key="UI_Users_IncreaseCredit">
+		<value>افزایش موجودی</value>
+	</string>
+	<string key="UI_Users_DecreaseCredit">
+		<value>کاهش موجودی</value>
+	</string>
+	<string key="UI_UserServices_UserServicePrice">
+		<value>تعیین قیمت سرویس ها</value>
+	</string>
+	<string key="UI_ServiceGroups_SaveServiceGroup">
+		<value>ثبت منو</value>
+	</string>
+	<string key="UI_Services_SaveService">
+		<value>ثبت سرویس</value>
+	</string>
+	<string key="ManageServiceGroup">
+		<value>مدیریت منوها</value>
+	</string>
+	<string key="ManageService">
+		<value>مدیریت سرویس ها</value>
+	</string>
+	<string key="ManageAccess">
+		<value>مدیریت دسترسی ها</value>
+	</string>
+	<string key="ManageGroupPrice">
+		<value>مدیریت گروه قیمت ها</value>
+	</string>
+	<string key="ManagePriceRange">
+		<value>مدیریت بازه قیمت ها</value>
+	</string>
+	<string key="PhoneBook">
+		<value>دفترچه تلفن</value>
+	</string>
+	<string key="AddSingleNumber">
+		<value>افزودن شماره تکی</value>
+	</string>
+	<string key="AddListNumber">
+		<value>افزودن شماره لیستی</value>
+	</string>
+	<string key="AddListEmail">
+		<value>افزودن ایمیل لیستی</value>
+	</string>
+	<string key="AddFileNumber">
+		<value>افزودن شماره از فایل</value>
+	</string>
+	<string key="AddUserField">
+		<value>افزودن فیلد تکمیلی به دفترچه تلفن</value>
+	</string>
+	<string key="AddSmsFormat">
+		<value>تعریف قالب پویا</value>
+	</string>
+	<string key="ManageUser">
+		<value>مدیریت کاربران</value>
+	</string>
+	<string key="UserService">
+		<value>سرویس های کاربران</value>
+	</string>
+	<string key="ChangePassword">
+		<value>تغییر کلمه عبور</value>
+	</string>
+	<string key="EditProfile">
+		<value>ویرایش پروفایل</value>
+	</string>
+  <string key="Profile">
+    <value>پروفایل</value>
+  </string>
+	<string key="RegisterUser">
+		<value>ثبت کاربر جدید</value>
+	</string>
+	<string key="AddAccess">
+		<value>ثبت دسترسی جدید</value>
+	</string>
+	<string key="EditAccess">
+		<value>ویرایش دسترسی</value>
+	</string>
+	<string key="DeleteAccess">
+		<value>حذف دسترسی</value>
+	</string>
+	<string key="EditGroupPrice">
+		<value>ویرایش گروه قیمت</value>
+	</string>
+	<string key="DeleteGroupPrice">
+		<value>حذف گروه قیمت</value>
+	</string>
+	<string key="AddPhoneBookGroup">
+		<value>افزودن گروه به دفترچه تلفن</value>
+	</string>
+	<string key="EditPhoneBookGroup">
+		<value>ویرایش گروه در دفترچه تلفن</value>
+	</string>
+	<string key="CutPhoneBookGroup">
+		<value>برش گروه در دفترچه تلفن</value>
+	</string>
+	<string key="PastePhoneBookGroup">
+		<value>چسباندن گروه در دفترچه تلفن</value>
+	</string>
+	<string key="DeletePhoneBookGroup">
+		<value>حذف گروه از دفترچه تلفن</value>
+	</string>
+	<string key="AddPriceRange">
+		<value>ثبت بازه قیمت جدید</value>
+	</string>
+	<string key="EditPriceRange">
+		<value>ویرایش بازه قیمت</value>
+	</string>
+	<string key="DeletePriceRange">
+		<value>حذف بازه قیمت</value>
+	</string>
+	<string key="AddServiceGroup">
+		<value>ثبت گروه سرویس</value>
+	</string>
+	<string key="EditServiceGroup">
+		<value>ویرایش گروه سرویس</value>
+	</string>
+	<string key="DeleteServiceGroup">
+		<value>حذف گروه سرویس</value>
+	</string>
+	<string key="AddService">
+		<value>ثبت سرویس جدید</value>
+	</string>
+	<string key="EditService">
+		<value>ویرایش سرویس</value>
+	</string>
+	<string key="DeleteService">
+		<value>حذف سرویس</value>
+	</string>
+	<string key="EditUser">
+		<value>ویرایش کاربر</value>
+	</string>
+	<string key="AdvanceEditUser">
+		<value>ویرایش پیشرفته کاربر</value>
+	</string>
+	<string key="DeleteUser">
+		<value>حذف کاربر</value>
+	</string>
+	<string key="EditUserService">
+		<value>ویرایش سرویس های کاربران</value>
+	</string>
+	<string key="EditUserAccess">
+		<value>ویرایش دسترسی های کاربران</value>
+	</string>
+	<string key="UserNotFound">
+		<value>کاربری با این مشخصات یافت نشد.</value>
+	</string>
+	<string key="UserIsNotActive">
+		<value>نام کاربری غیرفعال می باشد.</value>
+	</string>
+	<string key="RemaindMe">
+		<value>مرا بخاطر بسپار</value>
+	</string>
+	<string key="Login">
+		<value>ورود</value>
+	</string>
+	<string key="SingInToSystem">
+		<value>ورود به سیستم</value>
+	</string>
+	<string key="UserName">
+		<value>نام کاربری</value>
+	</string>
+	<string key="Password">
+		<value>کلمه عبور</value>
+	</string>
+	<string key="ConfirmPassword">
+		<value>تکرار کلمه عبور</value>
+	</string>
+  <string key="APIPassword">
+    <value>کلمه عبور وب سرویس</value>
+  </string>
+  <string key="ConfirmAPIPassword">
+    <value>تکرار کلمه عبور وب سرویس</value>
+  </string>
+  <string key="AuthorizedIPs">
+    <value>آی پی های مجاز</value>
+  </string>
+  <string key="NewUser">
+		<value>کاربر جدید</value>
+	</string>
+	<string key="FirstName">
+		<value>نام </value>
+	</string>
+	<string key="LastName">
+		<value>نام خانوادگی </value>
+	</string>
+	<string key="BirthDate">
+		<value>تاریخ تولد </value>
+	</string>
+	<string key="Email">
+		<value>ایمیل </value>
+	</string>
+	<string key="Location">
+		<value>موقعیت </value>
+	</string>
+	<string key="Address">
+		<value>آدرس </value>
+	</string>
+	<string key="InterfaceAddress">
+		<value>ادرس رابط</value>
+	</string>
+	<string key="MobileNo">
+		<value>تلفن همراه </value>
+	</string>
+	<string key="PhoneNo">
+		<value>تلفن ثابت </value>
+	</string>
+	<string key="FaxNo">
+		<value>فاکس </value>
+	</string>
+	<string key="Register">
+		<value>ثبت</value>
+	</string>
+  <string key="Forgotpassword">
+    <value>فراموشی رمز عبور</value>
+  </string>
+	<string key="UserRegisteredSuccessfully">
+		<value>ثبت کاربر با موفقیت انجام شد.</value>
+	</string>
+	<string key="UserNameIsDuplicate">
+		<value>نام کاربری تکراری می باشد.</value>
+	</string>
+	<string key="PasswordNotMatchWithConfirmPassword">
+		<value>کلمه عبور با تکرار آن مطابقت ندارد.</value>
+	</string>
+	<string key="Esfahan">
+		<value>اصفهان</value>
+	</string>
+	<string key="Qom">
+		<value>قم</value>
+	</string>
+	<string key="Tehran">
+		<value>تهران</value>
+	</string>
+	<string key="Alborz">
+		<value>کرج</value>
+	</string>
+	<string key="AzerbaijanEast">
+		<value>آذربايجان شرقي</value>
+	</string>
+	<string key="AzerbaijanWest">
+		<value>آذربايجان غربي</value>
+	</string>
+	<string key="Ardabil">
+		<value>اردبيل</value>
+	</string>
+	<string key="Ilam">
+		<value>ايلام</value>
+	</string>
+	<string key="Bushehr">
+		<value>بوشهر</value>
+	</string>
+	<string key="ChaharmahalBakhtiari">
+		<value>چهار محال بختياري</value>
+	</string>
+	<string key="KhorasanNorth">
+		<value>خراسان شمالی</value>
+	</string>
+	<string key="KhorasanRazavi">
+		<value>خراسان رضوی</value>
+	</string>
+	<string key="KhorasanSouth">
+		<value>خراسان جنوبی</value>
+	</string>
+	<string key="Khuzestan">
+		<value>خوزستان</value>
+	</string>
+	<string key="Zanjan">
+		<value>زنجان</value>
+	</string>
+	<string key="Semnan">
+		<value>سمنان</value>
+	</string>
+	<string key="SistanBaluchestan">
+		<value>سيستان بلوچستان</value>
+	</string>
+	<string key="Fars">
+		<value>فارس</value>
+	</string>
+	<string key="Qazvin">
+		<value>قزوين</value>
+	</string>
+	<string key="Kurdistan">
+		<value>کردستان</value>
+	</string>
+	<string key="Kerman">
+		<value>کرمان</value>
+	</string>
+	<string key="Kermanshah">
+		<value>کرمانشاه</value>
+	</string>
+	<string key="KohgiluyehVaBoyerAhmad">
+		<value>کهکيلويه و بويراحمد</value>
+	</string>
+	<string key="Gulistan">
+		<value>گلستان</value>
+	</string>
+	<string key="Gilan">
+		<value>گيلان</value>
+	</string>
+	<string key="Lorestan">
+		<value>لرستان</value>
+	</string>
+	<string key="Mazandaran">
+		<value>مازندران</value>
+	</string>
+	<string key="Markazi">
+		<value>مرکزي</value>
+	</string>
+	<string key="Hormozgan">
+		<value>هرمزگان</value>
+	</string>
+	<string key="Hamedan">
+		<value>همدان</value>
+	</string>
+	<string key="Yazd">
+		<value>يزد</value>
+	</string>
+	<string key="Strings">
+		<value>رشته ای از حروف</value>
+	</string>
+	<string key="Number">
+		<value>عدد</value>
+	</string>
+	<string key="LineNumber">
+		<value>شماره خط</value>
+	</string>
+	<string key="DateTime">
+		<value>تاریخ</value>
+	</string>
+	<string key="NewField">
+		<value>فیلد جدید</value>
+	</string>
+	<string key="Service">
+		<value>سرویس</value>
+	</string>
+	<string key="Search">
+		<value>جستجو</value>
+	</string>
+	<string key="New">
+		<value>جدید</value>
+	</string>
+	<string key="NewSmsManual">
+		<value>افزودن دستی</value>
+	</string>
+	<string key="NewUploadFile">
+		<value>افزودن از فایل</value>
+	</string>
+	<string key="Access">
+		<value>دسترسی</value>
+	</string>
+	<string key="Cancel">
+		<value>انصراف</value>
+	</string>
+	<string key="DeleteAccessError">
+		<value>این دسترسی برای کاربران استفاده شده است.</value>
+	</string>
+	<string key="CompleteUserNameField">
+		<value>نام کاربری وارد نشده است</value>
+	</string>
+	<string key="CompletePasswordField">
+		<value>کلمه عبور وارد نشده است</value>
+	</string>
+	<string key="CompleteFirstNameField">
+		<value>نام وارد نشده است</value>
+	</string>
+	<string key="CompleteNameField">
+		<value>نام وارد نشده است</value>
+	</string>
+	<string key="CompleteLastNameField">
+		<value>نام خانوادگی وارد نشده است</value>
+	</string>
+	<string key="CompleteEmailField">
+		<value>ایمیل وارد نشده است</value>
+	</string>
+	<string key="EmailFieldIsNotCorectFormat">
+		<value>فرمت ایمیل صحیح نیست</value>
+	</string>
+	<string key="CompleteMobileNoField">
+		<value>شماره تلفن همراه وارد نشده است</value>
+	</string>
+	<string key="CompleteQueueLengthField">
+		<value>طول صف وارد نشده است</value>
+	</string>
+	<string key="Users">
+		<value>کاربران</value>
+	</string>
+	<string key="All">
+		<value>همه</value>
+	</string>
+	<string key="NormalUser">
+		<value>کاربر عادی</value>
+	</string>
+	<string key="AdminUser">
+		<value>کاربران مدیر</value>
+	</string>
+	<string key="AdvancedSearch">
+		<value>جستجوی پیشرفته</value>
+	</string>
+	<string key="Agent">
+		<value>نمایندگی</value>
+	</string>
+	<string key="UserNonReal">
+		<value>کاربر زیرمجموعه</value>
+	</string>
+	<string key="UserType">
+		<value>نوع کاربر</value>
+	</string>
+	<string key="Active">
+		<value>فعال</value>
+	</string>
+	<string key="InActive">
+		<value>غیرفعال</value>
+	</string>
+	<string key="UserStatus">
+		<value>وضعیت کاربر</value>
+	</string>
+	<string key="PanelPrice">
+		<value>قیمت پنل</value>
+	</string>
+	<string key="ExpireDate">
+		<value>تاریخ انقضاء</value>
+	</string>
+	<string key="CreateDate">
+		<value>تاریخ ثبت</value>
+	</string>
+	<string key="MaximumAdmin">
+		<value>حداکثر تعداد مدیر</value>
+	</string>
+	<string key="MaximumUser">
+		<value>حداکثر تعداد کاربر</value>
+	</string>
+	<string key="MaximumPhoneNumber">
+		<value>حداکثر تعداد شماره </value>
+	</string>
+	<string key="MaximumEmailAddress">
+		<value>حداکثر تعداد آدرس ایمیل</value>
+	</string>
+	<string key="CountMobileNumber">
+		<value>تعدادشماره</value>
+	</string>
+	<string key="Admin">
+		<value>مدیر</value>
+	</string>
+	<string key="EditRecord">
+		<value>عملیات ویرایش انجام شد</value>
+	</string>
+	<string key="DeleteRecord">
+		<value>عملیات حذف انجام شد</value>
+	</string>
+	<string key="ErrorDeletingRecord">
+		<value>خطا! عملیات حذف انجام نشد</value>
+	</string>
+	<string key="ErrorRecord">
+		<value>خطا! عملیات موردنظر انجام نشد</value>
+	</string>
+	<string key="CompleteGroupNameField">
+		<value>عنوان گروه وارد نشده است</value>
+	</string>
+	<string key="CompleteUrlField">
+		<value>آدرس دریافت پیامک را وارد نمایید</value>
+	</string>
+	<string key="ChangePasswordDoneSuccessfully">
+		<value>تغییر کلمه عبور با موفقیت انجام شد.</value>
+	</string>
+	<string key="ImpossibleDefiningService">
+		<value>امکان تعریف سرویس برای کاربر وجود ندارد</value>
+	</string>
+	<string key="InsertRecord">
+		<value>عملیات ثبت انجام شد</value>
+	</string>
+	<string key="Title">
+		<value>عنوان</value>
+	</string>
+	<string key="AddGroupPrice">
+		<value>گروه قیمت جدید</value>
+	</string>
+	<string key="DuplicateTitle">
+		<value>عنوان تکراری است.</value>
+	</string>
+	<string key="SendSingleSms">
+		<value>ارسال پیامک تکی</value>
+	</string>
+	<string key="SendSingleFutureSms">
+		<value>ارسال پیامک تکی در آینده</value>
+	</string>
+	<string key="SendPeriodFutureSingleSms">
+		<value>ارسال پیامک تکی دوره ای</value>
+	</string>
+	<string key="SendGroupSms">
+		<value>ارسال پیامک گروهی</value>
+	</string>
+  <string key="SendToSelectedGroupSms">
+    <value>ارسال پیامک به گروه های انتخابی</value>
+  </string>
+	<string key="SendFormatGroupSms">
+		<value>ارسال پیامک گروهی پویا</value>
+	</string>
+	<string key="SendPeriodFutureGroupSms">
+		<value>ارسال گروهی دوره ای</value>
+	</string>
+	<string key="SendFormatPeriodFutureGroupSms">
+		<value>ارسال پیامک گروهی دوره ای پویا</value>
+	</string>
+	<string key="SendGroupFutureSms">
+		<value>ارسال پیامک گروهی در آینده</value>
+	</string>
+	<string key="SendFormatGroupFutureSms">
+		<value>ارسال پیامک گروهی پویا در آینده</value>
+	</string>
+	<string key="SendAdvancedGroupFutureSms">
+		<value>ارسال پیامک پیشرفته در آینده</value>
+	</string>
+	<string key="SendFormatAdvancedGroupFuture">
+		<value>ارسال پیامک پیشرفته پویا در آینده</value>
+	</string>
+	<string key="SendPeriodFutureAdvancedGroupSms">
+		<value>ارسال پیامک پیشرفته دوره ای</value>
+	</string>
+	<string key="SendFormatPeriodFutureAdvancedGroupSms">
+		<value>ارسال پیامک پیشرفته پویا در دوره معین</value>
+	</string>
+	<string key="SendFutureFieldSms">
+		<value>ارسال پیامک براساس فیلد تاریخ</value>
+	</string>
+	<string key="SendFormatFutureFieldSms">
+		<value>ارسال پیامک پویا براساس فیلد تاریخ</value>
+	</string>
+	<string key="SenderNumber">
+		<value>شماره فرستنده</value>
+	</string>
+	<string key="RecieverNumber">
+		<value>شماره گیرنده</value>
+	</string>
+	<string key="SmsBody">
+		<value>متن پیام </value>
+	</string>
+	<string key="DecreaseFromUser">
+		<value>کسر هزینه از کاربر</value>
+	</string>
+	<string key="SmsPattern">
+		<value>الگوی پیامک</value>
+	</string>
+	<string key="EmailPattern">
+		<value>الگوی ایمیل</value>
+	</string>
+	<string key="SendSms">
+		<value>ارسال پیامک</value>
+	</string>
+	<string key="CompleteRecieverNumberField">
+		<value>شماره گیرنده را وارد کنید</value>
+	</string>
+	<string key="CompleteRecieverEmailField">
+		<value>ایمیل گیرنده وارد شود</value>
+	</string>
+	<string key="ReceiverEmail">
+		<value>ایمیل گیرنده</value>
+	</string>
+	<string key="UserAccountManagement">
+		<value>مدیریت اعتبار کاربران</value>
+	</string>
+	<string key="IncreaseCredit">
+		<value>افزایش اعتبار</value>
+	</string>
+	<string key="AmountIncrease">
+		<value>میزان افزایش</value>
+	</string>
+	<string key="DecreaseCredit">
+		<value>کاهش اعتبار</value>
+	</string>
+	<string key="AmountDecrease">
+		<value>میزان کاهش</value>
+	</string>
+	<string key="ManageIncreaseCreditTransaction">
+		<value>افزایش اعتبار به کاربر {0} - {1}</value>
+	</string>
+	<string key="ManageTaxDecreaseCreditTransaction">
+		<value> مالیات بر ارزش افزوده افزایش اعتبار توسط مدیریت</value>
+	</string>
+	<string key="ErrorAndEffort">
+		<value>خطا!عملیات موردنظر انجام نشد لطفا مجدداً تلاش کنید</value>
+	</string>
+	<string key="ManageDecreaseCreditTransaction">
+		<value>کاهش اعتبار از کاربر {0} - {1}</value>
+	</string>
+	<string key="PriceNumberDecreaseCreditTransaction">
+		<value>کاهش اعتبار بابت خط اختصاصی</value>
+	</string>
+	<string key="ToUseThisFeatureLogin">
+		<value>برای استفاده ازاین امکان وارد سایت شوید</value>
+	</string>
+	<string key="TransactionList">
+		<value>لیست تراکنش ها</value>
+	</string>
+	<string key="Manage">
+		<value>مدیریت</value>
+	</string>
+	<string key="Cash">
+		<value>نقدی</value>
+	</string>
+	<string key="Cheque">
+		<value>چک</value>
+	</string>
+	<string key="Fish">
+		<value>فیش بانکی</value>
+	</string>
+	<string key="OnLine">
+		<value>آنلاین</value>
+	</string>
+	<string key="Tax">
+		<value>مالیات</value>
+	</string>
+	<string key="Card">
+		<value>کارت</value>
+	</string>
+	<string key="AllStatus">
+		<value>تمام وضعیت ها</value>
+	</string>
+	<string key="Uncertain">
+		<value>نامشخص</value>
+	</string>
+	<string key="Delivered">
+		<value>رسیده به گوشی</value>
+	</string>
+	<string key="NotDeliver">
+		<value>نرسیده به گوشی</value>
+	</string>
+	<string key="InQueueCommunication">
+		<value>در صف مخابرات</value>
+	</string>
+	<string key="DeliveredCommunication">
+		<value>رسیده به مخابرات</value>
+	</string>
+	<string key="NotDeliverCommunication">
+		<value>نرسیده به مخابرات</value>
+	</string>
+	<string key="SmsSentMessage">
+		<value>ارسال با موفقیت انجام شد</value>
+	</string>
+	<string key="FailSendGroupSmsMessage">
+		<value>ارسال شما به گروه های زیر انجام نشد لطفا جهت گروه های ذکر شده مجددا اقدام نمایید</value>
+	</string>
+	<string key="FialSendSingleSmsMessage">
+		<value>ارسال شما انجام نشد لطفا مجدد اقدام نمایید</value>
+	</string>
+	<string key="AddPrivateNumber">
+		<value>ثبت خط اختصاصی</value>
+	</string>
+	<string key="PrivateNumber">
+		<value>شماره خط اختصاصی</value>
+	</string>
+	<string key="DecreaseFromPanel">
+		<value>کسر از شارژ پنل</value>
+	</string>
+	<string key="PriceNumber">
+		<value>هزینه خط اختصاصی</value>
+	</string>
+	<string key="UsableToChildren">
+		<value>قابل استفاده توسط کاربران</value>
+	</string>
+	<string key="ManagePrivateNumber">
+		<value>مدیریت خطوط اختصاصی</value>
+	</string>
+	<string key="Price">
+		<value>هزینه</value>
+	</string>
+	<string key="Exactly">
+		<value>دقیقا</value>
+	</string>
+	<string key="LessThan">
+		<value>کمتر از</value>
+	</string>
+	<string key="MoreThan">
+		<value>بیشتر از</value>
+	</string>
+	<string key="NumberStatus">
+		<value>وضعیت شماره</value>
+	</string>
+	<string key="DuplicatePrivateNumber">
+		<value>شماره خط اختصاصی تکراری است</value>
+	</string>
+	<string key="IncorrectPrivateNumber">
+		<value>شماره خط اختصاصی اشتباه است.</value>
+	</string>
+	<string key="Send">
+		<value>ارسال</value>
+	</string>
+	<string key="Recieve">
+		<value>دریافت</value>
+	</string>
+	<string key="Sold">
+		<value>فروخته شده</value>
+	</string>
+	<string key="Sale">
+		<value>فروشی</value>
+	</string>
+	<string key="Use">
+		<value>استفاده شخصی</value>
+	</string>
+	<string key="Shared">
+		<value>اشتراکی</value>
+	</string>
+	<string key="SharedUse">
+		<value>استفاده اشتراکی</value>
+	</string>
+	<string key="NumberType">
+		<value>نوع خط</value>
+	</string>
+	<string key="StartValidity">
+		<value>شروع اعتبار</value>
+	</string>
+	<string key="EndValidity">
+		<value>پایان اعتبار</value>
+	</string>
+	<string key="UseType">
+		<value>نوع کاربرد</value>
+	</string>
+	<string key="FailActiveNumber">
+		<value>این خط از جانب مدیریت برای شما غیر فعال شده است</value>
+	</string>
+	<string key="AssignNumberToUsers">
+		<value>تخصیص شماره به کاربران</value>
+	</string>
+	<string key="ManageNumberOfUsers">
+		<value>مدیریت خطوط کاربران</value>
+	</string>
+	<string key="ErrorCredit">
+		<value>موجودی کاربر برای عملیات موردنظر کافی نیست</value>
+	</string>
+	<string key="ConflictDateTime">
+		<value>خطا! این خط در زمان مورد تقاضا اشغال است </value>
+	</string>
+	<string key="DontConflictDateTime">
+		<value>خط موردنظر فاقد تداخل است </value>
+	</string>
+	<string key="WarningConFilictDateTime">
+		<value>این خط در زمان مورد تقاضا اشغال است.آیا عملیات ثبت انجام شود؟</value>
+	</string>
+	<string key="CheckEmptyHourInput">
+		<value>فیلد ساعت را پر کنید</value>
+	</string>
+	<string key="CheckEmptyPostalCodeInput">
+		<value>فیلد کدپستی را پر کنید</value>
+	</string>
+	<string key="FailPostalCodeInput">
+		<value>فیلد کدپستی را 10 رقمی وارد کنید</value>
+	</string>
+	<string key="CheckEmptyNationalCodeInput">
+		<value>فیلد کدملی را پر کنید</value>
+	</string>
+	<string key="FailphoneNumberInput">
+		<value>فیلد شماره تلفن باید حداکثر10رقمی باشد</value>
+	</string>
+	<string key="FailNationalCodeInput">
+		<value>فیلد کدملی را 10 رقمی وارد کنید</value>
+	</string>
+	<string key="CheckEmptyMinuteInput">
+		<value>فیلد دقیقه را پر کنید</value>
+	</string>
+	<string key="FailHourInput">
+		<value>مقدار فیلد ساعت صحیح نمی باشد</value>
+	</string>
+	<string key="FailMinuteInput">
+		<value>مقدار فیلد دقیقه صحیح نمی باشد</value>
+	</string>
+	<string key="ManageAccountNumbers">
+		<value>مدیریت حساب ها</value>
+	</string>
+	<string key="Bank">
+		<value>بانک</value>
+	</string>
+	<string key="OwnerAccountnumber">
+		<value>صاحب حساب</value>
+	</string>
+	<string key="Branch">
+		<value>شعبه</value>
+	</string>
+	<string key="AccountNumber">
+		<value>شماره حساب</value>
+	</string>
+	<string key="CardNumber">
+		<value>شماره کارت</value>
+	</string>
+	<string key="AddAccountNumber">
+		<value>شماره حساب جدید</value>
+	</string>
+	<string key="EditAccountNumber">
+		<value>ویرایش شماره حساب</value>
+	</string>
+	<string key="EghtesadNovin">
+		<value>اقتصاد نوین</value>
+	</string>
+	<string key="Pasargad">
+		<value>پاسارگاد</value>
+	</string>
+	<string key="Parsian">
+		<value>پارسیان</value>
+	</string>
+	<string key="Tat">
+		<value>تات</value>
+	</string>
+	<string key="Tejarat">
+		<value>تجارت</value>
+	</string>
+	<string key="Saman">
+		<value>سامان</value>
+	</string>
+	<string key="Sepah">
+		<value>سپه</value>
+	</string>
+	<string key="Shahr">
+		<value>شهر</value>
+	</string>
+	<string key="Saderat">
+		<value>صادرات</value>
+	</string>
+	<string key="Mehr">
+		<value>قرض الحسنه مهر ایران</value>
+	</string>
+	<string key="Keshavarzi">
+		<value>کشاورزی</value>
+	</string>
+	<string key="Gardeshgari">
+		<value>گردشگری</value>
+	</string>
+	<string key="Maskan">
+		<value>مسکن</value>
+	</string>
+	<string key="Mellat">
+		<value>ملت</value>
+	</string>
+	<string key="Melli">
+		<value>ملی</value>
+	</string>
+	<string key="Select">
+		<value>انتخاب کنید</value>
+	</string>
+	<string key="SelectPackage">
+		<value>انتخاب پکیج</value>
+	</string>
+	<string key="SelectBank">
+		<value>لطفا بانک موردنظر را انتخاب کنید</value>
+	</string>
+	<string key="Type">
+		<value>نوع</value>
+	</string>
+	<string key="No.">
+		<value>شماره</value>
+	</string>
+	<string key="SelectTypeNo">
+		<value>لطفا نوع شماره را انتخاب کنید</value>
+	</string>
+	<string key="Pay">
+		<value>پرداخت</value>
+	</string>
+	<string key="TypePayment">
+		<value>نحوه پرداخت</value>
+	</string>
+	<string key="CashPayment">
+		<value>پرداخت وجه نقد</value>
+	</string>
+	<string key="ChequePayment">
+		<value>پرداخت چک</value>
+	</string>
+	<string key="CardPayment">
+		<value>کارت به کارت</value>
+	</string>
+	<string key="FishPayment">
+		<value>واریز به حساب</value>
+	</string>
+	<string key="OnlinePayment">
+		<value>پرداخت آنلاین</value>
+	</string>
+	<string key="Amount">
+		<value>مبلغ</value>
+	</string>
+	<string key="PaymentDate">
+		<value>تاریخ پرداخت</value>
+	</string>
+	<string key="Description">
+		<value>توضیحات</value>
+	</string>
+	<string key="ChequeNumber">
+		<value>شماره چک</value>
+	</string>
+	<string key="ChequeDate">
+		<value>تاریخ چک</value>
+	</string>
+	<string key="SerialNumber">
+		<value>شماره سریال</value>
+	</string>
+	<string key="FishNumber">
+		<value>شماره فیش</value>
+	</string>
+  <string key="FishAmount">
+    <value>مبلغ فیش</value>
+  </string>
+	<string key="ActiveOtherPayment">
+		<value>فعالسازی سایر روش های پرداخت</value>
+	</string>
+	<string key="IncorrectAmount">
+		<value>مبلغ وارد شده نادرست است</value>
+	</string>
+	<string key="IsEmptyBank">
+		<value>لطفا نام بانک را وارد نمایید</value>
+	</string>
+	<string key="IsEmptyChequeNumber">
+		<value>لطفا شماره چک را وارد نمایید</value>
+	</string>
+	<string key="IsEmptySerialNumber">
+		<value>لطفا شماره سریال را وارد نمایید</value>
+	</string>
+	<string key="IsEmptyFishNumber">
+		<value>لطفا شماره فیش را وارد نمایید</value>
+	</string>
+	<string key="IsDuplicateFishNumber">
+		<value>فیش با این شماره قبلا ثبت شده است</value>
+	</string>
+	<string key="Character">
+		<value>نویسه</value>
+	</string>
+	<string key="Sms">
+		<value>پیامک</value>
+	</string>
+	<string key="GroupPrice">
+		<value>گروه قیمت پیامک</value>
+	</string>
+	<string key="UsersFishes">
+		<value>فیش های کاربران</value>
+	</string>
+	<string key="Confirmed">
+		<value>تایید شده</value>
+	</string>
+	<string key="Confirm">
+		<value>تایید</value>
+	</string>
+	<string key="ConfirmBulkMessage">
+		<value>بالک موردنظر تایید شود؟</value>
+	</string>
+	<string key="RejectBulkMessage">
+		<value>بالک موردنظر لغو شود؟</value>
+	</string>
+	<string key="WatingForConfirm">
+		<value>منتظر تایید</value>
+	</string>
+	<string key="Rejected">
+		<value>رد شده</value>
+	</string>
+	<string key="Reject">
+		<value>لغو</value>
+	</string>
+	<string key="Checking">
+		<value>درحال بررسی</value>
+	</string>
+	<string key="Account">
+		<value>حساب</value>
+	</string>
+	<string key="PaymentDetails">
+		<value>جزئیات پرداخت</value>
+	</string>
+	<string key="ConfirmRejectSms">
+		<value>از لغو ارسال مطمئن هستید؟</value>
+	</string>
+	<string key="CashPaymentTransaction">
+		<value>افزایش اعتبار بابت پرداخت نقدی در تاریخ </value>
+	</string>
+	<string key="ChequePaymentTransaction">
+		<value>افزایش اعتبار بابت پرداخت چک به شماره چک </value>
+	</string>
+	<string key="CardPaymentTransaction">
+		<value>افزایش اعتبار بابت واریز کارت به کارت به شماره سریال </value>
+	</string>
+	<string key="FishPaymentTransaction">
+		<value>افزایش اعتبار بابت واریز به حساب به شماره فیش {0} تعداد {1} پیامک با احتساب {2} درصد مالیات</value>
+	</string>
+	<string key="DecreasePaymentTransaction">
+		<value>کاهش اعتبار بابت شارژ کاربر {0} تعداد {1} پیامک شماره فیش {2}</value>
+	</string>
+	<string key="OnlinePaymentTransaction">
+		<value>افزایش اعتبار بابت خرید آنلاین به شماره تراکنش{0}</value>
+	</string>
+	<string key="TaxOnlinePaymentTransaction">
+		<value>مالیات بر ارزش افزوده خرید آنلاین در تاریخ{0}</value>
+	</string>
+	<string key="TaxCashPaymentTransaction">
+		<value>مالیات بر ارزش افزوده پرداخت نقدی در تاریخ </value>
+	</string>
+	<string key="TaxChequePaymentTransaction">
+		<value>مالیات بر ارزش افزوده پرداخت چک به شماره چک </value>
+	</string>
+	<string key="TaxCardPaymentTransaction">
+		<value>مالیات بر ارزش افزوده واریز کارت به کارت به شماره سریال </value>
+	</string>
+	<string key="TaxFishPaymentTransaction">
+		<value>مالیات بر ارزش افزوده واریز به حساب به شماره فیش </value>
+	</string>
+	<string key="ComputeTax">
+		<value>محاسبه مالیات</value>
+	</string>
+	<string key="CurrentCredit">
+		<value>موجودی فعلی</value>
+	</string>
+	<string key="CountSmsInserted">
+		<value>تعداد پیامک های ثبت شده</value>
+	</string>
+	<string key="CountSmsFailInserted">
+		<value>تعداد پیامک های ثبت نشده</value>
+	</string>
+	<string key="CountNumberFail">
+		<value>تعداد شماره های اشتباه</value>
+	</string>
+	<string key="CountSmsFail">
+		<value>تعداد پیامک های اشتباه</value>
+	</string>
+	<string key="CountEmailFail">
+		<value>تعداد ایمیل های اشتباه</value>
+	</string>
+	<string key="ReportSend">
+		<value>گزارش ارسال</value>
+	</string>
+	<string key="ReportStats">
+		<value>گزارش آماری</value>
+	</string>
+	<string key="BulkRequest">
+		<value>درخواست بالک</value>
+	</string>
+	<string key="As">
+		<value>به صورت</value>
+	</string>
+	<string key="SendDate">
+		<value>تاریخ ارسال</value>
+	</string>
+	<string key="RegisterSettings">
+		<value>ثبت تنظیمات</value>
+	</string>
+	<string key="SaveSetting">
+		<value>ثبت تنظیمات</value>
+	</string>
+	<string key="UI_Settings_SaveSetting">
+		<value>ثبت تنظیمات کلی سیستم</value>
+	</string>
+	<string key="FlashSms">
+		<value>فلش اس ام اس</value>
+	</string>
+	<string key="Normal">
+		<value>معمولی</value>
+	</string>
+	<string key="Recipients">
+		<value>گیرندگان</value>
+	</string>
+  <string key="RecipientsWithSeprator">
+    <value>گیرندگان(جداکننده کاما)</value>
+  </string>
+	<string key="PostCode">
+		<value>کدپستی</value>
+	</string>
+	<string key="InterfacePostCode">
+		<value>کدپستی رابط</value>
+	</string>
+	<string key="Prefix">
+		<value>پیش شماره</value>
+	</string>
+	<string key="ProvinceAndCity">
+		<value>شهر و استان</value>
+	</string>
+	<string key="From">
+		<value>از</value>
+	</string>
+	<string key="Count">
+		<value>تعداد</value>
+	</string>
+	<string key="To">
+		<value>به</value>
+	</string>
+	<string key="BulkID">
+		<value>شماره پیگیری مخابرات</value>
+	</string>
+	<string key="AccountNotAuthenticated">
+		<value>اطلاعات حساب نامعتبر است</value>
+	</string>
+	<string key="BulkNotForThisUser">
+		<value>بالک متعلق به این حساب نیست</value>
+	</string>
+	<string key="BlankRecipientID">
+		<value>بالک بدون گیرنده است</value>
+	</string>
+	<string key="ServerError">
+		<value>خطای سرور، لطفا مجددا درخواست خود را ارسال نمایید</value>
+	</string>
+	<string key="BlankMessage">
+		<value>متن پیامک خالی است</value>
+	</string>
+	<string key="BlankSenderNumber">
+		<value>شماره فرستنده خالی است</value>
+	</string>
+	<string key="InvalidMessageClass">
+		<value>نوع بالک نامعتبر است</value>
+	</string>
+	<string key="InvalidSendDate">
+		<value>تاریخ ارسال نامعتبر است</value>
+	</string>
+	<string key="BlankBulkID">
+		<value>شناسه بالک خالی است</value>
+	</string>
+	<string key="InvalidProvinceID">
+		<value>شناسه استان نامعتبر است</value>
+	</string>
+	<string key="InvalidBulkID">
+		<value>شناسه بالک نامعتبر است</value>
+	</string>
+	<string key="BlankPrefix">
+		<value>پارامتر پیش شماره خالی است</value>
+	</string>
+	<string key="InvalidPostalCode">
+		<value>پارامتر کدپستی نامعتبر است</value>
+	</string>
+	<string key="InvalidRecipientID">
+		<value>شناسه گیرندگان نامعتبر است</value>
+	</string>
+	<string key="InvalidSenderNumber">
+		<value>شماره فرستنده نامعتبر است</value>
+	</string>
+	<string key="invalidRecieverNumber">
+		<value>شماره گیرنده نامعتبر است</value>
+	</string>
+	<string key="InvalidDestinationNetwork">
+		<value>امکان ارسال به اپراتور شماره گیرنده وجود ندارد</value>
+	</string>
+	<string key="UnreachableNetwork">
+		<value>اپراتور شماره گیرنده در حال حاضر در دسترس نمی باشد</value>
+	</string>
+	<string key="DeactiveSenderNumber">
+		<value>شماره فرستنده غیرفعال می باشد</value>
+	</string>
+	<string key="InvalidFormatOfSenderNumber">
+		<value>فرمت شماره فرستنده صحیح نمی باشد</value>
+	</string>
+	<string key="InvalidCityID">
+		<value>شناسه شهر نامعتبر است</value>
+	</string>
+	<string key="InvalidNumberType">
+		<value>پارامتر نوع شماره نامعتبر است</value>
+	</string>
+	<string key="InvalidFromIndex">
+		<value>مقدار پارامتر "از" نامعتبر است</value>
+	</string>
+	<string key="InvalidPrefix">
+		<value>مقدار پارامتر پیش شماره نامعتبر است</value>
+	</string>
+	<string key="AddRecipient">
+		<value>افزوده شود</value>
+	</string>
+	<string key="AddRecipientError">
+		<value>لطفا ابتدا متن پیامک را ثبت نمایید</value>
+	</string>
+	<string key="SelectGroupError">
+		<value>لطفا گروه مورد نظر را انتخاب کنید</value>
+	</string>
+	<string key="Credits">
+		<value>اعتباری</value>
+	</string>
+	<string key="Permanent">
+		<value>دائمی</value>
+	</string>
+	<string key="BulkList">
+		<value>لیست بالک</value>
+	</string>
+	<string key="SendTime">
+		<value>زمان ارسال</value>
+	</string>
+	<string key="RowNumber">
+		<value>ردیف</value>
+	</string>
+	<string key="COMPOSING">
+		<value>در حالت ایجاد بالک</value>
+	</string>
+	<string key="PENDING">
+		<value>در حالت انتظار جهت تایید</value>
+	</string>
+	<string key="ACCEPTED">
+		<value>تایید شده</value>
+	</string>
+	<string key="REJECTED">
+		<value>تایید نشده</value>
+	</string>
+	<string key="STARTED">
+		<value>درحال ارسال به مخابرات</value>
+	</string>
+	<string key="FINISHED">
+		<value>تمام شده</value>
+	</string>
+  <string key="Finish">
+    <value>پایان</value>
+  </string>
+	<string key="HALTED">
+		<value>توقف موقت بالک</value>
+	</string>
+	<string key="CANCELED">
+		<value>لغو ارسال بالک</value>
+	</string>
+	<string key="RecipientsList">
+		<value>لیست گیرندگان</value>
+	</string>
+	<string key="OptionsList">
+		<value>لیست گزینه ها</value>
+	</string>
+	<string key="BasedOn">
+		<value>براساس...</value>
+	</string>
+	<string key="Province">
+		<value>استان</value>
+	</string>
+	<string key="InterfaceProvince">
+		<value>استان رابط</value>
+	</string>
+	<string key="ProvinceName">
+		<value>نام استان</value>
+	</string>
+	<string key="City">
+		<value>شهر</value>
+	</string>
+	<string key="InterfaceCity">
+		<value>شهر رابط</value>
+	</string>
+	<string key="RegisteredCity">
+		<value>شهر ثبت شده</value>
+	</string>
+	<string key="CityName">
+		<value>نام شهر</value>
+	</string>
+	<string key="CountIsIncorrect">
+		<value>تعداد وارد شده صحیح نمی باشد</value>
+	</string>
+	<string key="OutOfService">
+		<value>سرویس مخابرات در دسترس نیست</value>
+	</string>
+	<string key="ProvinceNotSelected">
+		<value>لطفا شهر و استان موردنظر را انتخاب نمایید</value>
+	</string>
+	<string key="SendDateTimeIncorrect">
+		<value>تاریخ و زمان ارسال نامعتبر است </value>
+	</string>
+	<string key="HintDateTimeSendBulk">
+		<value>زمان ارسال حداقل 15 دقیقه بعد از زمان کنونی سیستم  مجاز می باشد.</value>
+	</string>
+	<string key="Sum">
+		<value>مجموع</value>
+	</string>
+	<string key="ConfirmDelete">
+		<value>آیا حذف گردد؟</value>
+	</string>
+	<string key="RegisterRequest">
+		<value>ثبت درخواست</value>
+	</string>
+	<string key="ChangeNumberToPersian">
+		<value>تبدیل ارقام به فارسی</value>
+	</string>
+	<string key="SystemTraceNo">
+		<value>شماره پیگیری سیستم</value>
+	</string>
+	<string key="BulkDetails">
+		<value>جزئیات بالک</value>
+	</string>
+	<string key="SendBulkSms">
+		<value>ارسال پیامک انبوه</value>
+	</string>
+	<string key="SendPeriodBulkSms">
+		<value>ارسال پیامک انبوه دوره ای</value>
+	</string>
+	<string key="SendGradualBulkSms">
+		<value>ارسال پیامک انبوه تدریجی</value>
+	</string>
+	<string key="DearUser">
+		<value>کاربر گرامی</value>
+	</string>
+	<string key="SalePackage">
+		<value>خرید پکیج</value>
+	</string>
+	<string key="ShargeAmount">
+		<value>میزان شارژ</value>
+	</string>
+	<string key="YouDontHavePermissionToAccsessFollowService">
+		<value>شما مجوزهای لازم جهت استفاده از سرویس زیر را ندارید.</value>
+	</string>
+	<string key="ToBuyThisServiceClickOnServiceName">
+		<value>برای خرید این سرویس روی عنوان آن کلیک نمایید.</value>
+	</string>
+	<string key="CompleteDomainNameField">
+		<value>نام دامنه را وارد کنید</value>
+	</string>
+	<string key="DomainList">
+		<value>لیست دامنه ها</value>
+	</string>
+	<string key="DomainName">
+		<value>نام دامنه</value>
+	</string>
+	<string key="DomainExtention">
+		<value>پسوند دامنه</value>
+	</string>
+	<string key="Action">
+		<value>عملیات</value>
+	</string>
+	<string key="ManageDomain">
+		<value>مدیریت دامنه</value>
+	</string>
+	<string key="EditDomain">
+		<value>ویرایش دامنه</value>
+	</string>
+	<string key="Edit">
+		<value>ویرایش</value>
+	</string>
+	<string key="Delete">
+		<value>حذف</value>
+	</string>
+	<string key="DuplicateDomainName">
+		<value>نام دامنه تکراری است</value>
+	</string>
+	<string key="UsersList">
+		<value>لیست کاربران</value>
+	</string>
+	<string key="ManageAgent">
+		<value>مدیریت نمایندگی</value>
+	</string>
+	<string key="AdvanceEdit">
+		<value>ویرایش پیشرفته</value>
+	</string>
+	<string key="ExportToExcel">
+		<value>دریافت به صورت اکسل</value>
+	</string>
+	<string key="ExportToPdf">
+		<value>دریافت به صورت Pdf</value>
+	</string>
+	<string key="SmsPrice">
+		<value>قیمت پیامک</value>
+	</string>
+	<string key="Yes">
+		<value>بله</value>
+	</string>
+	<string key="No">
+		<value>خیر</value>
+	</string>
+	<string key="Credit">
+		<value>اعتبار</value>
+	</string>
+	<string key="CellPhone">
+		<value>موبایل </value>
+	</string>
+	<string key="TypeCreditChange">
+		<value>نوع تغییر اعتبار</value>
+	</string>
+	<string key="PreviousCredit">
+		<value>موجودی قبلی</value>
+	</string>
+	<string key="Increase">
+		<value>افزایش</value>
+	</string>
+	<string key="Decrease">
+		<value>کاهش</value>
+	</string>
+	<string key="NextCredit">
+		<value>موجودی بعدی</value>
+	</string>
+	<string key="UpTo">
+		<value>تا</value>
+	</string>
+	<string key="TypeTransaction">
+		<value>نوع تراکنش</value>
+	</string>
+	<string key="SendAdvancedGroupSms">
+		<value>ارسال پیامک پیشرفته</value>
+	</string>
+	<string key="SendAdvancedSpecialGroupSms ">
+		<value>ارسال پیامک پیشرفته گروه های ویژه</value>
+	</string>
+	<string key="SendSmsRange">
+		<value>ارسال پیامک رنجی</value>
+	</string>
+	<string key="SendFutureSingleSms">
+		<value>ارسال پیامک تکی درآینده</value>
+	</string>
+	<string key="SendFutureGroupSms">
+		<value>ارسال پیامک گروهی درآینده</value>
+	</string>
+	<string key="SendFutureAdvancedGroupSms">
+		<value>ارسال پیامک پیشرفته درآینده</value>
+	</string>
+	<string key="SendFormatAdvancedGroupSms">
+		<value>ارسال پیامک پیشرفته پویا درآینده</value>
+	</string>
+	<string key="SendFutureSingleSmsInPeriod">
+		<value>ارسال پیامک تکی دوره معین</value>
+	</string>
+	<string key="SendFutureGroupSmsInPeriod">
+		<value>ارسال پیامک گروهی دوره معین</value>
+	</string>
+	<string key="SendFutureAdvancedGroupSmsInPeriod">
+		<value>ارسال پیامک پیشرفته در دوره معین</value>
+	</string>
+	<string key="SendFutureSmsInDateTimeField">
+		<value>ارسال پیامک درآینده براساس فیلد تاریخ</value>
+	</string>
+	<string key="SendRangesSms">
+		<value>ارسال پیامک بازه ای</value>
+	</string>
+	<string key="SendFormatRangesSms">
+		<value>ارسال پیامک پویا بازه ای</value>
+	</string>
+	<string key="SendCitySms">
+		<value>ارسال پیامک شهر واستان</value>
+	</string>
+	<string key="ServiceName">
+		<value>عنوان سرویس</value>
+	</string>
+	<string key="CompleteServiceTitleField">
+		<value>فیلد عنوان سرویس را پرکنید</value>
+	</string>
+	<string key="ServicesList">
+		<value>لیست سرویس ها</value>
+	</string>
+	<string key="SaveService">
+		<value>ثبت سرویس</value>
+	</string>
+	<string key="ViewTheMenu">
+		<value>نمایش در منوی</value>
+	</string>
+	<string key="ServicePrice">
+		<value>هزینه سرویس</value>
+	</string>
+	<string key="ServicePage">
+		<value>صفحه سرویس</value>
+	</string>
+	<string key="SelectService">
+		<value>انتخاب سرویس</value>
+	</string>
+	<string key="Presentable">
+		<value>قابلیت نمایش</value>
+	</string>
+	<string key="CompleteServiceGroupTitleField">
+		<value>فیلد عنوان گروه سرویس را وارد کنید</value>
+	</string>
+	<string key="CompleteServiceGroupOrderField">
+		<value>فیلد اولویت گروه سرویس را وارد کنید</value>
+	</string>
+	<string key="ServiceGroupsList">
+		<value>لیست منوها</value>
+	</string>
+	<string key="Order">
+		<value>اولویت</value>
+	</string>
+	<string key="CountService">
+		<value>تعداد سرویس</value>
+	</string>
+	<string key="InvalidValueServiceGroupOrderField">
+		<value>مقدار فیلد اولویت گروه سرویس نامعتبر است</value>
+	</string>
+	<string key="RegisterFish">
+		<value>ثبت فیش</value>
+	</string>
+	<string key="SaveServiceGroup">
+		<value>ثبت منو</value>
+	</string>
+	<string key="Icon">
+		<value>آیکن</value>
+	</string>
+	<string key="UserServicePriceNotice">
+		<value>جهت ویرایش هزینه سرویس، در جدول زیر برروی مقدار هزینه کلیک نمایید</value>
+	</string>
+	<string key="RoleServicePriceNotice">
+		<value>
+			1)جهت ویرایش هزینه سرویس، در جدول زیر برروی مقدار هزینه کلیک نمایید.{0}
+			2)برای اینکه سرویس شما بصورت پیش فرض درنظرگرفته شود و
+			نیازی به چک کردن قیمت نداشته باشد سرویس موردنظر را تیک بزنید.
+		</value>
+	</string>
+	<string key="ErrorExistRecord">
+		<value>رکوردی یافت نشد</value>
+	</string>
+	<string key="AccessesList">
+		<value>لیست دسترسی ها</value>
+	</string>
+	<string key="AccessName">
+		<value>عنوان دسترسی</value>
+	</string>
+	<string key="SaveAccess">
+		<value>ثبت دسترسی</value>
+	</string>
+	<string key="Status">
+		<value>وضعیت</value>
+	</string>
+	<string key="RecordValueIsNotValid">
+		<value>مقادیر وارد شده نامعتبر است</value>
+	</string>
+	<string key="PriceValueIsNotValid">
+		<value>مبلغ هزینه نامعتبر است </value>
+	</string>
+	<string key="DetermineGroupPrice">
+		<value>نعیین گروه قیمت</value>
+	</string>
+	<string key="CompleteTitleField">
+		<value>فیلد عنوان را پر کنید</value>
+	</string>
+	<string key="GroupPriceList">
+		<value>لیست تعرفه ها</value>
+	</string>
+	<string key="RegisterGroupPrice">
+		<value>ثبت گروه قیمت پیامک</value>
+	</string>
+	<string key="DuplicateGroupPriceName">
+		<value>عنوان گروه قیمت تکراری است</value>
+	</string>
+	<string key="PriceRangeList">
+		<value>لیست بازه های قیمت</value>
+	</string>
+	<string key="MinimumCredit">
+		<value>حداقل موجودی</value>
+	</string>
+	<string key="MaximumCredit">
+		<value>حداکثر موجودی</value>
+	</string>
+	<string key="FarsiIranCell">
+		<value>فارسی ایرانسل</value>
+	</string>
+	<string key="Latin">
+		<value>لاتین</value>
+	</string>
+	<string key="LatinIranCell">
+		<value>لاتین ایرانسل</value>
+	</string>
+	<string key="CompleteMinimumRangeField">
+		<value>فیلد حداقل بازه را پر کنید</value>
+	</string>
+	<string key="InvalidMinimumRangeField">
+		<value>مقدار حداقل بازه نامعتبر است</value>
+	</string>
+	<string key="CompleteMaximumRangeField">
+		<value>فیلد حداکثر بازه را پر کنید</value>
+	</string>
+	<string key="InvalidMaximumRangeField">
+		<value>مقدار حداکثر بازه نامعتبر است</value>
+	</string>
+	<string key="CompleteCostOfSmsFarsi">
+		<value>هزینه پیامک فارسی را وارد کنید</value>
+	</string>
+	<string key="InvalidCostOfSmsFarsi">
+		<value>هزینه پیامک فارسی نامعتبر است</value>
+	</string>
+	<string key="CompleteFarsiIranCellField">
+		<value>هزینه پیامک فارسی به ایرانسل را وارد کنید</value>
+	</string>
+	<string key="InvalidFarsiIranCellField">
+		<value>هزینه پیامک فارسی به ایرانسل نامعتبر است</value>
+	</string>
+	<string key="CompleteCostOfSmsLatin">
+		<value>هزینه پیامک لاتین را وارد کنید</value>
+	</string>
+	<string key="InvalidCostOfSmsLatin">
+		<value>هزینه پیامک لاتین نامعتبر است</value>
+	</string>
+	<string key="CompleteLatinIranCellField">
+		<value>هزینه پیامک لاتین به ایرانسل را وارد کنید</value>
+	</string>
+	<string key="InvalidLatinIranCellField">
+		<value>هزینه پیامک لاتین به ایرانسل نامعتبر است</value>
+	</string>
+	<string key="CostOfFarsiSms">
+		<value>هزینه پیامک فارسی</value>
+	</string>
+	<string key="PriceOfFarsiIranCell">
+		<value>هزینه پیامک فارسی به ایرانسل</value>
+	</string>
+	<string key="CostOfLatinSms">
+		<value>هزینه پیامک لاتین</value>
+	</string>
+	<string key="PriceOfLatinIranCell">
+		<value>هزینه پیامک لاتین به ایرانسل</value>
+	</string>
+	<string key="SavePriceRange">
+		<value>ثبت بازه قیمت</value>
+	</string>
+	<string key="GroupTitle">
+		<value>عنوان گروه</value>
+	</string>
+	<string key="InvalidMaximumuserField">
+		<value>مقدار فیلد حداکثر تعداد کاربر نامعتبر است</value>
+	</string>
+	<string key="NumbersList">
+		<value>لیست شماره ها</value>
+	</string>
+	<string key="Sex">
+		<value>جنسیت </value>
+	</string>
+	<string key="TellYourAdmin">
+		<value>تماس با مدیریت</value>
+	</string>
+	<string key="DecreaseFromPanelChargeForActivationService">
+		<value>کاهش از شارژ پنل بابت فعال سازی سرویس</value>
+	</string>
+	<string key="FieldsList">
+		<value>لیست فیلدها</value>
+	</string>
+	<string key="EditField">
+		<value>ویرایش فیلد</value>
+	</string>
+	<string key="DuplicateFieldName">
+		<value>نام فیلد تکراری است</value>
+	</string>
+	<string key="ErrorUserFieldRange">
+		<value>محدوده فیلد مجاز شما به اتمام رسیده است</value>
+	</string>
+	<string key="ErrorDeleteUserField">
+		<value>این فیلد دارای مقدار است</value>
+	</string>
+	<string key="CompleteUserFieldTitle">
+		<value>عنوان فیلد را وارد کنید</value>
+	</string>
+	<string key="CompleteSmsFormatNameField">
+		<value>عنوان قالب را وارد کنید</value>
+	</string>
+	<string key="CompleteSmsFormatField">
+		<value>قالب شما فاقد فیلد است</value>
+	</string>
+	<string key="SetSmsTextFormat">
+		<value>متن پیامک را تنظیم نمایید</value>
+	</string>
+	<string key="SmsFormatsList">
+		<value>لیست قالب ها</value>
+	</string>
+	<string key="SelectAll">
+		<value>انتخاب همه</value>
+	</string>
+  <string key="SelectSmsFormat">
+    <value>انتخاب قالب</value>
+  </string>
+	<string key="AddCustomText">
+		<value>افزودن متن دلخواه</value>
+	</string>
+	<string key="Preview">
+		<value>پیش نمایش</value>
+	</string>
+	<string key="Job">
+		<value>شغل </value>
+	</string>
+	<string key="Telephone">
+		<value>تلفن </value>
+	</string>
+	<string key="InterfaceTelephone">
+		<value>تلفن رابط </value>
+	</string>
+	<string key="FaxNumber">
+		<value>فاکس </value>
+	</string>
+	<string key="AddSingle">
+		<value>افزودن تکی</value>
+	</string>
+	<string key="AddList">
+		<value>افزودن لیستی</value>
+	</string>
+	<string key="AddFromFile">
+		<value>افزودن از فایل</value>
+	</string>
+	<string key="File">
+		<value>فایل</value>
+	</string>
+	<string key="ConditionsRegisterNumber">
+		<value>شرایط ثبت شماره</value>
+	</string>
+	<string key="SaveSingleNumber">
+		<value>ثبت شماره تکی</value>
+	</string>
+	<string key="NewGroup">
+		<value>گروه جدید</value>
+	</string>
+	<string key="EditGroup">
+		<value>ویرایش گروه</value>
+	</string>
+	<string key="DeleteDuplicateNumberInGroup">
+		<value>حذف شماره تکرای در این گروه</value>
+	</string>
+	<string key="DeleteDuplicateNumberInTotalGroup">
+		<value>حذف شماره تکراری در کلیه گروه ها</value>
+	</string>
+	<string key="DeleteDuplicateEmailInGroup">
+		<value>حذف ایمیل تکرای در این گروه</value>
+	</string>
+	<string key="DeleteDuplicateEmailInTotalGroup">
+		<value>حذف ایمیل تکراری در کلیه گروه ها</value>
+	</string>
+	<string key="ErrorMaximumPhoneNumber">
+		<value>محدوده مجاز شما برای ثبت شماره به پایان رسیده است</value>
+	</string>
+	<string key="ErrorMaximumEmailAddress">
+		<value>محدوده مجاز شما برای ثبت ایمیل به پایان رسیده است</value>
+	</string>
+	<string key="ErrorDuplicateNumber">
+		<value>شماره موردنظر تکراری است</value>
+	</string>
+	<string key="Man">
+		<value>مرد</value>
+	</string>
+	<string key="Woman">
+		<value>زن</value>
+	</string>
+	<string key="Male">
+		<value>مذکر</value>
+	</string>
+	<string key="Female">
+		<value>مونث</value>
+	</string>
+	<string key="Boy">
+		<value>پسر</value>
+	</string>
+	<string key="Girl">
+		<value>دختر</value>
+	</string>
+	<string key="He">
+		<value>نر</value>
+	</string>
+	<string key="She">
+		<value>ماده</value>
+	</string>
+	<string key="SaveListNumber">
+		<value>ثبت لیستی شماره</value>
+	</string>
+	<string key="IncorectNumbers">
+		<value>شماره های اشتباه</value>
+	</string>
+	<string key="SessionExpiredNeedToLoginAgain">
+		<value>لطفا مجدد وارد سایت شوید.</value>
+	</string>
+	<string key="TotalNumberOfRegistered">
+		<value>تعداد شماره های ثبت شده</value>
+	</string>
+	<string key="TotalSmsOfRegistered">
+		<value>تعداد پیامک های ثبت شده</value>
+	</string>
+	<string key="TotalEmailOfRegistered">
+		<value>تعداد ایمیل های ثبت شده</value>
+	</string>
+	<string key="TotalNumberOfDuplicate">
+		<value>تعداد شماره های تکراری</value>
+	</string>
+	<string key="TotalEmailOfDuplicate">
+		<value>تعداد ایمیل های تکراری</value>
+	</string>
+	<string key="TotalNumberOfNotRegistered">
+		<value>تعداد شماره های ثبت نشده</value>
+	</string>
+	<string key="TotalEmailOfNotRegistered">
+		<value>تعداد ایمیل های ثبت نشده</value>
+	</string>
+	<string key="UserServicesList">
+		<value>لیست سرویس های کاربر</value>
+	</string>
+	<string key="UserAccessesList">
+		<value>لیست دسترسی های کاربر</value>
+	</string>
+	<string key="ManageAccesses">
+		<value>مدیریت دسترسی ها</value>
+	</string>
+	<string key="ActivationAccess">
+		<value>فعال سازی دسترسی</value>
+	</string>
+	<string key="SaveFileNumber">
+		<value>ثبت شماره از فایل</value>
+	</string>
+	<string key="SelectFile">
+		<value>انتخاب فایل</value>
+	</string>
+  <string key="DeleteFile">
+    <value>حذف فایل</value>
+  </string>
+	<string key="ReadFile">
+		<value>خواندن فایل</value>
+	</string>
+	<string key="FromColumn">
+		<value>از ستون</value>
+	</string>
+	<string key="FirstRowHasColumnNames">
+		<value>سطر اول شامل نام ستون می باشد</value>
+	</string>
+	<string key="ErrorSelectFile">
+		<value>لطفا فایل خود را انتخاب نمایید</value>
+	</string>
+	<string key="ErrorSelectColumn">
+		<value>محدوده مجاز ستون دو عدد 1و2 می باشد</value>
+	</string>
+	<string key="EditNumber">
+		<value>ویرایش شماره</value>
+	</string>
+	<string key="DefinePrivateNumber">
+		<value>نعریف شماره اختصاصی</value>
+	</string>
+	<string key="SmsSenderAgent">
+		<value>عامل ارسال پیامک</value>
+	</string>
+	<string key="SaveSmsSenderAgent">
+		<value>ثبت اپراتور ارسال پیامک</value>
+	</string>
+	<string key="EditSmsSenderAgent">
+		<value>ویرایش اپراتور ارسال پیامک</value>
+	</string>
+	<string key="Name">
+		<value>نام</value>
+	</string>
+	<string key="SmsSenderAgentsList">
+		<value>لیست اپراتورهای ارسال پیامک</value>
+	</string>
+	<string key="DuplicateSmsSenderAgentName">
+		<value> نام اپراتور ارسال تکراری است</value>
+	</string>
+	<string key="PrivateNumbersList">
+		<value>لیست خطوط اختصاصی</value>
+	</string>
+	<string key="SavePrivateNumber">
+		<value>ثبت شماره اختصاصی</value>
+	</string>
+	<string key="EditPrivateNumber">
+		<value>ویرایش شماره اختصاصی</value>
+	</string>
+	<string key="ErrorDeletePrivateNumber">
+		<value>خط موردنظر برای کاربران فعال است</value>
+	</string>
+	<string key="UserPrivateNumbersList">
+		<value>لیست خطوط اختصاصی</value>
+	</string>
+	<string key="UseChildren">
+		<value>استفاده کاربران</value>
+	</string>
+	<string key="Operator">
+		<value>اپراتور</value>
+	</string>
+	<string key="Expire">
+		<value>منقضی</value>
+	</string>
+	<string key="Expired">
+		<value>منقضی شده</value>
+	</string>
+	<string key="Unexpired">
+		<value>منقضی نشده</value>
+	</string>
+	<string key="PrivateNumberStatus">
+		<value>وضعیت خط اختصاصی</value>
+	</string>
+	<string key="CountUsers">
+		<value>تعداد کاربران</value>
+	</string>
+	<string key="CountFutureSmses">
+		<value>تعداد پیامک های آینده</value>
+	</string>
+	<string key="CompleteStartValidity">
+		<value>شروع اعتبار را وارد کنید</value>
+	</string>
+	<string key="CompleteEndValidity">
+		<value>پایان اعتبار را وارد کنید</value>
+	</string>
+	<string key="CompleteTypePrivateNumber">
+		<value>نوع خط اختصاصی را مشخص کنید</value>
+	</string>
+	<string key="CompleteUseTypePrivateNumber">
+		<value>نحوه استفاده از خط اختصاصی را مشخص کنید</value>
+	</string>
+	<string key="Return">
+		<value>بازگشت</value>
+	</string>
+	<string key="InvalidUseType">
+		<value>نوع کاربرد خط نامعتبر است</value>
+	</string>
+	<string key="DecreaseCreditForSendSms">
+		<value>کاهش اعتبار به دلیل ارسال پیامک به {0} گیرنده</value>
+	</string>
+	<string key="DecreaseCreditForSendBulkSms">
+		<value>کاهش اعتبار به دلیل ارسال تعداد {0} پیامک {1} بخشی به صورت {2} </value>
+	</string>
+	<string key="DecreaseCreditForRegisterDomain">
+		<value>کاهش اعتبار به دلیل ثبت دامنه {0} به مدت {1} سال </value>
+	</string>
+	<string key="PartCount">
+		<value>تعداد بخش</value>>
+	</string>
+  <string key="Parts">
+    <value>بخش</value>>
+  </string>
+	<string key="Sender">
+		<value>فرستنده</value>
+	</string>
+	<string key="Reciever">
+		<value>گیرنده</value>
+	</string>
+	<string key="Receiver">
+		<value>گیرنده</value>
+	</string>
+	<string key="SmsSentsList">
+		<value>لیست پیامک های ارسالی</value>
+	</string>
+	<string key="NotDelivered">
+		<value>نرسیده به گوشی</value>
+	</string>
+	<string key="ReceivedDate">
+		<value>تاریخ دریافت</value>
+	</string>
+	<string key="Read">
+		<value>خوانده شده</value>
+	</string>
+	<string key="Unread">
+		<value>خوانده نشده</value>
+	</string>
+	<string key="SmsRecievedList">
+		<value>لیست پیامک های دریافتی</value>
+	</string>
+	<string key="UI_Accesses_SaveAccess">
+		<value>ثبت دسترسی</value>
+	</string>
+	<string key="UI_GroupPrices_SaveGroupPrice">
+		<value>ثبت گروه قیمت</value>
+	</string>
+	<string key="DefaultGroupPrice">
+		<value>گروه قیمت پیش فرض کاربر</value>
+	</string>
+	<string key="IsDefaultForUsers">
+		<value>پبش فرض کاربران</value>
+	</string>
+	<string key="DefaultPriceRoleService">
+		<value>قیمت پیش فرض سزویس ها</value>
+	</string>
+	<string key="SetPriceRoleService">
+		<value>اعمال قیمت</value>
+	</string>
+	<string key="UI_Users_DetermineGroupPrice">
+		<value>تعیین گروه قیمت کاربر</value>
+	</string>
+	<string key="UI_PriceRanges_SavePriceRange">
+		<value>ثبت بازه قیمت</value>
+	</string>
+	<string key="UI_Users_AdvanceEdit">
+		<value>ویرایش پیشرفته کاربر</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveSingleNumber">
+		<value>ثبت شماره تکی</value>
+	</string>
+	<string key="UI_UserAccesses_UserAccess">
+		<value>سرویس های کاربر</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveListNumber">
+		<value>ثبت شماره لیستی</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveFileNumber">
+		<value>ثبت شماره از فایل</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SmsSenderAgent">
+		<value>اپراتورهای ارسال پیامک</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SaveSmsSenderAgent">
+		<value>ثبت اپراتور ارسال پیامک</value>
+	</string>
+	<string key="UI_PrivateNumbers_SavePrivateNumber">
+		<value>ثبت شماره اختصاصی</value>
+	</string>
+	<string key="UI_PrivateNumbers_NumberStatus">
+		<value>مشاهده کاربران استفاده کننده از خط اختصاصی</value>
+	</string>
+	<string key="UI_PrivateNumbers_SaveUserPrivateNumber">
+		<value>تخصیص خط اختصاصی به کاربران</value>
+	</string>
+	<string key="UI_SmsReports_SentBox">
+		<value>لیست پیامک های ارسالی</value>
+	</string>
+	<string key="UI_SmsReports_Inbox">
+		<value>لیست پیامک های دریافتی</value>
+	</string>
+	<string key="UI_UserServices_DefineGlobalServicePrice">
+		<value>تعیین قیمت سرویس</value>
+	</string>
+	<string key="UI_UserServices_BuyService">
+		<value>خرید سرویس</value>
+	</string>
+	<string key="BuyService">
+		<value>خرید سرویس</value>
+	</string>
+	<string key="AccountInformation">
+		<value>شماره حسابها</value>
+	</string>
+	<string key="AccountInformationList">
+		<value>لیست شماره حسابها</value>
+	</string>
+	<string key="CompleteAccountOwnerField">
+		<value>فیلد صاحب حساب را پر کنید.</value>
+	</string>
+	<string key="CompleteBranchField">
+		<value>فیلد شعبه را پر کنید.</value>
+	</string>
+	<string key="CompleteAccountNoField">
+		<value>فیلد شماره حساب را پر کنید.</value>
+	</string>
+	<string key="InvalidAccountNoFieldValue">
+		<value>مقدار فیلد شماره حساب نامعتبر است.</value>
+	</string>
+	<string key="AccountNoType">
+		<value>نوع شماره</value>
+	</string>
+	<string key="UI_AccountInformations_SaveAccount">
+		<value>ثبت شماره حساب</value>
+	</string>
+	<string key="SaveAccountNumber">
+		<value>ثبت حساب جدید</value>
+	</string>
+	<string key="UserFishesList">
+		<value>لیست فیش های کاربران</value>
+	</string>
+	<string key="CompletePaymentDate">
+		<value>فیلد تاریخ پرداخت را پر کنید</value>
+	</string>
+	<string key="CompleteChequeDate">
+		<value>فیلد تاریخ چک را پر کنید</value>
+	</string>
+	<string key="AdvancedEditUser">
+		<value>ویرایش پیشرفته کاربر</value>
+	</string>
+	<string key="AddNumber">
+		<value>افزودن شماره</value>
+	</string>
+	<string key="OutBoxList">
+		<value>لیست ارسالهای انجام شده</value>
+	</string>
+	<string key="Inbox">
+		<value>پیامک های دریافتی</value>
+	</string>
+	<string key="SentBox">
+		<value>پیامک های ارسالی</value>
+	</string>
+	<string key="OutBox">
+		<value>صندوق ارسال</value>
+	</string>
+	<string key="SendBox">
+		<value>صندوق ارسال</value>
+	</string>
+	<string key="TypeSend">
+		<value>نوع ارسال</value>
+	</string>
+	<string key="GiveBackCostOfUnsuccessfulSent">
+		<value>برگشت هزینه ارسال های ناموفق</value>
+	</string>
+	<string key="GiveBackCostOfUnsuccessfulSentBulk">
+		<value>برگشت هزینه ارسال های ناموفق بالک</value>
+	</string>
+	<string key="IncreaseCreditForUnsuccessfulSent">
+		<value>افزایش اعتبار به دلیل برگشت هزینه ارسال ناموفق تعداد {0} پیامک {1} بخشی</value>
+	</string>
+	<string key="Magfa">
+		<value>مگفا</value>
+	</string>
+	<string key="Asanak">
+		<value>آسانک</value>
+	</string>
+	<string key="DuplicateSmsSenderAgentReference">
+		<value>این اپراتور قبلا در سیستم ثبت شده است.</value>
+	</string>
+	<string key="DuplicateSmsSenderAgentReferenceAndName">
+		<value> نام اپراتور ارسال و سرویس دهنده آن تکراری است</value>
+	</string>
+	<string key="RecieveActive">
+		<value>فعال بودن دریافت</value>
+	</string>
+	<string key="SendActive">
+		<value>فعال بودن ارسال</value>
+	</string>
+	<string key="SendBulkActive">
+		<value>فعال بودن ارسال انبوه</value>
+	</string>
+	<string key="SendBulkIsAutomatic">
+		<value>ارسال انبوه بصورت خودکار</value>
+	</string>
+	<string key="GroupName">
+		<value>نام گروه</value>
+	</string>
+	<string key="EnterGroupNameWarning">
+		<value>نام گروه را وراد کنید</value>
+	</string>
+	<string key="PrivateGroup">
+		<value>گروه خصوصی</value>
+	</string>
+	<string key="AddGroup">
+		<value>افزودن گروه</value>
+	</string>
+  <string key="GroupType">
+    <value>نوع گروه</value>
+  </string>
+  <string key="GroupTypeNormal">
+    <value>عادی</value>
+  </string>
+  <string key="GroupTypeVAS">
+    <value>ارزش افزوده</value>
+  </string>
+  <string key="VASGroup">
+    <value>گروه ارزش افزوده</value>
+  </string>
+  <string key="VASRegisterKeyword">
+    <value>کلیدواژه عضویت</value>
+  </string>
+  <string key="VASUnRegisterKeyword">
+    <value>کلیدواژه لغو عضویت</value>
+  </string>
+  <string key="VASNumber">
+    <value>سرشماره ارزش افزوده</value>
+  </string>
+  <string key="UserAccess">
+    <value>دسترسی کاربر</value>
+  </string>
+  <string key="GroupCode">
+    <value>کد گروه</value>
+  </string>
+	<string key="Cut">
+		<value>برش</value>
+	</string>
+	<string key="Paste">
+		<value>چسباندن</value>
+	</string>
+	<string key="PhoneBookNotice">
+		<value>جهت انجام عملیات بر روی گروه موردنظر راست کلیک نموده و گزینه موردنظر را انتخاب نمایید.</value>
+	</string>
+	<string key="AddField">
+		<value>افزودن فیلد</value>
+	</string>
+	<string key="PhoneBookUserField">
+		<value>فیلد تکمیلی دفترچه تلفن</value>
+	</string>
+	<string key="StartUpPage">
+		<value>صفحه راه اندازی</value>
+	</string>
+	<string key="Theme">
+		<value>زمینه</value>
+	</string>
+	<string key="Shortcut">
+		<value>میانبر</value>
+	</string>
+  <string key="ShortcutList">
+    <value>لیست میانبرها</value>
+  </string>
+	<string key="CompleteShortcutList">
+		<value>لیست میانبر شما فاقد سرویس است</value>
+	</string>
+	<string key="InvalidFileExtension">
+		<value>فایل انتخاب شده مجاز نمی باشد</value>
+	</string>
+  <string key="TextFileExtension">
+    <value>فرمت ستون های فایل باید از نوع TEXT باشد</value>
+  </string>  
+	<string key="ChartTitle">
+		<value>نمودار فعالیت طی 10 روز گذشته</value>
+	</string>
+	<string key="Sent">
+		<value>ارسال شده</value>
+	</string>
+	<string key="DontSend">
+		<value>ارسال نشده</value>
+	</string>
+	<string key="inQueueSms">
+		<value>در حال ارسال</value>
+	</string>
+	<string key="Recieved">
+		<value>دریافت شده</value>
+	</string>
+	<string key="TypeShow">
+		<value>نحوه نمایش</value>
+	</string>
+	<string key="StatisticsSend">
+		<value>گزارش ارسال</value>
+	</string>
+	<string key="BarRenderer">
+		<value>نمودار میله ای</value>
+	</string>
+	<string key="LineRenderer">
+		<value>نمودار خطی</value>
+	</string>
+	<string key="PieRenderer">
+		<value>نمودار دایره ای</value>
+	</string>
+	<string key="FeaturesOfSystem">
+		<value>ویژگی های سامانه</value>
+	</string>
+	<string key="SystemForSpecificApplications">
+		<value>کاربردهای خاص سامانه</value>
+	</string>
+	<string key="PricesList">
+		<value>لیست تعرفه ها</value>
+	</string>
+	<string key="CopyRight">
+		<value>کلیه حقوق مادی و معنوی این سایت برای شرکت آراد رایانه لیان می باشد. 2005-2020 All Rights Reserved Arad ITC co</value>
+	</string>
+	<string key="ContactUs">
+		<value>تماس باما</value>
+	</string>
+	<string key="AboutUs">
+		<value>درباره ما</value>
+	</string>
+	<string key="Downloads">
+		<value>دانلودها</value>
+	</string>
+	<string key="CustomersList">
+		<value>لیست مشتریان</value>
+	</string>
+	<string key="AgentsList">
+		<value>لیست نمایندگان</value>
+	</string>
+	<string key="HamrahAval">
+		<value>همراه اول</value>
+	</string>
+	<string key="Irancell">
+		<value>ایرانسل</value>
+	</string>
+	<string key="MTN">
+		<value>ایرانسل</value>
+	</string>
+	<string key="Farsi">
+		<value>فارسی</value>
+	</string>
+	<string key="YourCredit">
+		<value>اعتبار شما</value>
+	</string>
+	<string key="Rial">
+		<value>ریال</value>
+	</string>
+	<string key="JavaScriptInYourBrowserIsDisableOrYourBrowserDontSupportJavaScript">
+		<value>جاوا اسکریپت در مرورگر شما غیر فعال می باشد، و یا مرورگر شما از جاوا اسکریپت پشتیبانی نمی کند.</value>
+	</string>
+	<string key="ToUseSitePleaseActiveJavaScriptOrUseAnOtherBrowser">
+		<value>لطفا برای استفاده از امکانات سایت جاوا اسکریپت را در مرورگر خود فعال و یا از مرورگر دیگری استفاده نمایید.</value>
+	</string>
+	<string key="SmsSendSystem">
+		<value>سامانه ارسال پیامک</value>
+	</string>
+	<string key="VisitSite">
+		<value>بازدید از سایت</value>
+	</string>
+	<string key="CreateAccount">
+		<value>ایجاد حساب کاربری</value>
+	</string>
+	<string key="InvalidCurrentPassword">
+		<value>کلمه عبور وارد شده صحیح نمی باشد</value>
+	</string>
+	<string key="NewPassword">
+		<value>کلمه عبور جدید</value>
+	</string>
+	<string key="ConfirmNewPassword">
+		<value>تکرار کلمه عبور جدید</value>
+	</string>
+	<string key="WelcomeToPanel">
+		<value>خوش آمدید</value>
+	</string>
+	<string key="Facilities">
+		<value>امکانات</value>
+	</string>
+	<string key="ComprehensiveGuide">
+		<value>راهنمای جامع</value>
+	</string>
+	<string key="SuccessRegisterUser">
+		<value>ثبت نام شما با موفقیت انجام شد</value>
+	</string>
+	<string key="DefineUserShortcut">
+		<value>تعریف میانبر</value>
+	</string>
+	<string key="SendBulk">
+		<value>ارسال انبوه</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupSms">
+		<value>ارسال پیشرفته</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupSms_PhoneBook">
+		<value>دفترچه تلفن</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupSms_SpecialGroups">
+		<value>گروه های ویژه</value>
+	</string>
+	<string key="SendAvancedGroupSms">
+		<value>ارسال پیشرفته</value>
+	</string>
+	<string key="FromIndex">
+		<value>از اندیس</value>
+	</string>
+	<string key="ToIndex">
+		<value>تا اندیس</value>
+	</string>
+	<string key="Format">
+		<value>قالب</value>
+	</string>
+	<string key="UI_SmsSends_SendFormatSms">
+		<value>ارسال پویا</value>
+	</string>
+	<string key="SendFormatSms">
+		<value>ارسال پویا</value>
+	</string>
+	<string key="UI_SmsSends_SendSingleFutureSms">
+		<value>ارسال تکی در آینده</value>
+	</string>
+	<string key="UI_SmsSends_SendGroupFutureSms">
+		<value>ارسال گروهی در آینده</value>
+	</string>
+	<string key="SendFutureSmsFormat">
+		<value>ارسال پویا در آینده</value>
+	</string>
+	<string key="UI_SmsSends_SendFutureSmsFormat">
+		<value>ارسال پویا در آینده</value>
+	</string>
+	<string key="Per">
+		<value>هر چند</value>
+	</string>
+	<string key="Once">
+		<value>یکبار</value>
+	</string>
+	<string key="PerMinute">
+		<value>دقیقه</value>
+	</string>
+	<string key="PerHour">
+		<value>ساعت</value>
+	</string>
+	<string key="PerDaily">
+		<value>روز</value>
+	</string>
+	<string key="PerWeekly">
+		<value>هفته</value>
+	</string>
+	<string key="PerMonthly">
+		<value>ماه</value>
+	</string>
+	<string key="PerYearly">
+		<value>سال</value>
+	</string>
+	<string key="Minute">
+		<value>دقیقه ای</value>
+	</string>
+	<string key="Hour">
+		<value>ساعتی</value>
+	</string>
+	<string key="Daily">
+		<value>روزانه</value>
+	</string>
+	<string key="Weekly">
+		<value>هفتگی</value>
+	</string>
+	<string key="Monthly">
+		<value>ماهیانه</value>
+	</string>
+	<string key="Yearly">
+		<value>سالیانه</value>
+	</string>
+	<string key="UI_SmsSends_SendPeriodFutureSingleSms">
+		<value>ارسال تکی دوره ای</value>
+	</string>
+	<string key="StartDate">
+		<value>زمان شروع</value>
+	</string>
+	<string key="EndDate">
+		<value>زمان پایان </value>
+	</string>
+	<string key="StartSendTime">
+		<value>زمان شروع ارسال</value>
+	</string>
+	<string key="EndSendTime">
+		<value>زمان پایان ارسال</value>
+	</string>
+	<string key="UI_SmsSends_SendPeriodFutureGroupSms">
+		<value>ارسال گروهی دوره ای</value>
+	</string>
+	<string key="UI_SmsSends_SendBirthDateSms">
+		<value>ارسال سررسید تولد</value>
+	</string>
+	<string key="SendBirthDateSms">
+		<value>ارسال سررسید تولد</value>
+	</string>
+	<string key="GalleryImage">
+		<value>گالری عکس</value>
+	</string>
+	<string key="SaveGalleryImage">
+		<value>ایجاد گالری عکس جدید</value>
+	</string>
+	<string key="UI_GalleryImages_GalleryImage">
+		<value>گالری عکس</value>
+	</string>
+	<string key="UI_GalleryImages_SaveGalleryImage">
+		<value>ایجاد گالری عکس جدید</value>
+	</string>
+	<string key="Image">
+		<value>عکس</value>
+	</string>
+	<string key="SaveImage">
+		<value>ایجاد عکس جدید</value>
+	</string>
+	<string key="UI_Images_Image">
+		<value>عکس</value>
+	</string>
+	<string key="UI_Images_SaveImage">
+		<value>ایجاد عکس جدید</value>
+	</string>
+	<string key="CompleteGalleryImageTitleTitleField">
+		<value>عنوان گالری را وارد کنید</value>
+	</string>
+	<string key="GalleryImagesList">
+		<value>گالری عکس</value>
+	</string>
+	<string key="GalleryTitle">
+		<value>عنوان گالری</value>
+	</string>
+	<string key="EditGalleryImage">
+		<value>ویرایش گالری</value>
+	</string>
+	<string key="CompleteGalleryImageGuidField">
+		<value>گالری عکس را انتخاب کنید</value>
+	</string>
+	<string key="CompleteImageTitleTitleField">
+		<value>عنوان عکس را وارد کنید</value>
+	</string>
+	<string key="CompleteImagePathField">
+		<value>آدرس عکس را وارد کنید</value>
+	</string>
+	<string key="GalleryImageTitle">
+		<value>عنوان گالری</value>
+	</string>
+	<string key="UploadedFileIsNotAllowed">
+		<value>فایل ارسال شده برای آپلود مجاز نمی باشد</value>
+	</string>
+	<string key="CompleteUseGuidField">
+		<value>کاربر ثبت کننده را وارد کنید</value>
+	</string>
+	<string key="ErrorAtUploadingFile">
+		<value>خطا در آپلود فایل</value>
+	</string>
+	<string key="EditImage">
+		<value>ویرایش عکس</value>
+	</string>
+	<string key="Creator">
+		<value>ایجاد کننده</value>
+	</string>
+	<string key="DataCenterTitle">
+		<value>عنوان مرکز داده</value>
+	</string>
+	<string key="News">
+		<value>اخبار</value>
+	</string>
+	<string key="SiteInfo">
+		<value>اطلاعات سایت</value>
+	</string>
+	<string key="DataCenter">
+		<value>مرکز داده</value>
+	</string>
+	<string key="Summary">
+		<value>خلاصه</value>
+	</string>
+	<string key="Content">
+		<value>متن</value>
+	</string>
+	<string key="FromDate">
+		<value>نمایش از تاریخ</value>
+	</string>
+	<string key="ToDate">
+		<value>نمایش تا تاریخ</value>
+	</string>
+	<string key="TodayDateTime">
+		<value>امروز</value>
+	</string>
+	<string key="AvailableFarsiSms">
+		<value>پیام های فارسی قابل ارسال</value>
+	</string>
+	<string key="AvailableLatinSms">
+		<value>پیام های لاتین قابل ارسال</value>
+	</string>
+	<string key="SpecialGroups">
+		<value>گروه های ویژه</value>
+	</string>
+	<string key="FailSendSmsMessage">
+		<value>خطا در ارسال پیام</value>
+	</string>
+	<string key="ErrorRegisterSms">
+		<value>درخواست شما به گروه های زیر انجام نشد لطفا جهت گروه های ذکر شده مجددا اقدام نمایید</value>
+	</string>
+	<string key="ShortcutNotice">
+		<value>جهت تعریف میانبر سرویس موردنظر را از لیست سرویس ها کشیده و در کادر آبی رنگ رها کنید و همچنین برای جابجایی سرویس ها در کادرآبی رنگ میتوانید سرویس را گرفته و جابجا کنید.</value>
+	</string>
+	<string key="SendP2PSmsNotice">
+		<value>جهت تنظیم متن پیامک ، ستون موردنظر را از لیست ستون ها کشیده و در کادر آبی رنگ رها کنید و همچنین برای جابجایی ستون ها در کادرآبی رنگ میتوانید ستون را گرفته و جابجا کنید.</value>
+	</string>
+	<string key="ForSendSubsetUser">
+		<value>ارسال کاربر {0}</value>
+	</string>
+	<string key="RegisterDomainForSubsetUser">
+		<value> ثبت دامنه کاربر{0}</value>
+	</string>
+	<string key="ForSendBulkSubsetUser">
+		<value>برای ارسال انبوه کاربر زیرمجموعه</value>
+	</string>
+	<string key="TerminalID">
+		<value>شماره پایانه</value>
+	</string>
+	<string key="AccountInfo">
+		<value>اطلاعات حساب</value>
+	</string>
+	<string key="OnlineGatewayInfo">
+		<value>اطلاعات دروازه خرید اینترنتی</value>
+	</string>
+	<string key="OnlineGatewayIsActive">
+		<value>خرید اینترنتی</value>
+	</string>
+	<string key="BillNumber">
+		<value>شماره سند</value>
+	</string>
+	<string key="CreditRequired">
+		<value>میزان اعتبار موردنیاز(ریال)</value>
+	</string>
+	<string key="PaymentAmount">
+		<value>مبلغ پرداختی(ریال)</value>
+	</string>
+	<string key="TaxValueAdded">
+		<value>مالیات برارزش افزوده(ریال)</value>
+	</string>
+	<string key="OnlineGatewayInfoIncorrect">
+		<value>اطلاعات پایانه پرداخت آنلابن بانک موردنظر صحیح نمی باشد</value>
+	</string>
+	<string key="UnknownAccount">
+		<value>حساب موردنظر مشخص نمی باشد</value>
+	</string>
+	<string key="OnlinePaymentSuccessful">
+		<value>با تشکر از شما،عملیات پرداخت با موفقیت انجام شد.</value>
+	</string>
+	<string key="OnlinePaymentIncreaseTransactionDescription">
+		<value>افزایش اعتبار بابت خرید اینترنتی</value>
+	</string>
+	<string key="TaxOfOnlinePayment">
+		<value>مالیات بر ارزش افزوده خرید اینترنتی</value>
+	</string>
+	<string key="AddGroupTemplate">
+		<value>ثبت گروه الگو پیامک</value>
+	</string>
+	<string key="UI_GroupTemplates_GroupTemplate">
+		<value>گروه الگو پیامک</value>
+	</string>
+	<string key="UI_GroupTemplates_SaveGroupTemplate">
+		<value>ثبت گروه الگو پیامک</value>
+	</string>
+	<string key="UI_SmsTemplates_SaveSmsTemplate">
+		<value>ثبت الگو پیامک</value>
+	</string>
+	<string key="UI_SmsTemplates_SmsTemplate">
+		<value>الگوی پیامک</value>
+	</string>
+	<string key="AddSmsTemplate">
+		<value> ثبت الگوی پیامک</value>
+	</string>
+	<string key="GroupTemplateList">
+		<value> لیست گروه الگو پیامک</value>
+	</string>
+	<string key="RegisterGroupTemplate">
+		<value> ثبت گروه الگو پیامک</value>
+	</string>
+	<string key="EditGroupTemplate">
+		<value> ویرایش گروه الگو پیامک</value>
+	</string>
+	<string key="SmsTemplateList">
+		<value> لیست الگو پیامک</value>
+	</string>
+	<string key="RegisterSmsTemplate">
+		<value> ثبت الگو پیامک</value>
+	</string>
+	<string key="EdiSmsTemplate">
+		<value> ویرایش الگو پیامک</value>
+	</string>
+	<string key="GroupTemplate">
+		<value> گروه الگوی پیامک</value>
+	</string>
+	<string key="DuplicateTitleGroupTemplate">
+		<value>عنوان گروه الگوی پیامک تکراری است</value>
+	</string>
+	<string key="SendAdvancedGroupSmsUpRangeError">
+		<value>مقدار فیلد 'تااندیس' نامعتبر است</value>
+	</string>
+	<string key="SendAdvancedGroupFutureSmsUpRangeError">
+		<value>مقدار فیلد 'تااندیس' نامعتبر است</value>
+	</string>
+	<string key="UI_DataCenters_DataCenter">
+		<value>دسته بندی مطالب</value>
+	</string>
+	<string key="UI_DataCenters_SaveDataCenter">
+		<value>دستبه بندی جدید مطالب</value>
+	</string>
+	<!--<string key="UI_News_News">
+		<value>اخبار</value>
+	</string>
+	<string key="UI_News_SaveNews">
+		<value>خبر جدید</value>
+	</string>-->
+	<string key="DataCentersList">
+		<value>لیست دسته بندیهای مطالب</value>
+	</string>
+	<string key="SaveDataCenter">
+		<value>ثبت دسته بندی مطلب</value>
+	</string>
+	<!--<string key="NewsList">
+		<value>لیست اخبار</value>
+	</string>-->
+	<string key="ContentList">
+		<value>لیست مطالب</value>
+	</string>
+	<!--<string key="SaveNews">
+		<value>ثبت خبر</value>
+	</string>-->
+	<string key="Domain">
+		<value>دامنه</value>
+	</string>
+	<string key="SaveTemplate">
+		<value>ذخیره در الگوی پیامک</value>
+	</string>
+	<string key="LoadTemplate">
+		<value>نمایش الگوی پیامک</value>
+	</string>
+	<string key="SmsBodyIsEmpty">
+		<value>لطفا متن پیام را وارد کنید.</value>
+	</string>
+	<string key="UI_SmsTemplates_LoadSmsTemplate">
+		<value>نمایش لیست الگوها در زمان ارسال پیامک</value>
+	</string>
+	<string key="LoadSmsTemplate">
+		<value>نمایش لیست الگوها در زمان ارسال پیامک</value>
+	</string>
+	<string key="Add">
+		<value>افزوده شود</value>
+	</string>
+	<string key="ImagesList">
+		<value>لیست عکس ها</value>
+	</string>
+	<string key="ShowImage">
+		<value>نمایش عکس</value>
+	</string>
+	<string key="EditDataCenter">
+		<value>ویرایش مرکز داده</value>
+	</string>
+	<!--<string key="EditNews">
+		<value>ویرایش خبر</value>
+	</string>-->
+	<string key="ReportType">
+		<value>نوع گزارش</value>
+	</string>
+	<string key="OperatorName">
+		<value>اپراتور ارسال</value>
+	</string>
+	<string key="Group">
+		<value>گروه</value>
+	</string>
+	<string key="RecieveTime">
+		<value>زمان دریافت</value>
+	</string>
+	<string key="CompleteImageTitleField">
+		<value>فیلد عنوان را پر کنید.</value>
+	</string>
+	<string key="CompleteGalleryImageTitleField">
+		<value>فیلد عنوان را پر کنید.</value>
+	</string>
+	<string key="UI_SmsReports_ShowChartDetails">
+		<value>مشاهده جزئیات ارسال در نمودار</value>
+	</string>
+	<string key="ChartDetails">
+		<value>مشاهده جزئیات ارسال در نمودار</value>
+	</string>
+	<string key="UserCreditNotEnough">
+		<value>کمبود موجودی</value>
+	</string>
+	<string key="AdminCreditNotEnough">
+		<value>کمبود موجودی مدیر</value>
+	</string>
+	<string key="CountOfDomainAdmin">
+		<value>کاربر دیگری برای این دامنه مدیر انتخاب شده است</value>
+	</string>
+	<string key="PrivateNumberIsInactive">
+		<value>شماره فرستنده غیرفعال است</value>
+	</string>
+	<string key="PrivateNumberIsExpired">
+		<value>شماره فرستنده منقضی شده است</value>
+	</string>
+	<string key="UserIsInactive">
+		<value>نام کاربری کاربر غیرفعال است</value>
+	</string>
+	<string key="AdminIsInactive">
+		<value>نام کاربری مدیر غیرفعال است</value>
+	</string>
+	<string key="PrivateNumberNotValid">
+		<value>شماره فرستنده معتبر نیست</value>
+	</string>
+	<string key="NotDefineSmsRateType">
+		<value>تعرفه ارسال پیامک  تعیین نشده است</value>
+	</string>
+	<string key="None">
+		<value></value>
+	</string>
+	<string key="DuplicatePhoneBookName">
+		<value>گروهی با این عنوان قبلا ثبت شده است</value>
+	</string>
+	<string key="GroupOfPhoneBookHasSubGroupError">
+		<value>این گروه شامل زیرگروه است ابتدا زیرگروه ها را حذف نمایید</value>
+	</string>
+	<string key="GroupOfPhoneBookHasNumberError">
+		<value>این گروه شامل شماره است ابتدا شماره ها را حذف نمایید</value>
+	</string>
+	<string key="GeneralPhoneBook">
+		<value>دفترچه تلفن گروه های ویژه</value>
+	</string>
+	<string key="Completed">
+		<value>پایان یافته</value>
+	</string>
+	<string key="InProgress">
+		<value>در حال انجام</value>
+	</string>
+	<string key="InSearch">
+		<value>در حال جستجو....</value>
+	</string>
+	<string key="Faild">
+		<value>انجام نشده</value>
+	</string>
+	<string key="Pending">
+		<value>در انتظار</value>
+	</string>
+	<string key="UserGeneralGroupPriceNotice">
+		<value>جهت ویرایش هزینه گروه، در جدول زیر برروی مقدار هزینه کلیک نمایید</value>
+	</string>
+	<string key="GeneralPhoneBookList">
+		<value>لیست گروه های ویژه</value>
+	</string>
+	<string key="UserGeneralPhoneBookList">
+		<value>لیست گروه های ویژه کاربر</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_DefineGlobalGroupPrice">
+		<value>تعیین قیمت گروه های ویژه</value>
+	</string>
+	<string key="ActivationService">
+		<value>فعال سازی سرویس ها</value>
+	</string>
+	<string key="GeneralPhoneBooks">
+		<value>گروه های ویژه</value>
+	</string>
+	<string key="DetermineServicePrice">
+		<value>  تعیین قیمت سرویس ها</value>
+	</string>
+	<string key="Services">
+		<value> سرویس ها</value>
+	</string>
+	<string key="DetermineGeneralPhoneBookPrice">
+		<value>تعیین قیمت گروه های ویژه</value>
+	</string>
+	<string key="DecreaseFromPanelChargeForActivationGeneralPhoneBook">
+		<value>کاهش از شارژ پنل بابت فعال سازی گروه های ویژه</value>
+	</string>
+	<string key="ActivationGeneralPhoneBook">
+		<value> فعال سازی گروه های ویژه</value>
+	</string>
+	<string key="ShortcutsIcon_Register">
+		<value>ثبت نام</value>
+	</string>
+	<string key="ShortcutsIcon_Login">
+		<value>ورود کاربر</value>
+	</string>
+	<string key="ShortcutsIcon_Demo">
+		<value>نسخه ی دمو</value>
+	</string>
+	<string key="ShowChartDetails">
+		<value>مشاهده جزئیات</value>
+	</string>
+	<string key="Show">
+		<value>نمایش</value>
+	</string>
+	<string key="UI_UserFishes_UserFish">
+		<value>لیست فیش های بانکی</value>
+	</string>
+	<string key="UserFish">
+		<value>لیست فیش های بانکی</value>
+	</string>
+	<string key="LoginStat">
+		<value>آمار ورود و خروج</value>
+	</string>
+	<string key="UI_Users_LoginStat">
+		<value>آمار ورود و خروج</value>
+	</string>
+	<string key="SignIn">
+		<value>ورود</value>
+	</string>
+	<string key="SignOut">
+		<value>خروج</value>
+	</string>
+	<string key="SendAdvancedSpecialGroupSms">
+		<value>ارسال پیشرفته گروه های ویژه</value>
+	</string>
+	<string key="SendSpecialGroupFutureSms">
+		<value>ارسال گروهی در آینده گروه های ویژه</value>
+	</string>
+	<string key="SendSpecialGroupSms">
+		<value>ارسال گروه های ویژه</value>
+	</string>
+	<string key="UserSetting">
+		<value>تنظیمات پنل</value>
+	</string>
+	<string key="UI_Users_UserSetting">
+		<value>تنظیمات پنل</value>
+	</string>
+	<string key="Setting">
+		<value>تنظیمات</value>
+	</string>
+	<string key="BlackTie">
+		<value>سیاه و سفید</value>
+	</string>
+	<string key="Blitzer">
+		<value>بلیتزر</value>
+	</string>
+	<string key="Cupertino">
+		<value>کوپرتینو</value>
+	</string>
+	<string key="DarkHive">
+		<value>کندو</value>
+	</string>
+	<string key="Darkness">
+		<value>تاریک</value>
+	</string>
+	<string key="DotLuv">
+		<value>آبی مشکی</value>
+	</string>
+	<string key="Eggplant">
+		<value>بادمجانی</value>
+	</string>
+	<string key="ExciteBike">
+		<value>دوچرخه</value>
+	</string>
+	<string key="Flick">
+		<value>سفید آبی</value>
+	</string>
+	<string key="HotSneaks">
+		<value>گرم</value>
+	</string>
+	<string key="Humanity">
+		<value>کویر</value>
+	</string>
+	<string key="LeFrog">
+		<value>سبز</value>
+	</string>
+	<string key="Lightness">
+		<value>روشن</value>
+	</string>
+	<string key="MintChoc">
+		<value>نعنا</value>
+	</string>
+	<string key="Overcast">
+		<value>ابری</value>
+	</string>
+	<string key="PepperGrinder">
+		<value>گردویی</value>
+	</string>
+	<string key="Redmond">
+		<value>ردموند</value>
+	</string>
+	<string key="Smoothness">
+		<value>سنگی</value>
+	</string>
+	<string key="SouthStreet">
+		<value>استوایی</value>
+	</string>
+	<string key="Start">
+		<value>دریایی</value>
+	</string>
+	<string key="Sunny">
+		<value>آفتابی</value>
+	</string>
+	<string key="SwankyPurse">
+		<value>زیتونی</value>
+	</string>
+	<string key="Trontastic">
+		<value>براق</value>
+	</string>
+	<string key="Vader">
+		<value>خاکستری</value>
+	</string>
+	<string key="SendSmsAfterLogin">
+		<value>ارسال پیامک هنگام ورود به پنل</value>
+	</string>
+	<string key="SendWarningSmsWhenCreditIsLowerThan">
+		<value>ارسال پیامک هشدار در صورت موجودی کمتر از</value>
+	</string>
+	<string key="SendWarningSms">
+		<value>ارسال پیامک هشدار</value>
+	</string>
+	<string key="DaysBeforeExpire">
+		<value>ارسال پیامک هشدار چند روز قبل از انقضای پنل</value>
+	</string>
+	<string key="Complete UserSetting LowCredit value">
+		<value>مقدار موجودی برای هشدار نامعتبر است</value>
+	</string>
+	<string key="Complete UserSetting Theme value">
+		<value>زمینه را انتخاب کنید</value>
+	</string>
+	<string key="Complete UserSetting Expiration value">
+		<value>تعداد روز مورد نظر قبل از انقضا را انتخاب کنید</value>
+	</string>
+	<string key="Everything">
+		<value>هر چه</value>
+	</string>
+	<string key="StartsWith">
+		<value>شروع با</value>
+	</string>
+	<string key="StartsWithAfterDeleteSelf">
+		<value>شروع با بعد از حذف خودش</value>
+	</string>
+	<string key="EndsWith">
+		<value>پایان با</value>
+	</string>
+	<string key="EndsWithAfterDeleteSelf">
+		<value>پایان با بعد از حذف خودش</value>
+	</string>
+	<string key="SitesLogo">
+		<value>لوگوی سایت</value>
+	</string>
+	<string key="SitesTitle">
+		<value>عنوان سایت</value>
+	</string>
+	<string key="SitesFooter">
+		<value>Footer سایت</value>
+	</string>
+	<string key="SlideShowGallery">
+		<value>تصاویر اسلاید</value>
+	</string>
+	<string key="UserAdvancedSetting">
+		<value>تنظیمات پیشرفته</value>
+	</string>
+	<string key="Topic">
+		<value>مطلب مرتبط</value>
+	</string>
+	<string key="CompleteDomainSettingDomainGuidField">
+		<value>دامنه را وارد کنید</value>
+	</string>
+	<string key="CompleteDomainSettingKeyField">
+		<value>کلید تنظیم را وارد کنید</value>
+	</string>
+	<string key="CompleteDomainSettingValueField">
+		<value>مقدار مربوط به کلید را وارد کنید</value>
+	</string>
+	<string key="SitesFavicon">
+		<value>آیکون سایت</value>
+	</string>
+	<string key="Settings">
+		<value>تنظیمات</value>
+	</string>
+	<string key="UI_Settings_Setting">
+		<value>تنظیمات کلی سیستم</value>
+	</string>
+	<string key="DomainSettings_SitesLogo_Notice">
+		<value>ارتفاع تصویر آپلود شده، باید حداکثر 70 پیکسل باشد</value>
+	</string>
+	<string key="TariffLists">
+		<value>تعرفه پیامک </value>
+	</string>
+	<string key="Tariff">
+		<value>تعرفه</value>
+	</string>
+	<string key="FixTariff">
+		<value>تعرفه ثابت</value>
+	</string>
+	<string key="ErrorMaximumAdmin">
+		<value>محدوده مجاز شما برای ثبت مدیر به پایان رسیده است</value>
+	</string>
+	<string key="CompleteDomainMenuTypeField">
+		<value>نوع منو رو وارد کنید</value>
+	</string>
+	<string key="CompleteDomainMenuTitleField">
+		<value>عنوان منو رو وارد کنید</value>
+	</string>
+	<string key="Link">
+		<value>لینک</value>
+	</string>
+	<string key="SendLink">
+		<value>لینک ارسال</value>
+	</string>
+	<string key="DeliveryLink">
+		<value>لینک دلیوری</value>
+	</string>
+	<string key="TargetType">
+		<value>نحوه نمایش</value>
+	</string>
+	<!--<string key="UI_DomainMenu_SaveDomainMenu">
+		<value>ایجاد منو</value>
+	</string>-->
+	<!--<string key="SaveDomainMenu">
+		<value>ایجاد منو</value>
+	</string>-->
+	<string key="StaticPage">
+		<value>صفحات ثابت</value>
+	</string>
+	<string key="DynamicPage">
+		<value>صفحات پویا</value>
+	</string>
+	<string key="ExternalUrl">
+		<value>لینک خارجی</value>
+	</string>
+	<string key="BottomRight">
+		<value>پایین ، راست</value>
+	</string>
+	<string key="BottomCenter">
+		<value>پایین ، وسط</value>
+	</string>
+	<string key="BottomLeft">
+		<value>پایین ، چپ</value>
+	</string>
+	<string key="TopRight">
+		<value>بالا ، راست</value>
+	</string>
+	<string key="TopCenter">
+		<value>بالا ، وسط</value>
+	</string>
+	<string key="TopLeft">
+		<value>بالا ، چپ</value>
+	</string>
+	<string key="Left">
+		<value>چپ</value>
+	</string>
+	<string key="Right">
+		<value>راست</value>
+	</string>
+	<string key="SelfPage">
+		<value>نمایش در صفحه جاری</value>
+	</string>
+	<string key="BlankPage">
+		<value>نمایش در صفحه جدید</value>
+	</string>
+	<string key="ParentPage">
+		<value>صفحه والد</value>
+	</string>
+	<string key="StaticPageReference">
+		<value>صفحه ثایت</value>
+	</string>
+	<string key="DomainMenuList">
+		<value>لیست منو ها</value>
+	</string>
+	<string key="EditDomainMenu">
+		<value>ویرایش منو</value>
+	</string>
+	<string key="UI_DomainMenu_DomainMenu">
+		<value>منو ها</value>
+	</string>
+	<string key="DomainMenu">
+		<value>منو ها</value>
+	</string>
+	<string key="CompleteNewsSummaryField">
+		<value>خلاصه خبر را وارد کنید</value>
+	</string>
+	<string key="CompleteNewsContentField">
+		<value>متن خبر را وارد کنید</value>
+	</string>
+	<string key="CompleteDesktopMenuLocationField">
+		<value>موقعیت منو را وارد کنید</value>
+	</string>
+	<string key="CompleteDesktopMenuLocationDesktopField">
+		<value>میز کار را وارد کنید</value>
+	</string>
+	<string key="Desktop">
+		<value>میز کار</value>
+	</string>
+	<!--<string key="UI_DesktopMenuLocations_DesktopMenuLocation">
+		<value>جایگاه منو ها</value>
+	</string>-->
+	<string key="UI_DataCenters_SaveDataLocation">
+		<value>تنظیمات جایگاه نمایش دسته مطالب</value>
+	</string>
+	<!--<string key="DesktopMenuLocation">
+		<value>جایگاه منو ها</value>
+	</string>-->
+	<string key="SaveDataLocation">
+		<value>تنظیمات جایگاه نمایش دسته مطالب</value>
+	</string>
+	<!--<string key="DomainMenuTitle">
+		<value>عنوان منو</value>
+	</string>-->
+	<!--<string key="EditDesktopMenuLocation">
+		<value>ویرایش جایگاه منو</value>
+	</string>-->
+	<string key="MainDesktop">
+		<value>محیط کار پایه</value>
+	</string>
+	<string key="OrangeDesktop">
+		<value>محیط کار نارنجی</value>
+	</string>
+	<string key="WindowsDesktop">
+		<value>محیط کار ویندوز</value>
+	</string>
+	<string key="mscdesktop">
+		<value>محیط کار فولاد</value>
+	</string>
+	<string key="AradDesktop">
+		<value>محیط کار آراد</value>
+	</string>
+	<string key="AddFiles">
+		<value>اضافه شد.</value>
+	</string>
+	<string key="Default">
+		<value>صفحه اصلی</value>
+	</string>
+	<string key="UI_EmailBooks_EmailBook">
+		<value>دفترچه ایمیل</value>
+	</string>
+	<string key="EmailBook">
+		<value>دفترچه ایمیل</value>
+	</string>
+	<string key="AddEmail">
+		<value>افزودن ایمیل</value>
+	</string>
+	<string key="UI_Users_EditProfile">
+		<value>ویرایش پروفایل</value>
+	</string>
+	<string key="UI_UserFishes_FishDetails">
+		<value>جزئیات فیش پرداختی</value>
+	</string>
+	<string key="UI_SmsReports_OutBox">
+		<value>صندوق ارسال</value>
+	</string>
+	<string key="UI_Users_UserShortcuts">
+		<value>تعریف میانبر</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_GeneralPhoneBook">
+		<value>گروه های ویژه</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_GeneralNumber">
+		<value>افزودن شماره به گروه های ویژه</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_SaveSingleGeneralNumber">
+		<value>افزودن شماره تکی به گروه های ویژه</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_SaveListGeneralNumber">
+		<value>افزودن شماره لیستی به گروه های ویژه</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_SaveFileGeneralNumber">
+		<value>افزودن شماره ازفایل به گروه های ویژه</value>
+	</string>
+	<string key="UI_SmsSends_SendCitySms">
+		<value>ارسال شهرواستان</value>
+	</string>
+	<string key="UI_SmsSends_SendPrefixSms">
+		<value>ارسال به پیش شماره</value>
+	</string>
+	<string key="UI_GeneralPhoneBooks_DefineGeneralGroupPrice">
+		<value>تعیین قیمت گروه های ویژه</value>
+	</string>
+	<string key="UI_SmsSends_SendPostalCodeSms">
+		<value>ارسال کدپستی</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedSearchGroupSms">
+		<value>ارسال هوشمند</value>
+	</string>
+	<string key="UI_Domains_DomainSetting">
+		<value>تنظیمات دامنه</value>
+	</string>
+	<string key="UI_News_ShowNews">
+		<value>نمایش متن حبر</value>
+	</string>
+	<string key="ManageSmsSenderAgent">
+		<value>اپراتورهای ارسال</value>
+	</string>
+  <string key="SmsSenderAgentSetting">
+    <value>تنظیمات ارسال پیام</value>
+  </string>
+	<string key="AssignPrivateNumberToUser">
+		<value>تخصیص خط اختصاصی به کاربر</value>
+	</string>
+	<string key="DefineGlobalServicePrice">
+		<value>تعیین قیمت سرویس</value>
+	</string>
+	<string key="DefineUserServicePrice">
+		<value>نعیین قیمت سرویس های کاربر</value>
+	</string>
+	<string key="DefinePhoneBookField">
+		<value>تعریف فیلد تکمیلی در دفترچه تلفن</value>
+	</string>
+	<string key="ManagePhoneNumber">
+		<value>لیست شماره های گروه دفترچه تلفن</value>
+	</string>
+	<string key="DefineUserGroupPrice">
+		<value>تعیین گروه قیمت کاربر</value>
+	</string>
+	<string key="DefineUserAccess">
+		<value>تعیین دسترسی های کاربر</value>
+	</string>
+	<string key="ViewUserTransaction">
+		<value>نمایش تراکنش های کاربر</value>
+	</string>
+	<string key="ViewUserEditProfile">
+		<value>نمایش پروفایل کاربر</value>
+	</string>
+	<string key="GalleryImageList">
+		<value>لیست گالری تصاویر</value>
+	</string>
+	<string key="DataCenterList">
+		<value>لیست دسته بندی مطالب</value>
+	</string>
+	<string key="ManageGeneralNumber">
+		<value>لیست شماره های گروه در گروه های ویژه</value>
+	</string>
+	<string key="AddFileGeneralNumber">
+		<value>افزودن شماره ازفایل به گروه های ویژه</value>
+	</string>
+	<string key="AddSingleGeneralNumber">
+		<value>افزودن شماره تکی به گروه های ویژه</value>
+	</string>
+	<string key="AddListGeneralNumber">
+		<value>افزودن شماره لیستی به گروه های ویژه</value>
+	</string>
+	<string key="SendPostalCodeSms">
+		<value>ارسال کدپستی</value>
+	</string>
+	<string key="SendPrefixSms">
+		<value>ارسال پیش شماره</value>
+	</string>
+	<string key="DefineGeneralGroupPrice">
+		<value>تعیین قیمت گروه های ویژه</value>
+	</string>
+	<string key="UserGeneralPhoneBook">
+		<value>گروه های ویژه کاربر</value>
+	</string>
+	<string key="SendAdvancedSearchGroupSms">
+		<value>ارسال هوشمند</value>
+	</string>
+	<string key="DomainSetting">
+		<value>تنظیمات دامنه</value>
+	</string>
+	<string key="ShowNews">
+		<value>نمایش متن خبر</value>
+	</string>
+	<string key="EmailsList">
+		<value>لیست ایمیل</value>
+	</string>
+	<string key="SaveEmail">
+		<value>ثبت ایمیل</value>
+	</string>
+	<string key="EditEmail">
+		<value>ویرایش ایمیل</value>
+	</string>
+	<string key="UI_EmailBooks_EmailAddress">
+		<value>لیست ایمیل های گروه دفترچه ایمیل</value>
+	</string>
+	<string key="ManageEmail">
+		<value>لیست ایمیل های گروه دفترچه ایمیل</value>
+	</string>
+	<string key="UI_EmailBooks_SaveEmail">
+		<value>ثبت ایمیل</value>
+	</string>
+	<string key="IncorectEmails">
+		<value>ایمیل های اشتباه</value>
+	</string>
+	<string key="ConditionsRegisterEmail">
+		<value>شرایط ثبت ایمیل</value>
+	</string>
+	<string key="SendSingleEmail">
+		<value>ارسال ایمیل تکی</value>
+	</string>
+	<string key="EmailSender">
+		<value>ایمیل فرستنده</value>
+	</string>
+	<string key="UI_EmailSends_SendSingleEmail">
+		<value>ارسال ایمیل تکی</value>
+	</string>
+	<string key="DefaultPage">
+		<value>صفحه اصلی</value>
+	</string>
+	<string key="LargeIcon">
+		<value>تصویر بزرگ</value>
+	</string>
+	<string key="UI_Users_RegisterLight">
+		<value>ثبت نام</value>
+	</string>
+	<string key="RegisterLight">
+		<value>ثبت نام</value>
+	</string>
+	<string key="AndroidDesktop">
+		<value>محیط کار اندروید</value>
+	</string>
+	<string key="RemainingSmsCount">
+		<value>تعداد پیامک های باقیمانده</value>
+	</string>
+	<string key="PanelInformation">
+		<value>اطلاعات پنل</value>
+	</string>
+	<string key="RemainingDaysToExpirePanel">
+		<value>مدت زمان تا انقضا پنل</value>
+	</string>
+	<string key="SendSingleSmsQuickly">
+		<value>ارسال سریع پیامک</value>
+	</string>
+	<string key="UI_EmailSettings_UserEmailSetting">
+		<value>تنظیمات ایمیل</value>
+	</string>
+	<string key="UserEmailSetting">
+		<value>تنظیمات ایمیل</value>
+	</string>
+	<string key="UI_EmailSettings_SaveSetting">
+		<value>ثبت تنظیمات ایمیل</value>
+	</string>
+	<string key="SaveEmailSetting">
+		<value>ثبت تنظیمات ایمیل</value>
+	</string>
+	<string key="EditEmailSetting">
+		<value>ویرایش تنظیمات ایمیل</value>
+	</string>
+	<string key="DuplicateEmail">
+		<value>ایمیل وارد شده تکراری است.</value>
+	</string>
+	<string key="Subject">
+		<value>موضوع</value>
+	</string>
+	<string key="TotalEmails">
+		<value>تعداد ایمیل ها</value>
+	</string>
+	<string key="SendGroupEmail">
+		<value>ارسال ایمیل گروهی</value>
+	</string>
+	<string key="UI_EmailSends_SendGroupEmail">
+		<value>ارسال ایمیل گروهی</value>
+	</string>
+	<string key="CompleteRequiredFields">
+		<value>موارد مشخص شده را تکمیل نمایید.</value>
+	</string>
+	<string key="EnteredNumberIsNotValid">
+		<value>فرمت عدد وارد شده اشتباه می باشد.</value>
+	</string>
+	<string key="MobileNumberIsNotValid">
+		<value>فرمت شماره وارد شده اشتباه می باشد.</value>
+	</string>
+	<string key="MobileNumbersIsNotValid">
+		<value>فرمت شماره های وارد شده اشتباه می باشد.</value>
+	</string>
+	<string key="NumberOfValidMobileNumbers">
+		<value>تعداد شماره های صحیح</value>
+	</string>
+	<string key="EmailIsNotValid">
+		<value>فرمت ایمیل وارد شده صحیح نمی باشد.</value>
+	</string>
+	<string key="EmailsIsNotValid">
+		<value>فرمت ایمیل های وارد شده اشتباه می باشد.</value>
+	</string>
+	<string key="NumberOfValidEmails">
+		<value>تعداد ایمیل های صحیح</value>
+	</string>
+	<string key="Alert">
+		<value>هشدار</value>
+	</string>
+	<string key="FormatBasedOn">
+		<value>فرمت بر اساس</value>
+	</string>
+	<string key="Ok">
+		<value>تایید</value>
+	</string>
+	<string key="DuplicateGroupName">
+		<value>گروهی با این عنوان قبلا ثبت شده است</value>
+	</string>
+	<string key="GroupHasSubGroupWarning">
+		<value>این گروه شامل زیرگروه است ابتدا زیرگروه ها را حذف نمایید</value>
+	</string>
+	<string key="AttachedFiles">
+		<value>فایل های پیوست شده</value>
+	</string>
+	<string key="Details">
+		<value>جزئیات</value>
+	</string>
+	<string key="EditSendSms">
+		<value>ویرایش ارسال پیامک</value>
+	</string>
+	<string key="SentDateTime">
+		<value>تاریخ ارسال</value>
+	</string>
+	<string key="SmsEditedSuccessfully">
+		<value>پیامک با موفقیت ویرایش شد</value>
+	</string>
+	<string key="SmsEditFaild">
+		<value>خطا در ویرایش پیامک</value>
+	</string>
+	<string key="SmsRejectedSuccessfully">
+		<value>پیامک مورد نظر لغو گردید</value>
+	</string>
+	<string key="FaildSend">
+		<value>ارسال نشده</value>
+	</string>
+	<string key="SendError">
+		<value>خطا درارسال پیامک</value>
+	</string>
+	<string key="SendGroupName">
+		<value>عنوان گروه ارسالی</value>
+	</string>
+	<string key="EnteredPeriodIsNotCorrect">
+		<value>بازه ی زمانی نامعتبر است</value>
+	</string>
+	<string key="SecretaryName">
+		<value>عنوان منشی</value>
+	</string>
+	<string key="Keyword">
+		<value>کلمه کلیدی</value>
+	</string>
+	<string key="Keywords">
+		<value>کلمات کلیدی</value>
+	</string>
+  <string key="KeywordsList">
+    <value>لیست کلمات کلیدی</value>
+  </string>
+  <string key="KeywordsDescription">
+    <value>شرح کلمه کلیدی</value>
+  </string>
+  <string key="KeywordsName">
+    <value>نام کلمه کلیدی</value>
+  </string>
+	<string key="KeywordType">
+		<value>نوع کلمه کلیدی</value>
+	</string>
+	<string key="Amalgar">
+		<value>عملگر</value>
+	</string>
+	<string key="CaseSensitive">
+		<value>حساس به حروف کوچک و بزرگ</value>
+	</string>
+	<string key="ResponseBy">
+		<value>پاسخ از طریق</value>
+	</string>
+	<string key="AnalystSms">
+		<value>تحلیلگر پیامک</value>
+	</string>
+	<string key="UI_SmsParsers_Filters_SmsFilter">
+		<value>تحلیلگر پیامک</value>
+	</string>
+	<string key="UI_SmsParsers_Filters_SaveFilter">
+		<value>ثبت تحلیلگر پیامک</value>
+	</string>
+	<string key="SaveSmsFilter">
+		<value>ثبت تحلیلگر پیامک</value>
+	</string>
+	<string key="Unlimited">
+		<value>بدون محدودیت</value>
+	</string>
+	<string key="Contain">
+		<value>شامل</value>
+	</string>
+	<string key="SaveInPhoneBook">
+		<value>ذخیره در دفترچه تلفن</value>
+	</string>
+	<string key="Priority">
+		<value>اولویت</value>
+	</string>
+	<string key="Seperator">
+		<value>جدا کننده</value>
+	</string>
+	<string key="IncreaseCreditForUnsuccessfulSentBulk">
+		<value>افزایش اعتبار به دلیل برگشت هزینه ارسال ناموفق بالک تعداد {0} پیامک {1} بخشی</value>
+	</string>
+	<string key="SendSmsNextLogin">
+		<value>ورود به سامانه پیامک تاریخ {0}</value>
+	</string>
+	<string key="SendSmsLowCredit">
+		<value>موجودی سامانه پیامک شما کمتر از{0} ریال میباشد.لطفا نسبت به شارژ سامانه خود اقدام فرمایید.</value>
+	</string>
+	<string key="SendSmsPanelExpiration">
+		<value>سامانه پیامک شما {0}روز دیگرمنقضی می شود.لطفا نسبت به تمدید آن اقدام فرمایید.</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedGroupFutureSms">
+		<value>ارسال پیامک پیشرفته در آینده</value>
+	</string>
+	<string key="SendAdvancedSpecialGroupFutureSms">
+		<value>ارسال پیامک پیشرفته گروه های ویژه در آینده</value>
+	</string>
+	<string key="UI_SmsSends_SendAdvancedSpecialGroupFutureSms">
+		<value>ارسال پیامک پیشرفته گروه های ویژه در آینده</value>
+	</string>
+	<string key="ErrorMaximumUser">
+		<value>محدوده تعداد کاربر مجازه شما به اتمام رسیده است. </value>
+	</string>
+	<!--<string key="BlackList">
+		<value>لیست سیاه</value>
+	</string>-->
+	<string key="ShowBlackListNumber">
+		<value>مشاهده شماره های لیست سیاه</value>
+	</string>
+	<string key="UI_SmsReports_ShowBlackListNumber">
+		<value>مشاهده شماره های لیست سیاه</value>
+	</string>
+	<string key="Secretary">
+		<value>منشی</value>
+	</string>
+	<string key="CompetitionName">
+		<value>عنوان مسابقه</value>
+	</string>
+  <string key="CompetitionFromMobile">
+    <value>ورود از شماره</value>
+  </string>
+  <string key="CompetitionGroupAllert">
+    <value>با انتخاب هر گروه دفترچه تلفن، تنها اعضای همان  گروه حق شرکت خواهند داشت</value>
+  </string>
+  <string key="CompetitionMember">
+    <value>عضو</value>
+  </string>
+  <string key="CompetitionResponse">
+    <value>پاسخ به شرکت کنندگان</value>
+  </string>
+  <string key="CompetitionAnswerAfterResponse">
+    <value>متن پاسخ پس از دریافت جواب</value>
+  </string>
+  <string key="CompetitionAnswerAfterDublicate">
+    <value>متن پاسخ در صورتی که مخاطب قبلا شرکت کرده باشد</value>
+  </string>
+  <string key="CompetitionAnswerText">
+    <value>متن پیامک شرکت کننده</value>
+  </string>
+  <string key="CompetitionSaveToGroupText">
+    <value>با انتخاب گروه، شماره شرکت کننده به گروه موردنظر اضافه میشود</value>
+  </string>
+	<string key="UI_SmsParsers_Competitions_Competition">
+		<value>مسابقه</value>
+	</string>
+	<string key="UI_SmsParsers_Competitions_SaveCompetition">
+		<value>ثبت مسابقه</value>
+	</string>
+	<string key="Competition">
+		<value>مسابقه</value>
+	</string>
+	<string key="SaveCompetition">
+		<value>ثبت مسابقه</value>
+	</string>
+	<string key="CompetitionQuestion">
+		<value>سوال مسابقه</value>
+	</string>
+	<string key="ReceiveMultiResponse">
+		<value>دریافت چند پاسخ از یک شماره </value>
+	</string>
+	<string key="OptionName">
+		<value>عنوان گزینه </value>
+	</string>
+	<string key="ReplyWordType">
+		<value>نوع کلمه پاسخ</value>
+	</string>
+	<string key="AdvancedSettings">
+		<value>تنظیمات پیشرفته</value>
+	</string>
+	<string key="NoReply">
+		<value>بدون پاسخ</value>
+	</string>
+	<string key="ReplyWord">
+		<value>کلمه پاسخ</value>
+	</string>
+	<string key="SecretaryAttribute">
+		<value>مشخصات منشی</value>
+	</string>
+	<string key="DefineGroup">
+		<value>تعیین گروه</value>
+	</string>
+	<string key="DefineReplyword">
+		<value>تعیین کلمه پاسخ</value>
+	</string>
+	<string key="Equal">
+		<value>مساوی با</value>
+	</string>
+	<string key="UnEqual">
+		<value>نا مساوی با</value>
+	</string>
+	<string key="GreaterThan">
+		<value>بزرگتر از</value>
+	</string>
+	<string key="GreaterEqual">
+		<value>بزرگتر مساوی با</value>
+	</string>
+	<string key="Smaller">
+		<value>کوچکتر از</value>
+	</string>
+	<string key="LessEqual">
+		<value>کوچکتر مساوی با</value>
+	</string>
+	<string key="Poll">
+		<value>نظر سنجی</value>
+	</string>
+	<string key="SavePoll">
+		<value>ثبت نظر سنجی</value>
+	</string>
+	<string key="UI_SmsParsers_Polls_Poll">
+		<value>نظر سنجی</value>
+	</string>
+	<string key="UI_SmsParsers_Polls_SavePoll">
+		<value>ثبت نظر سنجی</value>
+	</string>
+	<string key="PollTitle">
+		<value>عنوان نظرسنجی</value>
+	</string>
+	<string key="Successful">
+		<value>موفق</value>
+	</string>
+	<string key="PreRequest">
+		<value>وضعیت بلاتکلیف</value>
+	</string>
+	<string key="AccessViolation">
+		<value>پين فروشنده درست نميباشد</value>
+	</string>
+	<string key="MerchantAuthenticationFailed">
+		<value>پین فروشنده درست نمیباشد </value>
+	</string>
+	<string key="SaleIsAlreadyDoneSuccessfully">
+		<value>تراکنش قبلا انجام شده است.</value>
+	</string>
+	<string key="InvalidMerchantOrder">
+		<value>شماره تراکنش فروشنده درست نميباشد</value>
+	</string>
+	<string key="TransactionNo">
+		<value>شماره تراکنش</value>
+	</string>
+	<string key="OnlinePaymentUnSuccessful">
+		<value>خطا!عملیات پرداخت انجام نشد</value>
+	</string>
+	<string key="CompetitionSpecifications">
+		<value>مشخصات مسابقه</value>
+	</string>
+	<string key="CompetitionOptions">
+		<value>گزینه های مسابقه</value>
+	</string>
+	<string key="PollSpecifications">
+		<value>مشخصات نظرسنجی</value>
+	</string>
+	<string key="PollOptions">
+		<value>گزینه های نظرسنجی</value>
+	</string>
+	<string key="EmailTemplate">
+		<value>الگوی ایمیل</value>
+	</string>
+	<string key="UI_EmailTemplates_EmailTemplate">
+		<value>الگوی ایمیل</value>
+	</string>
+	<string key="EmailTemplateList">
+		<value>لیست الگوی ایمیل</value>
+	</string>
+	<string key="SaveEmailTemplate">
+		<value>ثبت الگوی ایمیل</value>
+	</string>
+	<string key="AddEmailTemplate">
+		<value>افزودن الگوی ایمیل</value>
+	</string>
+	<string key="KeywordList">
+		<value>لیست کلمات پاسخ</value>
+	</string>
+	<string key="String">
+		<value>رشته</value>
+	</string>
+	<string key="WithoutKeyword">
+		<value>فاقد کلمه پاسخ</value>
+	</string>
+	<string key="Include">
+		<value>شامل</value>
+	</string>
+	<string key="EmailFormat">
+		<value>فرمت ایمیل</value>
+	</string>
+	<string key="CellPhoneNumberFormat">
+		<value>فرمت موبایل</value>
+	</string>
+	<string key="CompleteKeyField">
+		<value>فیلد کلید را پرکنید.</value>
+	</string>
+	<string key="CompletePriorityField">
+		<value>لطفا فیلد اولویت را پرکنید.</value>
+	</string>
+	<string key="ThePageIsUnderConstruction">
+		<value>صفحه در دست ساخت می باشد </value>
+	</string>
+	<string key="AddKeyword">
+		<value>افزودن گزینه</value>
+	</string>
+	<string key="AddNewKeyword">
+		<value>افزودن گزینه جدید</value>
+	</string>
+	<string key="UI_SmsParsers_SimpleSecretaryList">
+		<value>لیست منشی ساده</value>
+	</string>
+	<string key="SimpleSecretaryList">
+		<value>لیست منشی ساده</value>
+	</string>
+	<string key="FromDateTime">
+		<value>تاریخ شروع</value>
+	</string>
+	<string key="ToDateTime">
+		<value>تاریخ پایان</value>
+	</string>
+	<string key="UI_EmailReports_EmailOutbox">
+		<value>گزارش کلیه ایمیل ها</value>
+	</string>
+	<string key="EmailOutbox">
+		<value>گزارش کلیه ایمیل ها</value>
+	</string>
+	<string key="UI_EmailReports_EmailSentbox">
+		<value>ایمیل های ارسالی</value>
+	</string>
+	<string key="EmailSentbox">
+		<value>ایمیل های ارسالی</value>
+	</string>
+	<string key="Failed">
+		<value>ناموفق</value>
+	</string>
+	<string key="SendSingleFutureEmail">
+		<value>ارسال ایمیل تکی در آینده</value>
+	</string>
+	<string key="SendGroupFutureEmail">
+		<value>ارسال ایمیل گروهی در آینده</value>
+	</string>
+	<string key="Numbers">
+		<value>خطوط</value>
+	</string>
+	<string key="MCI">
+		<value>همراه اول</value>
+	</string>
+	<string key="RightTel">
+		<value>رایتل</value>
+	</string>
+	<string key="UI_SmsSends_SendSmsForUsers">
+		<value>ارسال پیام به کاربران</value>
+	</string>
+	<string key="UI_SmsSends_SendSmsFromFormat">
+		<value>ارسال پیام از قالب</value>
+	</string>
+	<string key="SendSmsFromFormat">
+		<value>ارسال پیام از قالب</value>
+	</string>
+	<string key="SendSmsForUsersFormat">
+		<value>تنظیمات پیامک</value>
+	</string>
+	<string key="UI_SmsSends_SendFutureSmsForUsers">
+		<value>ارسال پیام به کاربران در آینده</value>
+	</string>
+	<string key="SendFutureSmsForUsers">
+		<value>ارسال پیام به کاربران در آینده</value>
+	</string>
+	<string key="SmsSetting">
+		<value>تنظیمات پیامک</value>
+	</string>
+	<string key="SendSmsForUsers">
+		<value>ارسال پیام به کاربران</value>
+	</string>
+	<string key="SubGroupUsers">
+		<value>کاربران زیر مجموعه</value>
+	</string>
+	<string key="AllSubGroupUsers">
+		<value>کلیه کاربران زیر مجموعه</value>
+	</string>
+	<string key="LockMenu">
+		<value>ثابت کردن منو</value>
+	</string>
+	<string key="AutoHideMenu">
+		<value>\ پنهان شدن خودکار منو</value>
+	</string>
+	<string key="MasterGroup">
+		<value>گروه اصلی</value>
+	</string>
+	<string key="CreateNicAccount">
+		<value>ایجاد اشتراک Nic</value>
+	</string>
+	<string key="SaveDirectDomain">
+		<value>ایجاد اشتراک Direct</value>
+	</string>
+	<string key="OnlineRegisterDomain">
+		<value>ثبت آنلاین دامنه</value>
+	</string>
+	<string key="UI_Domains_OnlineRegisterDomain">
+		<value>ثبت آنلاین دامنه</value>
+	</string>
+	<string key="NationalID">
+		<value>کد ملی</value>
+	</string>
+	<string key="Country">
+		<value>کشور</value>
+	</string>
+	<string key="InterfaceCountry">
+		<value>کشور رابط</value>
+	</string>
+	<string key="RegisteredCountry">
+		<value>کشور ثبت شده</value>
+	</string>
+	<string key="CountryName">
+		<value>نام کشور</value>
+	</string>
+	<string key="CompanyName">
+		<value>نام شرکت</value>
+	</string>
+	<string key="PhoneNumber">
+		<value>تلفن </value>
+	</string>
+	<string key="Attention">
+		<value>توجه </value>
+	</string>
+	<string key="SearchDomainTab">
+		<value>جهت ثبت دامنه نام دامنه را بدون پسوند در کادر زیر وارد نمایید، نوع دامنه را انتخاب و بر روی دکمه جستجو کلیک نمایید. پس از آن در صورت آزاد بودن دامنه برروی دکمه ارسال درخواست کلیک نمایید </value>
+	</string>
+	<string key="AvailableDomainTab">
+		<value>دامنه مورد نظر خود را از لیست دامنه های دردسترس برای ثبت مشخص نمایید</value>>
+	</string>
+	<string key="RegisterDomainTab">
+		<value>در صورتی که قیمت دامنه برای این دامین نامشخص است با بخش پشتیبانی تماس بگیرید</value>
+	</string>
+	<string key="UndefinePriceForRegisterDomain">
+		<value>قیمت دامنه موردنظر نامشخص است</value>
+	</string>
+	<string key="PaymentTab">
+		<value>مبلغ دامنه از شارژ شما کسر خواهد شد</value>
+	</string>
+	<string key="UI_Domains_TransportNicDomain">
+		<value>انتقال دامنه های Nic </value>
+	</string>
+	<string key="TransportNicDomain">
+		<value>انتقال دامنه های Nic </value>
+	</string>
+	<string key="TransportDomainHeader">
+		<value>فـروش دامـنه (انتقال به شناسـه دیگر) </value>
+	</string>
+	<string key="TransportDomainCommnet">
+		<value>برای دریافت رمز انتقال (PIN CODE)، نام دامنه خود را در قسمت زیر وارد کنید. توجه شود رمز انتقال توسط ایمیل صاحب شناسه دریافت خواهد شد</value>
+	</string>
+	<string key="PinCode">
+		<value>شماره PIN</value>
+	</string>
+	<string key="CurrentUserID">
+		<value>شناسه صاحب امتیاز فعلی</value>
+	</string>
+	<string key="NextUserID">
+		<value>شناسه صاحب امتیاز جدید</value>
+	</string>
+	<string key="TransportCode">
+		<value>رمز انتقال</value>
+	</string>
+	<string key="GetTransportCode">
+		<value>دریافت رمز انتقال</value>
+	</string>
+	<string key="TransportDomain">
+		<value>انتقال دامنه</value>
+	</string>
+	<string key="Loading">
+		<value>درحال بارگزاری...</value>
+	</string>
+	<string key="QuickAccess">
+		<value>دسترسی سریع</value>
+	</string>
+	<string key="RolesList">
+		<value>لیست نقش ها</value>
+	</string>
+	<string key="UI_Roles_Role">
+		<value>نقش های کاربران</value>
+	</string>
+	<string key="UserRole">
+		<value>نقش های کاربران</value>
+	</string>
+	<string key="UI_Roles_SaveRole">
+		<value>ثبت نقش</value>
+	</string>
+	<string key="SaveRole">
+		<value>ثبت نقش</value>
+	</string>
+	<string key="EditRole">
+		<value>ویرایش نقش</value>
+	</string>
+	<string key="DefaultRole">
+		<value>نقش پیش فرض کاربر</value>
+	</string>
+	<string key="Role">
+		<value>نقش</value>
+	</string>
+	<string key="DefineServiceOfRole">
+		<value>تعریف سرویس های نقش</value>
+	</string>
+	<string key="UI_RoleServices_RoleService">
+		<value>تعریف سرویس های نقش</value>
+	</string>
+	<string key="SelectRole">
+		<value>نقش موردنظر را انتخاب نمایید</value>
+	</string>
+	<string key="IncorectServiceInfo">
+		<value>اطلاعات سرویس نادرست است </value>
+	</string>
+	<string key="CompleteInboxGroupTitleField">
+		<value>عنوان را وارد نمایید</value>
+	</string>
+	<string key="InboxGroup">
+		<value>گروه بندی صندوق دریافتی</value>
+	</string>
+	<string key="UI_SmsReports_InboxGroup">
+		<value>گروه بندی صندوق دریافتی</value>
+	</string>
+	<string key="AllNumbersList">
+		<value>لیست کلیه شماره ها</value>
+	</string>
+	<string key="ApplyToAllChildren">
+		<value>تعریف قالب روی کلیه زیر گروه ها</value>
+	</string>
+	<string key="SearchNumber">
+		<value>جستجوی شماره</value>
+	</string>
+	<string key="SearchFormat">
+		<value>جستجوی قالب</value>
+	</string>
+	<string key="AllFormatList">
+		<value>لیست کلیه قالب ها</value>
+	</string>
+	<string key="FormatTitle">
+		<value>عنوان قالب</value>
+	</string>
+	<string key="SearchAllUserFields">
+		<value>جستجوی کلیه فیلدهای تکمیلی</value>
+	</string>
+	<string key="AllUsers">
+		<value>کلیه کاربران</value>
+	</string>
+	<string key="SeprationUser">
+		<value>تفکیک بر اساس نقش کاربر</value>
+	</string>
+	<string key="SeprationUserRole">
+		<value>نقش کاربر</value>
+	</string>
+	<string key="UI_PhoneBooks_SearchAllUserField">
+		<value>جستجوی کلیه فیلدهای تکمیلی</value>
+	</string>
+	<string key="SearchField">
+		<value>جستجوی فیلد</value>
+	</string>
+	<string key="FieldTitle">
+		<value>عنوان فیلد</value>
+	</string>
+	<string key="UI_PhoneBooks_SearchAllGroups">
+		<value>جستجوی شماره در کلیه گروه ها</value>
+	</string>
+	<string key="UI_PhoneBooks_SearchAllFormats">
+		<value>جستجوی قالب در کلیه گروه ها</value>
+	</string>
+	<string key="SearchAllPhoneBookGroups">
+		<value>جستجو شماره درکلیه گروه ها</value>
+	</string>
+	<string key="SearchAllSmsFormats">
+		<value>جسجوی قالب در کلیه گروه ها</value>
+	</string>
+	<string key="IncorectInfo">
+		<value>اطلاعات دریافتی نادرست است</value>
+	</string>
+	<string key="ShowInbox">
+		<value>لیست دریافتی ها</value>
+	</string>
+	<string key="SendToCategory">
+		<value>انتقال به دسته</value>
+	</string>
+	<string key="DetermineUserRole">
+		<value>تعیین نقش کاربر</value>
+	</string>
+	<string key="UI_Users_DetermineUserRole">
+		<value>تعیین نقش کاربر</value>
+	</string>
+	<string key="InQueueSend">
+		<value>درصف ارسال</value>
+	</string>
+	<string key="DontRecieveResponseFromBank">
+		<value>پاسخی از بانک موردنظر دریافت نشد</value>
+	</string>
+	<string key="TransactionWasSuccessful">
+		<value>تراکنش باموفقیت انجام شد</value>
+	</string>
+	<string key="CardNumberIsInvalid">
+		<value>شماره کارت نامعتبر است</value>
+	</string>
+	<string key="AccountBalanceIsNotEnough">
+		<value>موجودی کافی نیست</value>
+	</string>
+	<string key="PasswordIsIncorrect">
+		<value>رمز نادرست است</value>
+	</string>
+	<string key="EnteringThePasswordIsExceeded">
+		<value>تعداد دفعات وارد کردن رمز بیش از حد مجاز است</value>
+	</string>
+	<string key="CardIsInvalid">
+		<value>کارت نامعتبر است</value>
+	</string>
+	<string key="TotalOfRecievingMoneyIsOutOfLimited">
+		<value>دفعات برداشت وجه بیش از حد مجاز است</value>
+	</string>
+	<string key="UserCancelRequest">
+		<value>کاربراز انجام تراکنش منصرف شده است</value>
+	</string>
+	<string key="CardIsExpired">
+		<value>تاریخ انقضای کارت گذشته است</value>
+	</string>
+	<string key="AmountOfRecieveMoneyIsOutOfLimit">
+		<value>مبلغ برداشت وجه بیش از حد مجاز است</value>
+	</string>
+	<string key="ExportingTheCardIsInvalid">
+		<value>صادرکننده کارت نامعتبر است</value>
+	</string>
+	<string key="ExportingSwitchCardError">
+		<value>خطای سوئیچ صادرکننده کارت</value>
+	</string>
+	<string key="DontRecieveResponseFromCardExporter">
+		<value>پاسخی از صادرکننده کارت دریافت نشد</value>
+	</string>
+	<string key="CardHolderDontAllowedToPerformThisTransaction">
+		<value>دارنده کارت مجاز به انجام این تراکنش نیست</value>
+	</string>
+	<string key="AcceptorIsInvalid">
+		<value>پذیرنده نامعتبر است</value>
+	</string>
+	<string key="SecurityErrorOccurred">
+		<value>خطای امنیتی رخ داده است</value>
+	</string>
+	<string key="AcceptorInformationIsInvalid">
+		<value>اطلاعات کاربری پذیرنده نامعتبر است</value>
+	</string>
+	<string key="AmountIsInvalid">
+		<value>مبلغ نامعتبر است</value>
+	</string>
+	<string key="ResponseIsInvalid">
+		<value>پاسخ نامعتبر است</value>
+	</string>
+	<string key="EnteringInformationFormatIsInvalid">
+		<value>فرمت اطلاعات وارد شده صحیح نمی باشد</value>
+	</string>
+	<string key="AccountIsInvalid">
+		<value>حساب نامعتبر است</value>
+	</string>
+	<string key="SystemError">
+		<value>خطای سیستمی</value>
+	</string>
+	<string key="DateIsInvalid">
+		<value>تاریخ نامعتبر است</value>
+	</string>
+	<string key="OrderIDIsDuplicate">
+		<value>شماره درخواست تکراری است</value>
+	</string>
+	<string key="NotFoundSaleTransaction">
+		<value>تراکنش Sale یافت نشد</value>
+	</string>
+	<string key="VerifyRequestIsDuplicate">
+		<value>قبلا درخواست Verify داده شده است</value>
+	</string>
+	<string key="NotFoundVerifyRequest">
+		<value>درخواست Verify یافت نشد</value>
+	</string>
+	<string key="TransactionIsSettle">
+		<value>تراکنش Settle شده است</value>
+	</string>
+	<string key="TransactionIsNotSettle">
+		<value>تراکنش Settle نشده است</value>
+	</string>
+	<string key="NotFoundSettleTransaction">
+		<value>تراکنش Settle یافت نشد</value>
+	</string>
+	<string key="TransactionIsReverse">
+		<value>تراکنش Reverse شده است</value>
+	</string>
+	<string key="NotFoundRefundTransaction">
+		<value>تراکنش Refund یافت نشد</value>
+	</string>
+	<string key="IDBillIsWrong">
+		<value>شناسه قبض نادرست است</value>
+	</string>
+	<string key="IDPaymentIsWrong">
+		<value>شناسه پرداخت نادرست است</value>
+	</string>
+	<string key="ExporterOfTheBillIsInvalid">
+		<value>سازمان صادرکننده قبض نامعتبر است</value>
+	</string>
+	<string key="SessionIsTimeOut">
+		<value>زمان جلسه کاری به پایان رسیده است</value>
+	</string>
+	<string key="RegisterInformationError">
+		<value>خطا در ثبت اطلاعات</value>
+	</string>
+	<string key="PayerIDIsInvalid">
+		<value>شناسه پرداخت کننده نامعتبر است</value>
+	</string>
+	<string key="DefineCustomerDataError">
+		<value>اشکال درتعریف اطلاعات مشتری</value>
+	</string>
+	<string key="NumberOfDataEntryIsOutOfLimite">
+		<value>تعداد دفعات ورود اطلاعات از حد مجاز گذشته است</value>
+	</string>
+	<string key="IPIsInvalid">
+		<value>IP نامعتبر است</value>
+	</string>
+	<string key="TransactionIsDuplicate">
+		<value>تراکنش تکراری است</value>
+	</string>
+	<string key="ReferenceTransactionDoesNotExist">
+		<value>تراکنش مرجع موجود نیست</value>
+	</string>
+	<string key="TransactionIsInvalid">
+		<value>تراکنش نامعتبر است</value>
+	</string>
+	<string key="SettleError">
+		<value>خطا در واریز</value>
+	</string>
+	<string key="EsfahanMap">
+		<value>نقشه اصفهان</value>
+	</string>
+	<string key="DetailsSend">
+		<value>جزئیات ارسال</value>
+	</string>
+	<string key="Major">
+		<value>بزرگتر</value>
+	</string>
+	<string key="Less">
+		<value>کوچکتر</value>
+	</string>
+	<string key="SelectUsers">
+		<value>انتخاب کاربران</value>
+	</string>
+	<string key="SelectOperations">
+		<value>عملیات موردنظر را انتخاب کنید.</value>
+	</string>
+	<string key="HomePages_Windows_Content_TravelAgency">
+		<value>ارسال اس ام اس ویژه آژانس های مسافرتی</value>
+	</string>
+	<string key="HomePages_Windows_Content_Banks">
+		<value>ارسال اس ام اس ویژه بانک ها و موسسات مالی و اعتباری</value>
+	</string>
+	<string key="HomePages_Windows_Content_CultureCenters">
+		<value>ارسال اس ام اس ویژه مراکز فرهنگی</value>
+	</string>
+	<string key="HomePages_Windows_Content_Doctors">
+		<value>ارسال اس ام اس ویژه مراکز پزشکی</value>
+	</string>
+	<string key="HomePages_Windows_Content_FAQ">
+		<value>سوالات متداول</value>
+	</string>
+	<string key="HomePages_Windows_Content_HighSchool">
+		<value>ارسال اس ام اس ویژه مراکز آموزش عالی و دانشگاه ها</value>
+	</string>
+	<string key="HomePages_Windows_Content_Hotels">
+		<value>ارسال اس ام اس ویژه هتل ها</value>
+	</string>
+	<string key="HomePages_Windows_Content_InsuranceAgencies">
+		<value>ارسال اس ام اس ویژه دفاتر بیمه</value>
+	</string>
+	<string key="HomePages_Windows_Content_NormalPanel">
+		<value>پنل ارسال اس ام اس عادی</value>
+	</string>
+	<string key="HomePages_Windows_Content_PhoneBook">
+		<value>دفترچه تلفن</value>
+	</string>
+	<string key="HomePages_Windows_Content_Poll">
+		<value>نظرسنجی پیامکی</value>
+	</string>
+	<string key="HomePages_Windows_Content_ReportSendSms">
+		<value>گزارش ارسال پیامک ها</value>
+	</string>
+	<string key="HomePages_Windows_Content_Resturants">
+		<value>ارسال اس ام اس ویژه رستوران ها</value>
+	</string>
+	<string key="HomePages_Windows_Content_Schools">
+		<value>ارسال اس ام اس ویژه مدارس</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendBirthDateSms">
+		<value>ارسال پیامک براساس تاریخ تولد</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendCitySms">
+		<value>ارسال پیامک به شهر و استان</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendDynamicSms">
+		<value>ارسال پیامک پویا</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendFromExcel">
+		<value>ارسال پیامک از فایل اکسل</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendFutureSms">
+		<value>ارسال پیامک درآینده</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendGroupSms">
+		<value>ارسال پیامک گروهی</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendOut">
+		<value>ارسال پیامک به خارج از کشور</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendSingleSms">
+		<value>ارسال پیامک تکی</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendToEsfahanBank">
+		<value>ارسال پیامک به بانک اطلاعاتی اصفهان</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendToPostalCode">
+		<value>ارسال پیامک به کد پستی</value>
+	</string>
+	<string key="HomePages_Windows_Content_SendToPrefix">
+		<value>ارسال پیامک به پیش شماره</value>
+	</string>
+	<string key="HomePages_Windows_Content_SmsCompetition">
+		<value>مسابقه پیامکی</value>
+	</string>
+	<string key="HomePages_Windows_Content_SmsSecretary">
+		<value>منشی پیامکی</value>
+	</string>
+	<string key="HomePages_Windows_Content_Stores">
+		<value>ارسال اس ام اس ویژه فروشگاه ها</value>
+	</string>
+	<string key="SaveMenuInfo">
+		<value>ثبت اطلاعات منو</value>
+	</string>
+	<string key="MenuSetting">
+		<value>تنظیمات منو</value>
+	</string>
+	<string key="MasterMenu">
+		<value>منوی اصلی</value>
+	</string>
+	<string key="Text">
+		<value>متن</value>
+	</string>
+	<string key="ShowInHomePage">
+		<value>نمایش در صفه اصلی</value>
+	</string>
+	<string key="NewPanel">
+		<value>سامانه جدید</value>
+	</string>
+	<string key="LoginToNewPanel">
+		<value>ورود به سامانه جدید</value>
+	</string>
+	<string key="RegisterToNewPanel">
+		<value>ثبت نام در سامانه جدید</value>
+	</string>
+	<string key="SelectPosition">
+		<value>انتخاب کنید</value>
+	</string>
+	<string key="UI_SmsSends_SendSmsFromDateField">
+		<value>ارسال براساس فیلد تاریخ</value>
+	</string>
+	<string key="SendDateFieldSms">
+		<value>ارسال براساس فیلد تاریخ</value>
+	</string>
+	<string key="SendSmsFromDateField">
+		<value>ارسال براساس فیلد تاریخ</value>
+	</string>
+	<string key="DateField">
+		<value>فیلد تاریخ</value>
+	</string>
+	<string key="FailSendSmsFormatMessage">
+		<value>لطفا گروه مورد نظر را انتخاب کنید</value>
+	</string>
+	<string key="MessagesList">
+		<value>لیست پیامها</value>
+	</string>
+	<string key="Message">
+		<value> ddd</value>
+	</string>
+	<string key="SelectFormatError">
+		<value>لطفا قالب موردنظر را انتخاب کنید</value>
+	</string>
+	<string key="DaysBefore">
+		<value>روز قبل از </value>
+	</string>
+	<string key="OwnerCompanyFirstName">
+		<value>نام مدیرعامل شرکت/مدیر سازمان</value>
+	</string>
+	<string key="ManagerFirstName">
+		<value>نام مدیر</value>
+	</string>
+	<string key="OwnerCompanyLastName">
+		<value>نام خانوادگی مدیرعامل شرکت/مدیر سازمان</value>
+	</string>
+	<string key="ManagerLastName">
+		<value>نام خانوادگی مدیر</value>
+	</string>
+	<string key="ActualPerson">
+		<value>شخص حقیقی</value>
+	</string>
+	<string key="CivilPerson">
+		<value>شخص حقوقی</value>
+	</string>
+	<string key="CompanyCode">
+		<value>شماره ثبت شرکت </value>
+	</string>
+	<string key="CompanyNationalCode">
+		<value>شماره ملی شرکت </value>
+	</string>
+	<string key="DomainContinuation">
+		<value>تمدید دامنه </value>
+	</string>
+	<string key="Continuation">
+		<value>مدت تمدید</value>
+	</string>
+	<string key="UI_Domains_DomainContinuation">
+		<value>تمدید دامنه </value>
+	</string>
+	<string key="DomainContinuationAttention">
+		<value> بمنظور تمدید دامنه، پس از وارد کردن نام دامنه نوع و مدت زمان تمدید را انتخاب و سپس بر روی دکمه تمدید کلیک نمایید. </value>
+	</string>
+	<string key="Available">
+		<value>قابل دسترسی </value>
+	</string>
+	<string key="Unavailable">
+		<value>عدم دسترسی </value>
+	</string>
+	<string key="CountYear">
+		<value>تعداد سال</value>
+	</string>
+	<string key="CustomerId">
+		<value>صاحب امتیاز</value>
+	</string>
+	<string key="OfficeRelation">
+		<value>رابط اداری</value>
+	</string>
+	<string key="TechnicalRelation">
+		<value>رابط فنی</value>
+	</string>
+	<string key="FinancialRelation">
+		<value>رابط مالی</value>
+	</string>
+	<string key="NextStep">
+		<value>مرحله بعدی</value>
+	</string>
+	<string key="OrderPanel">
+		<value>سفارش آنلاین پنل اس ام اس</value>
+	</string>
+	<string key="BackStep">
+		<value>مرحله قبلی</value>
+	</string>
+	<string key="HostRequest">
+		<value>درخواست هاست</value>
+	</string>
+	<string key="PaymentAlert">
+		<value>لطفا روش پرداخت را انتخاب نمایید</value>
+	</string>
+	<string key="SumHostPrice">
+		<value>مجموع مبلغ هاست</value>
+	</string>
+	<string key="SumDomainPrice">
+		<value>مجموع مبلغ دامنه</value>
+	</string>
+	<string key="SumPrice">
+		<value>جمع کل</value>
+	</string>
+	<string key="SumPayment">
+		<value>مجموع قابل پرداخت</value>
+	</string>
+	<string key="PanelCreditPayment">
+		<value>کسر از شارژ اعتباری پنل</value>
+	</string>
+	<string key="ِDomainSetting">
+		<value>تنظیمات دامنه</value>
+	</string>
+	<string key="OutOfWebService">
+		<value>سرویس در دسترس نیست</value>
+	</string>
+	<string key="OrderRegister">
+		<value>ثبت سفارش</value>
+	</string>
+	<string key="DomainPrice">
+		<value>مبلغ دامنه(ریال)</value>
+	</string>
+	<string key="Payment">
+		<value>پرداخت</value>
+	</string>
+	<string key="NotDefinition">
+		<value>نامشخص</value>
+	</string>
+	<string key="UI_DomainPrices_DomainPrice">
+		<value>قیمت دامنه </value>
+	</string>
+	<string key="DomainPriceList">
+		<value>لیست قیمت دامنه ها </value>
+	</string>
+	<string key="UI_DomainPrices_DomainGroupPrice">
+		<value>گروه قیمت دامنه</value>
+	</string>
+	<string key="DomainGroupPrice">
+		<value>گروه قیمت دامنه</value>
+	</string>
+	<string key="RegisterDomainGroupPrice">
+		<value>ثبت گروه قیمت دامنه</value>
+	</string>
+	<string key="EditGroupPriceDomain">
+		<value>ویرایش گروه قیمت دامنه</value>
+	</string>
+	<string key="RegisterDomainPrice">
+		<value>ثبت قیمت دامنه</value>
+	</string>
+	<string key="EditDomainPrice">
+		<value>ویرایش قیمت دامنه</value>
+	</string>
+	<string key="UI_DomainPrices_SaveDomainGroupPrice">
+		<value>افزودن گروه قیمت دامنه</value>
+	</string>
+	<string key="SaveDomainGroupPrice">
+		<value>افزودن گروه قیمت دامنه</value>
+	</string>
+	<string key="UI_DomainPrices_SaveDomainPrice">
+		<value>افزودن قیمت دامنه</value>
+	</string>
+	<string key="SaveDomainPrice">
+		<value>افزودن قیمت دامنه</value>
+	</string>
+	<string key="Factor">
+		<value>صورتحساب</value>
+	</string>
+	<string key="AvailableService">
+		<value>سرویس های در دسترس</value>
+	</string>
+	<string key="YearDomainPrice">
+		<value>مبلغ پرداختی به ازای دامنه {0} ساله{1}</value>
+	</string>
+	<string key="AlertPayment">
+		<value>عملیات پرداخت انجام شد</value>
+	</string>
+	<string key="NonGovernment">
+		<value>شرکت،موسسه یا نهاد غیردولتی</value>
+	</string>
+	<string key="excute">
+		<value>اجــــرا</value>
+	</string>
+	<string key="ticket">
+		<value>ارسال تیکت</value>
+	</string>
+	<string key="Government">
+		<value>وزارتخانه،سازمان یا شرکت دولتی</value>
+	</string>
+	<string key="CompanyInfo">
+		<value>مشخصات شرکت</value>
+	</string>
+	<string key="ResearchCenter">
+		<value>مرکز آموزشی و پژوهشی</value>
+	</string>
+	<string key="TypeOfCompany">
+		<value>نوع ثبت شرکت</value>
+	</string>
+	<string key="TypeOrganization">
+		<value>نوع سازمان</value>
+	</string>
+	<string key="PublicCompany">
+		<value>شرکت سهامی عام</value>
+	</string>
+	<string key="PrivateCompany">
+		<value>شرکت سهامی خاص</value>
+	</string>
+	<string key="LimitedCompany">
+		<value>شرکت با مسئولیت محدود</value>
+	</string>
+	<string key="CooperativeCompany">
+		<value>شرکت تعاونی</value>
+	</string>
+	<string key="Institute">
+		<value>موسسه</value>
+	</string>
+	<string key="TypeInstitute">
+		<value>نوع موسسه</value>
+	</string>
+	<string key="Publication">
+		<value>انتشارات و نشریه</value>
+	</string>
+	<string key="SelectDomainExtention">
+		<value>لطفا دامنه موردنظر را انتخاب فرمایید</value>
+	</string>
+	<string key="DomainAccountUnavailable">
+		<value>حساب کاربری جهت ثبت دامنه نادرست است</value>
+	</string>
+	<string key="CreateNicAccountNotice">
+		<value> تذکر مهم : لطفا اطلاعات خواسته شده را با حروف لاتین به صورت دقیق و کامل وارد نمایید. این فرم توسط مرکز ثبت دامنه های ir. بررسی میگرددو در صورت عدم تایید، شناسه شما ثبت نخواهد شد. </value>
+	</string>
+	<string key="LeaderInstitution">
+		<value>نهاد رهبری</value>
+	</string>
+	<string key="TheJudiciary">
+		<value>قوه قضاییه</value>
+	</string>
+	<string key="Legislature">
+		<value>قوه مقننه</value>
+	</string>
+	<string key="Ministry">
+		<value>وزارتخانه</value>
+	</string>
+	<string key="GovernmentCompany">
+		<value>شرکت دولتی</value>
+	</string>
+	<string key="Organization">
+		<value>سازمان</value>
+	</string>
+	<string key="PresidentInstitution">
+		<value>نهاد وابسته به ریاست جمهوری</value>
+	</string>
+	<string key="Governor">
+		<value>استانداری یا فرمانداری</value>
+	</string>
+	<string key="Municipal">
+		<value>شهرداری</value>
+	</string>
+	<string key="School">
+		<value>دبستان</value>
+	</string>
+	<string key="Guidance">
+		<value>مدرسه راهنمایی</value>
+	</string>
+	<string key="HighGuidance">
+		<value>دبیرستان</value>
+	</string>
+	<string key="IntroUniversity">
+		<value>مرکز پیش دانشگاهی</value>
+	</string>
+	<string key="TechnicalCenter">
+		<value>مرکز فنی و حرفه ای</value>
+	</string>
+	<string key="OtherSchool">
+		<value>مدرسه(غیره(</value>
+	</string>
+	<string key="EducationCenter">
+		<value>مرکز آموزشی</value>
+	</string>
+	<string key="NationalUniversityNonmedical">
+		<value>دانشگاه سراری(غیرپزشکی)</value>
+	</string>
+	<string key="FreeUniversity">
+		<value>دانشگاه آزاد</value>
+	</string>
+	<string key="PayameNoorUniversity">
+		<value>دانشگاه پیام نور</value>
+	</string>
+	<string key="AppliedScienceUniversity">
+		<value>دانشگاه علمی کاربردی</value>
+	</string>
+	<string key="OtherUniversity">
+		<value>دانشگاه(غیره)</value>
+	</string>
+	<string key="HigherCenter">
+		<value>مرکز اموزش عالی</value>
+	</string>
+	<string key="ResearchCenterNonmedical">
+		<value>مرکز تحقیقاتی(غیرپزشکی)</value>
+	</string>
+	<string key="NationalUniversityMedical">
+		<value>دانشگاه سراسری(پزشکی)</value>
+	</string>
+	<string key="ResearchCenterMedical">
+		<value>مرکز تحقیقاتی(پزشکی)</value>
+	</string>
+	<string key="NameOfRegisteredUnit">
+		<value>نام واحد ثبتی</value>
+	</string>
+	<string key="OrganizationName">
+		<value>نام وزارتخانه یا سازمان</value>
+	</string>
+	<string key="OrganizationInfo">
+		<value>مشخصات وزارتخانه یا سازمان</value>
+	</string>
+	<string key="InstituteInfo">
+		<value>مشخصات موسسه</value>
+	</string>
+	<string key="InstituteName">
+		<value>نام موسسه</value>
+	</string>
+	<string key="DirectAccountPasswordError">
+		<value>کلمه عبور باید بین 8 تا 15 کاراکتر و ترکیبی از حروف و اعداد باشد</value>
+	</string>
+	<string key="InvalidDomainGroupPriceGuid">
+		<value>گروه قیمت دامنه نامعتبر است</value>
+	</string>
+	<string key="InvalidDomainExtention">
+		<value>پسوند دامنه نامعتبر است</value>
+	</string>
+	<string key="CompleteGroupPriceGuid">
+		<value>گروه قیمت پیامک را انتخاب کنید</value>
+	</string>
+	<string key="CompleteDomainGroupPriceGuid">
+		<value>گروه قیمت دامنه را انتخاب کنید</value>
+	</string>
+	<string key="Menu">
+		<value>منو</value>
+	</string>
+	<!--<string key="NewsCenterTitle">
+		<value>عنوان مرکز خبر</value>
+	</string>-->
+	<string key="HomePages_AradITC_Contents_Index">
+		<value>صفحه اصلی</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_PanelSms">
+		<value>پنل اس ام اس چیست</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendSingleSms">
+		<value>ارسال پیامک تکی</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendGroupSms">
+		<value>ارسال پیامک گروهی</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendFetureSms">
+		<value>ارسال پیامک در آینده</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendSmsFromExcel">
+		<value>ارسال پیامک از طریق فایل اکسل</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendSmsTheBirthDay">
+		<value>ارسال پیامک سررسید تولد</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_SendDynamicSms">
+		<value>ارسال پیامک پویا</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_PhoneBook">
+		<value>دفترچه تلفن</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_OnlinePropaganda">
+		<value>تبلیغات آنلاین</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_DownloadForms">
+		<value>دانلود فرم ها</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_DownloadBrowser">
+		<value>دانلود مرورگر</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_DownloadMap">
+		<value>دانلود نقشه</value>
+	</string>
+	<string key="HomePages_AradITC_Contents_ShowNews">
+		<value>اخبار</value>
+	</string>
+	<string key="InvalidAuthority">
+		<value>شناسه مرجع دریافتی نامعتبر است</value>
+	</string>
+	<string key="InvalidInvoiceNumber">
+		<value>کد وصول نامعتبر است</value>
+	</string>
+	<string key="TheDefault">
+		<value>پیش فرض</value>
+	</string>
+	<string key="UserMessageList">
+		<value>لیست پیغام های کاربر</value>
+	</string>
+	<string key="UI_Domains_UserMessages">
+		<value>پیام های کاربر</value>
+	</string>
+	<string key="TypeActivity">
+		<value>نوع فعالیت</value>
+	</string>
+	<string key="UI_Domains_SaveUserMessage">
+		<value>ویرایش پیام های کاربر</value>
+	</string>
+	<string key="SaveUserMessage">
+		<value>ویرایش پیام های کاربر</value>
+	</string>
+	<string key="SendUserMessge">
+		<value>اطلاعات شما ارسال شد</value>
+	</string>
+	<string key="ManageUserMessage">
+		<value>مدیریت پیام های کاربران</value>
+	</string>
+	<string key="GetDeliveryStatus">
+		<value>دریافت وضعیت پیامک</value>
+	</string>
+	<string key="UserCancelSendRequest">
+		<value>انصراف کاربر از ارسال پیامک</value>
+	</string>
+	<string key="CheckMessageID">
+		<value>کنترل پیامک</value>
+	</string>
+	<string key="Error">
+		<value>خطا</value>
+	</string>
+	<string key="AssignServiceToRole">
+		<value>تخصیص سرویس به نقش</value>
+	</string>
+	<string key="ManagePrice">
+		<value>مدیریت قیمت</value>
+	</string>
+	<string key="Rightel">
+		<value>رایتل</value>
+	</string>
+	<string key="ManageImage">
+		<value>مدیریت تصاویر</value>
+	</string>
+	<string key="CharacterCount">
+		<value>تعداد کاراکتر</value>
+	</string>
+	<string key="SendAsFlashSms">
+		<value>ارسال به صورت فلش</value>
+	</string>
+	<string key="UI_SmsSends_SendSms">
+		<value>ارسال پیام</value>
+	</string>
+	<string Key="RequiredFieldNotComplete">
+		<value>اطلاعات وارد شده ناقص میباشد</value>
+	</string>
+	<string key="SendSmsSuccessful">
+		<value>ارسال پیام با موفقیت انجام شد</value>
+	</string>
+	<string key="DefaultNumber">
+		<value>شماره پیش فرض</value>
+	</string>
+	<string key="NumberExpression">
+		<value>فرمت شماره</value>
+	</string>
+	<string key="Armaghan">
+		<value>ارمغان</value>
+	</string>
+	<string key="Arad">
+		<value>آراد</value>
+	</string>
+	<string key="AradBulk">
+		<value>آراد-بالک</value>
+	</string>
+	<string key="AradVas">
+		<value>آراد-ارزش افزوده</value>
+	</string>
+	<string key="Shreeweb">
+		<value>بین الملل(shreeweb)</value>
+	</string>
+	<string key="RahyabRG">
+		<value>رهیاب رایانه گستر</value>
+	</string>
+  <string key="Avanak">
+    <value>آوانک</value>
+  </string>
+  <string key="Mobbis">
+    <value>بین الملل (Mobbis)</value>
+  </string>
+	<string key="RahyabPG">
+		<value>رهیاب پیام گستران</value>
+	</string>
+	<string key="RahyabPG1000">
+		<value>رهیاب پیام گستران(1000)</value>
+	</string>
+	<string key="SLS">
+		<value>سرزمین هوشمند</value>
+	</string>
+  <string key="IconGlobal">
+    <value>IconGlobal</value>
+  </string>
+	<string key="Ratio">
+		<value>ضریب</value>
+	</string>
+	<string key="OperatorRatioList">
+		<value>لیست ضریب اپراتورها</value>
+	</string>
+	<string key="AgentRatioList">
+		<value>ضریب عامل های ارسال</value>
+	</string>
+  <string key="RatioRule">
+    <value>ضرایب وارد شده نمی تواند کمتر از ضریب فعلی باشد</value>
+  </string>
+	<string key="Public">
+		<value>عمومی</value>
+	</string>
+	<string key="ReturnBlackList">
+		<value>بازگشت لیست سیاه</value>
+	</string>
+	<string key="SendPriority">
+		<value>اولویت ارسال</value>
+	</string>
+	<string key="CheckSmsFilter">
+		<value>بررسی فیلتر پیامک</value>
+	</string>
+	<string key="DeliveryBase">
+		<value>کسر هزینه برپایه دلیوری</value>
+	</string>
+	<string key="UseTheForm">
+		<value>استفاده به صورت</value>
+	</string>
+	<string key="DownRange">
+		<value>بازه ابتدایی</value>
+	</string>
+	<string key="UpRange">
+		<value>بازه انتهایی</value>
+	</string>
+	<string key="RangeNumber">
+		<value>شماره بازه ای</value>
+	</string>
+	<string key="OneNumber">
+		<value>تک شماره</value>
+	</string>
+	<string key="Mask">
+		<value>نام تجاری</value>
+	</string>
+	<string key="Number/Mask">
+		<value>شماره/نام تجاری</value>
+	</string>
+	<string key="NumberFromRange">
+		<value>شماره ای از بازه</value>
+	</string>
+	<string key="Range">
+		<value>بازه</value>
+	</string>
+	<string key="EnterNumber">
+		<value>لطفا شماره موردنظر را وارد کنید</value>
+	</string>
+	<string key="InvalidRange">
+		<value>بازه وارد شده نامعتبر است</value>
+	</string>
+	<string key="InvalidRatio">
+		<value>ضریب نامعتبر است</value>
+	</string>
+	<string key="DuplicateRange">
+		<value>رنج شماره وارد شده قبلا اختصاص داده شده است</value>
+	</string>
+	<string key="InvalidNumber">
+		<value>شماره وارد شده نامغتبر است</value>
+	</string>
+	<string key="MinimumMessage">
+		<value>حداقل پیامک</value>
+	</string>
+	<string key="MaximumMessage">
+		<value>حداکثر پیامک</value>
+	</string>
+	<string key="CompletePrice">
+		<value>فیلد قیمت را وارد کنید</value>
+	</string>
+	<string key="InvalidPrice">
+		<value>قیمت وارد شده نامعتبر است</value>
+	</string>
+	<string key="CompletePriceField">
+		<value>فیلد قیمت را پر کنید</value>
+	</string>
+	<string key="CardNo">
+		<value>شماره کارت</value>
+	</string>
+	<string key="AccountNo">
+		<value>شماره حساب</value>
+	</string>
+	<string key="SmsCount">
+		<value>تعداد پیامک</value>
+	</string>
+  <string key="MinSmsCount">
+    <value>حداقل تعداد پیامک</value>
+  </string>
+  <string key="MaxSmsCount">
+    <value>حداکثر تعداد پیامک</value>
+  </string>
+	<string key="BaseSmsPrice">
+		<value>قیمت پایه پیامک</value>
+	</string>
+	<string key="SaveFishAmountNotEnough">
+		<value>هزینه{0} پیامک معادل{1} ریال میباشد</value>
+	</string>
+	<string key="AccountInvalid">
+		<value>حساب موردنظر نامعتبراست</value>
+	</string>
+	<string key="DontAccessToOnlineGateway">
+		<value>عدم دسترسی به درگاه پرداخت</value>
+	</string>
+	<string key="PaymentsList">
+		<value>لیست پرداخت ها</value>
+	</string>
+	<string key="DuplicateRangeOfGroupPrice">
+		<value>بازه موردنظر با سایر بازه ها دارای هم پوشانی میباشد</value>
+	</string>
+	<string key="PrivateNumberWithKeywordIsDuplicate">
+		<value> شماره موردنظر با کلمه کلیدی وارد شده قبلا اختصاص داده شده است</value>
+	</string>
+	<string key="Other">
+		<value>سایر</value>
+	</string>
+	<string key="SystemUnableAssignCredit">
+		<value>سیستم در حال حاضر قادر به تخصیص پیامک به شما نمی باشد</value>
+	</string>
+	<string key="DefineUser">
+		<value>تعریف کاربر</value>
+	</string>
+	<string key="UI_Users_DefineUser">
+		<value>تعریف کاربر</value>
+	</string>
+	<string key="NationalCard">
+		<value>کارت ملی</value>
+	</string>
+	<string key="BirthCertificate">
+		<value>شناسنامه</value>
+	</string>
+	<string key="LeaseOrDocument">
+		<value>اجاره نامه/ سندمالکیت</value>
+	</string>
+	<string key="PhoneBill">
+		<value>قبض تلفن</value>
+	</string>
+	<string key="EstablishAd">
+		<value>آگهی تاسیس</value>
+	</string>
+	<string key="ChangesAd">
+		<value>آگهی تغییرات</value>
+	</string>
+	<string key="CommitmentsForm">
+		<value>فرم تعهدات</value>
+	</string>
+	<string key="CEONationalCard">
+		<value>کارت ملی مدیرعامل</value>
+	</string>
+	<string key="CEOBirthCertificate">
+		<value>شناسنامه مدیرعامل</value>
+	</string>
+	<string key="FatherName">
+		<value>نام پدر</value>
+	</string>
+	<string key="NationalCode">
+		<value>کدملی</value>
+	</string>
+	<string key="ZipCode">
+		<value>کدپستی</value>
+	</string>
+	<string key="ShCode">
+		<value>شماره شناسنامه</value>
+	</string>
+	<string key="CompanyNationalID">
+		<value>شناسه ملی شرکت</value>
+	</string>
+	<string key="EconomicCode">
+		<value>کداقتصادی</value>
+	</string>
+	<string key="CompanyCEOName">
+		<value>نام مدیرعامل</value>
+	</string>
+	<string key="CompanyCEONationalCode">
+		<value>کدملی مدیرعامل</value>
+	</string>
+	<string key="CompanyCEOMobile">
+		<value>موبایل مدیرعامل</value>
+	</string>
+	<string key="CompanyPhone">
+		<value>تلفن شرکت</value>
+	</string>
+	<string key="CompanyZipCode">
+		<value>کدپستی شرکت</value>
+	</string>
+	<string key="CompanyAddress">
+		<value>آدرس شرکت</value>
+	</string>
+	<string key="BusinessLicense">
+		<value>جواز کسب</value>
+	</string>
+	<string key="Actual">
+		<value>حقیقی</value>
+	</string>
+	<string key="Legal">
+		<value>حقوقی</value>
+	</string>
+	<string key="ActualUserDocumentList">
+		<value>لیست مدارک فرد</value>
+	</string>
+	<string key="LegalUserDocumentList">
+		<value>لیست مدارک شرکت</value>
+	</string>
+	<string key="FixGroupPrice">
+		<value>گروه قیمت ثابت</value>
+	</string>
+	<string key="CompleteFatherNameField">
+		<value>فیلد نام پدر وارد نشده است </value>
+	</string>
+	<string key="CompleteNationalCodeField">
+		<value>فیلد کد ملی وارد نشده است </value>
+	</string>
+	<string key="CompleteZipCodeField">
+		<value>فیلد کد پستی وارد نشده است</value>
+	</string>
+	<string key="CompleteShCodeField">
+		<value>فیلد شماره شناسنامه وارد نشده است</value>
+	</string>
+	<string key="CompletePhoneField">
+		<value>فیلد تلفن وارد نشده است</value>
+	</string>
+	<string key="CompleteAddressField">
+		<value>فیلد آدرس وارد نشده است</value>
+	</string>
+	<string key="CompleteCityField">
+		<value>فیلد شهر وارد نشده است</value>
+	</string>
+	<string key="CompleteBirthDateField">
+		<value>فیلد تاریخ تولد وارد نشده است</value>
+	</string>
+	<string key="CompleteExpireDateField">
+		<value>فیلد تاریخ انقضاء وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyNameField">
+		<value>فیلد نام شرکت وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyNationalIdField">
+		<value>فیلد شناسه ملی شرکت وارد نشده است</value>
+	</string>
+	<string key="CompleteEconomicCodeField">
+		<value>فیلد کد اقتصادی وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyAddressField">
+		<value>فیلد آدرس شرکت وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyPhoneField">
+		<value>فیلد تلفن شرکت وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyZipCodeField">
+		<value>فیلد کدپستی شرکت وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyCEONameField">
+		<value>فیلد نام مدیرعامل وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyCEONationalCodeField">
+		<value>فیلد کدملی مدیرعامل وارد نشده است</value>
+	</string>
+	<string key="CompleteCompanyCEOMobileField">
+		<value>فیلد موبایل مدیرعامل وارد نشده است</value>
+	</string>
+	<string key="PleaseEnterUserDocument">
+		<value>لطفا مدارک موردنیاز فردی را وارد کنید</value>
+	</string>
+	<string key="PleaseEnterCompanyDocument">
+		<value>لطفا مدارک موردنیاز شرکت را وارد کنید</value>
+	</string>
+	<string key="SendTest">
+		<value>ارسال تست</value>
+	</string>
+	<string key="RecieverListIsEmpty">
+		<value>لیست گیرندگان خالی میباشد</value>
+	</string>
+	<string key="InvalidSendGradualSmsPageSize">
+		<value>تعداد گیرندگان شما کمتر از 1000 می باشد</value>
+	</string>
+	<string key="GetSmsSendPriceError">
+		<value>خطا در محاسبه هزینه ارسال</value>
+	</string>
+	<string key="ListSmsesInQueue">
+		<value>لیست پیامک های در صف ارسال</value>
+	</string>
+	<string key="UI_SmsReports_ScheduledSms">
+		<value>لیست پیامک های صف ارسال</value>
+	</string>
+	<string key="ScheduledSms">
+		<value>پیامک های زمانبندی شده</value>
+	</string>
+	<string key="Time">
+		<value>ساعت</value>
+	</string>
+	<string key="SentAndReceivedbyPhone">
+		<value>رسیده به گوشی</value>
+	</string>
+	<string key="HaveNotReceivedToPhone">
+		<value>نرسیده به گوشی</value>
+	</string>
+	<string key="SentToItc">
+		<value>ارسال شده به مخابرات</value>
+	</string>
+	<string key="ReceivedByItc">
+		<value>رسیده به مخابرات</value>
+	</string>
+	<string key="DidNotReceiveToItc">
+		<value>نرسیده به مخابرات</value>
+	</string>
+	<string key="NotReceivebyServer">
+		<value>پیامک توسط سرور دریافت نشد</value>
+	</string>
+	<string key="ErrorInSending">
+		<value>در ارسال پیامک خطا رخ داده است</value>
+	</string>
+	<string key="WaitingForSend">
+		<value>منتظر ارسال</value>
+	</string>
+	<string key="NotSent">
+		<value>ارسال نشده</value>
+	</string>
+	<!--<string key="Expired">
+		<value>منقضی</value>
+	</string>-->
+	<string key="IsSending">
+		<value>در حال ارسال</value>
+	</string>
+	<string key="IsCanceled">
+		<value>کنسل شده</value>
+	</string>
+	<string key="BlackList">
+		<value>لیست سیاه</value>
+	</string>
+	<string key="BlackListTable">
+		<value>لیست سیاه</value>
+	</string>
+	<string key="SmsIsFilter">
+		<value>متن پیامک فیلتر میباشد</value>
+	</string>
+	<string key="IsDeleted">
+		<value>حذف شده</value>
+	</string>
+	<string key="WatingForConfirmation">
+		<value>منتظر برای تایید</value>
+	</string>
+	<string key="NotEnoughBalance">
+		<value>کمبود اعتبار</value>
+	</string>
+	<string key="IsPreparing">
+		<value>درحال آماده سازی</value>
+	</string>
+	<string key="IsPreparedForSending">
+		<value>آماده شده برای ارسال</value>
+	</string>
+	<string key="AccessDenied">
+		<value>عدم دسترسی</value>
+	</string>
+	<string key="TextIsEmpty">
+		<value>متن پیام خالی است</value>
+	</string>
+	<string key="InvalidInputXml">
+		<value>ایکس ام ال ورودی نامعتبر است</value>
+	</string>
+	<string key="InvalidUserOrPassword">
+		<value>نام کاربری یا رمز عبور اشتباه است</value>
+	</string>
+	<string key="InvalidUsedMethod">
+		<value>متد استفاده شده نامعتبر است</value>
+	</string>
+	<string key="InvalidSender">
+		<value>فرستنده معتبر نیست</value>
+	</string>
+	<string key="InvalidMobile">
+		<value>موبایل معتبر نیست</value>
+	</string>
+	<string key="InvalidReciption">
+		<value>هیچ گیرنده ای مشخص نشده است</value>
+	</string>
+	<string key="Stored">
+		<value>ذخیره شد</value>
+	</string>
+	<string key="WatingForSend">
+		<value>منتظر برای ارسال</value>
+	</string>
+	<string key="IsBeingSent">
+		<value>در حال ارسال شدن</value>
+	</string>
+	<string key="SentAndGiveBackCredit">
+		<value>ارسال شده و محاسبات هزینه انجام شده</value>
+	</string>
+	<string key="Archived">
+		<value>آرشیو شده</value>
+	</string>
+	<string key="BasePrice">
+		<value>قیمت پایه</value>
+	</string>
+	<string key="Taliya">
+		<value>تالیا</value>
+	</string>
+	<string key="SendPeriodSms">
+		<value>ارسال پیامک دوره ای</value>
+	</string>
+	<string key="SendGradualSms">
+		<value>ارسال پیامک تدریجی</value>
+	</string>
+  <string key="EveryFewMinutes">
+    <value>هر چند دقیقه</value>
+  </string>
+	<string key="SystemIsOutOfService">
+		<value>سرویس ارسال در دسترس نمی باشد.</value>
+	</string>
+	<string key="SendTimeNotValid">
+		<value>زمان ارسال خارج از بازه مجاز ارسال می باشد</value>
+	</string>
+	<string key="SmsTextIsFilter">
+		<value>متن پیامک فیلتر می باشد </value>
+	</string>
+	<string key="UserIsExpired">
+		<value>حساب کاربری منقضی شده است</value>
+	</string>
+	<string key="AdminIsExpired">
+		<value>حساب مدیریت منقضی شده است</value>
+	</string>
+	<string key="DefineParticipantsOfPoll">
+		<value>شرکت کنندگان در نظرسنجی را مشخص کنید</value>
+	</string>
+	<string key="SelcectPollOptions">
+		<value>لطفا گزینه های نظرسنجی را وارد کنید</value>
+	</string>
+	<string key="DefineParticipantsOfCompetition">
+		<value>شرکت کنندگان در مسابقه را مشخص کنید</value>
+	</string>
+	<string key="SelcectCompetitionOptions">
+		<value>لطفا گزینه های مسابقه را وارد کنید</value>
+	</string>
+	<string key="CorrectOption">
+		<value>گزینه صحیح</value>
+	</string>
+	<string key="FilterSms">
+		<value>فیلتر پیامک</value>
+	</string>
+  <string key="GeneralInformation">
+    <value>اطلاعات عمومی</value>
+  </string>
+  <string key="AccessInformation">
+    <value>اطلاعات دسترسی</value>
+  </string>
+  <string key="FilterConditions">
+    <value>شرایط فیلتر</value>
+  </string>
+  <string key="If">
+    <value>اگر</value>
+  </string>
+  <string key="Then">
+    <value>آنگاه</value>
+  </string>
+  <string key="IsMobile">
+		<value>موبایل بود</value>
+	</string>
+	<string key="AddToGroup">
+		<value>اضافه به گروه</value>
+	</string>
+	<string key="RemoveFromGroup">
+		<value>حذف از گروه</value>
+	</string>
+	<string key="TransferToMobile">
+		<value>انتقال به موبایل</value>
+	</string>
+	<string key="TransferToUrl">
+		<value>انتقال به آدرس</value>
+	</string>
+	<string key="TransferToEmail">
+		<value>انتقال به ایمیل</value>
+	</string>
+	<string key="Transfer">
+		<value>انتقال</value>
+	</string>
+  <string key="NumberTransfer">
+    <value>انتقال شماره</value>
+  </string>
+	<string key="SendSmsToSender">
+		<value>ارسال پیام به فرستنده</value>
+	</string>
+	<string key="SendSmsToGroup">
+		<value>ارسال پیام به گروه</value>
+	</string>
+	<string key="ForwardSmsToGroup">
+		<value>ارسال پیام دریافتی به گروه</value>
+	</string>
+  <string key="DeliveryRelay">
+    <value>انتقال وضعیت</value>
+  </string>
+	<string key="TrafficRelay">
+		<value>انتقال ترافیک</value>
+	</string>
+	<string key="UI_TrafficRelays_TrafficRelay">
+		<value>انتقال ترافیک</value>
+	</string>
+	<string key="SaveTrafficRelay">
+		<value>ثبت انتقال ترافیک</value>
+	</string>
+	<string key="UI_TrafficRelays_SaveTrafficRelay">
+		<value>ثبت انتقال ترافیک</value>
+	</string>
+	<string key="SystemLog">
+		<value>لاگ سیستم</value>
+	</string>
+	<string key="Source">
+		<value>منبع</value>
+	</string>
+	<string key="Browser">
+		<value>مرورگر</value>
+	</string>
+	<string key="UI_Logs_Log">
+		<value>لاگ سیستم</value>
+	</string>
+	<string key="Warning">
+		<value>هشدار</value>
+	</string>
+	<string key="SetTrafficRelayForPrivateNumber">
+		<value>تنظیم انتقال ترافیک خطوط</value>
+	</string>
+	<string key="UI_PrivateNumbers_SetTrafficRelay">
+		<value>تنظیم انتقال ترافیک خطوط</value>
+	</string>
+	<string key="CategoriesContentList">
+		<value>لیست دسته بندی مطالب</value>
+	</string>
+	<string key="Article">
+		<value>مطلب</value>
+	</string>
+	<string key="AddContent">
+		<value>افزودن مطلب</value>
+	</string>
+	<string key="ContentsList">
+		<value>لیست مطالب</value>
+	</string>
+	<string key="SaveContent">
+		<value>ثبت مطلب</value>
+	</string>
+	<string key="UI_Data_Contents">
+		<value>لیست مطالب</value>
+	</string>
+	<string key="DuplicateKeyword">
+		<value>کلمه کلیدی تکراری است</value>
+	</string>
+	<string key="RecordNotFound">
+		<value>رکورد موردنظر یافت نشد</value>
+	</string>
+	<string key="Center">
+		<value>وسط</value>
+	</string>
+	<string key="Counting">
+		<value>محاسبه تعداد</value>
+	</string>
+	<string key="UserDoNotHaveDomain">
+		<value>برای شما دامنه ای ثبت نشده است</value>
+	</string>
+	<string key="MTCE">
+		<value>اسپادان</value>
+	</string>
+	<string key="KishTCI">
+		<value>کیش</value>
+	</string>
+	<string key="SendCountIsInvalid">
+		<value>تعداد ارسالی با توجه به تعداد کل نامعتبر است</value>
+	</string>
+	<string key="DefineLocation">
+		<value>تعیین موقعیت مکانی</value>
+	</string>
+	<string key="UserLines">
+		<value>خطوط کاربران</value>
+	</string>
+	<string key="ServiceID">
+		<value>شناسه سرویس</value>
+	</string>
+	<string key="Transaction">
+		<value>تراکنش</value>
+	</string>
+	<string key="SendToOther">
+		<value>ارسال به دیگران</value>
+	</string>
+	<string key="FileDoesNotExist">
+		<value>فایل موردنظر یافت نشد</value>
+	</string>
+	<string key="CellPhoneNotValid">
+		<value>شماره موبایل نامعتبر است</value>
+	</string>
+	<string key="CustomFieldValueIsInValid">
+		<value>مقدار فیلد تکمیلی نامعتبر است</value>
+	</string>
+	<string key="SendPrice">
+		<value>هزینه ارسال</value>
+	</string>
+	<string key="RecipientCount">
+		<value>تعداد گیرندگان</value>
+	</string>
+	<string key="CompletePatternField">
+		<value>فیلد الگو را وارد نمایید</value>
+	</string>
+	<string key="UI_SmsSenderAgents_MessageRoute">
+		<value>مسیرهای ارسال پیامک</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SaveRoute">
+		<value>ذخیره مسیر ارسال پیامک</value>
+	</string>
+	<string key="MessageRouteList">
+		<value>لیست مسیرهای ارسال پیامک</value>
+	</string>
+	<string key="MessageRoute">
+		<value>مسیر پیامک</value>
+	</string>
+	<string key="UI_SmsSenderAgents_SmsSenderAgentRatio">
+		<value>ضریب اپراتورها</value>
+	</string>
+	<string key="SmsSenderAgentRatio">
+		<value>ضریب اپراتورها</value>
+	</string>
+	<string key="SmsTypeNotDefine">
+		<value>نوع پیامک مشخص نشده است</value>
+	</string>
+	<string key="RatioNotValid">
+		<value>ضریب نامعتبر میباشد</value>
+	</string>
+	<string key="OperatorNotValid">
+		<value>اپراتور نامعتبر است</value>
+	</string>
+	<string key="SmsSenderAgentNotValid">
+		<value>عامل ارسال پیامک نامعتبر میباشد</value>
+	</string>
+	<string key="SendQueueRecipientAddress">
+		<value>آدرس مسیر شماره گیرندگان</value>
+	</string>
+	<string key="QueueLength">
+		<value>طول صف</value>
+	</string>
+	<string key="QueueLengthIsInvalid">
+		<value>طول صف نامعتبر میباشد</value>
+	</string>
+	<string key="Resend">
+		<value>ارسال مجدد</value>
+	</string>
+	<string key="ResendFailedSms">
+		<value>ارسال مجددارسال نشده ها</value>
+	</string>
+	<string key="SelectGroup">
+		<value>انتخاب گروه ...</value>
+	</string>
+	<string key="UI_SmsReports_UserScheduledSms">
+		<value>صف ارسال کاربران</value>
+	</string>
+	<string key="UsersSendQueue">
+		<value>صف ارسال کاربران</value>
+	</string>
+	<string key="UserOutbox">
+		<value>صندوق ارسال کاربران</value>
+	</string>
+	<string key="UI_SmsReports_UserOutbox">
+		<value>صندوق ارسال کاربران</value>
+	</string>
+	<string key="SendDetails">
+		<value>جزئیات ارسال</value>
+	</string>
+	<string key="UI_SmsSends_SendDetails">
+		<value>جزئیات ارسال</value>
+	</string>
+	<string key="SendToNumber">
+		<value>ارسال به شماره</value>
+	</string>
+  <string key="SendToNumbers">
+    <value>ارسال به شماره ها</value>
+  </string>
+	<string key="SendToPhoneBookGroup">
+		<value>ارسال به گروه دفترچه تلفن</value>
+	</string>
+	<string key="SendFromFormat">
+		<value>ارسال از قالب</value>
+	</string>
+	<string key="PeriodType">
+		<value>هر {0} {1} یکبار</value>
+	</string>
+	<string key="GradualCount">
+		<value>هر {0} دقیقه {1} عدد</value>
+	</string>
+	<string key="MainSetting">
+		<value>تنظیمات کلی</value>
+	</string>
+	<string key="SaveMainSetting">
+		<value>ثبت تنظیمات کلی سیستم</value>
+	</string>
+	<string key="RegisterFishSmsText">
+		<value>متن پیامک هنگام ثبت فیش</value>
+	</string>
+	<string key="LoginSmsText">
+		<value>متن پیامک هنگام ورود به سیستم</value>
+	</string>
+	<string key="LowCreditSmsText">
+		<value>متن پیامک درصورت کمبود موجودی</value>
+	</string>
+	<string key="RegisterUserSmsText">
+		<value>متن پیامک هنگام ثبت نام کاربر جدید</value>
+	</string>
+	<string key="UserAccountSmsText">
+		<value>متن پیامک اطلاعات ورود کاربر</value>
+	</string>
+	<string key="UserExpireSmsText">
+		<value>متن پیامک انقضای کاربر</value>
+	</string>
+	<string key="UserDocument">
+		<value>مدارک کاربر</value>
+	</string>
+	<string key="UI_Users_ConfirmDocument">
+		<value>تایید مدارک کاربر</value>
+	</string>
+	<string key="ConfirmUserDocument">
+		<value>تایید مدارک کاربر</value>
+	</string>
+	<string key="OnlinePaymentSmsText">
+		<value>متن پیامک پرداخت آنلاین</value>
+	</string>
+	<string key="CompleteCaptcha">
+		<value>حروف داخل تصویر را وارد کنید</value>
+	</string>
+	<string key="IncorrectCaptcha">
+		<value>حروف تصویر نادرست است</value>
+	</string>
+	<string key="RetrievePasswordSmsText">
+		<value>متن پیامک بازیابی کلمه عبور</value>
+	</string>
+	<string key="MaximumFailedTryCount">
+		<value>بیشینه ارسال ناموفق</value>
+	</string>
+	<string key="SendToBlackList">
+		<value>ارسال به لیست سیاه</value>
+	</string>
+	<string key="PhoneBookVasSetting">
+		<value>تنظیمات گروه های ارزش افزده</value>
+	</string>
+	<string key="UI_PhoneBooks_VasSetting">
+		<value>تنظیمات گروه های ارش افزده</value>
+	</string>
+	<string key="Vas">
+		<value>ارزش افزوده</value>
+	</string>
+	<string key="SenderIdToVasGroupIsInvalid">
+		<value>شماره فرستنده جهت ارسال به گروه های ارزش افزود نامعتبر است</value>
+	</string>
+  <string key="VasDefaultResponse">
+    <value>پیام پیش فرض سیستم جهت سرویس های ارزش افزوده</value>
+  </string>
+	<string key="SenderIdToGroupIsInvalid">
+		<value>شماره فرستنده جهت ارسال به گروه نامعتبر است</value>
+	</string>
+	<string key="ServiceIdIsDuplicate">
+		<value>شناسه سرویس تکراری است</value>
+	</string>
+	<string key="AggregationPanel">
+		<value>پنل تجمیعی</value>
+	</string>
+	<string key="SocialNetworks">
+		<value>شبکه های اجتماعی</value>
+	</string>
+	<string key="UI_SmsReports_UpdateDeliveryStatus">
+		<value>بروزرسانی وضعیت پیامک از فایل اکسل</value>
+	</string>
+	<string key="UpdateDeliveryStatus">
+		<value>بروزرسانی وضعیت پیامک</value>
+	</string>
+	<string key="UI_BlackList_BlackListNumber">
+		<value>شماره های لیست سیاه</value>
+	</string>
+	<string key="ManageBlackListNumber">
+		<value>مدیریت شماره های لیست سیاه</value>
+	</string>
+	<string key="UI_BlackList_SaveNumber">
+		<value>ثبت شماره لیست سیاه</value>
+	</string>
+	<string key="UpdateDeliveryStatusManually">
+		<value>بروزرسانی دستی وضعیت پیامک ها</value>
+	</string>
+	<string key="WarningType">
+		<value>هشدار از طریق</value>
+	</string>
+	<string key="Repeatable">
+		<value>قابل تکرار</value>
+	</string>
+	<string key="RegularContent">
+		<value>محتوای منظم</value>
+	</string>
+	<string key="UI_PhoneBooks_RegularContent">
+		<value>محتوای منظم</value>
+	</string>
+	<string key="UI_RegularContents_RegularContent">
+		<value>محتوای منظم</value>
+	</string>
+	<string key="UI_RegularContents_SaveRegularContent">
+		<value>ثبت محتوای منظم</value>
+	</string>
+	<string key="RegularContentList">
+		<value>لیست محتوای منظم</value>
+	</string>
+	<string key="UI_RegularContents_Content">
+		<value>مدیریت محتوا</value>
+	</string>
+	<string key="UI_RegularContents_SaveContent">
+		<value>ثبت محتوا</value>
+	</string>
+	<string key="ManageContent">
+		<value>مدیریت محتوا</value>
+	</string>
+	<string key="Period">
+		<value>دوره</value>
+	</string>
+	<string key="CompleteTypeField">
+		<value>فیلد نوع را تکمیل نمایید</value>
+	</string>
+	<string key="Repeat">
+		<value>تکرار</value>
+	</string>
+	<string key="CompleteURLField">
+		<value>فیلد URL را تکمیل نمایید</value>
+	</string>
+	<string key="CompleteConnectionStringField">
+		<value>فیلد ConnectionString را تکمیل نمایید</value>
+	</string>
+	<string key="CompleteQueryField">
+		<value>فیلد Query را تکمیل نمایید</value>
+	</string>
+	<string key="CompleteColumnField">
+		<value>فیلد Column را تکمیل نمایید</value>
+	</string>
+	<string key="Every">
+		<value>هر</value>
+	</string>
+	<string key="CompleteTextField">
+		<value>فیلد Text را تکمیل نمایید</value>
+	</string>
+	<string key="AddNumberToSendList">
+		<value>افزودن شماره به لیست ارسال</value>
+	</string>
+	<string key="UI_PhoneBooks_UpdateGroup">
+		<value>ویرایش گروه دفترچه تلفن</value>
+	</string>
+	<string key="UI_PhoneBooks_SendSms">
+		<value>ارسال پیامک گروهی از دفترچه تلفن</value>
+	</string>
+	<string key="SenderAgentType">
+		<value>نوع اپراتور ارسال کننده</value>
+	</string>
+	<string key="ContactInfoIsIncorrect">
+		<value>اطلاعات تماس نادرست ارست</value>
+	</string>
+	<string key="UI_PhoneBooks_SaveEmail">
+		<value>ثبت ایمیل لیستی</value>
+	</string>
+	<string key="UI_PrivateNumbers_UserPrivateNumberKeywords">
+		<value>کلیدواژه خطوط کاربران</value>
+	</string>
+	<string key="NumberKeywords">
+		<value>کلیدواژه خطوط</value>
+	</string>
+	<string key="ConfirmSendSms">
+		<value>ارسال پیامک انجام شود؟</value>
+	</string>
+	<string key="ID">
+		<value>شناسه</value>
+	</string>
+	<string key="Selection">
+		<value>انتخاب</value>
+	</string>
+	<string key="SendSmsFromAPI">
+		<value>ارسال پیامک از وب سرویس</value>
+	</string>
+	<string key="SendRegularContentSms">
+		<value>ارسال پیامک محتوای منظم</value>
+	</string>
+	<string key="ExtendedPanelURL">
+		<value>تمدید-سامانه-پیامک</value>
+	</string>
+	<string key="BuyPanelURL">
+		<value>خرید-پنل</value>
+	</string>
+	<string key="BuyPanel">
+		<value>خرید پنل</value>
+	</string>
+	<string key="ExtendedPanel">
+		<value>تمدید پنل</value>
+	</string>
+  <string key="ExtendedPrivateNumber">
+    <value>تمدید خط پیام کوتاه</value>
+  </string>
+  <string key="ExtendedPrivateNumberPrice">
+    <value>هزینه تمدید</value>
+  </string>
+	<string key="ExtendedPanelSuccessful">
+		<value>پنل شما با موفقیت تمدید شد</value>
+	</string>
+	<string key="IsAuthenticated">
+		<value>احراز هویت</value>
+	</string>
+	<string key="SendP2PSms">
+		<value>ارسال پیامک نظیر به نظیر</value>
+	</string>
+	<string key="UI_SmsSends_SendP2PSms">
+		<value>ارسال پیامک نظیر به نظیر</value>
+	</string>
+	<string key="AppPath">
+		<value>مسیر نرم افزار</value>
+	</string>
+	<string key="UI_SmsParsers_SelectedOption">
+		<value>گزینه انتخابی تحلیلگر</value>
+	</string>
+	<string key="Participants">
+		<value>شرکت کنندگان</value>
+	</string>
+	<string key="NumberReceived">
+		<value>شماره های دریافتی</value>
+	</string>
+	<string key="SelectOption">
+		<value>انتخاب گزینه : </value>
+	</string>
+	<string key="UI_SmsParsers_ParserChart">
+		<value>نمودار مسابقه و نظرسنجی </value>
+	</string>
+	<string key="MTNServiceID">
+		<value>شناسه سرویس ایرانسل</value>
+	</string>
+	<string key="AggServiceID">
+		<value>شناسه تجمیع کننده</value>
+	</string>'
+	<string key="FailedExtract">
+		<value>خطا در دریافت داده</value>
+	</string>
+	<string key="GetBulkMessagesFromAPI">
+		<value>دریافت ارسالهای انبوه از طریق API</value>
+	</string>
+	<string key="PrivateNumbersInfo">
+		<value>اطلاعات خطوط</value>
+	</string>
+	<string key="UI_PrivateNumbers_NumbersInfo">
+		<value>اطلاعات خطوط</value>
+	</string>
+	<string key="UserInfo">
+		<value>اطلاعات کاربر</value>
+	</string>
+	<string key="UserManualOutbox">
+		<value>صندوق ارسالهای دستی</value>
+	</string>
+	<string key="UI_SmsReports_UserManualOutbox">
+		<value>صندوق ارسالهای دستی</value>
+	</string>
+	<string key="DecreaseTax">
+		<value>کسر مالیات</value>
+	</string>
+	<string key="Id">
+		<value>شناسه</value>
+	</string>
+	<string key="SendGroupSmsFromAPI">
+		<value>ارسال گروهی از وب سرویس</value>
+	</string>
+	<string key="ResendSms">
+		<value>ارسال مجدد</value>
+	</string>
+	<string key="ConfirmResendSms">
+		<value>آیا از ارسال مجدد پیام مطمئن هستید؟</value>
+	</string>
+	<string key="ErrorInGetItc">
+		<value>خطا در دریافت مخابرات</value>
+	</string>
+	<string key="Archiving">
+		<value>در حال آرشیو</value>
+	</string>
+	<string key="CostOfSmsRequest">
+		<value>هزینه تعداد پیامک درخواستی</value>
+	</string>
+	<string key="UI_SmsSends_Maps">
+		<value>نقشه شهرها</value>
+	</string>
+	<string key="BaseGroupPriceIsLow">
+		<value>تعرفه پیامک کمتر از تعرفه خرید می باشد</value>
+	</string>
+	<string key="Private">
+		<value>خصوصی</value>
+	</string>
+	<string key="ScopeOfSend">
+		<value>محدوده ارسال</value>
+	</string>
+	<string key="TotalCount">
+		<value>تعداد کل</value>
+	</string>
+	<string key="EqualWithPhoneBookField">
+		<value>مساوی با مقدار فیلد دفترچه تماس</value>
+	</string>
+	<string key="ReceivedSmsText">
+		<value>متن پیامک دریافتی</value>
+	</string>
+	<string key="UseFormatIfMatching">
+		<value>استفاده از قالب در صورت تطابق</value>
+	</string>
+	<string key="UseFormatIncompatibility">
+		<value>استفاده از قالب در صورت عدم تطابق</value>
+	</string>
+	<string key="PleaseSelectGroup">
+		<value>گروه را انتخاب کنید</value>
+	</string>
+	<string key="SelectFieldOfPhoneBookGroup">
+		<value>فیلد گروه دفترچه تلفن را انتخاب نمایید</value>
+	</string>
+	<string key="SelectSenderNumber">
+		<value>شماره فرستنده را انتخاب نمایید</value>
+	</string>
+	<string key ="ParserOperationInvalid">
+		<value>ارسال از قالب با شرایط انتخابی امکان پذیر نمی باشد</value>
+	</string>
+	<string key="InputSms">
+		<value>پیامک دریافتی</value>
+	</string>
+	<string key="UserInbox">
+		<value>صندوق دریافت کاربران</value>
+	</string>
+	<string key="UI_SmsReports_UserInbox">
+		<value>صندوق دریافت کاربران</value>
+	</string>
+	<string key="AdminSetting">
+		<value>تنظیمات مدیر</value>
+	</string>
+	<string key="UI_Settings_AdminSetting">
+		<value>تنظیمات مدیر</value>
+	</string>
+	<string key="ExtentionNumber">
+		<value>تمدید شماره اختصاصی</value>
+	</string>
+	<string key="UI_PrivateNumbers_ExtendedNumber">
+		<value>تمدید شماره اختصاصی</value>
+	</string>
+	<string key="DeliveryStatusReportChart">
+		<value>نمودار گزارش وضعیت پیامک</value>
+	</string>
+	<string key="ViewChart">
+		<value>مشاهده نمودار</value>
+	</string>
+	<string key="GSMGateway">
+		<value>سیم کارت</value>
+	</string>
+	<string key="ReceiveLink">
+		<value>لینک دریافت</value>
+	</string>
+	<string key="FilterWordsList">
+		<value>لیست کلمات فیلتر شده</value>
+	</string>
+	<string key="FilterWords">
+		<value>کلمات فیلتر شده</value>
+	</string>
+	<string key="UI_Settings_FilterWord">
+		<value>کلمات فیلتر شده</value>
+	</string>
+	<string key="SendSmsAlert">
+		<value>ارسال هشدار پیامک</value>
+	</string>
+	<string key="SendSmsAlertMessage">
+		<value>متن هشدار ارسال پیامک</value>
+	</string>
+	<string key="UsersTransactionList">
+		<value>لیست تراکنش کاربران</value>
+	</string>
+	<string key="UI_Users_UsersTransaction">
+		<value>تراکنش کاربران</value>
+	</string>
+	<string key="ExportToText">
+		<value>دریافت به صورت متن</value>
+	</string>
+	<string key="SmsLen">
+		<value>طول پیام</value>
+	</string>
+  <string key="SmsPackage">
+    <value>بسته های پیامک</value>
+  </string>
+  <string key="SmsPackagePrice">
+    <value>قیمت بسته</value>
+  </string>
+  <string key="SmsPackageDetails">
+    <value>توضیحات بسته</value>
+  </string>
+  <string key="SmsSalesPackage">
+    <value>بسته فروش</value>
+  </string>
+  <string key="Dashboard">
+    <value>داشبورد</value>
+  </string>
+  <string key="RecentPosts">
+    <value>آخرین مطالب</value>
+  </string>
+  <string key="choosePaymentGateway">
+    <value>انتخاب درگاه پرداخت</value>
+  </string>
+  <string key="SendwithSMS">
+    <value>ارسال از طریق پیامک</value>
+  </string>
+  <string key="page">
+    <value>صفحه</value>
+  </string>
+  <string key="domainOwner">
+    <value>مالک دامنه</value>
+  </string>
+  <string key="panelOwner">
+    <value>مالک پنل</value>
+  </string>
+  <string key="basicInformation">
+    <value>اطلاعات پایه</value>
+  </string>
+  <string key="NumberCount">
+    <value>تعداد کل شماره ها {1} عدد</value>
+  </string>
+  <string key="RepetitiousNumberCount">
+    <value>تعداد شماره های تکراری {2} عدد</value>
+  </string>
+  <string key="CorrectNumberCount">
+    <value>تعداد شماره های صحیح {3} عدد</value>
+  </string>
+  <string key="SelectNumbers">
+    <value>لطفا شماره های موردنظر را انتخاب فرمایید</value>
+  </string>
+  <string key="NumberAdded">
+    <value>شماره اضافه شد</value>
+  </string>
+  <string key="SendToGroups">
+    <value>ارسال به گروه های</value>
+  </string>
+  <string key="GetContentFromURL">
+    <value>دریافت محتوا از طریق URL</value>
+  </string>
+  <string key="GetContentFromDB">
+    <value>دریافت محتوا از پایگاه داده</value>
+  </string>
+  <string key="RoleServiceContent1">
+    <value>جهت ویرایش هزینه سرویس، در جدول زیر بر روی مقدار هزینه کلیک نمایید.</value>
+  </string>
+  <string key="RoleServiceContent2">
+    <value>برای اینکه سرویس شما بصورت پیش فرض درنظرگرفته شود و نیازی به چک کردن قیمت نداشته باشد سرویس موردنظر را تیک بزنید.</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent1">
+    <value>در این قسمت قادر خواهید بود از طریق فایل اکسل وضعیت پیامک های ارسال شده را به روز رسانی نمایید.</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent2">
+    <value>فایل اکسل شما باید طبق فایل نمونه باشد ، فایل نمونه را می توانید از این اینجا</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent3">
+    <value>دانلود</value>
+  </string>
+  <string key="UpdateDeliveryStatusContent4">
+    <value>نموده و اطلاعات را داخل آن وارد نمایید .</value>
+  </string>
+  <string key="SMSStatuses">
+    <value>وضعیت های پیامک</value>
+  </string>
+  <string key="ExtraParameter">
+    <value>پارامتر اضافی</value>
+  </string>
+  <string key="HasRoute">
+    <value>آیا Route دارد؟</value>
+  </string>
+  <string key="QueuelengthsBaseOnThePage">
+    <value>طول صف بر مبنای صفحه</value>
+  </string>
+  <string key="SMSType">
+    <value>نوع پیام</value>
+  </string>
+  <string key="CountNumbers">
+    <value>تعداد شماره ها</value>
+  </string>
+  <string key="CountNumbersDescription">
+    <value>تعداد شماره های انتخابی که مایلید برای آنها ارسال کنید</value>
+  </string>
+  <string key="StartFromNumber">
+    <value>با شروع از</value>
+  </string>
+  <string key="PrepaidMobiles">
+    <value>شماره های اعتباری</value>
+  </string>
+  <string key="PostpaidMobiles">
+    <value>شماره های دائمی</value>
+  </string>
+  <string key="Random">
+    <value>تصادفی</value>
+  </string>
+  <string key="SendFrom">
+    <value>ارسال از</value>
+  </string>
+  <string key="Guide">
+    <value>راهنما</value>
+  </string>
+  <string key="LoadingPleaseWait">
+    <value>در حال بارگذاری لطفا منتظر بمانيد...</value>
+  </string>
+  <string key="PersonProfile">
+    <value>مشخصات فرد</value>
+  </string>
+  <string key="AgentProfile">
+    <value>مشخصات نماینده</value>
+  </string>
+  <string key="PersonalProfile">
+    <value>مشخصات فردی</value>
+  </string>
+  <string key="LegalInformation">
+    <value>اطلاعات حقوقی</value>
+  </string>
+  <string key="completeYourDetails">
+    <value>لطفا نسبت به تکمیل مشخصات و مدارک خود اقدام فرمایید</value>
+  </string>
+  <string key="PreInvoice">
+    <value>پیش فاکتور</value>
+  </string>
+  <string key="Date">
+    <value>تاریخ</value>
+  </string>
+  <string key="Seller">
+    <value>فروشنده</value>
+  </string>
+  <string key="buyer">
+    <value>خریدار</value>
+  </string>
+  <string key="GoodsServices">
+    <value>خریدار</value>
+  </string>
+</dictionary>
+

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4563187E-74A0-4619-A187-EFC30E7BFC15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Arad.SMS.Gateway.Facade</RootNamespace>
+    <AssemblyName>Arad.SMS.Gateway.Facade</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Access.cs" />
+    <Compile Include="AccountInformation.cs" />
+    <Compile Include="AgentRatio.cs" />
+    <Compile Include="Content.cs" />
+    <Compile Include="Domain.cs" />
+    <Compile Include="DomainSetting.cs" />
+    <Compile Include="FailedOnlinePayment.cs" />
+    <Compile Include="FilterWord.cs" />
+    <Compile Include="Fish.cs" />
+    <Compile Include="GalleryImage.cs" />
+    <Compile Include="GroupPrice.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="Inbox.cs" />
+    <Compile Include="InboxGroup.cs" />
+    <Compile Include="LoginStat.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="DataCenter.cs" />
+    <Compile Include="Operator.cs" />
+    <Compile Include="ParserFormula.cs" />
+    <Compile Include="PersonsInfo.cs" />
+    <Compile Include="PhoneBook.cs" />
+    <Compile Include="PhoneBookRegularContent.cs" />
+    <Compile Include="PhoneNumber.cs" />
+    <Compile Include="PrivateNumber.cs" />
+    <Compile Include="RegularContent.cs" />
+    <Compile Include="RoleService.cs" />
+    <Compile Include="Route.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScheduledBulkSms.cs" />
+    <Compile Include="ScheduledSms.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="ServiceGroup.cs" />
+    <Compile Include="Setting.cs" />
+    <Compile Include="OutboxNumber.cs" />
+    <Compile Include="SmsFormat.cs" />
+    <Compile Include="SmsParser.cs" />
+    <Compile Include="SmsSenderAgent.cs" />
+    <Compile Include="Outbox.cs" />
+    <Compile Include="SmsTemplate.cs" />
+    <Compile Include="TrafficRelay.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDocument.cs" />
+    <Compile Include="UserField.cs" />
+    <Compile Include="UserSetting.cs" />
+    <Compile Include="Zone.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LibraryAndTools\Arad.SMS.Gateway.GeneralLibrary\Arad.SMS.Gateway.GeneralLibrary.csproj">
+      <Project>{dfe9e9bb-00aa-425a-a5bf-fc0f96e071f8}</Project>
+      <Name>Arad.SMS.Gateway.GeneralLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LibraryAndTools\Arad.SMS.Gateway.GeneralTools\Arad.SMS.Gateway.GeneralTools.csproj">
+      <Project>{1dc76dd7-6286-4313-b83d-3ed0847cda23}</Project>
+      <Name>Arad.SMS.Gateway.GeneralTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LibraryAndTools\Arad.SMS.Gateway.SqlLibrary\Arad.SMS.Gateway.SqlLibrary.csproj">
+      <Project>{6c1eeb5d-9401-4739-af4d-cc832ae899bd}</Project>
+      <Name>Arad.SMS.Gateway.SqlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Arad.SMS.Gateway.Business\Arad.SMS.Gateway.Business.csproj">
+      <Project>{469DF27B-F10E-43FA-B166-FAB252CDC886}</Project>
+      <Name>Arad.SMS.Gateway.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Arad.SMS.Gateway.Common\Arad.SMS.Gateway.Common.csproj">
+      <Project>{E4AB3EC9-FC32-42C9-8741-C1D44F9B802E}</Project>
+      <Name>Arad.SMS.Gateway.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

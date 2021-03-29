@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Arad.SMS.Gateway.GeneralLibrary.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GeneralLibrary_bankmellat_bpm_PaymentGatewayImplService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bpm.shaparak.ir/pgwchannel/services/pgw</Value>
+    </Setting>
+    <Setting Name="GeneralLibrary_Parsian_EShopService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://pec.shaparak.ir/pecpaymentgateway/EShopService.asmx</Value>
+    </Setting>
+    <Setting Name="GeneralLibrary_ir_shaparak_pec_SaleService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx</Value>
+    </Setting>
+    <Setting Name="GeneralLibrary_ir_shaparak_pec1_ConfirmService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://pec.shaparak.ir/NewIPGServices/Confirm/ConfirmService.asmx</Value>
+    </Setting>
+    <Setting Name="GeneralLibrary_ir_shaparak_pec2_ReversalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://pec.shaparak.ir/NewIPGServices/Reverse/ReversalService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

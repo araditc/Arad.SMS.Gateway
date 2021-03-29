@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://magfa.com/soap/BulkSoap" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://magfa.com/soap/BulkSoap" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://magfa.com/soap/BulkSoap" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://magfa.com/soap/BulkSoap">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="ArrayOf_xsd_string">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="xsd:string[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getCitiesOfProvinceRequest">
+    <wsdl:part name="provinceId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getCountByCityProvinceResponse">
+    <wsdl:part name="getCountByCityProvinceReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getProvincesRequest" />
+  <wsdl:message name="getCitiesOfProvinceResponse">
+    <wsdl:part name="getCitiesOfProvinceReturn" type="impl:ArrayOf_xsd_string" />
+  </wsdl:message>
+  <wsdl:message name="getPriceRequest">
+    <wsdl:part name="bulkId" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getBulkStatusRequest">
+    <wsdl:part name="bulkId" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getProvincesResponse">
+    <wsdl:part name="getProvincesReturn" type="impl:ArrayOf_xsd_string" />
+  </wsdl:message>
+  <wsdl:message name="getPriceResponse">
+    <wsdl:part name="getPriceReturn" type="xsd:double" />
+  </wsdl:message>
+  <wsdl:message name="addRecipientsByCityProvinceRequest">
+    <wsdl:part name="bulkId" type="xsd:string" />
+    <wsdl:part name="provinceId" type="xsd:int" />
+    <wsdl:part name="cityId" type="xsd:int" />
+    <wsdl:part name="type" type="xsd:int" />
+    <wsdl:part name="fromIndex" type="xsd:int" />
+    <wsdl:part name="count" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getCountByPrefixResponse">
+    <wsdl:part name="getCountByPrefixReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="submitBulkResponse">
+    <wsdl:part name="submitBulkReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="submitBulkRequest">
+    <wsdl:part name="smsBulkId" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="createBulkRequest">
+    <wsdl:part name="message" type="xsd:string" />
+    <wsdl:part name="senderNumber" type="xsd:string" />
+    <wsdl:part name="smsType" type="xsd:int" />
+    <wsdl:part name="sendDate" type="xsd:string" />
+    <wsdl:part name="sendHour" type="xsd:int" />
+    <wsdl:part name="sendMinute" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getCountByPostCodeRequest">
+    <wsdl:part name="postCode" type="xsd:string" />
+    <wsdl:part name="type" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getCountByCityProvinceRequest">
+    <wsdl:part name="provinceId" type="xsd:int" />
+    <wsdl:part name="cityId" type="xsd:int" />
+    <wsdl:part name="type" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="createBulkResponse">
+    <wsdl:part name="createBulkReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getBulkStatusResponse">
+    <wsdl:part name="getBulkStatusReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addRecipientsByCityProvinceResponse">
+    <wsdl:part name="addRecipientsByCityProvinceReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addRecipientsByPostCodeResponse">
+    <wsdl:part name="addRecipientsByPostCodeReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addRecipientsByPostCodeRequest">
+    <wsdl:part name="bulkId" type="xsd:string" />
+    <wsdl:part name="postCode" type="xsd:string" />
+    <wsdl:part name="type" type="xsd:int" />
+    <wsdl:part name="fromIndex" type="xsd:int" />
+    <wsdl:part name="count" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getCountByPostCodeResponse">
+    <wsdl:part name="getCountByPostCodeReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="removeRecipientsResponse">
+    <wsdl:part name="removeRecipientsReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getCountByPrefixRequest">
+    <wsdl:part name="prefix" type="xsd:string" />
+    <wsdl:part name="type" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="addRecipientsByPrefixRequest">
+    <wsdl:part name="bulkId" type="xsd:string" />
+    <wsdl:part name="prefix" type="xsd:string" />
+    <wsdl:part name="type" type="xsd:int" />
+    <wsdl:part name="fromIndex" type="xsd:int" />
+    <wsdl:part name="count" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="removeRecipientsRequest">
+    <wsdl:part name="bulkSmsId" type="xsd:string" />
+    <wsdl:part name="recipientsId" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addRecipientsByPrefixResponse">
+    <wsdl:part name="addRecipientsByPrefixReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="BulkSoapImpl">
+    <wsdl:operation name="getProvinces">
+      <wsdl:input name="getProvincesRequest" message="impl:getProvincesRequest" />
+      <wsdl:output name="getProvincesResponse" message="impl:getProvincesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCountByCityProvince" parameterOrder="provinceId cityId type">
+      <wsdl:input name="getCountByCityProvinceRequest" message="impl:getCountByCityProvinceRequest" />
+      <wsdl:output name="getCountByCityProvinceResponse" message="impl:getCountByCityProvinceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCountByPrefix" parameterOrder="prefix type">
+      <wsdl:input name="getCountByPrefixRequest" message="impl:getCountByPrefixRequest" />
+      <wsdl:output name="getCountByPrefixResponse" message="impl:getCountByPrefixResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCountByPostCode" parameterOrder="postCode type">
+      <wsdl:input name="getCountByPostCodeRequest" message="impl:getCountByPostCodeRequest" />
+      <wsdl:output name="getCountByPostCodeResponse" message="impl:getCountByPostCodeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addRecipientsByPrefix" parameterOrder="bulkId prefix type fromIndex count">
+      <wsdl:input name="addRecipientsByPrefixRequest" message="impl:addRecipientsByPrefixRequest" />
+      <wsdl:output name="addRecipientsByPrefixResponse" message="impl:addRecipientsByPrefixResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addRecipientsByPostCode" parameterOrder="bulkId postCode type fromIndex count">
+      <wsdl:input name="addRecipientsByPostCodeRequest" message="impl:addRecipientsByPostCodeRequest" />
+      <wsdl:output name="addRecipientsByPostCodeResponse" message="impl:addRecipientsByPostCodeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="removeRecipients" parameterOrder="bulkSmsId recipientsId">
+      <wsdl:input name="removeRecipientsRequest" message="impl:removeRecipientsRequest" />
+      <wsdl:output name="removeRecipientsResponse" message="impl:removeRecipientsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="submitBulk" parameterOrder="smsBulkId">
+      <wsdl:input name="submitBulkRequest" message="impl:submitBulkRequest" />
+      <wsdl:output name="submitBulkResponse" message="impl:submitBulkResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCitiesOfProvince" parameterOrder="provinceId">
+      <wsdl:input name="getCitiesOfProvinceRequest" message="impl:getCitiesOfProvinceRequest" />
+      <wsdl:output name="getCitiesOfProvinceResponse" message="impl:getCitiesOfProvinceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createBulk" parameterOrder="message senderNumber smsType sendDate sendHour sendMinute">
+      <wsdl:input name="createBulkRequest" message="impl:createBulkRequest" />
+      <wsdl:output name="createBulkResponse" message="impl:createBulkResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addRecipientsByCityProvince" parameterOrder="bulkId provinceId cityId type fromIndex count">
+      <wsdl:input name="addRecipientsByCityProvinceRequest" message="impl:addRecipientsByCityProvinceRequest" />
+      <wsdl:output name="addRecipientsByCityProvinceResponse" message="impl:addRecipientsByCityProvinceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getPrice" parameterOrder="bulkId">
+      <wsdl:input name="getPriceRequest" message="impl:getPriceRequest" />
+      <wsdl:output name="getPriceResponse" message="impl:getPriceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getBulkStatus" parameterOrder="bulkId">
+      <wsdl:input name="getBulkStatusRequest" message="impl:getBulkStatusRequest" />
+      <wsdl:output name="getBulkStatusResponse" message="impl:getBulkStatusResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TSOAPSoapBinding" type="impl:BulkSoapImpl">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getProvinces">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getProvincesRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getProvincesResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCountByCityProvince">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getCountByCityProvinceRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getCountByCityProvinceResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCountByPrefix">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getCountByPrefixRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getCountByPrefixResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCountByPostCode">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getCountByPostCodeRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getCountByPostCodeResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addRecipientsByPrefix">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addRecipientsByPrefixRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="addRecipientsByPrefixResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addRecipientsByPostCode">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addRecipientsByPostCodeRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="addRecipientsByPostCodeResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeRecipients">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="removeRecipientsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="removeRecipientsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitBulk">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="submitBulkRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="submitBulkResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCitiesOfProvince">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getCitiesOfProvinceRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getCitiesOfProvinceResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createBulk">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="createBulkRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="createBulkResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addRecipientsByCityProvince">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addRecipientsByCityProvinceRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="addRecipientsByCityProvinceResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrice">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getPriceRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getPriceResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBulkStatus">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getBulkStatusRequest">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getBulkStatusResponse">
+        <wsdlsoap:body use="encoded" namespace="http://magfa.com/soap/BulkSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BulkSoapImplService">
+    <wsdl:port name="TSOAP" binding="impl:TSOAPSoapBinding">
+      <wsdlsoap:address location="http://sms.magfa.com/bulk-services/urn:BulkSoap" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx?wsdl" docRef="https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx" xmlns:q1="https://pec.Shaparak.ir/NewIPGServices/Sale/SaleService" binding="q1:SaleServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx" xmlns:q2="https://pec.Shaparak.ir/NewIPGServices/Sale/SaleService" binding="q2:SaleServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

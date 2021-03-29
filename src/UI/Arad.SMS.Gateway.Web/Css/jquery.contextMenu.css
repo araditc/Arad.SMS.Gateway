@@ -1,0 +1,133 @@
+﻿/* Generic context menu styles */
+.contextMenu {
+	position: absolute;
+	width: 120px;
+	z-index: 99999;
+	border: solid 1px #CCC;
+	background: #EEE;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+	direction:ltr;
+}
+
+.contextMenu LI {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.contextMenu A {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	outline: none;
+	padding: 1px;
+	padding-right:20px;
+	direction:rtl;
+}
+
+.contextMenu LI.hover A {
+	color: #FFF;
+	background-color: #3399FF;
+}
+
+.contextMenu LI.disabled A {
+	color: #AAA;
+	cursor: default;
+}
+
+.contextMenu LI.hover.disabled A {
+	background-color: transparent;
+}
+
+.contextMenu LI.separator {
+	border-top: solid 1px #CCC;
+}
+
+/*
+	Adding Icons
+	
+	You can add icons to the context menu by adding
+	classes to the respective LI element(s)
+*/
+
+.contextMenu LI.addnumber A
+{
+	background-position: right;
+	background-image: url(../images/AddNumber.png);
+}
+
+.contextMenu LI.add A
+{
+	background-position: right;
+	background-image: url(../images/AddGroup.png);
+}
+
+.contextMenu LI.edit A
+{
+	background-position: right;
+	background-image: url(../images/page_white_edit.png);
+}
+
+.contextMenu LI.cut A 
+{
+	background-position: right;
+	background-image: url(../images/cut.png); 
+}
+
+.contextMenu LI.copy A 
+{
+	 background-image: url(../images/page_white_copy.png); 
+	 background-position: right;
+}
+
+.contextMenu LI.paste A 
+{
+	 background-image: url(../images/page_white_paste.png); 
+	 background-position: right;
+}
+
+.contextMenu LI.delete A 
+{
+	 background-position: right;
+	 background-image: url(../images/Delete.png); 
+}
+
+.contextMenu LI.quit A 
+{
+	 background-position: right;	
+	 background-image: url(../images/door.png); 
+}
+
+
+.contextMenu LI.editField A 
+{
+	 background-position: right;	
+	 background-image: url(../images/EditField.png); 
+}
+
+.contextMenu LI.format A 
+{
+	 background-position: right;	
+	 background-image: url(../images/AddField.png); 
+}
+
+.contextMenu LI.search A 
+{
+	 background-position: right;	
+	 background-image: url(../images/SearchMenu.png); 
+}
+.tabs-spacer 
+{ float: left; height: 200px; }
+.tabs-bottom .ui-tabs-nav
+{ clear: left; padding: 0 .2em .2em .2em; }
+.tabs-bottom .ui-tabs-nav li
+{ top: auto; bottom: 0; margin: 0 .2em 1px 0; border-bottom: auto; border-top: 0; }
+.tabs-bottom .ui-tabs-nav li.ui-tabs-active 
+{ margin-top: -1px; padding-top: 1px; }

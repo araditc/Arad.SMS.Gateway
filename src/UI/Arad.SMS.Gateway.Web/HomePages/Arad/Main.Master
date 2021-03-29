@@ -1,0 +1,195 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Arad.SMS.Gateway.Web.HomePages.Arad.Main" %>
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="keywords" name="keywords" content="" runat="server" />
+    <meta id="description" runat="server" name="description" content="" />
+    <link id="favicon" runat="server" rel="shortcut icon" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <%: Styles.Render("~/Content/font-awesome") %>
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/css/creative-brands.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/color/red.css" rel="stylesheet" />
+
+    <%: Scripts.Render("~/Scripts/jquery") %>
+    <%: Scripts.Render("~/Scripts/bootstrap") %>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/typed.min.js"></script>
+    <script src="assets/js/creative-brands.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <% if(Session["Language"].ToString() == "en") { %>
+        <link href="assets/css/ltr.css" rel="stylesheet" />
+    <% }  else
+       {%>
+        <link href="assets/css/rtl.css" rel="stylesheet" />
+    <%  } %>
+
+    <script type="text/javascript">
+        $(function () {
+            var addMenusToDom = function (menu) {
+                var menuTemplate = $("#menuTemplate").template("menuTemplate");
+                $.tmpl(menuTemplate, menu).appendTo(".nav");
+            };
+
+            $.ajax({
+                url: "/homepages/arad/index.aspx/GetMenu",
+                contentType: 'application/json; charset=utf-8',
+                dataType: "json",
+                type: 'POST',
+                data: "{pos:1}",//topright
+                async: false,
+                cache: false
+            }).done(function (data) {
+                var menuData = { items: data.d };
+                addMenusToDom(menuData);
+            });
+        });
+    </script>
+
+    <script id="menuTemplate" type="text/html">
+        {{each items}}
+        {{if Children.length > 0}}
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="/${ID}/${String(Title).split(' ').join('-')}">${Title}<i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                {{tmpl({items:Children}) "menuTemplate"}}
+            </ul>
+        </li>
+        {{else}}
+        <li><a href="/${ID}/${String(Title).split(' ').join('-')}">${Title}</a></li>
+        {{/if}}
+        {{/each}}
+    </script>
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- ==========================
+    	        HEADER - START
+            =========================== -->
+            
+	        <header class="navbar navbar-default navbar-static-top">
+    	        <div class="container">
+                    <!--Change-->
+                    <div class="navbar-header" style="display: flex;flex-direction: column-reverse;">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
+                        <div class="text-center">
+                            <a href="/Index.aspx" class="navbar-brand">
+                                <asp:Image ID="imgLogo" runat="server" Style="height: 45px" />
+                            </a>
+                            <div id="search-form" class="hidden-md hidden-lg">
+                                <div class="languageBox  ">
+                                    <div class="language-object">
+                                        <span class="Language selected" title="فارسى (ایران)">
+                                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LanguageToPersian" >
+                                                <img id="enImg" class="" src="/assets/images/fa-IR.gif" alt="fa-IR" />
+                                            </asp:LinkButton>
+                                        </span>
+                                        <span class="Language selected" title="English (United States)">
+                                            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LanguageToEnglish" >
+                                                <img src="/assets/images/en-US.gif" alt="en-US">
+                                            </asp:LinkButton>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled list-inline hidden-md hidden-lg" id="secondary-nav" style="position: relative;left: 35px;top: 7px;">
+                                <li><a href="/Login"><%=Arad.SMS.Gateway.GeneralLibrary.Language.GetString("SignIn") %></a></li>
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+                    <!--End Change-->
+                    <div class="navbar-collapse collapse">
+            	        <ul class="nav navbar-nav">
+                	        
+                        </ul>
+                        <div class="navbar-side hidden-xs">
+                	        <div id="search-form" class="hidden-xs hidden-sm">
+                    	        <div class="languageBox  ">
+                                    <div class="language-object">
+                                    <span class="Language selected" title="فارسى (ایران)">
+                                        <asp:LinkButton ID="Button1" runat="server" OnClick="LanguageToPersian" >
+                                            <img id="enImg" class="" src="/assets/images/fa-IR.gif" alt="fa-IR" />
+                                        </asp:LinkButton>
+                                        </span>
+                                        <span class="Language selected" title="English (United States)">
+                                            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LanguageToEnglish" >
+                                                <img src="/assets/images/en-US.gif" alt="en-US">
+                                            </asp:LinkButton>
+                                        </span>
+                                    </div>
+                                  </div>
+                            </div>
+                	        <ul class="list-unstyled list-inline" id="secondary-nav">
+                    	        <li><a href="/Login"><%=Arad.SMS.Gateway.GeneralLibrary.Language.GetString("SignIn") %></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- ==========================
+    	        HEADER - END 
+            =========================== -->
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+            <!-- ==========================
+            FOOTER - START
+            =========================== --> 
+            <footer class="navbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul class="brands brands-sm brands-circle brands-inline">
+                                <li><a href="https://github.com/araditc"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/araditc"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="mailto:info@arad-itc.org"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-8">
+                            <p><b><asp:Literal ID="ltrFooter" runat="server"></asp:Literal></b></p>
+                            <p><asp:Literal ID="ltrAddress" runat="server"></asp:Literal></p>
+                            <p><a href="https://arad-itc.com">Designed by Arad ITC</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- ==========================
+            FOOTER - END 
+            =========================== -->
+        </div>
+    </form>
+</body>
+</html>

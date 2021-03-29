@@ -1,0 +1,70 @@
+/*------------------------------
+ * Copyright 2015 Pixelized
+ * http://www.pixelized.cz
+ *
+ * Supreme theme v1.1
+------------------------------*/
+
+/*------------------------------
+	RED #CB2027
+------------------------------*/
+
+a,
+a:focus,
+a:hover,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+#slideshow .feature i,
+#team span,
+label,
+.box ul li i,
+.categories ul li:hover i,
+ul.blog-detail li i,
+#faq .panel-title a,
+#faq .panel-title a:before,
+.checkbox > input[type=checkbox]:checked + label:before,
+.portfolio-body .brands > li > a:hover,
+#testimonials-carousel .item h4,
+.jumbotron span.color,
+.typed-cursor,
+.project-feature ul li i {
+	color:#CB2027;
+}
+
+.btn-normal,
+.btn-normal:focus,
+#scrolltop,
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li > ul.dropdown-menu > li > a:hover,
+header.navbar .megamenu .dropdown-menu li ul li a:hover,
+header.navbar .megamenu .dropdown-menu li ul li a:focus,
+#search-form .input-group .btn,
+.content-headline,
+#slideshow,
+.overlay-wrapper .overlay a,
+footer.navbar ul li a:hover,
+ul.blog-tags li a,
+.blog-post .blog-info:after,
+.blog-post .blog-info .date div.number,
+#statistics,
+#coming-soon .input-group .btn {
+    background-color: #CB2027;
+    background-image: unset;
+}
+
+header.navbar,
+header.navbar-default .navbar-nav > li > ul.dropdown-menu,
+.form-control:focus,
+#search-form .input-group .btn,
+#services .row div:hover i,
+#coming-soon .input-group .btn {
+	border-color:#CB2027;
+}
+
+@media (max-width:767px) {
+	#services .row div i {
+		border-color:#CB2027;
+	}
+}

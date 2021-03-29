@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dictionary>
+	<string key="ReceiversIsEmpty">
+		<value>لیست گیرندگان خالی میباشد.</value>
+	</string>
+	<string key="ReceiverCountNotValid">
+		<value>تعداد گیرندگان باتوجه به طول پیامک نامعتبر است.</value>
+	</string>
+	<string key="InternalServerError">
+		<value>خطا در ایجاد درخواست</value>
+	</string>
+	<string key="BadRequest">
+		<value>درخواست معتبر نمی باشد</value>
+	</string>
+	<string key="AccountIsInvalid">
+		<value>نام کاربری و یا کلمه عبور نامعتبر است</value>
+	</string>
+	<string key="AccountIsInactive">
+		<value>حساب غیرفعال می باشد</value>
+	</string>
+	<string key="AccountIsExpired">
+		<value>حساب منقضی شده است</value>
+	</string>
+	<string key="IPInvalid">
+		<value>نامعتبر است IP</value>
+	</string>
+	<string key="ReceiverIsEmpty">
+		<value>گیرنده خالی می باشد</value>
+	</string>
+	<string key="ServiceIdIsInvalid">
+		<value>شناسه سرویس نامعتبر است</value>
+	</string>
+	<string key="ReceiverIsInvalid">
+		<value>گیرنده نامعتبر است</value>
+	</string>
+	<string key="ReceiveSmsIsEmpty">
+		<value>پیامک دریافتی یافت نشد</value>
+	</string>
+	<string key="PhoneBookIsEmpty">
+		<avlue>گروه های انتخابی را وارد کنید </avlue>
+	</string>
+	<string key="GetBulkMessagesFromAPI">
+		<value>دریافت ارسالهای انبوه از طریق API</value>
+	</string>
+	<string key="AccessDenied">
+		<value>عدم دسترسی</value>
+	</string>
+	<string key="SenderIsInvalid">
+		<value>فرستنده نامعتبر است</value>
+	</string>
+</dictionary>
