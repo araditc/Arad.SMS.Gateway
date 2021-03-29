@@ -163,6 +163,15 @@ The Arad SMS Platform is represented by the following set of projects. This is a
 # Install
 To use, you must first install the latest version of Visual Studio. You also need to install the SQL Server 2019. After creating the database, you can create tables, etc. through the .sql file.
 After installing DB, add **Arad.SMS.Gateway.SqlLibrary.dll** to SQL assembly.
+## Super admin
+Username: administrator
+Password: Arad@1112
+
+## Main admin
+Username: admin
+Password: Arad@1112
+
+Super admin can create unlimited main admin. Each main admin can have own setting.
 
 # All Arad SMS Platform version
 We have three version. 
