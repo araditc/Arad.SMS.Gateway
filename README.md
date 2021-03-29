@@ -162,6 +162,7 @@ The Arad SMS Platform is represented by the following set of projects. This is a
 
 # Install
 To use, you must first install the latest version of Visual Studio. You also need to install the SQL Server 2019. After creating the database, you can create tables, etc. through the .sql file.
+After installing DB, add **Arad.SMS.Gateway.SqlLibrary.dll** to SQL assembly.
 
 # All Arad SMS Platform version
 We have three version. 
@@ -190,7 +191,7 @@ We have three version.
 
 ## Donate
 
-If you want to support Arad ITC development you can contact us [Arad ITC](mailto:info@arad-itc.org)
+If you want to support Arad ITC development you can [contact us](mailto:info@arad-itc.org)
 
 [![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://paypal.me/araditcco?locale.x=en_US)
 
