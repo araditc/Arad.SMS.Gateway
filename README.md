@@ -198,6 +198,9 @@ We have three version.
 | **Price**     | Free and Open Source           |  [Contact](mailto:info@arad-itc.org)   | [Contact](mailto:info@arad-itc.org) |
 
 
+## Contributing
+Pull requests are welcome! If you are planning a larger feature, please open an issue first for community input.
+
 ## Donate
 
 If you want to support Arad ITC development you can [contact us](mailto:info@arad-itc.org)
