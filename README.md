@@ -1,5 +1,5 @@
 # Arad SMS Platform is a Carrier neutral SMS Platform for SMS Wholesale
-Cloud-based SMS software built only for SMS trading.
+Open source SMS gateway and Cloud-based SMS software built only for SMS trading.
 
 **Arad SMS Platform** is a fully-equipped business SMS platform for SMS aggregators, Mobile operators, OTTs, and enterprises. The platform is a hosted, turn-key SMS trading solution. It is completely carrier neutral, intuitive to use and it doesn't require any hardware or software. With our SMS Platform, you are able to run your SMS wholesale business from A-Z, including detailed message testing, effective routing, and pricing options and built-in finances and billing system.
 
@@ -163,6 +163,15 @@ The Arad SMS Platform is represented by the following set of projects. This is a
 # Install
 To use, you must first install the latest version of Visual Studio. You also need to install the SQL Server 2019. After creating the database, you can create tables, etc. through the .sql file.
 After installing DB, add **Arad.SMS.Gateway.SqlLibrary.dll** to SQL assembly.
+## Super admin
+- Username: administrator
+- Password: Arad@1112
+
+## Main admin
+- Username: admin
+- Password: Arad@1112
+
+Super admin can create unlimited main admin. Each main admin can have own setting.
 
 # All Arad SMS Platform version
 We have three version. 
@@ -188,6 +197,9 @@ We have three version.
 | **TPS**     | 100           |   10K per node  | 20K per node |
 | **Price**     | Free and Open Source           |  [Contact](mailto:info@arad-itc.org)   | [Contact](mailto:info@arad-itc.org) |
 
+
+## Contributing
+Pull requests are welcome! If you are planning a larger feature, please open an issue first for community input.
 
 ## Donate
 
