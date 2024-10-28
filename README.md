@@ -1,3 +1,7 @@
+# Note: Currently, Arad ITC only offers the Hub & SMSC version 
+----------------------
+
+
 # Arad SMS Platform is a Carrier neutral SMS Platform for SMS Wholesale
 Open source SMS gateway and Cloud-based SMS software built only for SMS trading.
 
